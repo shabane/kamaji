@@ -23,7 +23,7 @@ class Protocols:
         return self.__vmess
         
     @vmess.setter
-    def ss(self, ss_link):
+    def vmess(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
                 self.__vmess.append(ss_link)
@@ -50,7 +50,7 @@ class Protocols:
         return self.__trojan
         
     @trojan.setter
-    def ss(self, ss_link):
+    def trojan(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
                 self.__trojan.append(ss_link)
