@@ -6,12 +6,14 @@ import re
 
 class Telegram(Protocols):
     def __init__(self, channels: list) -> None:
+        Protocols.__init__(self)
         self.channels = channels
         self.__tlink = 'https://t.me/s/'
         self.__v2finder()
  
     def __v2finder(self) -> None:
         for channel in self.channels:
+            print(f'searching on {channel}')
             page = requests.get(path.join(self.__tlink, channel))
             while page.status_code != 200:
                 page = requests.get(path.join(self.__tlink, channel))
