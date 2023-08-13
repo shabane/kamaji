@@ -15,11 +15,15 @@ jobs:
         run: |
           pip install -r requarements.txt
           python3 main.py
-      - name: update-subscription-files
+      - name: commit-changes
         run: |
           git config --global user.name "shabane"
           git config --global user.email "m.mohamadshabane@gmail.com"
           git add hub
           git commit -m "[chore](update links)"
-          git remote set-url --push origin https://shabane:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
-          git push
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
