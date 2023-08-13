@@ -21,4 +21,5 @@ jobs:
           git config --global user.email "m.mohamadshabane@gmail.com"
           git add hub
           git commit -m "[chore](update links)"
+          git remote set-url --push origin https://shabane:$GITHUB_TOKEN@github.com/shabane/kamaji
           git push
