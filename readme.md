@@ -29,7 +29,7 @@ vpn
 |     vmess    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vmess.txt)      |
 |     vless    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vless.txt)      |
 |     trojan   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/trojan.txt)     |
-|     merged   | [Sub Link](hub/https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) |
+|     merged   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) |
 
 
 ### کمک مالی
