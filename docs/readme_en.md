@@ -15,12 +15,13 @@ you will have the channel update hourly.
 
 ### Subscription Links
 
-|   Type       |            Link            |
-|:------------:|:--------------------------:|
-| Shadow socks | [Sub Link](hub/ss.txt)     |
-|     vmess    | [Sub Link](hub/vmess.txt)  |
-|     vless    | [Sub Link](hub/vless.txt)  |
-|     trojan   | [Sub Link](hub/trojan.txt) |
+|   Type       |                                    Link                                                |
+|:------------:|:--------------------------------------------------------------------------------------:|
+| Shadow socks | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ss.txt)         |
+|     vmess    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vmess.txt)      |
+|     vless    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vless.txt)      |
+|     trojan   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/trojan.txt)     |
+|     merged   | [Sub Link](hub/https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) |
 
 
 ### donation
