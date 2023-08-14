@@ -10,4 +10,3 @@ if __name__ == '__main__':
     print(f'vless: {len(network01.vless)}')
     print(f'trojan: {len(network01.trojan)}')
     config.save(network01)
-    
