@@ -31,7 +31,7 @@ class CheckHost(Protocols):
         try:
             return tuple(link.split('@')[1].split['/'][0].split(':'))
         except:
-            ...
+            print(f'Error to get host and port for outline {link}')
     
     @staticmethod
     def __check_access(host: str, port:int = 443):
