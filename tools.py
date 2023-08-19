@@ -46,25 +46,25 @@ class CheckHost(Protocols):
         return False
 
     def __check_links(self):
-        # ## Vless
-        # for link in self.network.vless:
-        #     try:
-        #         _ = self.__vmess_get_host_port(link)
-        #         if self.__check_access(_[0], _[1]):
-        #             self.vless = link
-        #     except Exception as er:
-        #         self.error_count += 1
-        #         print(f'Check Error: {link} > {_}')
+        ## Vless
+        for link in self.network.vless:
+            try:
+                _ = self.__vmess_get_host_port(link)
+                if self.__check_access(_[0], _[1]):
+                    self.vless = link
+            except Exception as er:
+                self.error_count += 1
+                print(f'Check Error: {link} > {_}')
 
-        # ## Vmess
-        # for link in self.network.vmess:
-        #     try:
-        #         _ = self.__vmess_get_host_port(link)
-        #         if self.__check_access(_[0], _[1]):
-        #             self.vmess = link
-        #     except Exception as er:
-        #         self.error_count += 1
-        #         print(f'Check Error: {link} > {_}')
+        ## Vmess
+        for link in self.network.vmess:
+            try:
+                _ = self.__vmess_get_host_port(link)
+                if self.__check_access(_[0], _[1]):
+                    self.vmess = link
+            except Exception as er:
+                self.error_count += 1
+                print(f'Check Error: {link} > {_}')
         
         for link in self.network.ss:
             try:
