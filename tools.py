@@ -25,7 +25,13 @@ class CheckHost(Protocols):
             link = json.loads(link)
             return (link.get('add'), link.get('port'))
         return tuple(link[link.find('@')+1:link.find('?')].split(':'))
-            
+          
+    @staticmethod  
+    def __outline_get_host_port(link: str) -> tuple:
+        try:
+            return tuple(link.split('@')[1].split['/'][0].split(':'))
+        except:
+            ...
     
     @staticmethod
     def __check_access(host: str, port:int = 443):
