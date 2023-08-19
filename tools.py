@@ -7,9 +7,9 @@ import base64
 class CheckHost(Protocols):
     def __init__(self, network: Protocols) -> None:
         self.network = network
+        self.error_count = 0
         Protocols.__init__(self)
         self.__check_links()
-        self.error_count = 0
     
     @staticmethod
     def __is_b64(data: str) -> bool:
