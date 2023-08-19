@@ -42,8 +42,8 @@ class CheckHost(Protocols):
     def __check_links(self):
         ## Vless
         for link in self.network.vless:
-            _ = self.__vmess_get_host_port(link)
             try:
+                _ = self.__vmess_get_host_port(link)
                 if self.__check_access(_[0], _[1]):
                     self.vless = link
             except Exception as er:
@@ -52,8 +52,8 @@ class CheckHost(Protocols):
 
         ## Vmess
         for link in self.network.vmess:
-            _ = self.__vmess_get_host_port(link)
             try:
+                _ = self.__vmess_get_host_port(link)
                 if self.__check_access(_[0], _[1]):
                     self.vmess = link
             except Exception as er:
