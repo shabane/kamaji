@@ -19,7 +19,12 @@ vpn
 
 ### نحوه استفاده
 
-...
+- استفاده در اندروید
+![[nekobox در اندروید](https://youtu.be/Gy4FR75W6Uk)](https://raw.githubusercontent.com/gitlynx-ir/gitlynx-ir.github.io/main/files/c5e8ba5de78e91900fa2fefc7f3eba95.jpg)
+
+- استفاده در دسکتاپ
+![[nekobox در اندروید](https://youtu.be/Gy4FR75W6Uk)](https://raw.githubusercontent.com/gitlynx-ir/gitlynx-ir.github.io/main/files/081eaaca4a335c7b6b15e20fdd8f3e4d.jpg)
+
 
 ### لینک برای دنبال کردن
 
