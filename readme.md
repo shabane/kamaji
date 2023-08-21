@@ -25,7 +25,7 @@ vpn
 
 > - استفاده در دسکتاپ
 >
-> [![nekoray](https://raw.githubusercontent.com/gitlynx-ir/gitlynx-ir.github.io/main/files/081eaaca4a335c7b6b15e20fdd8f3e4d.jpg)](https://youtu.be/Gy4FR75W6Uk)
+> [![nekoray](https://raw.githubusercontent.com/gitlynx-ir/gitlynx-ir.github.io/main/files/081eaaca4a335c7b6b15e20fdd8f3e4d.jpg)](https://www.youtube.com/watch?v=0lub9dqk2WQ)
 
 ### لینک برای دنبال کردن
 
