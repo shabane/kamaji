@@ -12,6 +12,7 @@ if __name__ == '__main__':
     print(f'vless: {len(network01.vless)}')
     print(f'trojan: {len(network01.trojan)}')
     tools.save(network01)
+    tools.save_b64(network01, './hub/b64/')
     
     ch_network01 = CheckHost(network01)
     print(f'shadow socks: {len(ch_network01.ss)}')
@@ -19,3 +20,4 @@ if __name__ == '__main__':
     print(f'vless: {len(ch_network01.vless)}')
     print(f'trojan: {len(ch_network01.trojan)}')
     tools.save(ch_network01, './hub/tested/')
+    tools.save_b64(ch_network01, './hub/tested/b64')
