@@ -46,7 +46,7 @@ class CheckHost(Protocols):
         return False
 
     @staticmethod
-    def __get_trojan_host_port(link: str):
+    def __trojan_get_host_port(link: str):
         return tuple(link[link.find('@')+1:link.find('?')].split(':'))
 
     def __check_links(self):
@@ -69,12 +69,23 @@ class CheckHost(Protocols):
             except Exception as er:
                 self.error_count += 1
                 print(f'Check Error: {link} > {_}')
-        
+
+        ## ShadowSocks
         for link in self.network.ss:
             try:
                 _ = self.__outline_get_host_port(link)
                 if self.__check_access(_[0], _[1]):
                     self.ss = link
+            except:
+                self.error_count += 1
+                print(f'Check Error: {link} > {_}')
+                
+        ## Trojan
+        for link in self.network.trojan:
+            try:
+                _ = self.__trojan_get_host_port(link)
+                if self.__check_access(_[0], _[1]):
+                    self.trojan = link
             except:
                 self.error_count += 1
                 print(f'Check Error: {link} > {_}')
