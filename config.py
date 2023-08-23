@@ -63,32 +63,3 @@ class Protocols:
 
 channels = open('channels.lst', 'r')
 channels = [i.strip() for i in channels.readlines() if i != '\n']
-
-
-def save(network: Protocols, save_path: str = None) -> bool:
-    save_path = save_path if save_path is not None else './hub/'
-    
-    with open(path.join(save_path, 'ss.txt'), 'w') as fli:
-        for link in network.ss:
-            fli.write(f'{link}\n')
-        
-    with open(path.join(save_path, 'vmess.txt'), 'w') as fli:
-        for link in network.vmess:
-            fli.write(f'{link}\n')
-        
-    with open(path.join(save_path, 'vless.txt'), 'w') as fli:
-        for link in network.vless:
-            fli.write(f'{link}\n')
-        
-    with open(path.join(save_path, 'trojan.txt'), 'w') as fli:
-        for link in network.trojan:
-            fli.write(f'{link}\n')
-
-    with open(path.join(save_path, 'merged.txt'), 'w') as fli:
-        mrg = []
-        mrg.extend(network.ss)
-        mrg.extend(network.vmess)
-        mrg.extend(network.vless)
-        mrg.extend(network.trojan)
-        for link in mrg:
-            fli.write(f'{link}\n')
