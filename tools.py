@@ -25,7 +25,7 @@ class CheckHost(Protocols):
             link = json.loads(link)
             return (link.get('add'), link.get('port'))
         return tuple(link[link.find('@')+1:link.find('?')].split(':'))
-          
+
     @staticmethod  
     def __outline_get_host_port(link: str) -> tuple:
         try:
@@ -44,6 +44,10 @@ class CheckHost(Protocols):
         if response.status_code == 200:
             return response.json()['result']['ok']
         return False
+
+    @staticmethod
+    def __get_trojan_host_port(link: str):
+        return tuple(link[link.find('@')+1:link.find('?')].split(':'))
 
     def __check_links(self):
         ## Vless
