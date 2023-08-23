@@ -128,6 +128,7 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     vmess_b64 = ''
     vless_b64 = ''
     trojan_b64 = ''
+    mrg = ''
     
     for link in network.ss:
         ss_b64 += link + '\n'
@@ -140,6 +141,8 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
         
     for link in network.trojan:
         trojan_b64 += link + '\n'
+
+    mrg = ss_b64 + vmess_b64 + vless_b64 + trojan_b64
 
     with open(path.join(save_path, 'ss.txt'), 'w') as fli:
         ss_b64 = base64.b64encode(bytes(ss_b64, 'utf-8')).decode()
@@ -156,3 +159,7 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     with open(path.join(save_path, 'trojan.txt'), 'w') as fli:
         trojan_b64 = base64.b64encode(bytes(trojan_b64, 'utf-8')).decode()
         fli.write(trojan_b64)
+
+    with open(path.join(save_path, 'merged.txt'), 'w') as fli:
+        mrg = base64.b64encode(bytes(mrg, 'utf-8')).decode()
+        fli.write(mrg)
