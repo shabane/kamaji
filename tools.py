@@ -2,7 +2,7 @@ import requests
 import json
 from config import Protocols
 import base64
-
+from os import path
 
 class CheckHost(Protocols):
     def __init__(self, network: Protocols) -> None:
