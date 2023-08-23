@@ -120,3 +120,39 @@ def save(network: Protocols, save_path: str = None) -> bool:
         mrg.extend(network.trojan)
         for link in mrg:
             fli.write(f'{link}\n')
+
+def save_b64(network: Protocols, save_path: str = None) -> bool:
+    save_path = save_path if save_path is not None else './hub/'
+
+    ss_b64 = ''
+    vmess_b64 = ''
+    vless_b64 = ''
+    trojan_b64 = ''
+    
+    for link in network.ss:
+        ss_b64 += link + '\n'
+        
+    for link in network.vmess:
+        vmess_b64 += link + '\n'
+
+    for link in network.vless:
+        vless_b64 += link + '\n'
+        
+    for link in network.trojan:
+        trojan_b64 += link + '\n'
+
+    with open(path.join(save_path, 'ss.txt'), 'w') as fli:
+        ss_b64 = base64.b64encode(bytes(ss_b64, 'utf-8')).decode()
+        fli.write(ss_b64)
+        
+    with open(path.join(save_path, 'vmess.txt'), 'w') as fli:
+        vmess_b64 = base64.b64encode(bytes(vmess_b64, 'utf-8')).decode()
+        fli.write(vmess_b64)
+        
+    with open(path.join(save_path, 'vless.txt'), 'w') as fli:
+        vless_b64 = base64.b64encode(bytes(vless_b64, 'utf-8')).decode()
+        fli.write(vless_b64)
+        
+    with open(path.join(save_path, 'trojan.txt'), 'w') as fli:
+        trojan_b64 = base64.b64encode(bytes(trojan_b64, 'utf-8')).decode()
+        fli.write(trojan_b64)
