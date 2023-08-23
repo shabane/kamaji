@@ -42,18 +42,18 @@ vpn
 
 ### لینک برای دنبال کردن
 
-|          Type       |                                           Link                                                |                 Detail              |
-|:-------------------:|:---------------------------------------------------------------------------------------------:|:-----------------------------------:|
-| Shadow socks        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ss.txt)                | all shadow socks links              |
-|     vmess           | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vmess.txt)             |    all vmess links                  |
-|     vless           | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vless.txt)             |    all vless links                  |
-|     trojan          | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/trojan.txt)            |    all trojan links                 |
-|     merged          | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt)            | all links merged in one file        |
-| tested Shadow socks | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/ss.txt)         | all tested shadow socks links       |
-| tested vmess        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vmess.txt)      |    all tested vmess links           |
-| tested vless        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vless.txt)      |    all tested vless links           |
-| tested trojan       | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/trojan.txt)     |    all tested trojan links          |
-| tested and merged   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/merged.txt)     | all tested links merged in one file |
+|          Type       |                                           Link                                                |                                 Base64 sub                                                  |               Detail                    |
+|:-------------------:|:---------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|:---------------------------------------:|
+| Shadow socks        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ss.txt)                | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/ss.txt)              | all shadow socks links                  |
+|     vmess           | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vmess.txt)             | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/vmess.txt)           |   all vmess links                       |
+|     vless           | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vless.txt)             | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/vless.txt)           |   all vless links                       |
+|     trojan          | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/trojan.txt)            | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/trojan.txt)          |   all trojan links                      |
+|     merged          | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt)            | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt)          | all links merged in one file            |
+| tested Shadow socks | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/ss.txt)         | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/ss.txt)       | all tested shadow socks links           |
+| tested vmess        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vmess.txt)      | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/vmess.txt)    |   all tested vmess links                |
+| tested vless        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vless.txt)      | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/vless.txt)    |   all tested vless links                |
+| tested trojan       | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/trojan.txt)     | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/trojan.txt)   |   all tested trojan links               |
+| tested and merged   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/merged.txt)     | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/merged.txt)   | all tested links merged in one file     |
 
 
 ### کمک مالی
