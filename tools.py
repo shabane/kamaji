@@ -1,6 +1,6 @@
 import requests
 import json
-from config import Protocols
+from config import Protocols, check_node
 import base64
 from os import path
 
@@ -39,7 +39,7 @@ class CheckHost(Protocols):
             'Accept': 'application/json',
         }
 
-        response = requests.get(f'https://hostcheck-shabane.apps.ir-thr-ba1.arvanpaas.ir/api/tcp?host={host}&port={port}&timeout=1', headers=headers)
+        response = requests.get(f'{check_node}?host={host}&port={port}&timeout=1', headers=headers)
         
         if response.status_code == 200:
             return response.json()['result']['ok']
