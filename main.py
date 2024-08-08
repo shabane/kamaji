@@ -16,10 +16,10 @@ if __name__ == '__main__':
     flags = cmd.parse_args()
 
     network01 = Telegram(channels=config.channels)
-    print(f'shadow socks: {len(network01.ss)}')
-    print(f'vmess: {len(network01.vmess)}')
-    print(f'vless: {len(network01.vless)}')
-    print(f'trojan: {len(network01.trojan)}')
+    print(f'# shadow socks: {len(network01.ss)}')
+    print(f'# vmess: {len(network01.vmess)}')
+    print(f'# vless: {len(network01.vless)}')
+    print(f'# trojan: {len(network01.trojan)}')
     tools.save(network01) if flags.save else ...
     tools.save_b64(network01, './hub/b64/') if flags.save else ...
 
@@ -40,14 +40,16 @@ if __name__ == '__main__':
 
     if flags.check:
         ch_network01 = CheckHost(network01)
-        print(f'shadow socks: {len(ch_network01.ss)}')
-        print(f'vmess: {len(ch_network01.vmess)}')
-        print(f'vless: {len(ch_network01.vless)}')
-        print(f'trojan: {len(ch_network01.trojan)}')
+        print(f'# shadow socks: {len(ch_network01.ss)}')
+        print(f'# vmess: {len(ch_network01.vmess)}')
+        print(f'# vless: {len(ch_network01.vless)}')
+        print(f'# trojan: {len(ch_network01.trojan)}')
         tools.save(ch_network01, './hub/tested/') if flags.save else ...
         tools.save_b64(ch_network01, './hub/tested/b64') if flags.save else ...
 
         if flags.print:
+            print("# tested Results:")
+
             for ss_link in ch_network01.ss:
                 print(ss_link)
 
