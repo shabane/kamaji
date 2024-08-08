@@ -38,7 +38,7 @@ if __name__ == '__main__':
         for trj_link in network01.trojan:
             print(trj_link)
 
-    if flags.check_configs:
+    if flags.check:
         ch_network01 = CheckHost(network01)
         print(f'shadow socks: {len(ch_network01.ss)}')
         print(f'vmess: {len(ch_network01.vmess)}')
