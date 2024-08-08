@@ -6,7 +6,7 @@ class Protocols:
         self.__vmess = set()
         self.__vless = set()
         self.__trojan = set()
-        
+
     @property        
     def ss(self):
         return self.__ss
@@ -15,10 +15,10 @@ class Protocols:
     def ss(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
-                self.__ss.add(ss_link)
+                self.__ss.add(ss_link.strip())
             elif type(ss_link) == list:
                 for link in ss_link:
-                    self.__ss.add(link)
+                    self.__ss.add(link.strip())
     
     @property        
     def vmess(self):
@@ -28,10 +28,10 @@ class Protocols:
     def vmess(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
-                self.__vmess.add(ss_link)
+                self.__vmess.add(ss_link.strip())
             elif type(ss_link) == list:
                 for link in ss_link:
-                    self.__vmess.add(link)
+                    self.__vmess.add(link.strip())
 
         
     @property        
@@ -42,10 +42,10 @@ class Protocols:
     def vless(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
-                self.__vless.add(ss_link)
+                self.__vless.add(ss_link.strip())
             elif type(ss_link) == list:
                 for link in ss_link:
-                    self.__vless.add(link)
+                    self.__vless.add(link.strip())
     
     @property        
     def trojan(self):
@@ -55,10 +55,10 @@ class Protocols:
     def trojan(self, ss_link):
         if ss_link:
             if type(ss_link) == str:
-                self.__trojan.add(ss_link)
+                self.__trojan.add(ss_link.strip())
             elif type(ss_link) == list:
                 for link in ss_link:
-                    self.__trojan.add(link)
+                    self.__trojan.add(link.strip())
 
 
 channels = open('channels.lst', 'r')
