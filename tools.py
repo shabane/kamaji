@@ -3,6 +3,7 @@ import json
 from config import Protocols, check_node
 import base64
 from os import path
+import socket
 
 class CheckHost(Protocols):
     def __init__(self, network: Protocols) -> None:
@@ -19,8 +20,8 @@ class CheckHost(Protocols):
         except Exception:
             return False
     
-    def _vmess_get_host_port(self, link: str) -> tuple:
-        if self._is_b64(link[8:]):
+    def _vmess_get_host_port(link: str) -> tuple:
+        if CheckHost._is_b64(link[8:]):
             link = base64.b64decode(link)
             link = json.loads(link)
             return (link.get('add'), link.get('port'))
@@ -163,4 +164,12 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     with open(path.join(save_path, 'merged.txt'), 'w') as fli:
         mrg = base64.b64encode(bytes(mrg, 'utf-8')).decode()
         fli.write(mrg)
+
+def resolve_domain_to_ip(domain: str):
+  try:
+    ip_address = socket.gethostbyname(domain)
+    return ip_address
+  except socket.error as e:
+    print(f"Error resolving domain: {e}")
+    return None
 
