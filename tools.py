@@ -178,7 +178,7 @@ def resolve_domain_to_ip(domain: str):
     return None
 
 
-def get_country(network: Protocols) -> dict:
+def get_country(network: Protocols):
     countries = {
         # "COUNTRY-CODE": [],
     }
@@ -210,8 +210,11 @@ def get_country(network: Protocols) -> dict:
         def __init__(self, data: dict):
             self.data = data
 
-        def save(self, path: str):
-            ...
+        def save(self, save_path: str = './hub/'):
+            for _country in self.data.keys():
+                with open(path.join(save_path, f'{_country}.txt'), 'w') as fli:
+                    for link in self.data.get(_country):
+                        fli.write(f'{link}\n\n')
 
         def print(self):
             for _country in self.data.keys():
@@ -220,4 +223,4 @@ def get_country(network: Protocols) -> dict:
         def count(self):
             return len(self.data.keys())
 
-    return countries
+    return meta(countries)
