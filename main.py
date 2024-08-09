@@ -73,4 +73,4 @@ if __name__ == '__main__':
             ch_country = tools.get_country(ch_network01)
             print(f'# Found & Check {ch_country.count()} Countries.')
             print(f'# {ch_country.print()}')
-            ch_country.save()
+            ch_country.save('./hub/tested/') if flags.save else ...
