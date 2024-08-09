@@ -168,6 +168,7 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
         mrg = base64.b64encode(bytes(mrg, 'utf-8')).decode()
         fli.write(mrg)
 
+
 def resolve_domain_to_ip(domain: str):
   try:
     ip_address = socket.gethostbyname(domain)
@@ -204,5 +205,18 @@ def get_country(network: Protocols) -> dict:
             _add_to_dict(conf_link, country)
         else:
             _add_to_dict(conf_link, "UnResolvedDomains")
+
+    class meta:
+        def __init__(self, data: dict):
+            self.data = data
+
+        def save(self, path: str):
+            ...
+
+        def print(self):
+            ...
+
+        def count(self):
+            return len(self.data.keys())
 
     return countries
