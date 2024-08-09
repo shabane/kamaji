@@ -43,7 +43,7 @@ if __name__ == '__main__':
         country = tools.get_country(network01)
         print(f'# Found {country.count()} Countries.')
         print(f'# {country.print()}')
-        country.save()
+        country.save() if flags.save else ...
 
     if flags.check:
         ch_network01 = CheckHost(network01)
