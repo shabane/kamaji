@@ -214,7 +214,8 @@ def get_country(network: Protocols) -> dict:
             ...
 
         def print(self):
-            ...
+            for _country in self.data.keys():
+                print(_country)
 
         def count(self):
             return len(self.data.keys())
