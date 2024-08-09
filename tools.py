@@ -174,7 +174,7 @@ def resolve_domain_to_ip(domain: str):
     ip_address = socket.gethostbyname(domain)
     return ip_address
   except:
-    print(f"Error resolving {domain}")
+    print(f"# Error resolving {domain}")
     return None
 
 
@@ -193,18 +193,61 @@ def get_country(network: Protocols):
         else:
             countries[country] = [link]
 
-    links = set()
-    links.update(network.ss) if network.ss else ...
-    links.update(network.vless) if network.ss else ...
-    links.update(network.vmess) if network.ss else ...
-    links.update(network.trojan) if network.ss else ...
+    # ss
+    if network.ss:
+        for conf_link in network.ss:
+            try:
+                ip = resolve_domain_to_ip(CheckHost._outline_get_host_port(conf_link)[0])
+                if ip:
+                    country = _get_country(ip)
+                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
+                else:
+                    _add_to_dict(conf_link, "UnResolvedDomains")
+            except Exception as err:
+                print(f"# {err}")
+                _add_to_dict(conf_link, "UnResolvedDomains")
 
-    for conf_link in links:
-        if resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0]):
-            country = _get_country(resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0]))
-            _add_to_dict(conf_link, country)
-        else:
-            _add_to_dict(conf_link, "UnResolvedDomains")
+    # vmess
+    if network.vmess:
+        for conf_link in network.vmess:
+            try:
+                ip = resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0])
+                if ip:
+                    country = _get_country(ip)
+                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
+                else:
+                    _add_to_dict(conf_link, "UnResolvedDomains")
+            except Exception as err:
+                print(f"# {err}")
+                _add_to_dict(conf_link, "UnResolvedDomains")
+
+    # vless
+    if network.vless:
+        for conf_link in network.vless:
+            try:
+                ip = resolve_domain_to_ip(CheckHost._outline_get_host_port(conf_link)[0])
+                if ip:
+                    country = _get_country(ip)
+                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
+                else:
+                    _add_to_dict(conf_link, "UnResolvedDomains")
+            except Exception as err:
+                print(f"# {err}")
+                _add_to_dict(conf_link, "UnResolvedDomains")
+
+    # trojan
+    if network.trojan:
+        for conf_link in network.trojan:
+            try:
+                ip = resolve_domain_to_ip(CheckHost._trojan_get_host_port(conf_link)[0])
+                if ip:
+                    country = _get_country(ip)
+                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
+                else:
+                    _add_to_dict(conf_link, "UnResolvedDomains")
+            except Exception as err:
+                print(f"# {err}")
+                _add_to_dict(conf_link, "UnResolvedDomains")
 
     class meta:
         def __init__(self, data: dict):
