@@ -5,6 +5,7 @@ import base64
 from os import path
 import socket
 
+
 class CheckHost(Protocols):
     def __init__(self, network: Protocols) -> None:
         self.network = network
@@ -94,6 +95,7 @@ class CheckHost(Protocols):
         print(f'Tested Links: {len(self.vless)+len(self.vmess)+len(self.ss)+len(self.trojan)}')
         print(f'Error Encounter During Test Link: {self.error_count}')
 
+
 def save(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
     
@@ -121,6 +123,7 @@ def save(network: Protocols, save_path: str = None) -> bool:
         mrg.extend(network.trojan)
         for link in mrg:
             fli.write(f'{link}\n')
+
 
 def save_b64(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
@@ -173,3 +176,33 @@ def resolve_domain_to_ip(domain: str):
     print(f"Error resolving domain: {e}")
     return None
 
+
+def get_country(network: Protocols) -> dict:
+    countries = {
+        # "COUNTRY-CODE": [],
+    }
+
+    def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
+        res = requests.get(base_api.replace('{ip}', ip)).json()
+        return res.get('country')
+
+    def _add_to_dict(link: str, country: str):
+        if countries.get(country):
+            countries[country].append(link)
+        else:
+            countries[country] = [link]
+
+    links = set()
+    links.update(network.ss) if network.ss else ...
+    links.update(network.vless) if network.ss else ...
+    links.update(network.vmess) if network.ss else ...
+    links.update(network.trojan) if network.ss else ...
+
+    for conf_link in links:
+        if resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0]):
+            country = _get_country(resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0]))
+            _add_to_dict(conf_link, country)
+        else:
+            _add_to_dict(conf_link, "UnResolvedDomains")
+
+    return countries
