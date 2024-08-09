@@ -173,8 +173,8 @@ def resolve_domain_to_ip(domain: str):
   try:
     ip_address = socket.gethostbyname(domain)
     return ip_address
-  except socket.error as e:
-    print(f"Error resolving {domain}: {e}")
+  except:
+    print(f"Error resolving {domain}")
     return None
 
 
