@@ -13,6 +13,7 @@ if __name__ == '__main__':
     cmd.add_argument("--check", help="check all configs if working", action="store_true")
     cmd.add_argument("--save", help="save configs to its files [default action]", action="store_true", default=True)
     cmd.add_argument("--print", help="get all configs and prints to stdout[no save!]", action="store_true")
+    cmd.add_argument("--country", help="distinguish configs by countries IP", action="store_true")
     flags = cmd.parse_args()
 
     network01 = Telegram(channels=config.channels)
@@ -38,6 +39,12 @@ if __name__ == '__main__':
         for trj_link in network01.trojan:
             print(trj_link)
 
+    if flags.country:
+        country = tools.get_country(network01)
+        print(f'# Found {country.count()} Countries.')
+        print(f'# {country.print()}')
+        country.save()
+
     if flags.check:
         ch_network01 = CheckHost(network01)
         print(f'# shadow socks: {len(ch_network01.ss)}')
@@ -61,3 +68,9 @@ if __name__ == '__main__':
 
             for trj_link in ch_network01.trojan:
                 print(trj_link)
+
+        if flags.country:
+            ch_country = tools.get_country(ch_network01)
+            print(f'# Found & Check {ch_country.count()} Countries.')
+            print(f'# {ch_country.print()}')
+            ch_country.save()
