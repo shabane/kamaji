@@ -63,7 +63,7 @@ vpn
 |                                             Country                                              |                                      Link                                      |
 |:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|
 |                                       United Arab Emirates                                       | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AE.txt) |
-|                                             Austria                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AT.txt  |
+|                                             Austria                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AT.txt)  |
 |                                            Australia                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AU.txt) |
 |                                             Bulgaria                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BG.txt) |
 |                                             Bahrain                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BH.txt) |
