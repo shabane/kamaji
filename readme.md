@@ -58,6 +58,52 @@ vpn
 | tested and merged   | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/merged.txt)     | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/merged.txt)   | all tested links merged in one file     |
 
 
+### لینک دنبال کردن مرتب شده بر اساس کشور
+
+|                                             Country                                              |                                      Link                                      |
+|:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|
+|                                       United Arab Emirates                                       | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AE.txt) |
+|                                             Austria                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AT.txt  |
+|                                            Australia                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AU.txt) |
+|                                             Bulgaria                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BG.txt) |
+|                                             Bahrain                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BH.txt) |
+|                                              Canada                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CA.txt) |
+|                                           Switzerland                                            | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CH.txt) |
+|                                              China                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CN.txt) |
+|                                             Croatia                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CR.txt) |
+|                                             Curaçao                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CW.txt) |
+|                                              Cyprus                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CY.txt) |
+|                                             Germany                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/DE.txt) |
+|                                             Finland                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FI.txt) |
+|                                              France                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FR.txt) |
+|                    United Kingdom of Great Britain and Northern Ireland (the)                    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GB.txt) |
+|                                            Hong Kong                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/HK.txt) |
+|                                             Ireland                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IE.txt) |
+|                                              India                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IN.txt) |
+|                                               Iran                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IR.txt) |
+|                                              Italy                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IT.txt) |
+|                                              Japan                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/JP.txt) |
+|                                             Cambodia                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KH.txt) |
+|                                              Korea                                               | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KR.txt) |
+|                                            Kazakhstan                                            | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KZ.txt) |
+|                                            Lithuania                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LT.txt) |
+|                                            Luxembourg                                            | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LU.txt) |
+|                                              Latvia                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LV.txt) |
+|                                           Netherlands                                            | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NL.txt) |
+|                                              Norway                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NO.txt) |
+|                                              Poland                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PL.txt) |
+|                                        Russian Federation                                        | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/RU.txt) |
+|                                              Sweden                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SE.txt) |
+|                                            Singapore                                             | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SG.txt) |
+|                                              Turkey                                              | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TR.txt) |
+|                                    Taiwan (Province of China)                                    | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TW.txt) |
+|                                     United States of America                                     | [Sub Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/US.txt) |
+
+> این نکته رو بگم که این کشور ها صرفا فقط از ای‌پی هایی بدست می‌ایند که جلوی هر کانفیگ قرار دارد
+> برای مثال سرور یک کانفیگ ممکن است در کشور انگلیس باشد درحالی که یک سرور دیگر مثل 
+> CDN
+> جلوی آن باشد و کشور آن کانفیگ جای دیگری نمایش داده شود. 
+
 ### کمک مالی
 
 اگه فکر میکنید این پروژه ارزشش رو داره،
