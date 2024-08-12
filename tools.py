@@ -12,7 +12,13 @@ class CheckHost(Protocols):
         self.error_count = 0
         Protocols.__init__(self)
         self._check_links()
-    
+
+    @staticmethod
+    def remove_combined_strings(text: str):
+        for i in text:
+            if not i.isdigit():
+                return text[:text.find(i)-1]
+
     @staticmethod
     def _is_b64(data: str) -> bool:
         try:
@@ -273,18 +279,65 @@ def get_country(network: Protocols):
 class CheckSelf(Protocols):
     def __init__(self, network: Protocols):
         Protocols.__init__(self)
+        self.error_count = 0
         self.network = network
+        self._check_links()
 
     @staticmethod
-    def tcp_test(ip: str, port: int, timeout: int = 2.5):
+    def tcp_test(ip: str, port: str, timeout: int = 2.5):
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(timeout)
+            port = int(CheckHost.remove_combined_strings(port))
             result = sock.connect_ex((ip, port))
             if result == 0:
                 return True
             else:
                 return False
         except Exception as err:
-            print(f"# Error on TCP test -> {err}")
+            print(f"# Error on TCP test [{ip}:{port}] -> {err}")
             return False
+
+    def _check_links(self):
+        # vless
+        for link in self.network.vless:
+            try:
+                _ = CheckHost._vmess_get_host_port(link)
+                if self.tcp_test(_[0], _[1]):
+                    self.vless = link
+            except Exception as err:
+                self.error_count += 1
+                print(f'# Check Error -> {link} > {_}')
+
+        # vmess
+        for link in self.network.vmess:
+            try:
+                _ = CheckHost._vmess_get_host_port(link)
+                if self.tcp_test(_[0], _[1]):
+                    self.vmess = link
+            except Exception as err:
+                self.error_count += 1
+                print(f'# Check Error -> {link} > {_}')
+
+        # ShadowSocks
+        for link in self.network.ss:
+            try:
+                _ = CheckHost._outline_get_host_port(link)
+                if self.tcp_test(_[0], _[1]):
+                    self.ss = link
+            except:
+                self.error_count += 1
+                print(f'# Check Error -> {link} > {_}')
+
+        # Trojan
+        for link in self.network.trojan:
+            try:
+                _ = CheckHost._trojan_get_host_port(link)
+                if self.tcp_test(_[0], _[1]):
+                    self.trojan = link
+            except:
+                self.error_count += 1
+                print(f'# Check Error -> {link} > {_}')
+
+        print(f'Tested Links: {len(self.vless) + len(self.vmess) + len(self.ss) + len(self.trojan)}')
+        print(f'Error Encounter During Test Link: {self.error_count}')
