@@ -20,7 +20,8 @@ class CheckHost(Protocols):
             return True
         except Exception:
             return False
-    
+
+    @staticmethod
     def _vmess_get_host_port(link: str) -> tuple:
         if CheckHost._is_b64(link[8:]):
             link = base64.b64decode(link)
