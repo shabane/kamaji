@@ -268,3 +268,23 @@ def get_country(network: Protocols):
             return len(self.data.keys())
 
     return meta(countries)
+
+
+class CheckSelf(Protocols):
+    def __init__(self, network: Protocols):
+        Protocols.__init__(self)
+        self.network = network
+
+    @staticmethod
+    def tcp_test(ip: str, port: int, timeout: int = 2.5):
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(timeout)
+            result = sock.connect_ex((ip, port))
+            if result == 0:
+                return True
+            else:
+                return False
+        except Exception as err:
+            print(f"# Error on TCP test -> {err}")
+            return False
