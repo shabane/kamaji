@@ -63,4 +63,4 @@ class Protocols:
 
 channels = open('channels.lst', 'r')
 channels = [i.strip() for i in channels.readlines() if i != '\n']
-check_node = 'https://hostcheck-shabane.apps.ir-thr-ba1.arvanpaas.ir/api/tcp/'
+check_node = 'https://reverent-khayyam-zlyspjbuw.liara.run/api/tcp/'
