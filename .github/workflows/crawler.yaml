@@ -13,7 +13,7 @@ jobs:
       - name: crawling-for-new-configs
         run: |
           pip install -r requarements.txt
-          python3 main.py --save --country --self-check --check
+          python3 main.py --save --country --self-check # --check is disabled cause in iran we are in iran access internet so we cant even check with iran server
       - name: commit-changes
         run: |
           git config --global user.name "shabane"
