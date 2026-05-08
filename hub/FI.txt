@@ -1,14 +1,22 @@
-ss://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&amp;encryption=none&amp;host=speedtest.net&amp;headerType=http&amp;type=tcp#@CUSTOMVPNSERVER
-
-ss://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&amp;security=reality&amp;sid=0a856e071790b1&amp;sni=gpuopen.com&amp;type=tcp#%F0%9F%AB%9F82@oneclickvpnkeys
-
-ss://185c656e-39cb-4149-bdb1-ea1b41769137@144.31.7.203:443?encryption=none&amp;fp=&amp;pbk=TUJ5A2RgWJJDkR_XIqBrep4CjZ5VRivEisDHck-yxkg&amp;security=reality&amp;sid=62&amp;sni=www.google.com&amp;type=tcp#%F0%9F%AB%9F87@oneclickvpnkeys
-
-ss://a0562dec-26ac-43d4-ba1d-785c334e644f@37.27.21.47:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=FVe7_gsA7lnuX9z_V0vZXI9gD5outBiWIWZQsBpIzlI&amp;fp=firefox&amp;spx=%2F&amp;type=grpc&amp;serviceName=@ipV2Ray&amp;sni=greenpepper.ir&amp;sid=fada4f5f#@Capital_NET
-
 ss://d428091c-e6eb-48f9-9a07-b44eb886ac90@2.27.26.36:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=RrBMccWJkTEHyG-V4ETU4SLEPYgxMzMyKdNQ1vu_RQc&amp;security=reality&amp;sid=655345236526&amp;sni=www.google.com&amp;type=tcp#%F0%9F%AB%9F89@oneclickvpnkeys
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu@45.80.231.75:31019#%F0%9F%87%B8%F0%9F%87%AA%40FreakConfig
 
+ss://00b0d4de-b126-4511-87c1-8f1feb462fa6@171.22.114.248:27394?security=reality&amp;encryption=none&amp;pbk=TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=yahoo.com&amp;sid=c2fa#Cyprus%20WorkTitans
+
+ss://a0562dec-26ac-43d4-ba1d-785c334e644f@37.27.21.47:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=FVe7_gsA7lnuX9z_V0vZXI9gD5outBiWIWZQsBpIzlI&amp;fp=firefox&amp;spx=%2F&amp;type=grpc&amp;serviceName=@ipV2Ray&amp;sni=greenpepper.ir&amp;sid=fada4f5f#@Capital_NET
+
+ss://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&amp;security=reality&amp;sid=0a856e071790b1&amp;sni=gpuopen.com&amp;type=tcp#%F0%9F%AB%9F82@oneclickvpnkeys
+
 ss://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@77.42.4.26:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo&amp;security=reality&amp;sid=a1b2c3d4&amp;sni=www.microsoft.com&amp;type=tcp#%F0%9F%AB%9F100@oneclickvpnkeys
+
+ss://185c656e-39cb-4149-bdb1-ea1b41769137@144.31.7.203:443?encryption=none&amp;fp=&amp;pbk=TUJ5A2RgWJJDkR_XIqBrep4CjZ5VRivEisDHck-yxkg&amp;security=reality&amp;sid=62&amp;sni=www.google.com&amp;type=tcp#%F0%9F%AB%9F87@oneclickvpnkeys
+
+ss://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&amp;encryption=none&amp;host=speedtest.net&amp;headerType=http&amp;type=tcp#@CUSTOMVPNSERVER
+
+vless://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&amp;encryption=none&amp;host=speedtest.net&amp;headerType=http&amp;type=tcp#@CUSTOMVPNSERVER
+
+vless://d428091c-e6eb-48f9-9a07-b44eb886ac90@2.27.26.36:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=RrBMccWJkTEHyG-V4ETU4SLEPYgxMzMyKdNQ1vu_RQc&amp;security=reality&amp;sid=655345236526&amp;sni=www.google.com&amp;type=tcp#%F0%9F%AB%9F89@oneclickvpnkeys
+
+vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@77.42.4.26:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo&amp;security=reality&amp;sid=a1b2c3d4&amp;sni=www.microsoft.com&amp;type=tcp#%F0%9F%AB%9F100@oneclickvpnkeys
 
