@@ -115,10 +115,20 @@ Select the protocol that best suits your needs. These repositories are automatic
 
 ---
 
-## ⚙️ Technical Details
+## ⚙️ Technical Details & Features
 
-The testing infrastructure is powered by a custom API designed to verify `ip:port` availability on specific target servers.
-For transparency, the source code for the testing mechanism is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
+Kamaji uses a high-performance, multithreaded architecture designed to crawl, parse, and verify massive volumes of VPN configurations at scale:
+
+### 🚀 Key Features
+
+*   **Multithreaded Telegram Scraper**: Employs `ThreadPoolExecutor` with **20 concurrent worker threads** to scan 290+ Telegram channels in parallel.
+*   **Deep Web Pagination**: Crawls recursively backwards (up to 5 pages per channel) using official Telegram web mirrors (`telegram.dog`), retrieving older valid configurations that standard latest-post scrapers miss.
+*   **Real Proxy Connection Probing**: Bundles the official `xray` binary (Xray-core) to test config connections. It dynamically converts SS, VMess, VLESS, and Trojan share links into valid Xray JSON configurations, runs them as local proxy subprocesses, and measures **real round-trip latency (delay)** through a connection check to Cloudflare (`cp.cloudflare.com/generate_204`).
+*   **Multithreaded Checker (50 threads)**: Runs delay and port checks concurrently using 50 worker threads, cutting verification time down from hours to a few minutes. Includes a socket-based TCP handshake fallback if the local `xray` binary is missing.
+*   **Cached Geolocation Classifier**: Geolocates configuration IP addresses into countries concurrently (50 threads). Incorporates a thread-safe cache (`ip_cache`) that reduces requests to `ipinfo.io` by querying only unique IPs, avoiding API rate-limiting blocks and finishing classification in seconds.
+*   **Daily Automations**: Configured via GitHub Actions (.github/workflows/crawler.yaml) to run **daily** at 00:00 UTC, with support for manual manual execution (`workflow_dispatch`).
+
+For the external test API backend used in `--check`, the source code is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
 
 ---
 
