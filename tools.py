@@ -251,9 +251,11 @@ def resolve_domain_to_ip(domain: str):
 
 
 def get_country(network: Protocols):
-    countries = {
-        # "COUNTRY-CODE": [],
-    }
+    import threading
+    countries = {}
+    ip_cache = {}
+    cache_lock = threading.Lock()
+    countries_lock = threading.Lock()
 
     def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
         try:
@@ -264,67 +266,56 @@ def get_country(network: Protocols):
             pass
         return None
 
+    def _get_country_cached(ip: str) -> str:
+        with cache_lock:
+            if ip in ip_cache:
+                return ip_cache[ip]
+        
+        country = _get_country(ip)
+        
+        with cache_lock:
+            ip_cache[ip] = country
+        return country
+
     def _add_to_dict(link: str, country: str):
-        if countries.get(country):
-            countries[country].append(link)
-        else:
-            countries[country] = [link]
+        with countries_lock:
+            if countries.get(country):
+                countries[country].append(link)
+            else:
+                countries[country] = [link]
 
-    # ss
-    if network.ss:
-        for conf_link in network.ss:
-            try:
-                ip = resolve_domain_to_ip(CheckHost._outline_get_host_port(conf_link)[0])
+    def _process_link(conf_link: str, get_host_port_fn):
+        try:
+            host_port = get_host_port_fn(conf_link)
+            if host_port and host_port[0]:
+                ip = resolve_domain_to_ip(host_port[0])
                 if ip:
-                    country = _get_country(ip)
+                    country = _get_country_cached(ip)
                     _add_to_dict(conf_link, country if country else "UnResolvedDomains")
-                else:
-                    _add_to_dict(conf_link, "UnResolvedDomains")
-            except Exception as err:
-                print(f"# {err}")
-                _add_to_dict(conf_link, "UnResolvedDomains")
+                    return
+            _add_to_dict(conf_link, "UnResolvedDomains")
+        except Exception as err:
+            _add_to_dict(conf_link, "UnResolvedDomains")
 
-    # vmess
-    if network.vmess:
-        for conf_link in network.vmess:
-            try:
-                ip = resolve_domain_to_ip(CheckHost._vmess_get_host_port(conf_link)[0])
-                if ip:
-                    country = _get_country(ip)
-                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
-                else:
-                    _add_to_dict(conf_link, "UnResolvedDomains")
-            except Exception as err:
-                print(f"# {err}")
-                _add_to_dict(conf_link, "UnResolvedDomains")
+    from concurrent.futures import ThreadPoolExecutor
 
-    # vless
-    if network.vless:
-        for conf_link in network.vless:
-            try:
-                ip = resolve_domain_to_ip(CheckHost._outline_get_host_port(conf_link)[0])
-                if ip:
-                    country = _get_country(ip)
-                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
-                else:
-                    _add_to_dict(conf_link, "UnResolvedDomains")
-            except Exception as err:
-                print(f"# {err}")
-                _add_to_dict(conf_link, "UnResolvedDomains")
-
-    # trojan
-    if network.trojan:
-        for conf_link in network.trojan:
-            try:
-                ip = resolve_domain_to_ip(CheckHost._trojan_get_host_port(conf_link)[0])
-                if ip:
-                    country = _get_country(ip)
-                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
-                else:
-                    _add_to_dict(conf_link, "UnResolvedDomains")
-            except Exception as err:
-                print(f"# {err}")
-                _add_to_dict(conf_link, "UnResolvedDomains")
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        futures = []
+        if network.ss:
+            for conf_link in network.ss:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+        if network.vmess:
+            for conf_link in network.vmess:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._vmess_get_host_port))
+        if network.vless:
+            for conf_link in network.vless:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+        if network.trojan:
+            for conf_link in network.trojan:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._trojan_get_host_port))
+                
+        for f in futures:
+            f.result()
 
     class meta:
         def __init__(self, data: dict):
