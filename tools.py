@@ -2,6 +2,7 @@ import requests
 import json
 from config import Protocols, check_node
 import base64
+import os
 from os import path
 import socket
 from urllib.parse import urlparse
@@ -353,6 +354,345 @@ class CheckSelf(Protocols):
         self._check_links()
 
     @staticmethod
+    def find_free_port():
+        s = socket.socket()
+        s.bind(('', 0))
+        port = s.getsockname()[1]
+        s.close()
+        return port
+
+    @staticmethod
+    def parse_ss_to_outbound(link: str) -> dict:
+        payload = link[5:]
+        if '#' in payload:
+            payload = payload.split('#')[0]
+        if '?' in payload:
+            payload = payload.split('?')[0]
+            
+        method = ""
+        password = ""
+        host = ""
+        port = 8388
+        
+        if '@' in payload:
+            parts = payload.split('@')
+            userinfo_b64 = parts[0]
+            host_port = parts[1]
+            
+            try:
+                missing_padding = len(userinfo_b64) % 4
+                if missing_padding:
+                    userinfo_b64 += '=' * (4 - missing_padding)
+                decoded_userinfo = base64.b64decode(userinfo_b64).decode('utf-8')
+                if ':' in decoded_userinfo:
+                    method, password = decoded_userinfo.split(':', 1)
+            except Exception:
+                pass
+                
+            if ':' in host_port:
+                host, port_str = host_port.split(':')
+                port = int(port_str)
+            else:
+                host = host_port
+        else:
+            try:
+                missing_padding = len(payload) % 4
+                if missing_padding:
+                    payload += '=' * (4 - missing_padding)
+                decoded = base64.b64decode(payload).decode('utf-8', errors='ignore')
+                if '@' in decoded:
+                    userinfo, host_port = decoded.split('@', 1)
+                    if ':' in userinfo:
+                        method, password = userinfo.split(':', 1)
+                    if ':' in host_port:
+                        host, port_str = host_port.split(':')
+                        port = int(port_str)
+                    else:
+                        host = host_port
+            except Exception:
+                pass
+                
+        return {
+            "protocol": "shadowsocks",
+            "settings": {
+                "servers": [
+                    {
+                        "address": host,
+                        "port": port,
+                        "method": method,
+                        "password": password
+                    }
+                ]
+            }
+        }
+
+    @staticmethod
+    def parse_trojan_to_outbound(link: str) -> dict:
+        from urllib.parse import urlparse, parse_qs
+        parsed = urlparse(link)
+        password = parsed.username or ""
+        host = parsed.hostname or ""
+        port = parsed.port or 443
+        
+        query_params = parse_qs(parsed.query)
+        sni = query_params.get('sni', [host])[0]
+        network = query_params.get('type', ['tcp'])[0]
+        path = query_params.get('path', [''])[0]
+        
+        stream_settings = {
+            "network": network,
+            "security": "tls",
+            "tlsSettings": {
+                "serverName": sni
+            }
+        }
+        
+        if network == "ws":
+            stream_settings["wsSettings"] = {
+                "path": path,
+                "headers": {
+                    "Host": sni
+                }
+            }
+        elif network == "grpc":
+            service_name = query_params.get('serviceName', [''])[0]
+            stream_settings["grpcSettings"] = {
+                "serviceName": service_name
+            }
+            
+        return {
+            "protocol": "trojan",
+            "settings": {
+                "servers": [
+                    {
+                        "address": host,
+                        "port": port,
+                        "password": password
+                    }
+                ]
+            },
+            "streamSettings": stream_settings
+        }
+
+    @staticmethod
+    def parse_vmess_to_outbound(link: str) -> dict:
+        payload = link[8:]
+        missing_padding = len(payload) % 4
+        if missing_padding:
+            payload += '=' * (4 - missing_padding)
+        decoded = base64.b64decode(payload).decode('utf-8')
+        data = json.loads(decoded)
+        
+        host = data.get('add', '')
+        port = int(data.get('port', 443))
+        uuid = data.get('id', '')
+        alter_id = int(data.get('aid', 0))
+        security = data.get('scy', 'auto')
+        
+        network = data.get('net', 'tcp')
+        path = data.get('path', '')
+        host_header = data.get('host', '')
+        tls = data.get('tls', '')
+        sni = data.get('sni', host_header if host_header else host)
+        
+        stream_settings = {
+            "network": network
+        }
+        
+        if tls == "tls":
+            stream_settings["security"] = "tls"
+            stream_settings["tlsSettings"] = {
+                "serverName": sni
+            }
+            
+        if network == "ws":
+            stream_settings["wsSettings"] = {
+                "path": path,
+                "headers": {
+                    "Host": host_header if host_header else sni
+                }
+            }
+        elif network == "grpc":
+            stream_settings["grpcSettings"] = {
+                "serviceName": path
+            }
+            
+        return {
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": host,
+                        "port": port,
+                        "users": [
+                            {
+                                "id": uuid,
+                                "alterId": alter_id,
+                                "security": security
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": stream_settings
+        }
+
+    @staticmethod
+    def parse_vless_to_outbound(link: str) -> dict:
+        from urllib.parse import urlparse, parse_qs
+        parsed = urlparse(link)
+        uuid = parsed.username or ""
+        host = parsed.hostname or ""
+        port = parsed.port or 443
+        
+        query_params = parse_qs(parsed.query)
+        security = query_params.get('security', ['none'])[0]
+        sni = query_params.get('sni', [host])[0]
+        network = query_params.get('type', ['tcp'])[0]
+        path = query_params.get('path', [''])[0]
+        flow = query_params.get('flow', [''])[0]
+        
+        stream_settings = {
+            "network": network
+        }
+        
+        if security == "tls":
+            stream_settings["security"] = "tls"
+            stream_settings["tlsSettings"] = {
+                "serverName": sni
+            }
+        elif security == "reality":
+            stream_settings["security"] = "reality"
+            pbk = query_params.get('pbk', [''])[0]
+            sid = query_params.get('sid', [''])[0]
+            stream_settings["realitySettings"] = {
+                "serverName": sni,
+                "publicKey": pbk,
+                "shortId": sid,
+                "fingerprint": query_params.get('fp', ['chrome'])[0]
+            }
+            
+        if network == "ws":
+            host_header = query_params.get('host', [sni])[0]
+            stream_settings["wsSettings"] = {
+                "path": path,
+                "headers": {
+                    "Host": host_header
+                }
+            }
+        elif network == "grpc":
+            service_name = query_params.get('serviceName', [''])[0]
+            stream_settings["grpcSettings"] = {
+                "serviceName": service_name
+            }
+            
+        user_obj = {
+            "id": uuid,
+            "encryption": "none"
+        }
+        if flow:
+            user_obj["flow"] = flow
+            
+        return {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": host,
+                        "port": port,
+                        "users": [user_obj]
+                    }
+                ]
+            },
+            "streamSettings": stream_settings
+        }
+
+    @staticmethod
+    def link_to_xray_config(link: str, local_port: int) -> dict:
+        outbound = None
+        if link.startswith('ss://'):
+            outbound = CheckSelf.parse_ss_to_outbound(link)
+        elif link.startswith('vmess://'):
+            outbound = CheckSelf.parse_vmess_to_outbound(link)
+        elif link.startswith('vless://'):
+            outbound = CheckSelf.parse_vless_to_outbound(link)
+        elif link.startswith('trojan://'):
+            outbound = CheckSelf.parse_trojan_to_outbound(link)
+            
+        if not outbound:
+            return None
+            
+        return {
+            "log": {
+                "loglevel": "none"
+            },
+            "inbounds": [
+                {
+                    "port": local_port,
+                    "listen": "127.0.0.1",
+                    "protocol": "http",
+                    "settings": {
+                        "timeout": 10
+                    }
+                }
+            ],
+            "outbounds": [
+                outbound
+            ]
+        }
+
+    @staticmethod
+    def xray_test(link: str, xray_path: str = "./xray", timeout: float = 5.0) -> float:
+        import subprocess
+        import time
+        
+        port = CheckSelf.find_free_port()
+        config = CheckSelf.link_to_xray_config(link, port)
+        if not config:
+            return None
+            
+        config_file = f"config_temp_{port}.json"
+        with open(config_file, "w") as f:
+            json.dump(config, f)
+            
+        try:
+            proc = subprocess.Popen(
+                [xray_path, "-config", config_file],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+            
+            time.sleep(0.3)
+            
+            proxies = {
+                "http": f"http://127.0.0.1:{port}",
+                "https": f"http://127.0.0.1:{port}"
+            }
+            
+            start_time = time.time()
+            try:
+                response = requests.get(
+                    "http://cp.cloudflare.com/generate_204",
+                    proxies=proxies,
+                    timeout=timeout
+                )
+                if response.status_code == 204:
+                    delay = (time.time() - start_time) * 1000
+                    return delay
+            except Exception:
+                pass
+        finally:
+            try:
+                proc.terminate()
+                proc.wait(timeout=1.0)
+            except Exception:
+                pass
+            if os.path.exists(config_file):
+                os.remove(config_file)
+                
+        return None
+
+    @staticmethod
     def tcp_test(ip: str, port: str, timeout: int = 2.5):
         if not ip or not port:
             return False
@@ -370,12 +710,22 @@ class CheckSelf(Protocols):
             return False
 
     def _check_links(self):
+        use_xray = os.path.exists("./xray")
+        if not use_xray:
+            print("# Warning: './xray' binary not found. Falling back to TCP handshake test.")
+
         # vless
         for link in self.network.vless:
             try:
-                _ = CheckHost._vmess_get_host_port(link)
-                if _ and _[0] and self.tcp_test(_[0], _[1]):
-                    self.vless = link
+                if use_xray:
+                    delay = self.xray_test(link)
+                    if delay is not None:
+                        print(f"Vless OK: {link} > delay: {delay:.1f}ms")
+                        self.vless = link
+                else:
+                    _ = CheckHost._vmess_get_host_port(link)
+                    if _ and _[0] and self.tcp_test(_[0], _[1]):
+                        self.vless = link
             except Exception as err:
                 self.error_count += 1
                 print(f'# Check Error -> {link} > {err}')
@@ -383,9 +733,15 @@ class CheckSelf(Protocols):
         # vmess
         for link in self.network.vmess:
             try:
-                _ = CheckHost._vmess_get_host_port(link)
-                if _ and _[0] and self.tcp_test(_[0], _[1]):
-                    self.vmess = link
+                if use_xray:
+                    delay = self.xray_test(link)
+                    if delay is not None:
+                        print(f"Vmess OK: {link} > delay: {delay:.1f}ms")
+                        self.vmess = link
+                else:
+                    _ = CheckHost._vmess_get_host_port(link)
+                    if _ and _[0] and self.tcp_test(_[0], _[1]):
+                        self.vmess = link
             except Exception as err:
                 self.error_count += 1
                 print(f'# Check Error -> {link} > {err}')
@@ -393,9 +749,15 @@ class CheckSelf(Protocols):
         # ShadowSocks
         for link in self.network.ss:
             try:
-                _ = CheckHost._outline_get_host_port(link)
-                if _ and _[0] and self.tcp_test(_[0], _[1]):
-                    self.ss = link
+                if use_xray:
+                    delay = self.xray_test(link)
+                    if delay is not None:
+                        print(f"SS OK: {link} > delay: {delay:.1f}ms")
+                        self.ss = link
+                else:
+                    _ = CheckHost._outline_get_host_port(link)
+                    if _ and _[0] and self.tcp_test(_[0], _[1]):
+                        self.ss = link
             except Exception as err:
                 self.error_count += 1
                 print(f'# Check Error -> {link} > {err}')
@@ -403,9 +765,15 @@ class CheckSelf(Protocols):
         # Trojan
         for link in self.network.trojan:
             try:
-                _ = CheckHost._trojan_get_host_port(link)
-                if _ and _[0] and self.tcp_test(_[0], _[1]):
-                    self.trojan = link
+                if use_xray:
+                    delay = self.xray_test(link)
+                    if delay is not None:
+                        print(f"Trojan OK: {link} > delay: {delay:.1f}ms")
+                        self.trojan = link
+                else:
+                    _ = CheckHost._trojan_get_host_port(link)
+                    if _ and _[0] and self.tcp_test(_[0], _[1]):
+                        self.trojan = link
             except Exception as err:
                 self.error_count += 1
                 print(f'# Check Error -> {link} > {err}')
