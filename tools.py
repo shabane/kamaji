@@ -4,6 +4,7 @@ from config import Protocols, check_node
 import base64
 from os import path
 import socket
+from urllib.parse import urlparse
 
 
 class CheckHost(Protocols):
@@ -15,89 +16,152 @@ class CheckHost(Protocols):
 
     @staticmethod
     def remove_combined_strings(text: str):
-        for i in text:
-            if not i.isdigit():
-                return text[:text.find(i)-1]
+        if isinstance(text, int):
+            return str(text)
+        res = []
+        for char in str(text):
+            if char.isdigit():
+                res.append(char)
+            else:
+                break
+        return "".join(res) if res else str(text)
 
     @staticmethod
     def _is_b64(data: str) -> bool:
         try:
-            decoded = base64.b64decode(data).decode()
+            missing_padding = len(data) % 4
+            if missing_padding:
+                data += '=' * (4 - missing_padding)
+            base64.b64decode(data).decode('utf-8')
             return True
         except Exception:
             return False
 
     @staticmethod
+    def get_host_port(link: str) -> tuple:
+        if not link:
+            return (None, None)
+        if link.startswith('vmess://'):
+            # VMess might be base64 JSON
+            payload = link[8:]
+            if CheckHost._is_b64(payload):
+                try:
+                    missing_padding = len(payload) % 4
+                    if missing_padding:
+                        payload += '=' * (4 - missing_padding)
+                    decoded = base64.b64decode(payload).decode('utf-8')
+                    link_json = json.loads(decoded)
+                    return (link_json.get('add'), link_json.get('port'))
+                except Exception:
+                    pass
+        elif link.startswith('ss://'):
+            # Shadowsocks
+            try:
+                payload = link[5:]
+                if '#' in payload:
+                    payload = payload.split('#')[0]
+                if '?' in payload:
+                    payload = payload.split('?')[0]
+                if '@' not in payload:
+                    try:
+                        missing_padding = len(payload) % 4
+                        if missing_padding:
+                            padded_payload = payload + '=' * (4 - missing_padding)
+                        else:
+                            padded_payload = payload
+                        decoded = base64.b64decode(padded_payload).decode('utf-8', errors='ignore')
+                        if '@' in decoded:
+                            payload = decoded
+                    except Exception:
+                        pass
+                if '@' in payload:
+                    parts = payload.split('@')
+                    host_port = parts[1]
+                else:
+                    host_port = payload
+                if ':' in host_port:
+                    host, port = host_port.split(':')
+                    return (host, int(port))
+                else:
+                    return (host_port, 8388)
+            except Exception:
+                return (None, None)
+
+        # General URL parsing (for Vless, Trojan, and standard VMess/SS)
+        try:
+            parsed = urlparse(link)
+            return (parsed.hostname, parsed.port or 443)
+        except Exception:
+            return (None, None)
+
+    @staticmethod
     def _vmess_get_host_port(link: str) -> tuple:
-        if CheckHost._is_b64(link[8:]):
-            link = base64.b64decode(link)
-            link = json.loads(link)
-            return (link.get('add'), link.get('port'))
-        return tuple(link[link.find('@')+1:link.find('?')].split(':'))
+        return CheckHost.get_host_port(link)
 
     @staticmethod  
     def _outline_get_host_port(link: str) -> tuple:
-        try:
-            return tuple(link.split('@')[1].split('/')[0].split(':'))
-        except:
-            print(f'Error to get host and port for outline {link}')
-    
+        return CheckHost.get_host_port(link)
+
     @staticmethod
-    def _check_access(host: str, port:int = 443):
+    def _trojan_get_host_port(link: str) -> tuple:
+        return CheckHost.get_host_port(link)
+
+    @staticmethod
+    def _check_access(host: str, port: int = 443):
+        if not host:
+            return False
         headers = {
             'Accept': 'application/json',
         }
 
-        response = requests.get(f'{check_node}?host={host}&port={port}&timeout=1', headers=headers)
-        
-        if response.status_code == 200:
-            return response.json()['result']['ok']
+        try:
+            response = requests.get(f'{check_node}?host={host}&port={port}&timeout=1', headers=headers)
+            if response.status_code == 200:
+                return response.json()['result']['ok']
+        except Exception:
+            pass
         return False
-
-    @staticmethod
-    def _trojan_get_host_port(link: str):
-        return tuple(link[link.find('@')+1:link.find('?')].split(':'))
 
     def _check_links(self):
         ## Vless
         for link in self.network.vless:
             try:
                 _ = self._vmess_get_host_port(link)
-                if self._check_access(_[0], _[1]):
+                if _ and _[0] and self._check_access(_[0], _[1]):
                     self.vless = link
             except Exception as er:
                 self.error_count += 1
-                print(f'Check Error: {link} > {_}')
+                print(f'Check Error: {link} > {er}')
 
         ## Vmess
         for link in self.network.vmess:
             try:
                 _ = self._vmess_get_host_port(link)
-                if self._check_access(_[0], _[1]):
+                if _ and _[0] and self._check_access(_[0], _[1]):
                     self.vmess = link
             except Exception as er:
                 self.error_count += 1
-                print(f'Check Error: {link} > {_}')
+                print(f'Check Error: {link} > {er}')
 
         ## ShadowSocks
         for link in self.network.ss:
             try:
                 _ = self._outline_get_host_port(link)
-                if self._check_access(_[0], _[1]):
+                if _ and _[0] and self._check_access(_[0], _[1]):
                     self.ss = link
-            except:
+            except Exception as er:
                 self.error_count += 1
-                print(f'Check Error: {link} > {_}')
+                print(f'Check Error: {link} > {er}')
                 
         ## Trojan
         for link in self.network.trojan:
             try:
                 _ = self._trojan_get_host_port(link)
-                if self._check_access(_[0], _[1]):
+                if _ and _[0] and self._check_access(_[0], _[1]):
                     self.trojan = link
-            except:
+            except Exception as er:
                 self.error_count += 1
-                print(f'Check Error: {link} > {_}')
+                print(f'Check Error: {link} > {er}')
 
         print(f'Tested Links: {len(self.vless)+len(self.vmess)+len(self.ss)+len(self.trojan)}')
         print(f'Error Encounter During Test Link: {self.error_count}')
@@ -191,8 +255,13 @@ def get_country(network: Protocols):
     }
 
     def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
-        res = requests.get(base_api.replace('{ip}', ip)).json()
-        return res.get('country')
+        try:
+            res = requests.get(base_api.replace('{ip}', ip), timeout=3)
+            if res.status_code == 200:
+                return res.json().get('country')
+        except Exception:
+            pass
+        return None
 
     def _add_to_dict(link: str, country: str):
         if countries.get(country):
@@ -285,6 +354,8 @@ class CheckSelf(Protocols):
 
     @staticmethod
     def tcp_test(ip: str, port: str, timeout: int = 2.5):
+        if not ip or not port:
+            return False
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(timeout)
@@ -303,41 +374,41 @@ class CheckSelf(Protocols):
         for link in self.network.vless:
             try:
                 _ = CheckHost._vmess_get_host_port(link)
-                if self.tcp_test(_[0], _[1]):
+                if _ and _[0] and self.tcp_test(_[0], _[1]):
                     self.vless = link
             except Exception as err:
                 self.error_count += 1
-                print(f'# Check Error -> {link} > {_}')
+                print(f'# Check Error -> {link} > {err}')
 
         # vmess
         for link in self.network.vmess:
             try:
                 _ = CheckHost._vmess_get_host_port(link)
-                if self.tcp_test(_[0], _[1]):
+                if _ and _[0] and self.tcp_test(_[0], _[1]):
                     self.vmess = link
             except Exception as err:
                 self.error_count += 1
-                print(f'# Check Error -> {link} > {_}')
+                print(f'# Check Error -> {link} > {err}')
 
         # ShadowSocks
         for link in self.network.ss:
             try:
                 _ = CheckHost._outline_get_host_port(link)
-                if self.tcp_test(_[0], _[1]):
+                if _ and _[0] and self.tcp_test(_[0], _[1]):
                     self.ss = link
-            except:
+            except Exception as err:
                 self.error_count += 1
-                print(f'# Check Error -> {link} > {_}')
+                print(f'# Check Error -> {link} > {err}')
 
         # Trojan
         for link in self.network.trojan:
             try:
                 _ = CheckHost._trojan_get_host_port(link)
-                if self.tcp_test(_[0], _[1]):
+                if _ and _[0] and self.tcp_test(_[0], _[1]):
                     self.trojan = link
-            except:
+            except Exception as err:
                 self.error_count += 1
-                print(f'# Check Error -> {link} > {_}')
+                print(f'# Check Error -> {link} > {err}')
 
         print(f'Tested Links: {len(self.vless) + len(self.vmess) + len(self.ss) + len(self.trojan)}')
         print(f'Error Encounter During Test Link: {self.error_count}')

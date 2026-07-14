@@ -18,7 +18,8 @@ class Telegram(Protocols):
             while page.status_code != 200:
                 page = requests.get(path.join(self.__tlink, channel))
 
-            self.ss = [f'{i[0]}{i[1]}' for i in re.findall("(ss:\/\/[^\#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            self.vless = [f'{i[0]}{i[1]}' for i in re.findall("(vless:\/\/[^\#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            self.vmess = [f'{i[0]}{i[1]}' for i in re.findall("(vmess:\/\/[^\#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            self.trojan = [f'{i[0]}{i[1]}' for i in re.findall("(trojan:\/\/[^\#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            self.ss = [f'{i[0]}{i[1]}' for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            self.vless = [f'{i[0]}{i[1]}' for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            self.vmess = [f'{i[0]}{i[1]}' for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            self.trojan = [f'{i[0]}{i[1]}' for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+
