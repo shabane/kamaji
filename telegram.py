@@ -9,7 +9,7 @@ class Telegram(Protocols):
         Protocols.__init__(self)
         self.channels = channels
         self.max_pages = max_pages
-        self.__tlink = 'https://t.me/s/'
+        self.__tlink = 'https://telegram.dog/s/'
         self.__v2finder()
  
     def __v2finder(self) -> None:
