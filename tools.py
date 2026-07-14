@@ -709,74 +709,68 @@ class CheckSelf(Protocols):
             print(f"# Error on TCP test [{ip}:{port}] -> {err}")
             return False
 
+    def _check_link(self, link_type: str, link: str, use_xray: bool):
+        try:
+            if use_xray:
+                delay = self.xray_test(link)
+                if delay is not None:
+                    print(f"{link_type.upper()} OK: {link} > delay: {delay:.1f}ms")
+                    with self.lock:
+                        if link_type == "vless":
+                            self.vless = link
+                        elif link_type == "vmess":
+                            self.vmess = link
+                        elif link_type == "ss":
+                            self.ss = link
+                        elif link_type == "trojan":
+                            self.trojan = link
+            else:
+                _ = None
+                if link_type == "vless" or link_type == "vmess":
+                    _ = CheckHost._vmess_get_host_port(link)
+                elif link_type == "ss":
+                    _ = CheckHost._outline_get_host_port(link)
+                elif link_type == "trojan":
+                    _ = CheckHost._trojan_get_host_port(link)
+                    
+                if _ and _[0] and self.tcp_test(_[0], _[1]):
+                    with self.lock:
+                        if link_type == "vless":
+                            self.vless = link
+                        elif link_type == "vmess":
+                            self.vmess = link
+                        elif link_type == "ss":
+                            self.ss = link
+                        elif link_type == "trojan":
+                            self.trojan = link
+        except Exception:
+            with self.lock:
+                self.error_count += 1
+
     def _check_links(self):
         use_xray = os.path.exists("./xray")
         if not use_xray:
             print("# Warning: './xray' binary not found. Falling back to TCP handshake test.")
 
-        # vless
-        for link in self.network.vless:
-            try:
-                if use_xray:
-                    delay = self.xray_test(link)
-                    if delay is not None:
-                        print(f"Vless OK: {link} > delay: {delay:.1f}ms")
-                        self.vless = link
-                else:
-                    _ = CheckHost._vmess_get_host_port(link)
-                    if _ and _[0] and self.tcp_test(_[0], _[1]):
-                        self.vless = link
-            except Exception as err:
-                self.error_count += 1
-                print(f'# Check Error -> {link} > {err}')
+        import threading
+        self.lock = threading.Lock()
 
-        # vmess
-        for link in self.network.vmess:
-            try:
-                if use_xray:
-                    delay = self.xray_test(link)
-                    if delay is not None:
-                        print(f"Vmess OK: {link} > delay: {delay:.1f}ms")
-                        self.vmess = link
-                else:
-                    _ = CheckHost._vmess_get_host_port(link)
-                    if _ and _[0] and self.tcp_test(_[0], _[1]):
-                        self.vmess = link
-            except Exception as err:
-                self.error_count += 1
-                print(f'# Check Error -> {link} > {err}')
-
-        # ShadowSocks
-        for link in self.network.ss:
-            try:
-                if use_xray:
-                    delay = self.xray_test(link)
-                    if delay is not None:
-                        print(f"SS OK: {link} > delay: {delay:.1f}ms")
-                        self.ss = link
-                else:
-                    _ = CheckHost._outline_get_host_port(link)
-                    if _ and _[0] and self.tcp_test(_[0], _[1]):
-                        self.ss = link
-            except Exception as err:
-                self.error_count += 1
-                print(f'# Check Error -> {link} > {err}')
-
-        # Trojan
-        for link in self.network.trojan:
-            try:
-                if use_xray:
-                    delay = self.xray_test(link)
-                    if delay is not None:
-                        print(f"Trojan OK: {link} > delay: {delay:.1f}ms")
-                        self.trojan = link
-                else:
-                    _ = CheckHost._trojan_get_host_port(link)
-                    if _ and _[0] and self.tcp_test(_[0], _[1]):
-                        self.trojan = link
-            except Exception as err:
-                self.error_count += 1
-                print(f'# Check Error -> {link} > {err}')
+        from concurrent.futures import ThreadPoolExecutor
+        
+        with ThreadPoolExecutor(max_workers=50) as executor:
+            futures = []
+            for link in self.network.vless:
+                futures.append(executor.submit(self._check_link, "vless", link, use_xray))
+            for link in self.network.vmess:
+                futures.append(executor.submit(self._check_link, "vmess", link, use_xray))
+            for link in self.network.ss:
+                futures.append(executor.submit(self._check_link, "ss", link, use_xray))
+            for link in self.network.trojan:
+                futures.append(executor.submit(self._check_link, "trojan", link, use_xray))
+                
+            for f in futures:
+                f.result()
 
         print(f'Tested Links: {len(self.vless) + len(self.vmess) + len(self.ss) + len(self.trojan)}')
         print(f'Error Encounter During Test Link: {self.error_count}')
+
