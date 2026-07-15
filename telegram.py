@@ -45,7 +45,7 @@ class Telegram(Protocols):
             vmess_links = []
             trojan_links = []
             
-            parts = page.text.split('class="tgme_widget_message_bubble">')
+            parts = page.text.split('class="tgme_widget_message_wrap')
             if len(parts) > 1:
                 for part in parts[1:]:
                     date_match = re.search(r'datetime="([^T"]+)', part)
