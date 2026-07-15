@@ -24,6 +24,7 @@ if __name__ == '__main__':
     print(f'# vmess: {len(network01.vmess)}')
     print(f'# vless: {len(network01.vless)}')
     print(f'# trojan: {len(network01.trojan)}')
+    tools.standardize_network(network01, "None", max_workers=flags.max_thread)
     tools.save(network01) if flags.save else ...
     tools.save_b64(network01, './hub/b64/') if flags.save else ...
 
@@ -54,6 +55,7 @@ if __name__ == '__main__':
         print(f'# vmess: {len(ch_network01.vmess)}')
         print(f'# vless: {len(ch_network01.vless)}')
         print(f'# trojan: {len(ch_network01.trojan)}')
+        tools.standardize_network(ch_network01, "API", max_workers=flags.max_thread)
         tools.save(ch_network01, './hub/tested/') if flags.save else ...
         tools.save_b64(ch_network01, './hub/tested/b64') if flags.save else ...
 
@@ -84,6 +86,7 @@ if __name__ == '__main__':
         print(f'# vmess: {len(sch_network01.vmess)}')
         print(f'# vless: {len(sch_network01.vless)}')
         print(f'# trojan: {len(sch_network01.trojan)}')
+        tools.standardize_network(sch_network01, "GH Action", max_workers=flags.max_thread)
         tools.save(sch_network01, './hub/self/tested/') if flags.save else ...
         tools.save_b64(sch_network01, './hub/self/tested/b64') if flags.save else ...
 

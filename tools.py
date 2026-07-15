@@ -252,6 +252,7 @@ def resolve_domain_to_ip(domain: str):
 
 def get_country(network: Protocols, max_workers: int = 50):
     import threading
+    import re
     countries = {}
     ip_cache = {}
     cache_lock = threading.Lock()
@@ -284,7 +285,36 @@ def get_country(network: Protocols, max_workers: int = 50):
             else:
                 countries[country] = [link]
 
-    def _process_link(conf_link: str, get_host_port_fn):
+    def _extract_country_from_link(link: str, link_type: str) -> str:
+        remark = ""
+        try:
+            if link_type == "vmess":
+                import base64
+                import json
+                payload = link[8:]
+                missing_padding = len(payload) % 4
+                if missing_padding:
+                    payload += '=' * (4 - missing_padding)
+                decoded = base64.b64decode(payload).decode('utf-8')
+                data = json.loads(decoded)
+                remark = data.get('ps', '')
+            else:
+                if '#' in link:
+                    remark = link.split('#')[-1]
+            
+            m = re.match(r'^\[\d+\]\[([A-Z]{2}|UnResolvedDomains)\]', remark)
+            if m:
+                return m.group(1)
+        except Exception:
+            pass
+        return None
+
+    def _process_link(conf_link: str, get_host_port_fn, link_type: str):
+        extracted = _extract_country_from_link(conf_link, link_type)
+        if extracted:
+            _add_to_dict(conf_link, extracted)
+            return
+
         try:
             host_port = get_host_port_fn(conf_link)
             if host_port and host_port[0]:
@@ -303,16 +333,16 @@ def get_country(network: Protocols, max_workers: int = 50):
         futures = []
         if network.ss:
             for conf_link in network.ss:
-                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port, "ss"))
         if network.vmess:
             for conf_link in network.vmess:
-                futures.append(executor.submit(_process_link, conf_link, CheckHost._vmess_get_host_port))
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._vmess_get_host_port, "vmess"))
         if network.vless:
             for conf_link in network.vless:
-                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port, "vless"))
         if network.trojan:
             for conf_link in network.trojan:
-                futures.append(executor.submit(_process_link, conf_link, CheckHost._trojan_get_host_port))
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._trojan_get_host_port, "trojan"))
                 
         for f in futures:
             f.result()
@@ -343,6 +373,7 @@ class CheckSelf(Protocols):
         self.error_count = 0
         self.network = network
         self.max_workers = max_workers
+        self.delays = {}
         self._check_links()
 
     @staticmethod
@@ -708,6 +739,7 @@ class CheckSelf(Protocols):
                 if delay is not None:
                     print(f"{link_type.upper()} OK: {link} > delay: {delay:.1f}ms")
                     with self.lock:
+                        self.delays[link] = int(round(delay))
                         if link_type == "vless":
                             self.vless = link
                         elif link_type == "vmess":
@@ -765,4 +797,125 @@ class CheckSelf(Protocols):
 
         print(f'Tested Links: {len(self.vless) + len(self.vmess) + len(self.ss) + len(self.trojan)}')
         print(f'Error Encounter During Test Link: {self.error_count}')
+
+
+def standardize_network(network: Protocols, test_type: str, max_workers: int = 50):
+    import base64
+    import json
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+
+    ip_cache = {}
+    cache_lock = threading.Lock()
+
+    def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
+        try:
+            res = requests.get(base_api.replace('{ip}', ip), timeout=3)
+            if res.status_code == 200:
+                return res.json().get('country')
+        except Exception:
+            pass
+        return None
+
+    def _get_country_cached(ip: str) -> str:
+        with cache_lock:
+            if ip in ip_cache:
+                return ip_cache[ip]
+        country = _get_country(ip)
+        with cache_lock:
+            ip_cache[ip] = country
+        return country
+
+    link_countries = {}
+    lock = threading.Lock()
+
+    def _process_link(conf_link: str, get_host_port_fn):
+        try:
+            host_port = get_host_port_fn(conf_link)
+            if host_port and host_port[0]:
+                ip = resolve_domain_to_ip(host_port[0])
+                if ip:
+                    c = _get_country_cached(ip)
+                    if c:
+                        with lock:
+                            link_countries[conf_link] = c
+                        return
+            with lock:
+                link_countries[conf_link] = "UnResolvedDomains"
+        except Exception:
+            with lock:
+                link_countries[conf_link] = "UnResolvedDomains"
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = []
+        if network.ss:
+            for conf_link in network.ss:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+        if network.vmess:
+            for conf_link in network.vmess:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._vmess_get_host_port))
+        if network.vless:
+            for conf_link in network.vless:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._outline_get_host_port))
+        if network.trojan:
+            for conf_link in network.trojan:
+                futures.append(executor.submit(_process_link, conf_link, CheckHost._trojan_get_host_port))
+                
+        for f in futures:
+            f.result()
+
+    def format_ss_vless_trojan(link: str, title: str) -> str:
+        if '#' in link:
+            base = link.split('#')[0]
+        else:
+            base = link
+        return f"{base}#{title}"
+
+    def format_vmess(link: str, title: str) -> str:
+        try:
+            payload = link[8:]
+            missing_padding = len(payload) % 4
+            if missing_padding:
+                payload += '=' * (4 - missing_padding)
+            decoded = base64.b64decode(payload).decode('utf-8')
+            data = json.loads(decoded)
+            data['ps'] = title
+            new_payload = base64.b64encode(json.dumps(data).encode('utf-8')).decode('utf-8')
+            return f"vmess://{new_payload}"
+        except Exception:
+            return link
+
+    delays = getattr(network, 'delays', {})
+
+    new_ss = []
+    for i, link in enumerate(sorted(network.ss), 1):
+        country = link_countries.get(link, "UnResolvedDomains")
+        delay_val = delays.get(link, 0)
+        title = f"[{i}][{country}][{delay_val}][SS][{test_type}]"
+        new_ss.append(format_ss_vless_trojan(link, title))
+    network._Protocols__ss = set(new_ss)
+
+    new_vmess = []
+    for i, link in enumerate(sorted(network.vmess), 1):
+        country = link_countries.get(link, "UnResolvedDomains")
+        delay_val = delays.get(link, 0)
+        title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}]"
+        new_vmess.append(format_vmess(link, title))
+    network._Protocols__vmess = set(new_vmess)
+
+    new_vless = []
+    for i, link in enumerate(sorted(network.vless), 1):
+        country = link_countries.get(link, "UnResolvedDomains")
+        delay_val = delays.get(link, 0)
+        title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}]"
+        new_vless.append(format_ss_vless_trojan(link, title))
+    network._Protocols__vless = set(new_vless)
+
+    new_trojan = []
+    for i, link in enumerate(sorted(network.trojan), 1):
+        country = link_countries.get(link, "UnResolvedDomains")
+        delay_val = delays.get(link, 0)
+        title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}]"
+        new_trojan.append(format_ss_vless_trojan(link, title))
+    network._Protocols__trojan = set(new_trojan)
 
