@@ -127,7 +127,8 @@ class CheckHost(Protocols):
         ## Vless
         for link in self.network.vless:
             try:
-                _ = self._vmess_get_host_port(link)
+                clean_link = link.split("|channel:")[0] if "|channel:" in link else link
+                _ = self._vmess_get_host_port(clean_link)
                 if _ and _[0] and self._check_access(_[0], _[1]):
                     self.vless = link
             except Exception as er:
@@ -137,7 +138,8 @@ class CheckHost(Protocols):
         ## Vmess
         for link in self.network.vmess:
             try:
-                _ = self._vmess_get_host_port(link)
+                clean_link = link.split("|channel:")[0] if "|channel:" in link else link
+                _ = self._vmess_get_host_port(clean_link)
                 if _ and _[0] and self._check_access(_[0], _[1]):
                     self.vmess = link
             except Exception as er:
@@ -147,7 +149,8 @@ class CheckHost(Protocols):
         ## ShadowSocks
         for link in self.network.ss:
             try:
-                _ = self._outline_get_host_port(link)
+                clean_link = link.split("|channel:")[0] if "|channel:" in link else link
+                _ = self._outline_get_host_port(clean_link)
                 if _ and _[0] and self._check_access(_[0], _[1]):
                     self.ss = link
             except Exception as er:
@@ -157,7 +160,8 @@ class CheckHost(Protocols):
         ## Trojan
         for link in self.network.trojan:
             try:
-                _ = self._trojan_get_host_port(link)
+                clean_link = link.split("|channel:")[0] if "|channel:" in link else link
+                _ = self._trojan_get_host_port(clean_link)
                 if _ and _[0] and self._check_access(_[0], _[1]):
                     self.trojan = link
             except Exception as er:
@@ -171,7 +175,7 @@ class CheckHost(Protocols):
 def save(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
     
-    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]"
+    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]"
 
     with open(path.join(save_path, 'ss.txt'), 'w') as fli:
         fli.write(f'{header}\n')
@@ -207,7 +211,7 @@ def save(network: Protocols, save_path: str = None) -> bool:
 def save_b64(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
 
-    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]\n"
+    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]\n"
 
     ss_b64 = header
     vmess_b64 = header
@@ -368,7 +372,7 @@ def get_country(network: Protocols, max_workers: int = 50):
             self.data = data
 
         def save(self, save_path: str = './hub/'):
-            header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]"
+            header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]"
             for _country in self.data.keys():
                 with open(path.join(save_path, f'{_country}.txt'), 'w') as fli:
                     fli.write(f'{header}\n\n')
@@ -751,11 +755,12 @@ class CheckSelf(Protocols):
             return False
 
     def _check_link(self, link_type: str, link: str, use_xray: bool):
+        clean_link = link.split("|channel:")[0] if "|channel:" in link else link
         try:
             if use_xray:
-                delay = self.xray_test(link)
+                delay = self.xray_test(clean_link)
                 if delay is not None:
-                    print(f"{link_type.upper()} OK: {link} > delay: {delay:.1f}ms")
+                    print(f"{link_type.upper()} OK: {clean_link} > delay: {delay:.1f}ms")
                     with self.lock:
                         self.delays[link] = int(round(delay))
                         if link_type == "vless":
@@ -769,11 +774,11 @@ class CheckSelf(Protocols):
             else:
                 _ = None
                 if link_type == "vless" or link_type == "vmess":
-                    _ = CheckHost._vmess_get_host_port(link)
+                    _ = CheckHost._vmess_get_host_port(clean_link)
                 elif link_type == "ss":
-                    _ = CheckHost._outline_get_host_port(link)
+                    _ = CheckHost._outline_get_host_port(clean_link)
                 elif link_type == "trojan":
-                    _ = CheckHost._trojan_get_host_port(link)
+                    _ = CheckHost._trojan_get_host_port(clean_link)
                     
                 if _ and _[0] and self.tcp_test(_[0], _[1]):
                     with self.lock:
@@ -848,8 +853,9 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
     lock = threading.Lock()
 
     def _process_link(conf_link: str, get_host_port_fn):
+        clean_link = conf_link.split("|channel:")[0] if "|channel:" in conf_link else conf_link
         try:
-            host_port = get_host_port_fn(conf_link)
+            host_port = get_host_port_fn(clean_link)
             if host_port and host_port[0]:
                 ip = resolve_domain_to_ip(host_port[0])
                 if ip:
@@ -907,33 +913,57 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
 
     new_ss = []
     for i, link in enumerate(sorted(network.ss), 1):
+        channel_name = "None"
+        clean_link = link
+        if "|channel:" in link:
+            parts = link.split("|channel:")
+            clean_link = parts[0]
+            channel_name = parts[1]
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][SS][{test_type}]"
-        new_ss.append(format_ss_vless_trojan(link, title))
+        title = f"[{i}][{country}][{delay_val}][SS][{test_type}][{channel_name}]"
+        new_ss.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__ss = set(new_ss)
 
     new_vmess = []
     for i, link in enumerate(sorted(network.vmess), 1):
+        channel_name = "None"
+        clean_link = link
+        if "|channel:" in link:
+            parts = link.split("|channel:")
+            clean_link = parts[0]
+            channel_name = parts[1]
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}]"
-        new_vmess.append(format_vmess(link, title))
+        title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}][{channel_name}]"
+        new_vmess.append(format_vmess(clean_link, title))
     network._Protocols__vmess = set(new_vmess)
 
     new_vless = []
     for i, link in enumerate(sorted(network.vless), 1):
+        channel_name = "None"
+        clean_link = link
+        if "|channel:" in link:
+            parts = link.split("|channel:")
+            clean_link = parts[0]
+            channel_name = parts[1]
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}]"
-        new_vless.append(format_ss_vless_trojan(link, title))
+        title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}][{channel_name}]"
+        new_vless.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__vless = set(new_vless)
 
     new_trojan = []
     for i, link in enumerate(sorted(network.trojan), 1):
+        channel_name = "None"
+        clean_link = link
+        if "|channel:" in link:
+            parts = link.split("|channel:")
+            clean_link = parts[0]
+            channel_name = parts[1]
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}]"
-        new_trojan.append(format_ss_vless_trojan(link, title))
+        title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}][{channel_name}]"
+        new_trojan.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__trojan = set(new_trojan)
 

@@ -37,10 +37,10 @@ class Telegram(Protocols):
                 print(f"Failed to retrieve page {page_num} for {channel}")
                 break
 
-            ss_links = [f'{i[0]}{i[1]}' for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            vless_links = [f'{i[0]}{i[1]}' for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            vmess_links = [f'{i[0]}{i[1]}' for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            trojan_links = [f'{i[0]}{i[1]}' for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            ss_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            vless_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            vmess_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            trojan_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
 
             with self.lock:
                 self.ss = ss_links
