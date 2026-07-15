@@ -6,6 +6,8 @@ import os
 from os import path
 import socket
 from urllib.parse import urlparse
+import re
+import urllib.parse
 
 
 class CheckHost(Protocols):
@@ -354,7 +356,8 @@ def get_country(network: Protocols, max_workers: int = 50):
                 if '#' in link:
                     remark = link.split('#')[-1]
             
-            m = re.match(r'^\[\d+\]\[([A-Z]{2}|UnResolvedDomains)\]', remark)
+            decoded_remark = urllib.parse.unquote(remark)
+            m = re.match(r'^\[\d+\]\[([A-Z]{2}|UnResolvedDomains)\]', decoded_remark)
             if m:
                 return m.group(1)
         except Exception:
@@ -941,14 +944,12 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         except Exception:
             return link
 
-    delays = getattr(network, 'delays', {})
-
-    new_ss = []
-    for i, link in enumerate(sorted(network.ss), 1):
+    def parse_metadata_and_clean_link(link: str) -> tuple:
         channel_name = "None"
         post_date = "Unknown"
         scrape_date = "Unknown"
         clean_link = link
+
         if "|channel:" in link:
             parts = link.split("|channel:")
             clean_link = parts[0]
@@ -960,7 +961,50 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
                     post_date = sub.split("post_date:")[1]
                 elif sub.startswith("scrape_date:"):
                     scrape_date = sub.split("scrape_date:")[1]
+        else:
+            # Check if it already has bracket standardisation metadata in the remark
+            remark = ""
+            if link.startswith("vmess://"):
+                try:
+                    payload = link[8:]
+                    missing_padding = len(payload) % 4
+                    if missing_padding:
+                        payload += '=' * (4 - missing_padding)
+                    dec_val = base64.b64decode(payload).decode('utf-8')
+                    data = json.loads(dec_val)
+                    remark = data.get('ps', '')
+                except Exception:
+                    pass
+            else:
+                if '#' in link:
+                    remark = link.split('#')[-1]
+                    
+            decoded_remark = urllib.parse.unquote(remark)
+            # Parse format: [ID][COUNTRY][DELAY][TYPE][TEST_TYPE][CHANNEL][POST_DATE][SCRAPE_DATE]
+            m = re.match(r'^\[\d+\]\[([^\]]*)\]\[([^\]]*)\]\[([^\]]*)\]\[([^\]]*)\]\[([^\]]*)\]\[([^\]]*)\]\[([^\]]*)\]', decoded_remark)
+            if m:
+                if link.startswith("vmess://"):
+                    clean_link = link
+                else:
+                    clean_link = link.split('#')[0]
+                
+                old_channel = m.group(5)
+                old_post = m.group(6)
+                old_scrape = m.group(7)
+                if old_channel != "None":
+                    channel_name = old_channel
+                if old_post != "Unknown":
+                    post_date = old_post
+                if old_scrape != "Unknown":
+                    scrape_date = old_scrape
 
+        return clean_link, channel_name, post_date, scrape_date
+
+    delays = getattr(network, 'delays', {})
+
+    new_ss = []
+    for i, link in enumerate(sorted(network.ss), 1):
+        clean_link, channel_name, post_date, scrape_date = parse_metadata_and_clean_link(link)
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][SS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
@@ -969,22 +1013,7 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
 
     new_vmess = []
     for i, link in enumerate(sorted(network.vmess), 1):
-        channel_name = "None"
-        post_date = "Unknown"
-        scrape_date = "Unknown"
-        clean_link = link
-        if "|channel:" in link:
-            parts = link.split("|channel:")
-            clean_link = parts[0]
-            meta_str = parts[1]
-            subparts = meta_str.split("|")
-            channel_name = subparts[0]
-            for sub in subparts[1:]:
-                if sub.startswith("post_date:"):
-                    post_date = sub.split("post_date:")[1]
-                elif sub.startswith("scrape_date:"):
-                    scrape_date = sub.split("scrape_date:")[1]
-
+        clean_link, channel_name, post_date, scrape_date = parse_metadata_and_clean_link(link)
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
@@ -993,22 +1022,7 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
 
     new_vless = []
     for i, link in enumerate(sorted(network.vless), 1):
-        channel_name = "None"
-        post_date = "Unknown"
-        scrape_date = "Unknown"
-        clean_link = link
-        if "|channel:" in link:
-            parts = link.split("|channel:")
-            clean_link = parts[0]
-            meta_str = parts[1]
-            subparts = meta_str.split("|")
-            channel_name = subparts[0]
-            for sub in subparts[1:]:
-                if sub.startswith("post_date:"):
-                    post_date = sub.split("post_date:")[1]
-                elif sub.startswith("scrape_date:"):
-                    scrape_date = sub.split("scrape_date:")[1]
-
+        clean_link, channel_name, post_date, scrape_date = parse_metadata_and_clean_link(link)
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
@@ -1017,22 +1031,7 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
 
     new_trojan = []
     for i, link in enumerate(sorted(network.trojan), 1):
-        channel_name = "None"
-        post_date = "Unknown"
-        scrape_date = "Unknown"
-        clean_link = link
-        if "|channel:" in link:
-            parts = link.split("|channel:")
-            clean_link = parts[0]
-            meta_str = parts[1]
-            subparts = meta_str.split("|")
-            channel_name = subparts[0]
-            for sub in subparts[1:]:
-                if sub.startswith("post_date:"):
-                    post_date = sub.split("post_date:")[1]
-                elif sub.startswith("scrape_date:"):
-                    scrape_date = sub.split("scrape_date:")[1]
-
+        clean_link, channel_name, post_date, scrape_date = parse_metadata_and_clean_link(link)
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
