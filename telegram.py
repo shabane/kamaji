@@ -38,7 +38,7 @@ class Telegram(Protocols):
                 break
 
             import datetime
-            scrape_date = datetime.datetime.now().strftime("%Y-%m-%d")
+            scrape_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
             
             ss_links = []
             vless_links = []
