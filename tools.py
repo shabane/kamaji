@@ -171,23 +171,30 @@ class CheckHost(Protocols):
 def save(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
     
+    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]"
+
     with open(path.join(save_path, 'ss.txt'), 'w') as fli:
+        fli.write(f'{header}\n')
         for link in network.ss:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'vmess.txt'), 'w') as fli:
+        fli.write(f'{header}\n')
         for link in network.vmess:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'vless.txt'), 'w') as fli:
+        fli.write(f'{header}\n')
         for link in network.vless:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'trojan.txt'), 'w') as fli:
+        fli.write(f'{header}\n')
         for link in network.trojan:
             fli.write(f'{link}\n')
 
     with open(path.join(save_path, 'merged.txt'), 'w') as fli:
+        fli.write(f'{header}\n')
         mrg = []
         mrg.extend(network.ss)
         mrg.extend(network.vmess)
@@ -200,11 +207,12 @@ def save(network: Protocols, save_path: str = None) -> bool:
 def save_b64(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
 
-    ss_b64 = ''
-    vmess_b64 = ''
-    vless_b64 = ''
-    trojan_b64 = ''
-    mrg = ''
+    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]\n"
+
+    ss_b64 = header
+    vmess_b64 = header
+    vless_b64 = header
+    trojan_b64 = header
     
     for link in network.ss:
         ss_b64 += link + '\n'
@@ -218,7 +226,15 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     for link in network.trojan:
         trojan_b64 += link + '\n'
 
-    mrg = ss_b64 + vmess_b64 + vless_b64 + trojan_b64
+    mrg = header
+    for link in network.ss:
+        mrg += link + '\n'
+    for link in network.vmess:
+        mrg += link + '\n'
+    for link in network.vless:
+        mrg += link + '\n'
+    for link in network.trojan:
+        mrg += link + '\n'
 
     with open(path.join(save_path, 'ss.txt'), 'w') as fli:
         ss_b64 = base64.b64encode(bytes(ss_b64, 'utf-8')).decode()
@@ -352,8 +368,10 @@ def get_country(network: Protocols, max_workers: int = 50):
             self.data = data
 
         def save(self, save_path: str = './hub/'):
+            header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE]"
             for _country in self.data.keys():
                 with open(path.join(save_path, f'{_country}.txt'), 'w') as fli:
+                    fli.write(f'{header}\n\n')
                     for link in self.data.get(_country):
                         fli.write(f'{link}\n\n')
 
