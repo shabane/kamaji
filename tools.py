@@ -172,33 +172,65 @@ class CheckHost(Protocols):
         print(f'Error Encounter During Test Link: {self.error_count}')
 
 
+def get_vmess_header(title: str) -> str:
+    import base64
+    import json
+    data = {
+        "v": "2",
+        "ps": title,
+        "add": "0.0.0.0",
+        "port": 1080,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "aid": 0,
+        "scy": "auto",
+        "net": "tcp",
+        "type": "none",
+        "host": "",
+        "path": "",
+        "tls": "",
+        "sni": "",
+        "alpn": ""
+    }
+    payload = base64.b64encode(json.dumps(data).encode('utf-8')).decode('utf-8')
+    return f"vmess://{payload}"
+
+def get_ss_header(title: str) -> str:
+    return f"ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkdW1teXBhc3N3b3JkQDAuMC4wLjA6MTA4MA==#{title}"
+
+def get_vless_header(title: str) -> str:
+    return f"vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#{title}"
+
+def get_trojan_header(title: str) -> str:
+    return f"trojan://dummypassword@0.0.0.0:1080?security=none&type=tcp#{title}"
+
+
 def save(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
     
-    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]"
+    title = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]"
 
     with open(path.join(save_path, 'ss.txt'), 'w') as fli:
-        fli.write(f'{header}\n')
+        fli.write(f'{get_ss_header(title)}\n')
         for link in network.ss:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'vmess.txt'), 'w') as fli:
-        fli.write(f'{header}\n')
+        fli.write(f'{get_vmess_header(title)}\n')
         for link in network.vmess:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'vless.txt'), 'w') as fli:
-        fli.write(f'{header}\n')
+        fli.write(f'{get_vless_header(title)}\n')
         for link in network.vless:
             fli.write(f'{link}\n')
         
     with open(path.join(save_path, 'trojan.txt'), 'w') as fli:
-        fli.write(f'{header}\n')
+        fli.write(f'{get_trojan_header(title)}\n')
         for link in network.trojan:
             fli.write(f'{link}\n')
 
     with open(path.join(save_path, 'merged.txt'), 'w') as fli:
-        fli.write(f'{header}\n')
+        fli.write(f'{get_vless_header(title)}\n')
         mrg = []
         mrg.extend(network.ss)
         mrg.extend(network.vmess)
@@ -211,12 +243,12 @@ def save(network: Protocols, save_path: str = None) -> bool:
 def save_b64(network: Protocols, save_path: str = None) -> bool:
     save_path = save_path if save_path is not None else './hub/'
 
-    header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]\n"
+    title = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]"
 
-    ss_b64 = header
-    vmess_b64 = header
-    vless_b64 = header
-    trojan_b64 = header
+    ss_b64 = get_ss_header(title) + '\n'
+    vmess_b64 = get_vmess_header(title) + '\n'
+    vless_b64 = get_vless_header(title) + '\n'
+    trojan_b64 = get_trojan_header(title) + '\n'
     
     for link in network.ss:
         ss_b64 += link + '\n'
@@ -230,7 +262,7 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     for link in network.trojan:
         trojan_b64 += link + '\n'
 
-    mrg = header
+    mrg = get_vless_header(title) + '\n'
     for link in network.ss:
         mrg += link + '\n'
     for link in network.vmess:
@@ -372,10 +404,10 @@ def get_country(network: Protocols, max_workers: int = 50):
             self.data = data
 
         def save(self, save_path: str = './hub/'):
-            header = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL]"
+            title = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]"
             for _country in self.data.keys():
                 with open(path.join(save_path, f'{_country}.txt'), 'w') as fli:
-                    fli.write(f'{header}\n\n')
+                    fli.write(f'{get_vless_header(title)}\n\n')
                     for link in self.data.get(_country):
                         fli.write(f'{link}\n\n')
 
@@ -914,56 +946,96 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
     new_ss = []
     for i, link in enumerate(sorted(network.ss), 1):
         channel_name = "None"
+        post_date = "Unknown"
+        scrape_date = "Unknown"
         clean_link = link
         if "|channel:" in link:
             parts = link.split("|channel:")
             clean_link = parts[0]
-            channel_name = parts[1]
+            meta_str = parts[1]
+            subparts = meta_str.split("|")
+            channel_name = subparts[0]
+            for sub in subparts[1:]:
+                if sub.startswith("post_date:"):
+                    post_date = sub.split("post_date:")[1]
+                elif sub.startswith("scrape_date:"):
+                    scrape_date = sub.split("scrape_date:")[1]
+
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][SS][{test_type}][{channel_name}]"
+        title = f"[{i}][{country}][{delay_val}][SS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
         new_ss.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__ss = set(new_ss)
 
     new_vmess = []
     for i, link in enumerate(sorted(network.vmess), 1):
         channel_name = "None"
+        post_date = "Unknown"
+        scrape_date = "Unknown"
         clean_link = link
         if "|channel:" in link:
             parts = link.split("|channel:")
             clean_link = parts[0]
-            channel_name = parts[1]
+            meta_str = parts[1]
+            subparts = meta_str.split("|")
+            channel_name = subparts[0]
+            for sub in subparts[1:]:
+                if sub.startswith("post_date:"):
+                    post_date = sub.split("post_date:")[1]
+                elif sub.startswith("scrape_date:"):
+                    scrape_date = sub.split("scrape_date:")[1]
+
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}][{channel_name}]"
+        title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
         new_vmess.append(format_vmess(clean_link, title))
     network._Protocols__vmess = set(new_vmess)
 
     new_vless = []
     for i, link in enumerate(sorted(network.vless), 1):
         channel_name = "None"
+        post_date = "Unknown"
+        scrape_date = "Unknown"
         clean_link = link
         if "|channel:" in link:
             parts = link.split("|channel:")
             clean_link = parts[0]
-            channel_name = parts[1]
+            meta_str = parts[1]
+            subparts = meta_str.split("|")
+            channel_name = subparts[0]
+            for sub in subparts[1:]:
+                if sub.startswith("post_date:"):
+                    post_date = sub.split("post_date:")[1]
+                elif sub.startswith("scrape_date:"):
+                    scrape_date = sub.split("scrape_date:")[1]
+
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}][{channel_name}]"
+        title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
         new_vless.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__vless = set(new_vless)
 
     new_trojan = []
     for i, link in enumerate(sorted(network.trojan), 1):
         channel_name = "None"
+        post_date = "Unknown"
+        scrape_date = "Unknown"
         clean_link = link
         if "|channel:" in link:
             parts = link.split("|channel:")
             clean_link = parts[0]
-            channel_name = parts[1]
+            meta_str = parts[1]
+            subparts = meta_str.split("|")
+            channel_name = subparts[0]
+            for sub in subparts[1:]:
+                if sub.startswith("post_date:"):
+                    post_date = sub.split("post_date:")[1]
+                elif sub.startswith("scrape_date:"):
+                    scrape_date = sub.split("scrape_date:")[1]
+
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
-        title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}][{channel_name}]"
+        title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
         new_trojan.append(format_ss_vless_trojan(clean_link, title))
     network._Protocols__trojan = set(new_trojan)
 

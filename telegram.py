@@ -37,10 +37,37 @@ class Telegram(Protocols):
                 print(f"Failed to retrieve page {page_num} for {channel}")
                 break
 
-            ss_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            vless_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            vmess_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
-            trojan_links = [f'{i[0]}{i[1]}|channel:{channel}' for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+            import datetime
+            scrape_date = datetime.datetime.now().strftime("%Y-%m-%d")
+            
+            ss_links = []
+            vless_links = []
+            vmess_links = []
+            trojan_links = []
+            
+            parts = page.text.split('class="tgme_widget_message_bubble">')
+            if len(parts) > 1:
+                for part in parts[1:]:
+                    date_match = re.search(r'datetime="([^T"]+)', part)
+                    post_date = date_match.group(1) if date_match else "Unknown"
+                    
+                    ss_links.extend([f'{i[0]}{i[1]}|channel:{channel}|post_date:{post_date}|scrape_date:{scrape_date}' 
+                                     for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", part)])
+                    vless_links.extend([f'{i[0]}{i[1]}|channel:{channel}|post_date:{post_date}|scrape_date:{scrape_date}' 
+                                        for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", part)])
+                    vmess_links.extend([f'{i[0]}{i[1]}|channel:{channel}|post_date:{post_date}|scrape_date:{scrape_date}' 
+                                        for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", part)])
+                    trojan_links.extend([f'{i[0]}{i[1]}|channel:{channel}|post_date:{post_date}|scrape_date:{scrape_date}' 
+                                         for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", part)])
+            else:
+                ss_links = [f'{i[0]}{i[1]}|channel:{channel}|post_date:Unknown|scrape_date:{scrape_date}' 
+                            for i in re.findall(r"(ss://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+                vless_links = [f'{i[0]}{i[1]}|channel:{channel}|post_date:Unknown|scrape_date:{scrape_date}' 
+                               for i in re.findall(r"(vless://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+                vmess_links = [f'{i[0]}{i[1]}|channel:{channel}|post_date:Unknown|scrape_date:{scrape_date}' 
+                               for i in re.findall(r"(vmess://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
+                trojan_links = [f'{i[0]}{i[1]}|channel:{channel}|post_date:Unknown|scrape_date:{scrape_date}' 
+                                for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
 
             with self.lock:
                 self.ss = ss_links
