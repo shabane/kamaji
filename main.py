@@ -15,7 +15,7 @@ if __name__ == '__main__':
     cmd.add_argument("--print", help="get all configs and prints to stdout[no save!]", action="store_true")
     cmd.add_argument("--country", help="distinguish configs by countries IP", action="store_true")
     cmd.add_argument("--self-check", help="check all config connections locally using xray prober (delay test)", action="store_true")
-    cmd.add_argument("--max-page", help="maximum pages to scrape per channel", type=int, default=100)
+    cmd.add_argument("--max-page", help="maximum pages to scrape per channel", type=int, default=5)
     flags = cmd.parse_args()
 
     network01 = Telegram(channels=config.channels, max_pages=flags.max_page)

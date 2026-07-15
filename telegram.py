@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 
 class Telegram(Protocols):
-    def __init__(self, channels: list, max_pages: int = 100, max_workers: int = 20) -> None:
+    def __init__(self, channels: list, max_pages: int = 5, max_workers: int = 20) -> None:
         Protocols.__init__(self)
         self.channels = channels
         self.max_pages = max_pages
