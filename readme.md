@@ -115,30 +115,94 @@ Select the protocol that best suits your needs. These repositories are automatic
 
 ---
 
-## ⚙️ Technical Details & Features
+## 📖 How to Use the Configurations
 
-Kamaji uses a high-performance, multithreaded architecture designed to crawl, parse, and verify massive volumes of VPN configurations at scale:
+### 1. Importing to VPN Clients
+You can import Kamaji subscription links into any compatible VPN client:
+* **Android**: [v2rayNG](https://github.com/2dust/v2rayNG), [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid), [Sing-box](https://github.com/SagerNet/sing-box)
+* **Windows / macOS / Linux**: [NekoRay](https://github.com/MatsuriDayo/nekoray), [v2rayN](https://github.com/2dust/v2rayN), [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev)
+* **iOS / macOS**: [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118), [Streisand](https://github.com/StreisandEffect/streisand)
 
-### 🚀 Key Features
+#### 🔗 Standard vs. Base64 Subscriptions
+* **Standard Subscription (Plain Text)**: A raw list of configuration URLs separated by newlines. Great for web browsers, simple import tools, or custom scripts.
+* **Encrypted Subscription (Base64)**: The list is base64-encoded. Many VPN apps (like v2rayNG) require this format to fetch and parse configs cleanly.
 
-*   **Multithreaded Telegram Scraper**: Employs `ThreadPoolExecutor` with concurrent worker threads (configurable via `--max-thread`, default 50) to scan 290+ Telegram channels in parallel.
-*   **Deep Web Pagination**: Crawls recursively backwards (up to `--max-page` pages per channel, default 5) using official Telegram web mirrors (`telegram.dog`), retrieving older valid configurations that standard latest-post scrapers miss.
-*   **Real Proxy Connection Probing**: Bundles the official `xray` binary (Xray-core) to test config connections. It dynamically converts SS, VMess, VLESS, and Trojan share links into valid Xray JSON configurations, runs them as local proxy subprocesses, and measures **real round-trip latency (delay)** through a connection check to Cloudflare (`cp.cloudflare.com/generate_204`).
-*   **Multithreaded Checker**: Runs delay and port checks concurrently using worker threads (configurable via `--max-thread`, default 50), cutting verification time down from hours to a few minutes. Includes a socket-based TCP handshake fallback if the local `xray` binary is missing.
-*   **Cached Geolocation Classifier**: Geolocates configuration IP addresses into countries concurrently (configurable via `--max-thread`, default 50). Incorporates a thread-safe cache (`ip_cache`) that reduces requests to `ipinfo.io` by querying only unique IPs, avoiding API rate-limiting blocks and finishing classification in seconds.
-*   **Daily Automations**: Configured via GitHub Actions (.github/workflows/crawler.yaml) to run **daily** at 00:00 UTC, with support for manual manual execution (`workflow_dispatch`).
+### 📊 Understanding the Server Remarks
+Each configuration remark is standardized with columns for metadata, allowing you to instantly assess server quality within your app:
 
-### 🎛️ CLI Arguments
+1. **Header Reference Server**: The very first config in the list is a valid dummy config pointing to `0.0.0.0`. It does not connect, but serves as a table header showing column names:
+   `[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]`
+2. **Server Metadata Tag**: All working configs have a comment matching this template, for example:
+   `[23][DE][185][VLESS][GH Action][ARv2ray][2026-07-14][2026-07-15 12:39]`
+   * **`ID`**: Sequential sequence number category-wise.
+   * **`COUNTRY`**: Geolocation country code (e.g. `DE`, `IR`, `UnResolvedDomains`).
+   * **`REAL DELAY`**: Round-trip connection latency in milliseconds (or `0` if untested).
+   * **`TYPE`**: Connection protocol (`SS`, `VMESS`, `VLESS`, `TROJAN`).
+   * **`TEST TYPE`**: `GH Action` (tested via xray runner), `API` (tested via external check host), or `None` (untested).
+   * **`CHANNEL`**: The Telegram channel from which the configuration was scraped.
+   * **`POST DATE`**: The date when the configuration was published on Telegram.
+   * **`SCRAPE DATE`**: The date and time when Kamaji aggregated the configuration.
 
-You can configure Kamaji dynamically using the following flags:
+---
 
-*   `--self-check`: Check all configs locally using the bundled Xray prober (measuring real connection delay).
-*   `--check`: Validate configurations using the external check API.
-*   `--save`: Save retrieved configurations to files (default action).
-*   `--print`: Outputs results directly to standard output.
-*   `--country`: Sorts and outputs configurations grouped by country code.
-*   `--max-page <int>`: Set the maximum pagination depth (default: `5` pages) to scrape per Telegram channel.
-*   `--max-thread <int>`: Set the maximum concurrent threads (default: `50` threads) to allocate for scraping, Xray checks, and country geolocations.
+## 🛠️ Advanced Usage & CLI Flags
+
+For advanced users, developers, and server administrators, Kamaji can be run directly from the command line to custom-scrape or test configurations.
+
+### 📋 Prerequisites
+1. Install Python 3:
+   ```bash
+   sudo apt update && sudo apt install python3 python3-pip -y
+   ```
+2. Install python dependencies:
+   ```bash
+   pip install requests
+   ```
+3. *(Optional)* Download the Xray binary to the project directory if you want to use `--self-check` to measure connection delays locally:
+   ```bash
+   # Download the latest Xray release matching your architecture and place the "xray" executable in the root of this project.
+   chmod +x xray
+   ```
+
+### 🎛️ CLI Argument Options
+Execute the aggregator using `python3 main.py` with custom flags:
+
+| Flag | Description | Default |
+| :--- | :--- | :--- |
+| `--save` | Write crawled configurations to the `./hub/` directory. | `True` |
+| `--self-check` | Check configs locally by launching subprocess Xray instances and measuring Cloudflare handshake latency. | `False` |
+| `--check` | Validate configurations using an external Check-Host API endpoint. | `False` |
+| `--country` | Group and sort generated configuration files by country code (e.g. `hub/DE.txt`, `hub/US.txt`). | `False` |
+| `--max-page <int>` | Maximum pagination depth to crawl recursively backwards per Telegram channel. | `5` |
+| `--max-thread <int>` | Maximum concurrent threads to allocate for parallel scraping, Xray probing, and geolocation caches. | `50` |
+| `--print` | Output the gathered configuration list directly to stdout (console) instead of writing files. | `False` |
+
+### 💡 Example Commands
+
+* **Quick scrape with default settings (No testing)**:
+  ```bash
+  python3 main.py --save
+  ```
+
+* **Perform deep crawl (10 pages) and run local Xray latency tests with 60 parallel threads**:
+  ```bash
+  python3 main.py --save --self-check --max-page 10 --max-thread 60
+  ```
+
+* **Crawl, run local connection tests, and categorize working servers by country files**:
+  ```bash
+  python3 main.py --save --self-check --country
+  ```
+
+* **Check using external Check-Host API**:
+  ```bash
+  python3 main.py --save --check
+  ```
+
+* **Print untested raw configurations to standard output**:
+  ```bash
+  python3 main.py --print
+  ```
 
 For the external test API backend used in `--check`, the source code is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
 
