@@ -250,7 +250,7 @@ def resolve_domain_to_ip(domain: str):
     return None
 
 
-def get_country(network: Protocols):
+def get_country(network: Protocols, max_workers: int = 50):
     import threading
     countries = {}
     ip_cache = {}
@@ -299,7 +299,7 @@ def get_country(network: Protocols):
 
     from concurrent.futures import ThreadPoolExecutor
 
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = []
         if network.ss:
             for conf_link in network.ss:
@@ -338,10 +338,11 @@ def get_country(network: Protocols):
 
 
 class CheckSelf(Protocols):
-    def __init__(self, network: Protocols):
+    def __init__(self, network: Protocols, max_workers: int = 50):
         Protocols.__init__(self)
         self.error_count = 0
         self.network = network
+        self.max_workers = max_workers
         self._check_links()
 
     @staticmethod
@@ -748,7 +749,7 @@ class CheckSelf(Protocols):
 
         from concurrent.futures import ThreadPoolExecutor
         
-        with ThreadPoolExecutor(max_workers=50) as executor:
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = []
             for link in self.network.vless:
                 futures.append(executor.submit(self._check_link, "vless", link, use_xray))

@@ -16,9 +16,10 @@ if __name__ == '__main__':
     cmd.add_argument("--country", help="distinguish configs by countries IP", action="store_true")
     cmd.add_argument("--self-check", help="check all config connections locally using xray prober (delay test)", action="store_true")
     cmd.add_argument("--max-page", help="maximum pages to scrape per channel", type=int, default=5)
+    cmd.add_argument("--max-thread", help="maximum concurrent threads to use", type=int, default=50)
     flags = cmd.parse_args()
 
-    network01 = Telegram(channels=config.channels, max_pages=flags.max_page)
+    network01 = Telegram(channels=config.channels, max_pages=flags.max_page, max_workers=flags.max_thread)
     print(f'# shadow socks: {len(network01.ss)}')
     print(f'# vmess: {len(network01.vmess)}')
     print(f'# vless: {len(network01.vless)}')
@@ -42,7 +43,7 @@ if __name__ == '__main__':
             print(trj_link)
 
     if flags.country:
-        country = tools.get_country(network01)
+        country = tools.get_country(network01, max_workers=flags.max_thread)
         print(f'# Found {country.count()} Countries.')
         print(f'# {country.print()}')
         country.save() if flags.save else ...
@@ -72,13 +73,13 @@ if __name__ == '__main__':
                 print(trj_link)
 
         if flags.country:
-            ch_country = tools.get_country(ch_network01)
+            ch_country = tools.get_country(ch_network01, max_workers=flags.max_thread)
             print(f'# Found & Check {ch_country.count()} Countries.')
             print(f'# {ch_country.print()}')
             ch_country.save('./hub/tested/') if flags.save else ...
 
     if flags.self_check:
-        sch_network01 = CheckSelf(network01)
+        sch_network01 = CheckSelf(network01, max_workers=flags.max_thread)
         print(f'# shadow socks: {len(sch_network01.ss)}')
         print(f'# vmess: {len(sch_network01.vmess)}')
         print(f'# vless: {len(sch_network01.vless)}')
@@ -102,7 +103,7 @@ if __name__ == '__main__':
                 print(trj_link)
 
         if flags.country:
-            sch_country = tools.get_country(sch_network01)
+            sch_country = tools.get_country(sch_network01, max_workers=flags.max_thread)
             print(f'# Found & Check {sch_country.count()} Countries.')
             print(f'# {sch_country.print()}')
             sch_country.save('./hub/self/tested/') if flags.save else ...
