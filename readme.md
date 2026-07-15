@@ -121,12 +121,24 @@ Kamaji uses a high-performance, multithreaded architecture designed to crawl, pa
 
 ### 🚀 Key Features
 
-*   **Multithreaded Telegram Scraper**: Employs `ThreadPoolExecutor` with **20 concurrent worker threads** to scan 290+ Telegram channels in parallel.
-*   **Deep Web Pagination**: Crawls recursively backwards (up to 5 pages per channel) using official Telegram web mirrors (`telegram.dog`), retrieving older valid configurations that standard latest-post scrapers miss.
+*   **Multithreaded Telegram Scraper**: Employs `ThreadPoolExecutor` with concurrent worker threads (configurable via `--max-thread`, default 50) to scan 290+ Telegram channels in parallel.
+*   **Deep Web Pagination**: Crawls recursively backwards (up to `--max-page` pages per channel, default 5) using official Telegram web mirrors (`telegram.dog`), retrieving older valid configurations that standard latest-post scrapers miss.
 *   **Real Proxy Connection Probing**: Bundles the official `xray` binary (Xray-core) to test config connections. It dynamically converts SS, VMess, VLESS, and Trojan share links into valid Xray JSON configurations, runs them as local proxy subprocesses, and measures **real round-trip latency (delay)** through a connection check to Cloudflare (`cp.cloudflare.com/generate_204`).
-*   **Multithreaded Checker (50 threads)**: Runs delay and port checks concurrently using 50 worker threads, cutting verification time down from hours to a few minutes. Includes a socket-based TCP handshake fallback if the local `xray` binary is missing.
-*   **Cached Geolocation Classifier**: Geolocates configuration IP addresses into countries concurrently (50 threads). Incorporates a thread-safe cache (`ip_cache`) that reduces requests to `ipinfo.io` by querying only unique IPs, avoiding API rate-limiting blocks and finishing classification in seconds.
+*   **Multithreaded Checker**: Runs delay and port checks concurrently using worker threads (configurable via `--max-thread`, default 50), cutting verification time down from hours to a few minutes. Includes a socket-based TCP handshake fallback if the local `xray` binary is missing.
+*   **Cached Geolocation Classifier**: Geolocates configuration IP addresses into countries concurrently (configurable via `--max-thread`, default 50). Incorporates a thread-safe cache (`ip_cache`) that reduces requests to `ipinfo.io` by querying only unique IPs, avoiding API rate-limiting blocks and finishing classification in seconds.
 *   **Daily Automations**: Configured via GitHub Actions (.github/workflows/crawler.yaml) to run **daily** at 00:00 UTC, with support for manual manual execution (`workflow_dispatch`).
+
+### 🎛️ CLI Arguments
+
+You can configure Kamaji dynamically using the following flags:
+
+*   `--self-check`: Check all configs locally using the bundled Xray prober (measuring real connection delay).
+*   `--check`: Validate configurations using the external check API.
+*   `--save`: Save retrieved configurations to files (default action).
+*   `--print`: Outputs results directly to standard output.
+*   `--country`: Sorts and outputs configurations grouped by country code.
+*   `--max-page <int>`: Set the maximum pagination depth (default: `5` pages) to scrape per Telegram channel.
+*   `--max-thread <int>`: Set the maximum concurrent threads (default: `50` threads) to allocate for scraping, Xray checks, and country geolocations.
 
 For the external test API backend used in `--check`, the source code is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
 
