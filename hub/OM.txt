@@ -1,4 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFSlFmRkZMMnJtMXNHMDVmUlIxN0ZN@154.205.147.68:8443#[4896][OM][0][SS][None][CUSTOMVPNSERVER][2025-07-16][2026-07-16 02:04]
+ss://0c0f6c6f-d035-4cd1-97b9-fff39287ce04@143.204.111.65:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=d1bezfxa40zhk8.cloudfront.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=d1bezfxa40zhk8.cloudfront.net#[589][OM][0][SS][None][FalconPolV2rayNG][2026-03-10][2026-07-23 02:11]
+
+ss://0c0f6c6f-d035-4cd1-97b9-fff39287ce04@143.204.111.65:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=d1bezfxa40zhk8.cloudfront.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=d1bezfxa40zhk8.cloudfront.net#[590][OM][0][SS][None][FalconPolV2rayNG][2026-03-10][2026-07-23 02:12]
+
+vless://0c0f6c6f-d035-4cd1-97b9-fff39287ce04@143.204.111.65:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=d1bezfxa40zhk8.cloudfront.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=d1bezfxa40zhk8.cloudfront.net#[587][OM][0][VLESS][None][FalconPolV2rayNG][2026-03-10][2026-07-23 02:11]
+
+vless://0c0f6c6f-d035-4cd1-97b9-fff39287ce04@143.204.111.65:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=d1bezfxa40zhk8.cloudfront.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=d1bezfxa40zhk8.cloudfront.net#[588][OM][0][VLESS][None][FalconPolV2rayNG][2026-03-10][2026-07-23 02:12]
 
