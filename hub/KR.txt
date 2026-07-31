@@ -1,18 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[6557][KR][0][SS][None][Hope_Net][2026-07-29][2026-07-30 01:53]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3365][KR][0][SS][None][nofiltering2][2026-07-16][2026-07-31 02:12]
 
-ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[4093][KR][0][SS][None][nofiltering2][2026-07-16][2026-07-30 01:53]
+ss://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuS4jeWumuacn+aKveWllmh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogInY0LmNmbm9kZS5ldS5vcmciLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICI0OTI5ZjBjYS0yNzkzLTRhYTMtYjJkMC03NDQ1NDQ3MDk3ZjYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm9paWN0dy55eWRzaWkuY29tIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuWFjei0ueair+WtkGh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogIm1tanAxMS5taWNsb3VkLmJ1enoiLA0KICAicG9ydCI6ICI0NjAxMSIsDQogICJpZCI6ICJmOWIwMmQ4Yy1iNjliLTQzNWYtYWEyNS02ODM5M2U1ZmIxMjEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi96aC1jbiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[8769][KR][0][SS][None][mftizi][2024-08-02][2026-07-31 02:12]
 
-ss://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[6558][KR][0][SS][None][ConfigsHUB][2026-07-30][2026-07-30 01:53]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3364][KR][0][SS][None][oneclickvpnkeys][2026-07-30][2026-07-31 02:12]
 
-ss://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[6559][KR][0][SS][None][ConfigsHUB][2026-07-30][2026-07-30 01:54]
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3367][KR][0][VLESS][None][nofiltering2][2026-07-16][2026-07-31 02:12]
 
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[5672][KR][0][VLESS][None][Hope_Net][2026-07-29][2026-07-30 01:53]
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3366][KR][0][VLESS][None][oneclickvpnkeys][2026-07-30][2026-07-31 02:12]
 
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[5674][KR][0][VLESS][None][ConfigsHUB][2026-07-30][2026-07-30 01:54]
-
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[4102][KR][0][VLESS][None][nofiltering2][2026-07-16][2026-07-30 01:53]
-
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@144.24.83.39:443?path=%2Fblue&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=hki.ylks.xyz#[5673][KR][0][VLESS][None][ConfigsHUB][2026-07-30][2026-07-30 01:53]
+trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[145][KR][0][TROJAN][None][mftizi][2024-08-02][2026-07-31 02:12]
 
