@@ -1,18 +1,32 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://d7dd3a35b68b4992b319a85b8a1fc8e5@34.97.168.202:56241?security=tls&amp;sni=dns68.putata.eu.org&amp;type=ws&amp;host=dns68.putata.eu.org&amp;path=%2F%3Fed%3D2048#[8603][JP][0][SS][None][Hope_Net][2026-07-31][2026-08-01 02:14]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLZ2hmYk0zbkJRQStPdUQ3@108.61.162.23:1666#[5185][JP][0][SS][None][mftizi][2024-08-14][2026-08-02 02:11]
 
-ss://11c3627f-31e8-4695-dfbd-34076e2f1f5d@168.138.43.75:80?encryption=auto&amp;host=jp01.a0a.xyz&amp;path=%2Fcctv13.m3u8&amp;security=none&amp;type=ws#[699][JP][0][SS][None][oneclickvpnkeys][2026-07-29][2026-08-01 02:14]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3722][JP][0][SS][None][nofiltering2][2026-07-16][2026-08-02 02:11]
 
-ss://1610f8dc-0661-4032-ac6a-a7250603f608@161.33.139.138:58905?encryption=auto&amp;path=%2F1610f8dc-0661-4032-ac6a-a7250603f608-vm&amp;security=none&amp;type=ws#[1038][JP][0][SS][None][oneclickvpnkeys][2026-07-29][2026-08-01 02:14]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3723][JP][0][SS][None][oneclickvpnkeys][2026-07-29][2026-08-02 02:11]
 
-ss://d7dd3a35b68b4992b319a85b8a1fc8e5@34.97.168.202:56241?security=tls&amp;sni=dns68.putata.eu.org&amp;type=ws&amp;host=dns68.putata.eu.org&amp;path=%2F%3Fed%3D2048#[8602][JP][0][SS][None][Hope_Net][2026-07-31][2026-08-01 02:13]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3720][JP][0][SS][None][oneclickvpnkeys][2026-07-31][2026-08-02 02:11]
 
-ss://431fe973-a43a-4fac-bf83-2a772e0d0625@14.137.238.17:10000?encryption=none&amp;security=none&amp;type=tcp#[2282][JP][0][SS][None][oneclickvpnkeys][2026-07-26][2026-08-01 02:14]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3721][JP][0][SS][None][oneclickvpnkeys][2026-07-30][2026-08-02 02:11]
 
-vless://d7dd3a35b68b4992b319a85b8a1fc8e5@34.97.168.202:56241?security=tls&amp;sni=dns68.putata.eu.org&amp;type=ws&amp;host=dns68.putata.eu.org&amp;path=%2F%3Fed%3D2048#[7720][JP][0][VLESS][None][Hope_Net][2026-07-31][2026-08-01 02:14]
+ss://e0306a33-9971-4b75-a5e0-a176a5a48a2e@15.168.173.144:443?security=reality&amp;allowInsecure=0&amp;encryption=none&amp;type=tcp&amp;sni=swdist.apple.com&amp;sid=232c6f7b520b89&amp;fp=ios&amp;pbk=vP8gpoNVFYROBMtlCswj3S7q6ypRdE9VMGdg5KPKFG0&amp;spx=/WrlEujUojrpP7Bk&amp;headerType=none#[7658][JP][0][SS][None][free4allVPN][2025-12-09][2026-08-02 02:11]
 
-vless://431fe973-a43a-4fac-bf83-2a772e0d0625@14.137.238.17:10000?encryption=none&amp;security=none&amp;type=tcp#[2286][JP][0][VLESS][None][oneclickvpnkeys][2026-07-26][2026-08-01 02:14]
+ss://eyJhZGQiOiIxMDMuMjE0LjY4LjU3IiwidiI6MiwicHMiOiLwn4ew8J+Hty5LUi7pn6nlm70uNSIsInBvcnQiOiIxMDAwMSIsImlkIjoiZWJjYTVmNjgtYmY1OS00MDgxLWU2NTgtZjE1ODgzOWMyZjVjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoidGxzIn0=<br/>trojan://6x8HcghsjS@103.214.68.57:10003?sni=yes998.chickenkiller.com#[9638][JP][0][SS][None][yaney_01][2024-01-18][2026-08-02 02:11]
 
-vless://d7dd3a35b68b4992b319a85b8a1fc8e5@34.97.168.202:56241?security=tls&amp;sni=dns68.putata.eu.org&amp;type=ws&amp;host=dns68.putata.eu.org&amp;path=%2F%3Fed%3D2048#[7719][JP][0][VLESS][None][Hope_Net][2026-07-31][2026-08-01 02:13]
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#[5646][JP][0][SS][None][V2rayCollector][2026-07-31][2026-08-02 02:11]
+
+vmess://eyJhZGQiOiAiMTAzLjIxNC42OC41NyIsICJ2IjogMiwgInBzIjogIlsxNTJdW0pQXVswXVtWTUVTU11bTm9uZV1beWFuZXlfMDFdWzIwMjQtMDEtMThdWzIwMjYtMDgtMDIgMDI6MTFdIiwgInBvcnQiOiAiMTAwMDEiLCAiaWQiOiAiZWJjYTVmNjgtYmY1OS00MDgxLWU2NTgtZjE1ODgzOWMyZjVjIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICIiLCAidGxzIjogInRscyJ9
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3744][JP][0][VLESS][None][oneclickvpnkeys][2026-07-29][2026-08-02 02:11]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3741][JP][0][VLESS][None][oneclickvpnkeys][2026-07-31][2026-08-02 02:11]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3743][JP][0][VLESS][None][nofiltering2][2026-07-16][2026-08-02 02:11]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3742][JP][0][VLESS][None][oneclickvpnkeys][2026-07-30][2026-08-02 02:11]
+
+vless://e0306a33-9971-4b75-a5e0-a176a5a48a2e@15.168.173.144:443?security=reality&amp;allowInsecure=0&amp;encryption=none&amp;type=tcp&amp;sni=swdist.apple.com&amp;sid=232c6f7b520b89&amp;fp=ios&amp;pbk=vP8gpoNVFYROBMtlCswj3S7q6ypRdE9VMGdg5KPKFG0&amp;spx=/WrlEujUojrpP7Bk&amp;headerType=none#[6920][JP][0][VLESS][None][free4allVPN][2025-12-09][2026-08-02 02:11]
+
+trojan://6x8HcghsjS@103.214.68.57:10003?sni=yes998.chickenkiller.com#[176][JP][0][TROJAN][None][yaney_01][2024-01-18][2026-08-02 02:11]
 
