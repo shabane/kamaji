@@ -1,14 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[3572][BZ][0][SS][None][Outline_Vpn][2026-05-24][2026-08-05 01:57]
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[2809][BZ][0][SS][None][Outline_Vpn][2026-05-24][2026-08-06 02:02]
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[3573][BZ][0][SS][None][Outline_Vpn][2026-05-24][2026-08-05 01:58]
-
-ss://6585a62b-4d8b-48cc-bdad-e2542504d748@45.131.4.173:8443?mode=auto&amp;path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=Itsrezu2.dr-ping.com&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=Itsrezu2.dr-ping.com#[3648][BZ][0][SS][None][prrofile_purple][2026-06-09][2026-08-05 01:58]
-
-vless://6585a62b-4d8b-48cc-bdad-e2542504d748@45.131.4.173:8443?mode=auto&amp;path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=Itsrezu2.dr-ping.com&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=Itsrezu2.dr-ping.com#[3655][BZ][0][VLESS][None][prrofile_purple][2026-06-09][2026-08-05 01:58]
-
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[3581][BZ][0][VLESS][None][Outline_Vpn][2026-05-24][2026-08-05 01:58]
-
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[3580][BZ][0][VLESS][None][Outline_Vpn][2026-05-24][2026-08-05 01:57]
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[2809][BZ][0][VLESS][None][Outline_Vpn][2026-05-24][2026-08-06 02:02]
 
