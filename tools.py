@@ -41,11 +41,53 @@ class CheckHost(Protocols):
             return False
 
     @staticmethod
+    def resolve_domain_to_ip(domain: str) -> str:
+        if not domain:
+            return None
+        # Check if already IP
+        try:
+            socket.inet_aton(domain)
+            return domain
+        except socket.error:
+            pass
+        try:
+            return socket.gethostbyname(domain)
+        except Exception:
+            return None
+
+    @staticmethod
+    def resolve_host_fallback(primary_host: str, sni: str = None, host_header: str = None) -> tuple:
+        """
+        Tries primary_host, sni, and host_header in order.
+        Returns (working_host, resolved_ip) where working_host is the candidate that resolved,
+        or (primary_host, None) if none resolved.
+        """
+        candidates = []
+        if primary_host and primary_host not in ["127.0.0.1", "0.0.0.0", "localhost"]:
+            candidates.append(primary_host)
+        if sni and sni not in candidates and sni not in ["127.0.0.1", "0.0.0.0", "localhost"]:
+            candidates.append(sni)
+        if host_header and host_header not in candidates and host_header not in ["127.0.0.1", "0.0.0.0", "localhost"]:
+            candidates.append(host_header)
+
+        for candidate in candidates:
+            ip = CheckHost.resolve_domain_to_ip(candidate)
+            if ip:
+                return (candidate, ip)
+        
+        return (primary_host, None)
+
+    @staticmethod
     def get_host_port(link: str) -> tuple:
         if not link:
             return (None, None)
+        
+        primary_host = None
+        port = 443
+        sni = None
+        host_header = None
+
         if link.startswith('vmess://'):
-            # VMess might be base64 JSON
             payload = link[8:]
             if CheckHost._is_b64(payload):
                 try:
@@ -54,11 +96,13 @@ class CheckHost(Protocols):
                         payload += '=' * (4 - missing_padding)
                     decoded = base64.b64decode(payload).decode('utf-8')
                     link_json = json.loads(decoded)
-                    return (link_json.get('add'), link_json.get('port'))
+                    primary_host = link_json.get('add')
+                    port = int(link_json.get('port', 443))
+                    sni = link_json.get('sni')
+                    host_header = link_json.get('host')
                 except Exception:
                     pass
         elif link.startswith('ss://'):
-            # Shadowsocks
             try:
                 payload = link[5:]
                 if '#' in payload:
@@ -83,19 +127,30 @@ class CheckHost(Protocols):
                 else:
                     host_port = payload
                 if ':' in host_port:
-                    host, port = host_port.split(':')
-                    return (host, int(port))
+                    primary_host, port_str = host_port.split(':')
+                    port = int(port_str)
                 else:
-                    return (host_port, 8388)
+                    primary_host = host_port
+                    port = 8388
+            except Exception:
+                return (None, None)
+        else:
+            # Vless / Trojan / Generic
+            try:
+                parsed = urlparse(link)
+                primary_host = parsed.hostname
+                port = parsed.port or 443
+                query_params = urllib.parse.parse_qs(parsed.query)
+                sni = query_params.get('sni', [None])[0]
+                host_header = query_params.get('host', [None])[0]
             except Exception:
                 return (None, None)
 
-        # General URL parsing (for Vless, Trojan, and standard VMess/SS)
-        try:
-            parsed = urlparse(link)
-            return (parsed.hostname, parsed.port or 443)
-        except Exception:
+        if not primary_host:
             return (None, None)
+
+        working_host, resolved_ip = CheckHost.resolve_host_fallback(primary_host, sni, host_header)
+        return (resolved_ip if resolved_ip else working_host, port)
 
     @staticmethod
     def _vmess_get_host_port(link: str) -> tuple:
@@ -516,8 +571,12 @@ class CheckSelf(Protocols):
         
         query_params = parse_qs(parsed.query)
         sni = query_params.get('sni', [host])[0]
+        host_header = query_params.get('host', [sni])[0]
         network = query_params.get('type', ['tcp'])[0]
         path = query_params.get('path', [''])[0]
+
+        working_host, resolved_ip = CheckHost.resolve_host_fallback(host, sni, host_header)
+        target_address = resolved_ip if resolved_ip else working_host
         
         stream_settings = {
             "network": network,
@@ -531,7 +590,7 @@ class CheckSelf(Protocols):
             stream_settings["wsSettings"] = {
                 "path": path,
                 "headers": {
-                    "Host": sni
+                    "Host": host_header
                 }
             }
         elif network == "grpc":
@@ -545,7 +604,7 @@ class CheckSelf(Protocols):
             "settings": {
                 "servers": [
                     {
-                        "address": host,
+                        "address": target_address,
                         "port": port,
                         "password": password
                     }
@@ -574,6 +633,9 @@ class CheckSelf(Protocols):
         host_header = data.get('host', '')
         tls = data.get('tls', '')
         sni = data.get('sni', host_header if host_header else host)
+
+        working_host, resolved_ip = CheckHost.resolve_host_fallback(host, sni, host_header)
+        target_address = resolved_ip if resolved_ip else working_host
         
         stream_settings = {
             "network": network
@@ -602,7 +664,7 @@ class CheckSelf(Protocols):
             "settings": {
                 "vnext": [
                     {
-                        "address": host,
+                        "address": target_address,
                         "port": port,
                         "users": [
                             {
@@ -628,9 +690,13 @@ class CheckSelf(Protocols):
         query_params = parse_qs(parsed.query)
         security = query_params.get('security', ['none'])[0]
         sni = query_params.get('sni', [host])[0]
+        host_header = query_params.get('host', [sni])[0]
         network = query_params.get('type', ['tcp'])[0]
         path = query_params.get('path', [''])[0]
         flow = query_params.get('flow', [''])[0]
+
+        working_host, resolved_ip = CheckHost.resolve_host_fallback(host, sni, host_header)
+        target_address = resolved_ip if resolved_ip else working_host
         
         stream_settings = {
             "network": network
@@ -653,7 +719,6 @@ class CheckSelf(Protocols):
             }
             
         if network == "ws":
-            host_header = query_params.get('host', [sni])[0]
             stream_settings["wsSettings"] = {
                 "path": path,
                 "headers": {
@@ -678,14 +743,17 @@ class CheckSelf(Protocols):
             "settings": {
                 "vnext": [
                     {
-                        "address": host,
+                        "address": target_address,
                         "port": port,
-                        "users": [user_obj]
+                        "users": [
+                            user_obj
+                        ]
                     }
                 ]
             },
             "streamSettings": stream_settings
         }
+
 
     @staticmethod
     def link_to_xray_config(link: str, local_port: int) -> dict:
