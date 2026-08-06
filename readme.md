@@ -179,9 +179,19 @@ Execute the aggregator using `python3 main.py` with custom flags:
 
 ### 💡 Example Commands
 
-* **Quick scrape with default settings (No testing)**:
+* **Quick scrape from both Telegram & External Web Subscriptions (default)**:
   ```bash
   python3 main.py --save
+  ```
+
+* **Scrape ONLY Telegram channels**:
+  ```bash
+  python3 main.py --save --only-telegram
+  ```
+
+* **Scrape ONLY external web subscription links (`urls.lst`)**:
+  ```bash
+  python3 main.py --save --only-web
   ```
 
 * **Perform deep crawl (10 pages) and run local Xray latency tests with 60 parallel threads**:
@@ -205,6 +215,7 @@ Execute the aggregator using `python3 main.py` with custom flags:
   ```
 
 For the external test API backend used in `--check`, the source code is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
+
 
 ---
 

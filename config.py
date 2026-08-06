@@ -63,4 +63,11 @@ class Protocols:
 
 channels = open('channels.lst', 'r')
 channels = [i.strip() for i in channels.readlines() if i != '\n']
+
+if path.exists('urls.lst'):
+    urls = open('urls.lst', 'r')
+    urls = [i.strip() for i in urls.readlines() if i.strip() and not i.startswith('#')]
+else:
+    urls = []
+
 check_node = 'https://reverent-khayyam-zlyspjbuw.liara.run/api/tcp/'

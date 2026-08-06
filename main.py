@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import config
 from telegram import Telegram
+from subscription import SubscriptionFetcher
 from tools import CheckHost, CheckSelf
 import tools
 import argparse
@@ -15,11 +16,39 @@ if __name__ == '__main__':
     cmd.add_argument("--print", help="get all configs and prints to stdout[no save!]", action="store_true")
     cmd.add_argument("--country", help="distinguish configs by countries IP", action="store_true")
     cmd.add_argument("--self-check", help="check all config connections locally using xray prober (delay test)", action="store_true")
+    cmd.add_argument("--only-telegram", help="scrape only telegram channels", action="store_true")
+    cmd.add_argument("--only-web", help="scrape only external subscription web URLs", action="store_true")
     cmd.add_argument("--max-page", help="maximum pages to scrape per channel", type=int, default=5)
     cmd.add_argument("--max-thread", help="maximum concurrent threads to use", type=int, default=50)
     flags = cmd.parse_args()
 
-    network01 = Telegram(channels=config.channels, max_pages=flags.max_page, max_workers=flags.max_thread)
+    # Determine sources to scrape based on flags
+    scrape_telegram = True
+    scrape_web = True
+
+    if flags.only_telegram and not flags.only_web:
+        scrape_web = False
+    elif flags.only_web and not flags.only_telegram:
+        scrape_telegram = False
+
+    network01 = config.Protocols()
+
+    if scrape_telegram:
+        print("# Scraping Telegram channels...")
+        tg_net = Telegram(channels=config.channels, max_pages=flags.max_page, max_workers=flags.max_thread)
+        network01.ss = tg_net.ss
+        network01.vmess = tg_net.vmess
+        network01.vless = tg_net.vless
+        network01.trojan = tg_net.trojan
+
+    if scrape_web:
+        print("# Scraping Web subscriptions...")
+        web_net = SubscriptionFetcher(urls=config.urls, max_workers=flags.max_thread)
+        network01.ss = web_net.ss
+        network01.vmess = web_net.vmess
+        network01.vless = web_net.vless
+        network01.trojan = web_net.trojan
+
     print(f'# shadow socks: {len(network01.ss)}')
     print(f'# vmess: {len(network01.vmess)}')
     print(f'# vless: {len(network01.vless)}')
