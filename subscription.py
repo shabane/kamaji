@@ -14,7 +14,17 @@ class SubscriptionFetcher(Protocols):
         self.urls = urls
         self.max_workers = max_workers
         self.lock = threading.Lock()
+        self._all_ss = []
+        self._all_vless = []
+        self._all_vmess = []
+        self._all_trojan = []
         self.__fetch_all()
+
+        # Set combined results to Protocols instance
+        self.ss = self._all_ss
+        self.vless = self._all_vless
+        self.vmess = self._all_vmess
+        self.trojan = self._all_trojan
 
     def _fetch_url(self, url: str) -> None:
         print(f'Fetching subscription from: {url}')
@@ -22,9 +32,12 @@ class SubscriptionFetcher(Protocols):
         domain_tag = parsed_url.netloc.replace(':', '_') if parsed_url.netloc else "web"
 
         text = None
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
         for retry in range(3):
             try:
-                response = requests.get(url, timeout=15)
+                response = requests.get(url, headers=headers, timeout=15)
                 if response.status_code == 200:
                     text = response.text
                     break
@@ -62,10 +75,10 @@ class SubscriptionFetcher(Protocols):
                 trojan_links.append(self._format_link(line, domain_tag, post_date, scrape_date))
 
         with self.lock:
-            self.ss = ss_links
-            self.vless = vless_links
-            self.vmess = vmess_links
-            self.trojan = trojan_links
+            self._all_ss.extend(ss_links)
+            self._all_vless.extend(vless_links)
+            self._all_vmess.extend(vmess_links)
+            self._all_trojan.extend(trojan_links)
 
     def _format_link(self, link: str, domain_tag: str, post_date: str, scrape_date: str) -> str:
         # If link already has a remark tag (#...), append metadata to it or create one
