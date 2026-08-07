@@ -209,6 +209,8 @@ Execute the aggregator using `python3 main.py` with custom flags:
 | Flag | Description | Default |
 | :--- | :--- | :--- |
 | `--save` | Write crawled configurations to the `./hub/` directory. | `True` |
+| `--only-telegram` | Scrape configurations ONLY from Telegram channels (`channels.lst`). | `False` |
+| `--only-web` | Scrape configurations ONLY from external web subscription links (`urls.lst`). | `False` |
 | `--self-check` | Check configs locally by launching subprocess Xray instances and measuring Cloudflare handshake latency. | `False` |
 | `--check` | Validate configurations using an external Check-Host API endpoint. | `False` |
 | `--country` | Group and sort generated configuration files by country code (e.g. `hub/DE.txt`, `hub/US.txt`). | `False` |
