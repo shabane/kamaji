@@ -374,8 +374,11 @@ def get_country(network: Protocols, max_workers: int = 50):
                 import maxminddb
                 with maxminddb.open_database('GeoLite2-Country.mmdb') as reader:
                     res = reader.get(ip)
-                    if res and 'country' in res and 'iso_code' in res['country']:
-                        return res['country']['iso_code']
+                    if res:
+                        if 'country' in res and 'iso_code' in res['country']:
+                            return res['country']['iso_code']
+                        if 'registered_country' in res and 'iso_code' in res['registered_country']:
+                            return res['registered_country']['iso_code']
             except Exception:
                 pass
 
@@ -990,8 +993,11 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
                 import maxminddb
                 with maxminddb.open_database('GeoLite2-Country.mmdb') as reader:
                     res = reader.get(ip)
-                    if res and 'country' in res and 'iso_code' in res['country']:
-                        return res['country']['iso_code']
+                    if res:
+                        if 'country' in res and 'iso_code' in res['country']:
+                            return res['country']['iso_code']
+                        if 'registered_country' in res and 'iso_code' in res['registered_country']:
+                            return res['registered_country']['iso_code']
             except Exception:
                 pass
 
