@@ -367,13 +367,58 @@ def get_country(network: Protocols, max_workers: int = 50):
     cache_lock = threading.Lock()
     countries_lock = threading.Lock()
 
-    def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
+    def _get_country(ip: str) -> str:
+        # 1. Offline GeoLite2 mmdb lookup (Fast & zero network calls)
+        if os.path.exists('GeoLite2-Country.mmdb'):
+            try:
+                import maxminddb
+                with maxminddb.open_database('GeoLite2-Country.mmdb') as reader:
+                    res = reader.get(ip)
+                    if res and 'country' in res and 'iso_code' in res['country']:
+                        return res['country']['iso_code']
+            except Exception:
+                pass
+
+        # 2. Try freeipapi.com
         try:
-            res = requests.get(base_api.replace('{ip}', ip), timeout=3)
-            if res.status_code == 200:
-                return res.json().get('country')
+            res = requests.get(f'https://freeipapi.com/api/json/{ip}', timeout=3)
+            if res.status_code == 200 and 'countryCode' in res.json():
+                code = res.json().get('countryCode')
+                if code and len(code) == 2:
+                    return code
         except Exception:
             pass
+
+        # 3. Try ipinfo.io
+        try:
+            res = requests.get(f'https://ipinfo.io/{ip}/json', timeout=3)
+            if res.status_code == 200 and 'country' in res.json():
+                code = res.json().get('country')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
+        # 4. Try api.ipapi.is
+        try:
+            res = requests.get(f'https://api.ipapi.is?ip={ip}', timeout=3)
+            if res.status_code == 200 and 'location' in res.json():
+                code = res.json()['location'].get('country_code')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
+        # 5. Try ip-api.com
+        try:
+            res = requests.get(f'http://ip-api.com/json/{ip}', timeout=3)
+            if res.status_code == 200 and res.json().get('status') == 'success':
+                code = res.json().get('countryCode')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
         return None
 
     def _get_country_cached(ip: str) -> str:
@@ -938,13 +983,58 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
     ip_cache = {}
     cache_lock = threading.Lock()
 
-    def _get_country(ip: str, base_api: str = 'https://ipinfo.io/{ip}/json') -> str:
+    def _get_country(ip: str) -> str:
+        # 1. Offline GeoLite2 mmdb lookup (Fast & zero network calls)
+        if os.path.exists('GeoLite2-Country.mmdb'):
+            try:
+                import maxminddb
+                with maxminddb.open_database('GeoLite2-Country.mmdb') as reader:
+                    res = reader.get(ip)
+                    if res and 'country' in res and 'iso_code' in res['country']:
+                        return res['country']['iso_code']
+            except Exception:
+                pass
+
+        # 2. Try freeipapi.com
         try:
-            res = requests.get(base_api.replace('{ip}', ip), timeout=3)
-            if res.status_code == 200:
-                return res.json().get('country')
+            res = requests.get(f'https://freeipapi.com/api/json/{ip}', timeout=3)
+            if res.status_code == 200 and 'countryCode' in res.json():
+                code = res.json().get('countryCode')
+                if code and len(code) == 2:
+                    return code
         except Exception:
             pass
+
+        # 3. Try ipinfo.io
+        try:
+            res = requests.get(f'https://ipinfo.io/{ip}/json', timeout=3)
+            if res.status_code == 200 and 'country' in res.json():
+                code = res.json().get('country')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
+        # 4. Try api.ipapi.is
+        try:
+            res = requests.get(f'https://api.ipapi.is?ip={ip}', timeout=3)
+            if res.status_code == 200 and 'location' in res.json():
+                code = res.json()['location'].get('country_code')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
+        # 5. Try ip-api.com
+        try:
+            res = requests.get(f'http://ip-api.com/json/{ip}', timeout=3)
+            if res.status_code == 200 and res.json().get('status') == 'success':
+                code = res.json().get('countryCode')
+                if code and len(code) == 2:
+                    return code
+        except Exception:
+            pass
+
         return None
 
     def _get_country_cached(ip: str) -> str:
@@ -964,13 +1054,13 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         try:
             host_port = get_host_port_fn(clean_link)
             if host_port and host_port[0]:
-                ip = resolve_domain_to_ip(host_port[0])
-                if ip:
-                    c = _get_country_cached(ip)
-                    if c:
-                        with lock:
-                            link_countries[conf_link] = c
-                        return
+                ip = CheckHost.resolve_domain_to_ip(host_port[0])
+                target_ip = ip if ip else host_port[0]
+                c = _get_country_cached(target_ip)
+                if c:
+                    with lock:
+                        link_countries[conf_link] = c
+                    return
             with lock:
                 link_countries[conf_link] = "UnResolvedDomains"
         except Exception:
