@@ -1,6 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0@91.230.213.70:443?security=tls&amp;sni=zv.ylkszy.eu.org&amp;type=ws&amp;path=%2F%3Fed#[6374][KW][0][SS][None][Hope_Net][2026-07-25][2026-07-26 02:12]
-
-vless://c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0@91.230.213.70:443?security=tls&amp;sni=zv.ylkszy.eu.org&amp;type=ws&amp;path=%2F%3Fed#[5604][KW][0][VLESS][None][Hope_Net][2026-07-25][2026-07-26 02:12]
+vmess://eyJhZGQiOiAiOTQuMTI4LjEyLjIzOCIsICJhaWQiOiAwLCAiaG9zdCI6ICJzYXpnYXIuc2VydmVpcmMuY29tIiwgImlkIjogImVjYmE1YjMzLWY3NjgtNGQ4YS1iMDA0LWIyOWU4ZTVjNjc2ZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNDQyMV1bS1ddWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byJ9
 
