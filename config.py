@@ -14,9 +14,9 @@ class Protocols:
     @ss.setter
     def ss(self, ss_link):
         if ss_link:
-            if type(ss_link) == str:
+            if isinstance(ss_link, str):
                 self.__ss.add(ss_link.strip())
-            elif type(ss_link) == list:
+            elif isinstance(ss_link, (list, set)):
                 for link in ss_link:
                     self.__ss.add(link.strip())
     
@@ -27,9 +27,9 @@ class Protocols:
     @vmess.setter
     def vmess(self, ss_link):
         if ss_link:
-            if type(ss_link) == str:
+            if isinstance(ss_link, str):
                 self.__vmess.add(ss_link.strip())
-            elif type(ss_link) == list:
+            elif isinstance(ss_link, (list, set)):
                 for link in ss_link:
                     self.__vmess.add(link.strip())
 
@@ -41,9 +41,9 @@ class Protocols:
     @vless.setter
     def vless(self, ss_link):
         if ss_link:
-            if type(ss_link) == str:
+            if isinstance(ss_link, str):
                 self.__vless.add(ss_link.strip())
-            elif type(ss_link) == list:
+            elif isinstance(ss_link, (list, set)):
                 for link in ss_link:
                     self.__vless.add(link.strip())
     
@@ -54,9 +54,9 @@ class Protocols:
     @trojan.setter
     def trojan(self, ss_link):
         if ss_link:
-            if type(ss_link) == str:
+            if isinstance(ss_link, str):
                 self.__trojan.add(ss_link.strip())
-            elif type(ss_link) == list:
+            elif isinstance(ss_link, (list, set)):
                 for link in ss_link:
                     self.__trojan.add(link.strip())
 
