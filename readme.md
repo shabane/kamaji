@@ -94,24 +94,63 @@ Select the protocol that best suits your needs. These repositories are automatic
 
 | Region | Country | Subscription | Region | Country | Subscription |
 |:---:|:---|:---:|:---:|:---|:---:|
-| 🇦🇪 | **UAE** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AE.txt) | 🇮🇪 | **Ireland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IE.txt) |
-| 🇦🇹 | **Austria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AT.txt) | 🇮🇳 | **India** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IN.txt) |
-| 🇦🇺 | **Australia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AU.txt) | 🇮🇷 | **Iran** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IR.txt) |
-| 🇧🇬 | **Bulgaria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BG.txt) | 🇮🇹 | **Italy** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IT.txt) |
-| 🇧🇭 | **Bahrain** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BH.txt) | 🇯🇵 | **Japan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/JP.txt) |
-| 🇨🇦 | **Canada** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CA.txt) | 🇰🇭 | **Cambodia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KH.txt) |
-| 🇨🇭 | **Switzerland**| [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CH.txt) | 🇰🇷 | **Korea** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KR.txt) |
-| 🇨🇳 | **China** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CN.txt) | 🇰🇿 | **Kazakhstan**| [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KZ.txt) |
-| 🇭🇷 | **Croatia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CR.txt) | 🇱🇹 | **Lithuania** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LT.txt) |
-| 🇨🇼 | **Curaçao** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CW.txt) | 🇱🇺 | **Luxembourg**| [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LU.txt) |
-| 🇨🇾 | **Cyprus** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CY.txt) | 🇱🇻 | **Latvia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LV.txt) |
-| 🇩🇪 | **Germany** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/DE.txt) | 🇳🇱 | **Netherlands**| [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NL.txt) |
-| 🇫🇮 | **Finland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FI.txt) | 🇳🇴 | **Norway** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NO.txt) |
-| 🇫🇷 | **France** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FR.txt) | 🇵🇱 | **Poland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PL.txt) |
-| 🇬🇧 | **UK** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GB.txt) | 🇷🇺 | **Russia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/RU.txt) |
-| 🇭🇰 | **Hong Kong** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/HK.txt) | 🇸🇪 | **Sweden** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SE.txt) |
-| 🇸🇬 | **Singapore** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SG.txt) | 🇹🇷 | **Turkey** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TR.txt) |
-| 🇹🇼 | **Taiwan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TW.txt) | 🇺🇸 | **USA** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/US.txt) |
+| 🇦🇪 | **UAE** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AE.txt) | 🇦🇫 | **Afghanistan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AF.txt) |
+| 🇦🇱 | **Albania** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AL.txt) | 🇦🇲 | **Armenia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AM.txt) |
+| 🇦🇷 | **Argentina** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AR.txt) | 🇦🇹 | **Austria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AT.txt) |
+| 🇦🇺 | **Australia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AU.txt) | 🇦🇿 | **Azerbaijan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/AZ.txt) |
+| 🇧🇦 | **Bosnia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BA.txt) | 🇧🇪 | **Belgium** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BE.txt) |
+| 🇧🇬 | **Bulgaria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BG.txt) | 🇧🇭 | **Bahrain** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BH.txt) |
+| 🇧🇴 | **Bolivia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BO.txt) | 🇧🇷 | **Brazil** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BR.txt) |
+| 🇧🇾 | **Belarus** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BY.txt) | 🇧🇿 | **Belize** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/BZ.txt) |
+| 🇨🇦 | **Canada** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CA.txt) | 🇨🇭 | **Switzerland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CH.txt) |
+| 🇨🇱 | **Chile** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CL.txt) | 🇨🇳 | **China** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CN.txt) |
+| 🇨🇴 | **Colombia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CO.txt) | 🇨🇷 | **Costa Rica** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CR.txt) |
+| 🇨🇼 | **Curaçao** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CW.txt) | 🇨🇾 | **Cyprus** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CY.txt) |
+| 🇨🇿 | **Czechia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/CZ.txt) | 🇩🇪 | **Germany** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/DE.txt) |
+| 🇩🇰 | **Denmark** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/DK.txt) | 🇩🇿 | **Algeria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/DZ.txt) |
+| 🇪🇨 | **Ecuador** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/EC.txt) | 🇪🇪 | **Estonia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/EE.txt) |
+| 🇪🇬 | **Egypt** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/EG.txt) | 🇪🇸 | **Spain** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ES.txt) |
+| 🇫🇮 | **Finland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FI.txt) | 🇫🇷 | **France** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/FR.txt) |
+| 🇬🇧 | **UK** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GB.txt) | 🇬🇪 | **Georgia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GE.txt) |
+| 🇬🇮 | **Gibraltar** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GI.txt) | 🇬🇷 | **Greece** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GR.txt) |
+| 🇬🇹 | **Guatemala** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/GT.txt) | 🇭🇰 | **Hong Kong** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/HK.txt) |
+| 🇭🇷 | **Croatia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/HR.txt) | 🇭🇺 | **Hungary** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/HU.txt) |
+| 🇮🇩 | **Indonesia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ID.txt) | 🇮🇪 | **Ireland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IE.txt) |
+| 🇮🇱 | **Israel** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IL.txt) | 🇮🇲 | **Isle of Man** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IM.txt) |
+| 🇮🇳 | **India** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IN.txt) | 🇮🇶 | **Iraq** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IQ.txt) |
+| 🇮🇷 | **Iran** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IR.txt) | 🇮🇸 | **Iceland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IS.txt) |
+| 🇮🇹 | **Italy** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/IT.txt) | 🇯🇲 | **Jamaica** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/JM.txt) |
+| 🇯🇴 | **Jordan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/JO.txt) | 🇯🇵 | **Japan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/JP.txt) |
+| 🇰🇪 | **Kenya** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KE.txt) | 🇰🇬 | **Kyrgyzstan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KG.txt) |
+| 🇰🇭 | **Cambodia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KH.txt) | 🇰🇷 | **Korea** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KR.txt) |
+| 🇰🇼 | **Kuwait** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KW.txt) | 🇰🇿 | **Kazakhstan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/KZ.txt) |
+| 🇱🇮 | **Liechtenstein** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LI.txt) | 🇱🇹 | **Lithuania** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LT.txt) |
+| 🇱🇺 | **Luxembourg** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LU.txt) | 🇱🇻 | **Latvia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/LV.txt) |
+| 🇲🇦 | **Morocco** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MA.txt) | 🇲🇩 | **Moldova** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MD.txt) |
+| 🇲🇪 | **Montenegro** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ME.txt) | 🇲🇭 | **Marshall Islands** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MH.txt) |
+| 🇲🇰 | **North Macedonia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MK.txt) | 🇲🇲 | **Myanmar** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MM.txt) |
+| 🇲🇳 | **Mongolia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MN.txt) | 🇲🇴 | **Macao** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MO.txt) |
+| 🇲🇹 | **Malta** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MT.txt) | 🇲🇺 | **Mauritius** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MU.txt) |
+| 🇲🇽 | **Mexico** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MX.txt) | 🇲🇾 | **Malaysia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/MY.txt) |
+| 🇳🇬 | **Nigeria** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NG.txt) | 🇳🇱 | **Netherlands** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NL.txt) |
+| 🇳🇴 | **Norway** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NO.txt) | 🇳🇿 | **New Zealand** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/NZ.txt) |
+| 🇴🇲 | **Oman** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/OM.txt) | 🇵🇦 | **Panama** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PA.txt) |
+| 🇵🇪 | **Peru** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PE.txt) | 🇵🇭 | **Philippines** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PH.txt) |
+| 🇵🇰 | **Pakistan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PK.txt) | 🇵🇱 | **Poland** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PL.txt) |
+| 🇵🇷 | **Puerto Rico** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PR.txt) | 🇵🇸 | **Palestine** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PS.txt) |
+| 🇵🇹 | **Portugal** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PT.txt) | 🇵🇾 | **Paraguay** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/PY.txt) |
+| 🇶🇦 | **Qatar** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/QA.txt) | 🇷🇴 | **Romania** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/RO.txt) |
+| 🇷🇸 | **Serbia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/RS.txt) | 🇷🇺 | **Russia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/RU.txt) |
+| 🇸🇦 | **Saudi Arabia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SA.txt) | 🇸🇨 | **Seychelles** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SC.txt) |
+| 🇸🇪 | **Sweden** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SE.txt) | 🇸🇬 | **Singapore** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SG.txt) |
+| 🇸🇮 | **Slovenia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SI.txt) | 🇸🇰 | **Slovakia** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/SK.txt) |
+| 🇹🇭 | **Thailand** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TH.txt) | 🇹🇷 | **Turkey** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TR.txt) |
+| 🇹🇼 | **Taiwan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/TW.txt) | 🇺🇦 | **Ukraine** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/UA.txt) |
+| 🇺🇸 | **USA** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/US.txt) | 🇺🇾 | **Uruguay** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/UY.txt) |
+| 🇺🇿 | **Uzbekistan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/UZ.txt) | 🇻🇬 | **Virgin Islands (UK)** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/VG.txt) |
+| 🇻🇮 | **Virgin Islands (US)** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/VI.txt) | 🇻🇳 | **Vietnam** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/VN.txt) |
+| 🇿🇦 | **South Africa** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/ZA.txt) | | | |
+
 
 ---
 
