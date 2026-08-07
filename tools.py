@@ -401,6 +401,8 @@ def get_country(network: Protocols, max_workers: int = 50):
                 import base64
                 import json
                 payload = link[8:]
+                if "|channel:" in payload:
+                    payload = payload.split("|channel:")[0]
                 missing_padding = len(payload) % 4
                 if missing_padding:
                     payload += '=' * (4 - missing_padding)
@@ -409,10 +411,11 @@ def get_country(network: Protocols, max_workers: int = 50):
                 remark = data.get('ps', '')
             else:
                 if '#' in link:
-                    remark = link.split('#')[-1]
+                    remark = link.split('#', 1)[1]
             
             decoded_remark = urllib.parse.unquote(remark)
-            m = re.match(r'^\[\d+\]\[([A-Z]{2}|UnResolvedDomains)\]', decoded_remark)
+            # Match [XX] anywhere in the remark (e.g. [12][US][340ms]...)
+            m = re.search(r'\[([A-Z]{2}|UnResolvedDomains)\]', decoded_remark)
             if m:
                 return m.group(1)
         except Exception:
@@ -428,11 +431,12 @@ def get_country(network: Protocols, max_workers: int = 50):
         try:
             host_port = get_host_port_fn(conf_link)
             if host_port and host_port[0]:
-                ip = resolve_domain_to_ip(host_port[0])
-                if ip:
-                    country = _get_country_cached(ip)
-                    _add_to_dict(conf_link, country if country else "UnResolvedDomains")
-                    return
+                # host_port[0] is already resolved IP or working domain from resolve_host_fallback
+                ip = CheckHost.resolve_domain_to_ip(host_port[0])
+                target_ip = ip if ip else host_port[0]
+                country = _get_country_cached(target_ip)
+                _add_to_dict(conf_link, country if country else "UnResolvedDomains")
+                return
             _add_to_dict(conf_link, "UnResolvedDomains")
         except Exception as err:
             _add_to_dict(conf_link, "UnResolvedDomains")
