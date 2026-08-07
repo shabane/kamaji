@@ -15,7 +15,17 @@ class Telegram(Protocols):
         self.max_workers = max_workers
         self.__tlink = 'https://telegram.dog/s/'
         self.lock = threading.Lock()
+        self._all_ss = []
+        self._all_vless = []
+        self._all_vmess = []
+        self._all_trojan = []
         self.__v2finder()
+
+        # Set combined results to Protocols instance
+        self.ss = self._all_ss
+        self.vless = self._all_vless
+        self.vmess = self._all_vmess
+        self.trojan = self._all_trojan
  
     def _scrape_channel(self, channel: str) -> None:
         print(f'searching on {channel}')
@@ -24,9 +34,12 @@ class Telegram(Protocols):
         for page_num in range(self.max_pages):
             page = None
             success = False
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            }
             for retry in range(3):
                 try:
-                    page = requests.get(current_url, timeout=10)
+                    page = requests.get(current_url, headers=headers, timeout=10)
                     if page.status_code == 200:
                         success = True
                         break
@@ -70,10 +83,10 @@ class Telegram(Protocols):
                                 for i in re.findall(r"(trojan://[^#\s\n]*)(\#[^\s\n<]+)", page.text)]
 
             with self.lock:
-                self.ss = ss_links
-                self.vless = vless_links
-                self.vmess = vmess_links
-                self.trojan = trojan_links
+                self._all_ss.extend(ss_links)
+                self._all_vless.extend(vless_links)
+                self._all_vmess.extend(vmess_links)
+                self._all_trojan.extend(trojan_links)
 
             # Find link to older messages (e.g., href="/s/channel?before=123")
             match = re.search(r'href="([^"]*before=\d+)"', page.text)
