@@ -1,246 +1,428 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[20378][SC][0][SS][None][Outline_Vpn][2026-07-02][2026-08-07 02:00]
+ss://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=%2Fae-bo&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=s.blibli.com.cyylr.eu.cc&amp;type=ws&amp;allowInsecure=0&amp;sni=s.blibli.com.cyylr.eu.cc#[3240][SC][0][SS][None][Outline_Vpn][2026-06-03][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19769][SC][0][SS][None][marambashi][2026-07-22][2026-08-07 02:00]
+ss://Telegram-Parsashonam-1@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7537][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19767][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+ss://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=%2Fsg-amz&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=support.zoom.us.yxls.eu.cc&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=support.zoom.us.yxls.eu.cc#[4625][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[20376][SC][0][SS][None][SafeNet_Server][2026-06-25][2026-08-07 02:00]
+ss://Telegram-Parsashonam-10@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[7513][SC][0][SS][None][Parsashonam][2026-06-03][2026-08-07 15:51]
 
-ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[4355][SC][0][SS][None][Outline_Vpn][2026-07-20][2026-08-07 02:00]
+ss://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D80&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=ssd.mojaz-persian-music.ir#[854][SC][0][SS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19772][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[22680][SC][0][SS][None][Outline_Vpn][2026-07-09][2026-08-07 15:50]
 
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[4611][SC][0][SS][None][vpn_tehran][2026-07-13][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21993][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
 
-ss://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=%2Fsg-amz&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=support.zoom.us.yxls.eu.cc&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=support.zoom.us.yxls.eu.cc#[3803][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[22682][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
 
-ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=new-scale46-cdn.sabzi.name.ng.&amp;type=ws#[18161][SC][0][SS][None][v2rayNG_Matsuri][2026-07-28][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21989][SC][0][SS][None][Outline_Vpn][2026-07-17][2026-08-07 15:51]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[20374][SC][0][SS][None][prrofile_purple][2026-06-23][2026-08-07 02:00]
+ss://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?mode=stream-one&amp;path=%2Fassignment&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=www.multiplydose.cc.cd&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=www.multiplydose.cc.cd#[1368][SC][0][SS][None][hopev2ray][2026-05-30][2026-08-07 15:51]
 
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[4610][SC][0][SS][None][free1_vpn][2026-07-22][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21991][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19768][SC][0][SS][None][Outline_Vpn][2026-07-17][2026-08-07 02:00]
+ss://Telegram-Parsashonam-1@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7536][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.158:443?path=%2F&amp;security=tls&amp;alpn=h3%2Ch2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19764][SC][0][SS][None][prrofile_purple][2026-06-23][2026-08-07 02:00]
+ss://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=cji.new-persian-song.ir#[852][SC][0][SS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-ss://965fef48-24c7-4727-b51e-6d3b2b8873c8@45.130.125.158:443?security=tls&amp;allowInsecure=0&amp;encryption=none&amp;type=xhttp&amp;path=/&amp;sni=mahsa97.manhamunamkeyeruz.ir&amp;fp=chrome&amp;mode=auto&amp;alpn=h2,h3,http/1.1#[5680][SC][0][SS][None][V2range][2026-06-09][2026-08-07 02:00]
+ss://Telegram-Parsashonam-8@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[7560][SC][0][SS][None][Parsashonam][2026-06-01][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19773][SC][0][SS][None][hopev2ray][2026-07-15][2026-08-07 02:00]
+ss://0bbcbcbf-a964-4e47-b8c5-c4917708ef93@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=sh.mojaz-persian-music.ir#[631][SC][0][SS][None][prrofile_purple][2026-06-11][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19775][SC][0][SS][None][Outline_Vpn][2026-07-19][2026-08-07 02:00]
+ss://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&amp;path=%2Fde&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=de.lezzatzone.ir&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=de.lezzatzone.ir#[2682][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[20373][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=/udfyfws&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[18496][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-ss://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=%2Fhdgrbws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=terazhediii.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=terazhediii.info#[16377][SC][0][SS][None][marambashi][2026-08-03][2026-08-07 02:00]
+ss://Telegram-Parsashonam-8@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[7559][SC][0][SS][None][Parsashonam][2026-06-01][2026-08-07 15:50]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[20372][SC][0][SS][None][Outline_Vpn][2026-07-09][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21987][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
 
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[4607][SC][0][SS][None][marambashi][2026-07-25][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=/udfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[18495][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-ss://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&amp;host=po.fastbrokencompony.com&amp;path=%2F&amp;security=tls&amp;sni=po.fastbrokencompony.com&amp;type=ws#[18792][SC][0][SS][None][oneclickvpnkeys][2026-08-03][2026-08-07 02:00]
+ss://Telegram-Parsashonam@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7588][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
 
-ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&amp;security=none&amp;encryption=none&amp;host=de.vpnbase.net&amp;type=ws#[17923][SC][0][SS][None][Capoit][2026-07-12][2026-08-07 02:00]
+ss://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=%2Fhdgrbws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=terazhediii.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=terazhediii.info#[17951][SC][0][SS][None][marambashi][2026-08-03][2026-08-07 15:51]
 
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[4608][SC][0][SS][None][marambashi][2026-07-24][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22685][SC][0][SS][None][SafeNet_Server][2026-06-25][2026-08-07 15:50]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19765][SC][0][SS][None][marambashi][2026-07-23][2026-08-07 02:00]
+ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[5275][SC][0][SS][None][Outline_Vpn][2026-07-20][2026-08-07 15:50]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19771][SC][0][SS][None][free1_vpn][2026-07-22][2026-08-07 02:00]
+ss://5960576d-829e-4d09-8232-0e80121a6fe4@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D80&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=vi.mojaz-persian-music.ir&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=vi.mojaz-persian-music.ir#[4142][SC][0][SS][None][prrofile_purple][2026-06-09][2026-08-07 15:51]
 
-ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[4354][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21992][SC][0][SS][None][hopev2ray][2026-07-15][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19774][SC][0][SS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+ss://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:443?path=%2F%3Fed%3D80&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ssd.mojaz-persian-music.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ssd.mojaz-persian-music.ir#[851][SC][0][SS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[4353][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22683][SC][0][SS][None][prrofile_purple][2026-06-23][2026-08-07 15:51]
 
-ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;sni=shegeftihaaa.net#[4609][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21994][SC][0][SS][None][Outline_Vpn][2026-07-19][2026-08-07 15:50]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[20377][SC][0][SS][None][SafeNet_Server][2026-06-29][2026-08-07 02:00]
+ss://Telegram-Parsashonam-1@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7535][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[20375][SC][0][SS][None][nofiltering2][2026-06-26][2026-08-07 02:00]
+ss://Telegram-Parsashonam@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7587][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.158:443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed&amp;security=tls&amp;alpn=h3%2Ch2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19763][SC][0][SS][None][hopev2ray][2026-06-22][2026-08-07 02:00]
+ss://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&amp;security=none&amp;encryption=none&amp;host=de.vpnbase.net&amp;type=ws#[19682][SC][0][SS][None][Capoit][2026-07-12][2026-08-07 15:50]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19770][SC][0][SS][None][marambashi][2026-07-26][2026-08-07 02:00]
+ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[5276][SC][0][SS][None][Outline_Vpn][2026-07-20][2026-08-07 15:51]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[19766][SC][0][SS][None][marambashi][2026-07-23][2026-08-07 02:00]
+ss://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=new-scale46-cdn.sabzi.name.ng.&amp;type=ws#[19947][SC][0][SS][None][v2rayNG_Matsuri][2026-07-28][2026-08-07 15:51]
 
-ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.158:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv03.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv03.perfectbulk.info#[20379][SC][0][SS][None][prrofile_purple][2026-06-22][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[18490][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42000][SC][0][VLESS][None][marambashi][2026-07-23][2026-08-07 02:00]
+ss://Telegram-Parsashonam-10@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[7512][SC][0][SS][None][Parsashonam][2026-06-03][2026-08-07 15:50]
 
-vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:443?path=%2F&security=tls&encryption=none&host=GfV5t2331T.sMaRtTeChZaAl.InFo&fp=chrome&type=ws&sni=GfV5t2331T.sMaRtTeChZaAl.InFo#[20623][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[18492][SC][0][SS][None][hopev2ray][2026-06-27][2026-08-07 15:51]
 
-vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?type=ws&security=none&path=%2F&host=free-hzr27-cdn.sabzi.name.ng.#[37581][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21985][SC][0][SS][None][marambashi][2026-07-23][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=/cbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#[19696][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[5546][SC][0][SS][None][vpn_tehran][2026-07-13][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42015][SC][0][VLESS][None][hopev2ray][2026-07-15][2026-08-07 02:00]
+ss://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?security=tls&amp;allowInsecure=0&amp;encryption=none&amp;type=xhttp&amp;path=/?ed%3D2053&amp;sni=vi.new-persian-song.ir&amp;fp=chrome&amp;mode=auto&amp;alpn=h2,h3#[855][SC][0][SS][None][V2range][2026-06-12][2026-08-07 15:51]
 
-vless://fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301@45.130.125.114:443/?type=ws&encryption=none&host=NeTRINo-GermN-2bUAAMBt.DoMnewConFSOB1.org&path=%2Fws-vlees&security=tls&sni=NeTRINo-GermN-2bUAAMBt.DoMnewConFSOB1.org&fp=chrome#[45103][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[18493][SC][0][SS][None][hopev2ray][2026-06-29][2026-08-07 15:51]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#[30847][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22684][SC][0][SS][None][nofiltering2][2026-06-26][2026-08-07 15:51]
 
-vless://965fef48-24c7-4727-b51e-6d3b2b8873c8@45.130.125.158:443?mode=auto&path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=mahsa97.manhamunamkeyeruz.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=mahsa97.manhamunamkeyeruz.ir#[25330][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[22681][SC][0][SS][None][Outline_Vpn][2026-07-09][2026-08-07 15:51]
 
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80/?type=ws&encryption=none&flow=&host=de.vpnbase.net&path=%2Fhttp&packetEncoding=none#[36656][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21986][SC][0][SS][None][marambashi][2026-07-23][2026-08-07 15:51]
 
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&amp;security=none&amp;encryption=none&amp;host=de.vpnbase.net&amp;type=ws#[36657][SC][0][VLESS][None][Capoit][2026-07-12][2026-08-07 02:00]
+ss://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=kl.mojaz-persian-music.ir#[853][SC][0][SS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&host=po.fastbrokencompony.com&path=%2F&security=tls&sni=po.fastbrokencompony.com&type=ws#[39104][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=7d3.sisshark.win&amp;fp=chrome&amp;type=ws&amp;allowInsecure=1&amp;sni=7d3.sisshark.win#[6917][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80/?type=ws&encryption=none&flow=&host=de.vpnbase.net&path=%2Fhttp#[36655][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22687][SC][0][SS][None][SafeNet_Server][2026-06-29][2026-08-07 15:50]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[20584][SC][0][VLESS][None][marambashi][2026-07-24][2026-08-07 02:00]
+ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[5544][SC][0][SS][None][marambashi][2026-07-24][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42021][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21995][SC][0][SS][None][Outline_Vpn][2026-07-19][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[42961][SC][0][VLESS][None][Outline_Vpn][2026-07-02][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21990][SC][0][SS][None][marambashi][2026-07-26][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42020][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[21988][SC][0][SS][None][Outline_Vpn][2026-07-17][2026-08-07 15:50]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443/?type=ws&encryption=none&flow=&host=shegeftihaaa.net&path=%2Frsedgws&security=tls&sni=shegeftihaaa.net&fp=chrome#[20582][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22686][SC][0][SS][None][SafeNet_Server][2026-06-25][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[42955][SC][0][VLESS][None][Outline_Vpn][2026-07-09][2026-08-07 02:00]
+ss://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?encryption=none&amp;host=s.blibli.com.cyylr.eu.cc&amp;path=%2Fae-bo&amp;security=tls&amp;sni=s.blibli.com.cyylr.eu.cc&amp;type=ws#[3238][SC][0][SS][None][OpenSSTPVpn][2026-06-03][2026-08-07 15:50]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[42957][SC][0][VLESS][None][prrofile_purple][2026-06-23][2026-08-07 02:00]
+ss://Telegram-Parsashonam-2@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7552][SC][0][SS][None][Parsashonam][2026-05-28][2026-08-07 15:51]
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.207:443/?type=ws&encryption=none&flow=&host=vangoghhh.info&path=%2Frdfgtws&security=tls&sni=vangoghhh.info#[3311][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;sni=shegeftihaaa.net#[5545][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&security=none&encryption=none&host=new-scale46-cdn.sabzi.name.ng.&type=ws#[37580][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=%2Fae-bo&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=s.blibli.com.cyylr.eu.cc&amp;type=ws&amp;allowInsecure=0&amp;sni=s.blibli.com.cyylr.eu.cc#[3239][SC][0][SS][None][Outline_Vpn][2026-06-03][2026-08-07 15:50]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2Ffp&security=tls&sni=t1s1.rittbo.kdns.fr#[41999][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[5274][SC][0][SS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws#[30846][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[5543][SC][0][SS][None][marambashi][2026-07-25][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42006][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[18491][SC][0][SS][None][vpn_tehran][2026-07-03][2026-08-07 15:51]
 
-vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=GfV5t2331T.sMaRtTeChZaAl.InFo&amp;fp=chrome&amp;type=ws&amp;sni=GfV5t2331T.sMaRtTeChZaAl.InFo#[20622][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22689][SC][0][SS][None][Outline_Vpn][2026-07-02][2026-08-07 15:50]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42002][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+ss://Telegram-Parsashonam-2@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7551][SC][0][SS][None][Parsashonam][2026-05-28][2026-08-07 15:50]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443/?type=ws&encryption=none&flow=&host=terazhediii.info&path=%2Fhdgrbws&security=tls&sni=terazhediii.info&fp=chrome#[30843][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&security=tls&encryption=none&host=octopusss5.info&allowinsecure=0&type=ws&sni=octopusss5.info#[18494][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443/?type=ws&encryption=none&flow=&host=hhvl.hhapp.kdns.fr&path=%2Fcbasur&security=tls&sni=hhvl.hhapp.kdns.fr#[19690][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f106648e-0644-40bc-974c-6edc966fe18d@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=sh.mojaz-persian-music.ir#[22552][SC][0][SS][None][prrofile_purple][2026-06-19][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&host=po.fastbrokencompony.com&path=/&security=tls&sni=po.fastbrokencompony.com&type=ws#[39106][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22690][SC][0][SS][None][Outline_Vpn][2026-07-02][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[19693][SC][0][VLESS][None][Outline_Vpn][2026-07-20][2026-08-07 02:00]
+ss://22c15b3f-e205-48e2-9b30-1a2c3480e7b2@45.130.125.160:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=sRv79.hAMiIbaR.CoM&amp;type=ws#[1477][SC][0][SS][None][GozargahVPN][2026-06-07][2026-08-07 15:50]
 
-vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=new-scale46-cdn.sabzi.name.ng.&amp;type=ws#[37579][SC][0][VLESS][None][v2rayNG_Matsuri][2026-07-28][2026-08-07 02:00]
+ss://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[22688][SC][0][SS][None][SafeNet_Server][2026-06-29][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=/&security=tls&encryption=none&insecure=0&host=srv10.perfectbulk.info&fp=chrome&type=ws&allowInsecure=0&sni=srv10.perfectbulk.info#[42963][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+ss://Telegram-Parsashonam-1@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[7538][SC][0][SS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[42958][SC][0][VLESS][None][nofiltering2][2026-06-26][2026-08-07 02:00]
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[21827][SC][0][VLESS][None][marambashi][2026-07-25][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[19692][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#[10482][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;sni=shegeftihaaa.net#[20585][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#[10481][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42007][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45757][SC][0][VLESS][None][SafeNet_Server][2026-06-29][2026-08-07 15:50]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#[30848][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=/udfyfws&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[34935][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://965fef48-24c7-4727-b51e-6d3b2b8873c8@45.130.125.158:443?mode=auto&path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=mahsa97.manhamunamkeyeruz.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=mahsa97.manhamunamkeyeruz.ir#[25329][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&path=/?ed=80&security=tls&alpn=h2&encryption=none&extra={"scMaxEachPostBytes":1000000,"scMaxConcurrentPosts":100,"scMinPostsIntervalMs":30,"xPaddingBytes":"100-1000","noGRPCHeader":false}&fp=chrome&type=xhttp&sni=vh.mojaz-persian-music.ir#[3149][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#[37578][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44770][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
 
-vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[17145][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?security=tls&amp;allowInsecure=0&amp;encryption=none&amp;type=xhttp&amp;path=/?ed%3D2053&amp;sni=vi.new-persian-song.ir&amp;fp=chrome&amp;mode=auto&amp;alpn=h2,h3#[3150][SC][0][VLESS][None][V2range][2026-06-12][2026-08-07 15:51]
 
-vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[17146][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45758][SC][0][VLESS][None][SafeNet_Server][2026-06-29][2026-08-07 15:51]
 
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#[36658][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://Telegram-Parsashonam@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29174][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42001][SC][0][VLESS][None][marambashi][2026-07-23][2026-08-07 02:00]
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80/?type=ws&encryption=none&flow=&host=de.vpnbase.net&path=%2Fhttp&packetEncoding=none#[39026][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[42010][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44763][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&host=po.fastbrokencompony.com&path=%2F&security=tls&sni=po.fastbrokencompony.com&type=ws#[39105][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://f106648e-0644-40bc-974c-6edc966fe18d@45.130.125.162:8443?mode=auto&path=%2F%3Fed%3D2053&security=tls&alpn=h3%2Ch2&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=cji.new-persian-song.ir#[45353][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42017][SC][0][VLESS][None][Outline_Vpn][2026-07-19][2026-08-07 02:00]
+vless://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=/ae-bo&security=tls&encryption=none&insecure=0&host=s.blibli.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=s.blibli.com.cyylr.eu.cc#[12081][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42019][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:443?path=%2F&security=tls&encryption=none&host=GfV5t2331T.sMaRtTeChZaAl.InFo&fp=chrome&type=ws&sni=GfV5t2331T.sMaRtTeChZaAl.InFo#[21868][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&amp;host=po.fastbrokencompony.com&amp;path=%2F&amp;security=tls&amp;sni=po.fastbrokencompony.com&amp;type=ws#[39103][SC][0][VLESS][None][oneclickvpnkeys][2026-08-03][2026-08-07 02:00]
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?type=ws&encryption=none&path=%2Fhttp&host=de.vpnbase.net&fp=chrome&alpn=http%2F1.1&headerType=none#[39029][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&host=po.fastbrokencompony.com&path=/&security=tls&sni=po.fastbrokencompony.com&type=ws#[39107][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=%2Fde&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#[10479][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=%2Fhdgrbws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=terazhediii.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=terazhediii.info#[30844][SC][0][VLESS][None][marambashi][2026-08-03][2026-08-07 02:00]
+vless://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?encryption=none&amp;host=s.blibli.com.cyylr.eu.cc&amp;path=%2Fae-bo&amp;security=tls&amp;sni=s.blibli.com.cyylr.eu.cc&amp;type=ws#[12078][SC][0][VLESS][None][OpenSSTPVpn][2026-06-03][2026-08-07 15:50]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.158:443?path=%2F&amp;security=tls&amp;alpn=h3%2Ch2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[41998][SC][0][VLESS][None][prrofile_purple][2026-06-23][2026-08-07 02:00]
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=/udfyfws&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[34936][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=/&security=tls&encryption=none&insecure=0&host=srv10.perfectbulk.info&fp=chrome&type=ws&allowInsecure=0&sni=srv10.perfectbulk.info#[42962][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=%2Fassignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#[4946][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42005][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[18291][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[42956][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[34932][SC][0][VLESS][None][hopev2ray][2026-06-29][2026-08-07 15:51]
 
-vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@45.130.125.207:443?path=/jdhfyws&security=tls&encryption=none&insecure=0&host=amooaliii.net&fp=chrome&type=ws&allowInsecure=0&sni=amooaliii.net#[18806][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?mode=stream-one&amp;path=%2Fassignment&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=www.multiplydose.cc.cd&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=www.multiplydose.cc.cd#[4947][SC][0][VLESS][None][hopev2ray][2026-05-30][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=/cbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#[19695][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@45.130.125.207:443?path=/jdhfyws&security=tls&encryption=none&insecure=0&host=amooaliii.net&fp=chrome&type=ws&allowInsecure=0&sni=amooaliii.net#[20050][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053/?type=ws&encryption=none&host=po.fastbrokencompony.com&path=%2F&security=tls&sni=po.fastbrokencompony.com#[39102][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://Telegram-Parsashonam-1@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29121][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42014][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 02:00]
+vless://22c15b3f-e205-48e2-9b30-1a2c3480e7b2@45.130.125.160:80?path=/&security=none&encryption=none&host=sRv79.hAMiIbaR.CoM&type=ws#[5471][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[19691][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=/&security=tls&encryption=none&insecure=0&host=srv10.perfectbulk.info&fp=chrome&type=ws&allowInsecure=0&sni=srv10.perfectbulk.info#[45761][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@45.130.125.207:443?path=/jdhfyws&security=tls&encryption=none&insecure=0&host=amooaliii.net&fp=chrome&type=ws&allowInsecure=0&sni=amooaliii.net#[18807][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#[39028][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42003][SC][0][VLESS][None][Outline_Vpn][2026-07-17][2026-08-07 02:00]
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[34931][SC][0][VLESS][None][hopev2ray][2026-06-27][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.158:443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed&amp;security=tls&amp;alpn=h3%2Ch2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[41997][SC][0][VLESS][None][hopev2ray][2026-06-22][2026-08-07 02:00]
+vless://dca945d2-6d9b-434f-8754-3626a6a75e21@45.130.125.160:2095?path=/?ed=2096&security=none&encryption=none&host=aza002.vaslbash.site&type=httpupgrade#[39058][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42004][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[34934][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[42018][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=kl.mojaz-persian-music.ir#[3146][SC][0][VLESS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42013][SC][0][VLESS][None][free1_vpn][2026-07-22][2026-08-07 02:00]
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45759][SC][0][VLESS][None][Outline_Vpn][2026-07-02][2026-08-07 15:50]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[20583][SC][0][VLESS][None][marambashi][2026-07-25][2026-08-07 02:00]
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=/cbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#[20945][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=%2Fsg-amz&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=support.zoom.us.yxls.eu.cc&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=support.zoom.us.yxls.eu.cc#[17144][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=cji.new-persian-song.ir#[3145][SC][0][VLESS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42016][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44777][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[42960][SC][0][VLESS][None][SafeNet_Server][2026-06-29][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44769][SC][0][VLESS][None][marambashi][2026-07-26][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[42008][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://0bbcbcbf-a964-4e47-b8c5-c4917708ef93@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=sh.mojaz-persian-music.ir#[2284][SC][0][VLESS][None][prrofile_purple][2026-06-11][2026-08-07 15:51]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[20587][SC][0][VLESS][None][vpn_tehran][2026-07-13][2026-08-07 02:00]
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[20942][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&security=tls&encryption=none&host=shegeftihaaa.net&fp=chrome&type=ws&sni=shegeftihaaa.net#[20588][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44774][SC][0][VLESS][None][Outline_Vpn][2026-07-19][2026-08-07 15:51]
 
-vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#[19694][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://22c15b3f-e205-48e2-9b30-1a2c3480e7b2@45.130.125.160:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=sRv79.hAMiIbaR.CoM&amp;type=ws#[5470][SC][0][VLESS][None][GozargahVPN][2026-06-07][2026-08-07 15:50]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[42009][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#[32817][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?type=ws&encryption=none&path=%2Fhttp&host=de.vpnbase.net&fp=chrome&alpn=http%2F1.1&headerType=none#[36659][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;sni=shegeftihaaa.net#[21829][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[42959][SC][0][VLESS][None][SafeNet_Server][2026-06-25][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44776][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://926bc4cd-709e-4e90-8aa7-78db75fbe86b@45.130.125.207:443?encryption=none&type=ws&security=tls&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fdde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&host=De1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR&sni=1111--MiTiVPN---MiTiVPN-o.KinGNetWork.iR&alpn=h2%2Chttp%2F1.1&fp=chrome#[24751][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44771][SC][0][VLESS][None][hopev2ray][2026-07-15][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42012][SC][0][VLESS][None][marambashi][2026-07-26][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[44766][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[17147][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[20944][SC][0][VLESS][None][Outline_Vpn][2026-07-20][2026-08-07 15:51]
 
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[20586][SC][0][VLESS][None][free1_vpn][2026-07-22][2026-08-07 02:00]
+vless://Telegram-Parsashonam-1@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29118][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
 
-vless://965fef48-24c7-4727-b51e-6d3b2b8873c8@45.130.125.158:443?security=tls&amp;allowInsecure=0&amp;encryption=none&amp;type=xhttp&amp;path=/&amp;sni=mahsa97.manhamunamkeyeruz.ir&amp;fp=chrome&amp;mode=auto&amp;alpn=h2,h3,http/1.1#[25331][SC][0][VLESS][None][V2range][2026-06-09][2026-08-07 02:00]
+vless://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=%2Fae-bo&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=s.blibli.com.cyylr.eu.cc&amp;type=ws&amp;allowInsecure=0&amp;sni=s.blibli.com.cyylr.eu.cc#[12080][SC][0][VLESS][None][Outline_Vpn][2026-06-03][2026-08-07 15:51]
 
-vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.158:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv03.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv03.perfectbulk.info#[42964][SC][0][VLESS][None][prrofile_purple][2026-06-22][2026-08-07 02:00]
+vless://b37be529-83c9-4851-a3cf-73d7d05bf308@45.130.125.76:8443?path=/&security=tls&encryption=none&insecure=0&host=drrfddgbv.turbooserver.net.tr&type=ws&allowInsecure=0&sni=drrfddgbv.turbooserver.net.tr#[32910][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[42011][SC][0][VLESS][None][marambashi][2026-07-22][2026-08-07 02:00]
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[45751][SC][0][VLESS][None][Outline_Vpn][2026-07-09][2026-08-07 15:51]
 
-vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws#[30845][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&security=tls&encryption=none&host=shegeftihaaa.net&fp=chrome&type=ws&sni=shegeftihaaa.net#[21831][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-trojan://humanity@45.130.125.158:443?path=/assignment&security=tls&alpn=h3,h2,http/1.1&insecure=0&host=www.ignitelimit.com&fp=ios&type=ws&allowInsecure=0&sni=www.ignitelimit.com#[8386][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7e58699f-1d5d-4f6b-b181-cb74f0ad9509@api.dark-coffe.com:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=GfV5t2331T.sMaRtTeChZaAl.InFo&amp;fp=chrome&amp;type=ws&amp;sni=GfV5t2331T.sMaRtTeChZaAl.InFo#[21867][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
 
-trojan://humanity@45.130.125.158:443?path=%2Fassignment&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&host=www.ignitelimit.com&fp=ios&type=ws&allowInsecure=0&sni=www.ignitelimit.com#[8385][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=%2Fcbasur&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hhvl.hhapp.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=hhvl.hhapp.kdns.fr#[20943][SC][0][VLESS][None][Outline_Vpn][2026-07-20][2026-08-07 15:50]
 
-trojan://humanity@45.130.125.158:443?path=%2Fassignment&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&host=www.ignitelimit.com&fp=ios&type=ws&allowInsecure=0&sni=www.ignitelimit.com#[8384][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44775][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?encryption=none&type=ws&host=new-scale08-cdn.sabzi.name.ng.&path=/&packetEncoding=xudp#[39985][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#[32819][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45760][SC][0][VLESS][None][Outline_Vpn][2026-07-02][2026-08-07 15:51]
+
+vless://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=7d3.sisshark.win&fp=chrome&type=ws&allowInsecure=1&sni=7d3.sisshark.win#[27387][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-1@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29119][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:51]
+
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:443?path=%2F%3Fed%3D80&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ssd.mojaz-persian-music.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ssd.mojaz-persian-music.ir#[3144][SC][0][VLESS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44773][SC][0][VLESS][None][Outline_Vpn][2026-07-19][2026-08-07 15:50]
+
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&security=none&encryption=none&host=new-scale46-cdn.sabzi.name.ng.&type=ws#[39987][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[18292][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80?path=%2Fhttp&amp;security=none&amp;encryption=none&amp;host=de.vpnbase.net&amp;type=ws#[39027][SC][0][VLESS][None][Capoit][2026-07-12][2026-08-07 15:50]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[44767][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?type=ws&security=none&path=%2F&host=free-hzr27-cdn.sabzi.name.ng.#[39988][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[44768][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44765][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-2@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29135][SC][0][VLESS][None][Parsashonam][2026-05-28][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-1@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29120][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
+
+vless://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=/ae-bo&security=tls&encryption=none&insecure=0&host=s.blibli.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=s.blibli.com.cyylr.eu.cc#[12082][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44762][SC][0][VLESS][None][Outline_Vpn][2026-07-17][2026-08-07 15:51]
+
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443?path=/cbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#[20946][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45753][SC][0][VLESS][None][prrofile_purple][2026-06-23][2026-08-07 15:51]
+
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443/?type=ws&encryption=none&flow=&host=terazhediii.info&path=%2Fhdgrbws&security=tls&sni=terazhediii.info&fp=chrome#[32815][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-10@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[29095][SC][0][VLESS][None][Parsashonam][2026-06-03][2026-08-07 15:50]
+
+vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@45.130.125.76:443/?type=ws&encryption=none&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com#[47815][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44759][SC][0][VLESS][None][marambashi][2026-07-23][2026-08-07 15:51]
+
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&security=tls&encryption=none&host=octopusss5.info&allowinsecure=0&type=ws&sni=octopusss5.info#[34933][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44760][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45754][SC][0][VLESS][None][nofiltering2][2026-06-26][2026-08-07 15:51]
+
+vless://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=7d3.sisshark.win&fp=chrome&type=ws&allowInsecure=1&sni=7d3.sisshark.win#[27389][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=/rsedgws&security=tls&encryption=none&host=shegeftihaaa.net&fp=chrome&type=ws&sni=shegeftihaaa.net#[21832][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=%2Fhdgrbws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=terazhediii.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=terazhediii.info#[32816][SC][0][VLESS][None][marambashi][2026-08-03][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-8@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[29142][SC][0][VLESS][None][Parsashonam][2026-06-01][2026-08-07 15:50]
+
+vless://7968c546-02dc-4f8c-b791-934591a94cb2@45.130.125.207:443/?type=ws&encryption=none&flow=&host=hhvl.hhapp.kdns.fr&path=%2Fcbasur&security=tls&sni=hhvl.hhapp.kdns.fr#[20941][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44772][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-2@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29134][SC][0][VLESS][None][Parsashonam][2026-05-28][2026-08-07 15:50]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44761][SC][0][VLESS][None][Outline_Vpn][2026-07-17][2026-08-07 15:50]
+
+vless://f106648e-0644-40bc-974c-6edc966fe18d@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D2053&amp;security=tls&amp;alpn=h3%2Ch2&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=sh.mojaz-persian-music.ir#[45352][SC][0][VLESS][None][prrofile_purple][2026-06-19][2026-08-07 15:51]
+
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443/?type=ws&encryption=none&flow=&host=shegeftihaaa.net&path=%2Frsedgws&security=tls&sni=shegeftihaaa.net&fp=chrome#[21826][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-10@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[29096][SC][0][VLESS][None][Parsashonam][2026-06-03][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam@45.130.125.160:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=p4r34m.hendevaneh.sbs&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=1&amp;sni=p4r34m.hendevaneh.sbs#[29173][SC][0][VLESS][None][Parsashonam][2026-05-27][2026-08-07 15:50]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:8443?path=/&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44778][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://Telegram-Parsashonam-8@45.130.125.76:443?mode=auto&amp;path=%2Fp4r34m&amp;security=tls&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&amp;insecure=0&amp;host=p4r34m.hendevaneh.sbs&amp;type=xhttp&amp;allowInsecure=0&amp;sni=p4r34m.hendevaneh.sbs#[29143][SC][0][VLESS][None][Parsashonam][2026-06-01][2026-08-07 15:51]
+
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&path=/?ed=80&security=tls&alpn=h2&encryption=none&extra={"scMaxEachPostBytes":1000000,"scMaxConcurrentPosts":100,"scMinPostsIntervalMs":30,"xPaddingBytes":"100-1000","noGRPCHeader":false}&fp=chrome&type=xhttp&sni=vh.mojaz-persian-music.ir#[3148][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@45.130.125.207:80/?type=ws&encryption=none&flow=&host=de.vpnbase.net&path=%2Fhttp#[39025][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[21828][SC][0][VLESS][None][marambashi][2026-07-24][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45756][SC][0][VLESS][None][SafeNet_Server][2026-06-25][2026-08-07 15:51]
+
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&amp;path=%2Fde&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=de.lezzatzone.ir&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=de.lezzatzone.ir#[10478][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[45752][SC][0][VLESS][None][vpn_tehran][2026-07-14][2026-08-07 15:51]
+
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443/?type=ws&encryption=none&host=octopusss5.info&path=%2Fudfyfws&security=tls&sni=octopusss5.info#[34928][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://926bc4cd-709e-4e90-8aa7-78db75fbe86b@45.130.125.207:443?encryption=none&type=ws&security=tls&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fdde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&host=De1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR&sni=1111--MiTiVPN---MiTiVPN-o.KinGNetWork.iR&alpn=h2%2Chttp%2F1.1&fp=chrome#[26236][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=%2Ffp%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#[44758][SC][0][VLESS][None][marambashi][2026-07-23][2026-08-07 15:51]
+
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=/de&security=tls&alpn=h2%2Chttp/1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#[10480][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=octopusss5.info&amp;type=ws&amp;allowInsecure=0&amp;sni=octopusss5.info#[34930][SC][0][VLESS][None][vpn_tehran][2026-07-03][2026-08-07 15:51]
+
+vless://e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b@45.130.125.114:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=new-scale46-cdn.sabzi.name.ng.&amp;type=ws#[39986][SC][0][VLESS][None][v2rayNG_Matsuri][2026-07-28][2026-08-07 15:51]
+
+vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@45.130.125.160:443/?type=ws&encryption=none&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com#[47813][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://b37be529-83c9-4851-a3cf-73d7d05bf308@45.130.125.76:8443?path=/&security=tls&encryption=none&insecure=0&host=drrfddgbv.turbooserver.net.tr&type=ws&allowInsecure=0&sni=drrfddgbv.turbooserver.net.tr#[32909][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://536d0d54-53a5-455a-ad7c-a525d8ff629f@45.130.125.160:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=tesdt.arvanabr.xyz&fp=chrome&type=ws&allowInsecure=1&sni=tesdt.arvanabr.xyz#[14931][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv10.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv10.perfectbulk.info#[45750][SC][0][VLESS][None][Outline_Vpn][2026-07-09][2026-08-07 15:50]
+
+vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=/sg-amz&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#[18290][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://dca945d2-6d9b-434f-8754-3626a6a75e21@45.130.125.160:2095?path=/?ed=2096&security=none&encryption=none&host=aza002.vaslbash.site&type=httpupgrade#[39059][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.207:443/?type=ws&encryption=none&flow=&host=vangoghhh.info&path=%2Frdfgtws&security=tls&sni=vangoghhh.info#[3509][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://22c15b3f-e205-48e2-9b30-1a2c3480e7b2@45.130.125.160:80?path=/&security=none&encryption=none&host=sRv79.hAMiIbaR.CoM&type=ws#[5472][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=tls&encryption=none&insecure=0&host=octopusss5.info&type=ws&allowInsecure=0&sni=octopusss5.info#[34929][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=/rsedgws&security=tls&encryption=none&host=shegeftihaaa.net&fp=chrome&type=ws&sni=shegeftihaaa.net#[21833][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://5960576d-829e-4d09-8232-0e80121a6fe4@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D80&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=vi.mojaz-persian-music.ir&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=vi.mojaz-persian-music.ir#[16228][SC][0][VLESS][None][prrofile_purple][2026-06-09][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=/&security=tls&encryption=none&insecure=0&host=srv10.perfectbulk.info&fp=chrome&type=ws&allowInsecure=0&sni=srv10.perfectbulk.info#[45762][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@45.130.125.207:443?path=/jdhfyws&security=tls&encryption=none&insecure=0&host=amooaliii.net&fp=chrome&type=ws&allowInsecure=0&sni=amooaliii.net#[20051][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#[10483][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9@45.130.125.162:8443?mode=auto&amp;path=%2F%3Fed%3D80&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=ssd.mojaz-persian-music.ir#[3147][SC][0][VLESS][None][prrofile_purple][2026-06-12][2026-08-07 15:51]
+
+vless://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=7d3.sisshark.win&fp=chrome&type=ws&allowInsecure=1&sni=7d3.sisshark.win#[27388][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#[44764][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://47422044-85e3-426b-b6c4-3588cb24a3e5@45.130.125.160:443?path=%2Fae-bo&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=s.blibli.com.cyylr.eu.cc&amp;type=ws&amp;allowInsecure=0&amp;sni=s.blibli.com.cyylr.eu.cc#[12079][SC][0][VLESS][None][Outline_Vpn][2026-06-03][2026-08-07 15:50]
+
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@45.130.125.207:443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2Ffp&security=tls&sni=t1s1.rittbo.kdns.fr#[44757][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@45.130.125.207:443?path=%2Frsedgws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=shegeftihaaa.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=shegeftihaaa.net#[21830][SC][0][VLESS][None][vpn_tehran][2026-07-13][2026-08-07 15:51]
+
+vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=srv75.perfectbulk.info&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=srv75.perfectbulk.info#[45755][SC][0][VLESS][None][SafeNet_Server][2026-06-25][2026-08-07 15:50]
+
+vless://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=1&amp;host=7d3.sisshark.win&amp;fp=chrome&amp;type=ws&amp;allowInsecure=1&amp;sni=7d3.sisshark.win#[27386][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@45.130.125.207:443?path=%2Fsg-amz&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=support.zoom.us.yxls.eu.cc&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=support.zoom.us.yxls.eu.cc#[18289][SC][0][VLESS][None][prrofile_purple][2026-07-14][2026-08-07 15:51]
+
+vless://fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301@45.130.125.114:443/?type=ws&encryption=none&host=NeTRINo-GermN-2bUAAMBt.DoMnewConFSOB1.org&path=%2Fws-vlees&security=tls&sni=NeTRINo-GermN-2bUAAMBt.DoMnewConFSOB1.org&fp=chrome#[47941][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.130.125.207:443?path=/hdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#[32818][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.76:443?allowInsecure=1&alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#[8646][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=%2Fassignment&amp;security=tls&amp;alpn=http%2F1.1&amp;insecure=0&amp;host=www.calmloud.com&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=www.calmloud.com#[8619][SC][0][TROJAN][None][Outline_Vpn][2026-06-22][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[8623][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.76:443?allowInsecure=1&alpn=http/1.1&host=www.calmlunch.com&path=/assignment&sni=www.calmlunch.com&type=ws#[8647][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[8621][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[8624][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=%2Fassignment&amp;security=tls&amp;insecure=0&amp;host=www.calmlunch.com&amp;type=ws&amp;allowInsecure=0&amp;sni=www.calmlunch.com#[8620][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.76:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&alpn=http%2F1.1#[8644][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[8622][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.76:443?allowInsecure=1&alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#[8645][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443/?type=ws&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&alpn=http%2F1.1&fp=chrome#[8617][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?security=tls&type=ws&host=www.calmlunch.com&path=/assignment&sni=www.calmlunch.com#[8625][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 15:51]
+
+trojan://humanity@45.130.125.160:443?path=%2Fassignment&amp;security=tls&amp;alpn=http%2F1.1&amp;insecure=0&amp;host=www.calmloud.com&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=www.calmloud.com#[8618][SC][0][TROJAN][None][Outline_Vpn][2026-06-22][2026-08-07 15:50]
 
