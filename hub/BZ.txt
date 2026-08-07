@@ -1,6 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[2809][BZ][0][SS][None][Outline_Vpn][2026-05-24][2026-08-06 02:02]
+ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.7.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#[414][BZ][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.238:2096?security=tls&amp;encryption=none&amp;insecure=1&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=1&amp;sni=sni.jpmj.dev#[2809][BZ][0][VLESS][None][Outline_Vpn][2026-05-24][2026-08-06 02:02]
+vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.7.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#[1763][BZ][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
 

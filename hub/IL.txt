@@ -1,4 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5Q2JRNGJyeTRvdGZpZks3b2VsNzFOYVhwUEw5cFlKYg%3D%3D@89.221.225.15:443#[4747][IL][0][SS][None][free4allVPN][2025-12-06][2026-08-03 02:13]
+ss://YWVzLTI1Ni1nY206VDhsTmpvbXpKaENUZlBmWg@185.239.48.109:8388#[13015][IL][0][SS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+
+vless://4db2d7bf-c88d-4fdf-85f8-154c05202dc9@185.239.48.109:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=tel5.vpntype.dev&alpn=h2%2Chttp%2F1.1&fp=chrome#[13129][IL][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+
+vless://ba2ac75f-0a9b-4483-9155-c00c8814d7c9@185.239.48.109:8443?security=reality&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk&sni=google.com#[31728][IL][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
+
+vless://f41f4c8c-33a1-44ea-8dd8-4d963b44e620@185.239.48.109:8443?security=reality&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk&sni=google.com#[43054][IL][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-07][2026-08-07 02:00]
 
