@@ -926,9 +926,9 @@ class CheckSelf(Protocols):
                             self.ss = link
                         elif link_type == "trojan":
                             self.trojan = link
-                    else:
-                        with self.lock:
-                            self.error_count += 1
+                else:
+                    with self.lock:
+                        self.error_count += 1
             else:
                 _ = None
                 if link_type == "vless" or link_type == "vmess":
