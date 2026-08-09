@@ -1,54 +1,64 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[2681][ID][0][SS][None][daredevill_404][2026-01-28][2026-08-08 00:38]
+ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30833?encryption=auto&amp;security=none&amp;type=tcp#[16987][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-08-09 11:52]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFTnhyTVZoYWFnbjQzbEtrMGxjT3d6bzItejhTaFhpQS1B@130.94.92.62:17216#[10262][ID][0][SS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+ss://eyJpZCI6IjIzODUwOTlmLTMwMWItNDMzZi04MzBkLWEyZmQwYWM1NWY1NyIsImFscG4iOiIiLCJob3N0Ijoibm9kZS1pZC0xLnYyc3YudG9wIiwic25pIjoid3d3LmZhY2Vib29rLmNvbSIsInBzIjoiVm1lc3MlMjAtJTIwSUQlMjAxJTIwLSUyMHRlbGVncmFtJTIwJTNBJTIwJTQwa2lhdmEiLCJwb3J0IjoiODQ0MyIsImFkZCI6Im5vZGUtaWQtMS52MnN2LnRvcCIsInBhdGgiOiJcL3dzIiwibmV0Ijoid3MiLCJzY3kiOiJhdXRvIiwidGxzIjoidGxzIn0=</pre><br/><br/><br/><pre>trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[20034][ID][0][SS][None][kiava][2026-01-23][2026-08-09 11:52]
 
-ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30806?encryption=auto&amp;security=none&amp;type=tcp#[21106][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-08-08 00:36]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFTnhyTVZoYWFnbjQzbEtrMGxjT3d6bzItejhTaFhpQS1B@130.94.92.62:17216#[7215][ID][0][SS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30833?encryption=auto&amp;security=none&amp;type=tcp#[21107][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-08-08 00:36]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpub2Rlcy1iMjExZjI4YUBub2RlLWlkLTEudjJzdi50b3A6OTkw#[9453][ID][0][SS][None][kiava][2026-01-23][2026-08-09 11:52]
 
-vmess://eyJhZGQiOiAibG1zLnVpbi1hbnRhc2FyaS5hYy5pZCIsICJhaWQiOiAwLCAiaG9zdCI6ICJiaXpuZXQtcy5uZXh0dnBuLmNjIiwgImlkIjogIjQ2YmZkYjU5LTgzYzYtNDcxMC04NzdlLWM4MDliNWE5MGRmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIlsyNjMwXVtJRF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30806?encryption=auto&amp;security=none&amp;type=tcp#[16986][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-08-09 11:52]
 
-vmess://eyJhZGQiOiAibG1zLnVpbi1hbnRhc2FyaS5hYy5pZCIsICJhaWQiOiAwLCAiaG9zdCI6ICJiaXpuZXQtcy5uZXh0dnBuLmNjIiwgImlkIjogIjQ2YmZkYjU5LTgzYzYtNDcxMC04NzdlLWM4MDliNWE5MGRmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIls5NTAxXVtJRF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
+ss://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[1935][ID][0][SS][None][daredevill_404][2026-01-28][2026-08-09 11:52]
 
-vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321?security=none&encryption=none&headerType=none&type=tcp#[4549][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vmess://eyJhZGQiOiAibG1zLnVpbi1hbnRhc2FyaS5hYy5pZCIsICJhaWQiOiAwLCAiaG9zdCI6ICJiaXpuZXQtcy5uZXh0dnBuLmNjIiwgImlkIjogIjQ2YmZkYjU5LTgzYzYtNDcxMC04NzdlLWM4MDliNWE5MGRmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIls5Nzg3XVtJRF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
 
-vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321/?type=tcp&encryption=none&flow=#[4547][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vmess://eyJpZCI6ICIyMzg1MDk5Zi0zMDFiLTQzM2YtODMwZC1hMmZkMGFjNTVmNTciLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICJub2RlLWlkLTEudjJzdi50b3AiLCAic25pIjogInd3dy5mYWNlYm9vay5jb20iLCAicHMiOiAiWzEwMjY4XVtJRF1bMF1bVk1FU1NdW05vbmVdW2tpYXZhXVsyMDI2LTAxLTIzXVsyMDI2LTA4LTA5IDExOjUyXSIsICJwb3J0IjogIjg0NDMiLCAiYWRkIjogIm5vZGUtaWQtMS52MnN2LnRvcCIsICJwYXRoIjogIi93cyIsICJuZXQiOiAid3MiLCAic2N5IjogImF1dG8iLCAidGxzIjogInRscyJ9
 
-vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321?security=&encryption=none&headerType=none&type=tcp#[4548][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vmess://eyJhZGQiOiAibG1zLnVpbi1hbnRhc2FyaS5hYy5pZCIsICJhaWQiOiAwLCAiaG9zdCI6ICJleGEubmV4dHZwbi5jYyIsICJpZCI6ICI0NmJmZGI1OS04M2M2LTQ3MTAtODc3ZS1jODA5YjVhOTBkZmYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICJbOTc4OF1bSURdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byJ9
 
-vless://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[8581][ID][0][VLESS][None][daredevill_404][2026-01-28][2026-08-08 00:38]
+vmess://eyJhZGQiOiAibG1zLnVpbi1hbnRhc2FyaS5hYy5pZCIsICJhaWQiOiAwLCAiaG9zdCI6ICJiaXpuZXQtcy5uZXh0dnBuLmNjIiwgImlkIjogIjQ2YmZkYjU5LTgzYzYtNDcxMC04NzdlLWM4MDliNWE5MGRmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIlsyNjE4XVtJRF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-vless://89ae5e18-3b81-4e5d-a645-d85012c602b1@172.232.237.24:2321?security=&encryption=none&headerType=none&type=tcp#[25013][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321?security=&encryption=none&headerType=none&type=tcp#[4290][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-vless://0d6b5af6-17df-4bb1-af76-e524f00602a5@172.232.248.242:2321/?type=tcp&encryption=none#[2543][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@141.11.78.77:8080/?type=ws&encryption=none&path=%2F%3Fed&security=tls&sni=ngedc.ambercc.filegear-sg.me&fp=chrome#[35462][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-vless://89ae5e18-3b81-4e5d-a645-d85012c602b1@172.232.237.24:2321?security=none&encryption=none&headerType=none&type=tcp#[25014][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321/?type=tcp&encryption=none&flow=#[4289][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-vless://d50f8bc7-d4d0-44cf-8744-05fa82506864@43.229.254.177:80?encryption=none&security=none&type=ws&host=id2.v2vless.xyz&path=%2Fvless#[39285][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[8249][ID][0][VLESS][None][daredevill_404][2026-01-28][2026-08-09 11:52]
 
-vless://52395e5e-40db-4c24-c32e-57954697f906@218.33.84.142:26518?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&type=tcp&headerType=none#[15276][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://d50f8bc7-d4d0-44cf-8744-05fa82506864@43.229.254.177:80?encryption=none&security=none&type=ws&host=id2.v2vless.xyz&path=%2Fvless#[36234][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@141.11.78.77:8080/?type=ws&encryption=none&path=%2F%3Fed&security=tls&sni=ngedc.ambercc.filegear-sg.me&fp=chrome#[38450][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://89ae5e18-3b81-4e5d-a645-d85012c602b1@172.232.237.24:2321?security=none&encryption=none&headerType=none&type=tcp#[23107][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://idc117okt@103.226.139.201:443?security=tls#[9027][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:39]
+vless://89ae5e18-3b81-4e5d-a645-d85012c602b1@172.232.237.24:2321?security=&encryption=none&headerType=none&type=tcp#[23106][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://your_password@43.218.139.54:443/?type=tcp&security=tls&sni=aws-id-jakarta-1.f1rocketnode.com&allowInsecure=1#[9854][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://1a18e79a-ff9c-43b5-90e1-1c43561364f2@172.235.251.52:321?security=none&encryption=none&headerType=none&type=tcp#[4291][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR@130.94.94.15:443/?type=tcp&security=tls#[9288][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://52395e5e-40db-4c24-c32e-57954697f906@218.33.84.142:26518?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&type=tcp&headerType=none#[14091][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://788f2b96-47e2-4302-a417-511b6fd7d09c@172.232.250.160:443?type=tcp&security=tls&fp=chrome&alpn=http%2F1.1#[1645][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+vless://0d6b5af6-17df-4bb1-af76-e524f00602a5@172.232.248.242:2321/?type=tcp&encryption=none#[2443][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://idc117okt@103.226.139.201:443?security=tls#[9026][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+trojan://idc117okt@103.176.78.153:443?security=tls#[8041][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[556][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:39]
+trojan://idc117okt@103.226.139.201:443?security=tls#[8044][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://idc117okt@103.176.78.153:443?security=tls#[9024][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[8166][ID][0][TROJAN][None][kiava][2026-01-23][2026-08-09 11:52]
 
-trojan://idc117okt@103.176.78.153:443?security=tls#[9025][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:39]
+trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[541][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[555][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+trojan://idc117okt@103.176.78.153:443?security=tls#[8042][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
-trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#[9023][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-08][2026-08-08 00:41]
+trojan://idc117okt@103.226.139.201:443?security=tls#[8043][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
+
+trojan://your_password@43.218.139.54:443/?type=tcp&security=tls&sni=aws-id-jakarta-1.f1rocketnode.com&allowInsecure=1#[8854][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
+
+trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#[8040][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
+
+trojan://tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR@130.94.94.15:443/?type=tcp&security=tls#[8275][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
+
+trojan://788f2b96-47e2-4302-a417-511b6fd7d09c@172.232.250.160:443?type=tcp&security=tls&fp=chrome&alpn=http%2F1.1#[1577][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
+
+trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[540][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-09][2026-08-09 11:53]
 
