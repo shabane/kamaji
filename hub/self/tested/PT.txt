@@ -1,4 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?encryption=none&amp;security=none&amp;type=tcp#[123][PT][347][VLESS][GH Action][oneclickvpnkeys][2026-08-05][2026-08-10 00:48]
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?&type=tcp&headerType=none&path=/#[115][PT][305][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?&type=tcp&headerType=none&path=%2F#[114][PT][291][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?encryption=none&security=none&type=tcp#[118][PT][297][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?&type=tcp&headerType=none&path=/#[116][PT][278][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?encryption=none&security=none&type=tcp&headerType=none#[119][PT][274][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?encryption=none&amp;security=none&amp;type=tcp#[117][PT][286][VLESS][GH Action][oneclickvpnkeys][2026-08-08][2026-08-13 00:57]
 

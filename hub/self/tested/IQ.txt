@@ -1,0 +1,6 @@
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
+
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@81.90.29.151:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&sid=e852dc&sni=booking.com#[209][IQ][385][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@81.90.29.151:13868?security=reality&encryption=none&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=booking.com&sid=e852dc#[208][IQ][386][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+

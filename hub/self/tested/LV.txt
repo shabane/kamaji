@@ -1,20 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?security=&encryption=none&headerType=&type=tcp#[4578][LV][636][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@195.123.208.92:13443?type=tcp&headerType=none&security=reality&encryption=none&sni=auto.cendora.ru&fp=qq&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0&flow=xtls-rprx-vision#[3797][LV][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
 
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@195.123.208.92:13443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=auto.cendora.ru&fp=chrome&security=reality&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0#[4604][LV][609][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?encryption=none&security=none&type=tcp&headerType=none#[1910][LV][336][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
 
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:21948?encryption=none&security=none&type=tcp#[3746][LV][1046][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:21948?encryption=none&security=none&type=tcp#[3747][LV][1388][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?encryption=none&security=none&type=tcp&headerType=none#[1935][LV][355][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:42282?encryption=none&fp=chrome&pbk=CiKtn_6x0VptZJdHbe7wW_9yetDMfZ6RhqRVTsfP1Bg&security=reality&sid=9ff38a&sni=g.co&spx=/qvsWMnyZc82PyxU&type=tcp#[3748][LV][596][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@195.123.208.92:13443?type=tcp&headerType=none&security=reality&encryption=none&sni=auto.cendora.ru&fp=qq&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0&flow=xtls-rprx-vision#[4605][LV][626][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:42282?encryption=none&fp=chrome&pbk=CiKtn_6x0VptZJdHbe7wW_9yetDMfZ6RhqRVTsfP1Bg&security=reality&sid=9ff38a&sni=g.co&spx=/qvsWMnyZc82PyxU&type=tcp#[3749][LV][2308][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?type=tcp&security=none&encryption=none#[4579][LV][693][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+trojan://humanity@84.21.172.81:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[1205][LV][691][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
 
