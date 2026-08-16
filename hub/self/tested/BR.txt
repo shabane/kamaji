@@ -1,4 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://4cfb9456-0921-4547-a684-4614980d4a86@179.198.49.14:443?security=reality&encryption=none&sni=yandex.ru&fp=chrome&pbk=0tsW6-mbhq0zPODM7BlymfZDYAjSB5S5doDDk8qpYXE&sid=8e79809e9958ae22&spx=/&type=tcp&path=/#[1243][BR][765][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-13][2026-08-13 00:57]
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmYvaFNuQUY1R0RoeXZlOGJybXdlcC9MelMxZEtNOHVhV1JZc3ZJb2JGdz0@163.176.56.46:59319#[2][BR][357][SS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmYvaFNuQUY1R0RoeXZlOGJybXdlcC9MelMxZEtNOHVhV1JZc3ZJb2JGdz0@163.176.56.46:59319#[1][BR][367][SS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://b6b92515-13c5-4e6e-9fea-8db2d44628a0@veilix.ciphero.xyz:443?type=tcp&headerType=none&security=reality&encryption=none&sni=veilix.ciphero.xyz&fp=firefox&pbk=8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4&sid=33b5887524592cad&flow=xtls-rprx-vision#[3115][BR][939][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
 

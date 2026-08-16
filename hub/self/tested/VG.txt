@@ -1,4 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://24e3a924-fc4b-4e3f-98a8-85d506d530f9@185.221.163.211:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&sid=aaec521b22bbe6cb&sni=fin1.panel11.ru#[653][VG][521][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@185.221.163.211:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&sid=aaec521b22bbe6cb&sni=fin1.panel11.ru#[2647][VG][548][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@fin1.panel11.ru:443?security=reality&encryption=none&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fin1.panel11.ru&sid=aaec521b22bbe6cb#[2684][VG][527][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@fin1.panel11.ru:443?security=reality&encryption=none&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=fin1.panel11.ru&sid=aaec521b22bbe6cb#[2683][VG][535][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@fin1.panel11.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fin1.panel11.ru&fp=firefox&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&sid=aaec521b22bbe6cb&type=tcp&headerType=none#[2682][VG][528][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@185.221.163.211:443?flow=xtls-rprx-vision&fp=firefox&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&security=reality&sid=aaec521b22bbe6cb&sni=fin1.panel11.ru&type=tcp#[2646][VG][531][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@fin1.panel11.ru:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&security=reality&sid=aaec521b22bbe6cb&sni=fin1.panel11.ru&type=tcp#[2681][VG][528][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
 
