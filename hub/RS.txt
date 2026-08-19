@@ -1,26 +1,22 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://da97d2d7-d255-4efd-8398-7101d698768e@195.133.18.161:30153?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#[18222][RS][0][SS][None][free1_vpn][2026-08-01][2026-08-16 00:34]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.221.238:1080#[9227][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@194.71.126.31:989#[11738][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@194.71.126.31:989#[12000][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@194.71.126.31:989#[11865][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@194.71.126.31:989#[11999][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2@152.89.160.115:33992#[12133][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@194.71.126.31:989#[12126][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@194.71.126.31:989#[11739][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2@152.89.160.115:33992#[12422][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.221.238:1080#[9027][RS][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+vless://1dd5f2be-f124-4f35-9239-8abc042829c2@149.33.31.115:14302?type=tcp&headerType=none&security=reality&encryption=none&sni=www.samsung.com&fp=firefox&pbk=lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc&sid=106f1604d65bb70c&flow=xtls-rprx-vision#[5148][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-vless://7fc0fd86-79a9-48dd-87e8-669758e9ffa8@185.48.251.195:448/?type=tcp&encryption=none&sni=www.samsung.com&security=reality&pbk=ncuqENP8uAV8w18kOQJlfWCC7dWjnUY1UY_5Iwtf21o&sid=181c8972132cca60#[20669][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@38.180.101.136:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#[35392][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-vless://7fc0fd86-79a9-48dd-87e8-669758e9ffa8@185.48.251.195:448?type=tcp&security=reality&pbk=ncuqENP8uAV8w18kOQJlfWCC7dWjnUY1UY_5Iwtf21o&fp=chrome&sni=www.samsung.com&sid=181c8972132cca60#[20670][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@38.180.101.136:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&amp;security=reality&amp;sid=6ba85179e30d4fc2&amp;sni=www.google.com&amp;type=tcp#[35391][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@38.180.101.136:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#[33519][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+vless://7fc0fd86-79a9-48dd-87e8-669758e9ffa8@185.48.251.195:448/?type=tcp&encryption=none&sni=www.samsung.com&security=reality&pbk=ncuqENP8uAV8w18kOQJlfWCC7dWjnUY1UY_5Iwtf21o&sid=181c8972132cca60#[21743][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
-vless://1dd5f2be-f124-4f35-9239-8abc042829c2@149.33.31.115:14302?type=tcp&headerType=none&security=reality&encryption=none&sni=www.samsung.com&fp=firefox&pbk=lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc&sid=106f1604d65bb70c&flow=xtls-rprx-vision#[4738][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
-
-vless://da97d2d7-d255-4efd-8398-7101d698768e@195.133.18.161:30153?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#[36732][RS][0][VLESS][None][free1_vpn][2026-08-01][2026-08-16 00:34]
-
-vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@38.180.101.136:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&amp;security=reality&amp;sid=6ba85179e30d4fc2&amp;sni=www.google.com&amp;type=tcp#[33518][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][2026-08-16 00:34]
+vless://7fc0fd86-79a9-48dd-87e8-669758e9ffa8@185.48.251.195:448?type=tcp&security=reality&pbk=ncuqENP8uAV8w18kOQJlfWCC7dWjnUY1UY_5Iwtf21o&fp=chrome&sni=www.samsung.com&sid=181c8972132cca60#[21744][RS][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
 
