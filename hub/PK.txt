@@ -1,26 +1,32 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10484][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10495][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-ss://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[4121][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10496][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10483][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw@103.125.147.48:51348#[10497][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw@103.125.147.48:51348#[10485][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+ss://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[4002][PK][0][SS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://a87bf8a2-17a4-3054-b51e-876b5f1d0f24@103.175.79.2:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&type=tcp&headerType=none#[30577][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://8e6acce9-8b56-7190-d491-7d84f8189e26@103.175.79.2:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[25050][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[13143][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI#[12799][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&security=reality&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&sid=#[13141][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&security=reality&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&sid=#[12798][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI#[13142][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[18957][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[19487][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://8e6acce9-8b56-7190-d491-7d84f8189e26@103.175.79.2:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&type=tcp&headerType=none#[25049][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[19486][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[18958][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://8e6acce9-8b56-7190-d491-7d84f8189e26@103.175.79.2:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[25173][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443?security=reality&encryption=none&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#[12800][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
-vless://8e6acce9-8b56-7190-d491-7d84f8189e26@103.175.79.2:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&type=tcp&headerType=none#[25172][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://a87bf8a2-17a4-3054-b51e-876b5f1d0f24@103.175.79.2:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&type=tcp&headerType=none#[30555][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
+
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls&sni=149.104.104.58#[7992][PK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
+
+trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0#[7990][PK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
+
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls#[7991][PK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-22][2026-08-22 00:32]
 
