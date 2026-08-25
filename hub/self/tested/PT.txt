@@ -1,10 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?type=tcp&headerType=none&path=%2F#[196][PT][236][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
-
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?&type=tcp&headerType=none&path=%2F#[193][PT][236][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
-
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?&type=tcp&headerType=none&path=/#[194][PT][235][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
-
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?path=%2F+&security=none&type=tcp#[195][PT][239][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-19][2026-08-19 00:32]
+vless://c7fc6e44-d57b-49b9-9ff2-a4e0aa9e9b8c@pp.alertyagency.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=kUuy5M4V5bfjri7m_XBryv1YTLLlPLPIwPotJJgpgEc&sid=87922049&sni=api-maps.yandex.ru#[3563][PT][394][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-25][2026-08-25 00:33]
 
