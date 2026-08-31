@@ -1,6 +1,16 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479@85.155.228.197:10000?type=tcp&security=reality&fp=firefox&pbk=Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM&sid=cd0a1986719e44c8&sni=amp-api-edge.apps.apple.com#[1169][AL][535][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@alban.freeinternat.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&sni=alban.freeinternat.com#[3023][AL][415][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
 
-vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@alban.freeinternat.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&sni=alban.freeinternat.com#[1668][AL][363][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@alban.freeinternat.com:443?security=reality&encryption=none&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=alban.freeinternat.com&sid=ff776ff77be48b88#[3021][AL][399][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@alban.freeinternat.com:443?security=reality&encryption=none&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=alban.freeinternat.com&sid=ff776ff77be48b88#[3022][AL][413][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@193.108.112.245:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&security=reality&sid=ff776ff77be48b88&sni=alban.freeinternat.com&type=tcp#[3014][AL][399][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@193.108.112.245:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&security=reality&sid=ff776ff77be48b88&sni=alban.freeinternat.com&type=tcp#[3013][AL][409][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@alban.freeinternat.com:443?security=reality&encryption=none&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=alban.freeinternat.com&sid=ff776ff77be48b88#[3020][AL][399][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@193.108.112.245:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&security=reality&sid=ff776ff77be48b88&sni=alban.freeinternat.com&type=tcp#[3015][AL][414][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
 
