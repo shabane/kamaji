@@ -1,6 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=0a9bd9db19578964&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc#[3165][MY][669][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzExXVtNWV1bNDE0XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJhZGQiOiAiNDcuMjUwLjEzNS4yNDQiLCAicG9ydCI6ICIxMDAwMCIsICJpZCI6ICJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpbnNlY3VyZSI6ICIwIn0=
 
-vless://85dd8227-0f12-4826-a712-6313211774b5@43.217.16.8:21874?security=reality&type=tcp&sni=www.amd.com&fp=firefox&flow=xtls-rprx-vision&sid=42e853a5559e1032&pbk=75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs#[1910][MY][672][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiYzc3ZjQ4ZjUtNGJlMy00NDYxLWI1MmItNDk5OThlN2I4OTdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6ICI0MzA2MyIsICJwcyI6ICJbNzRdW01ZXVsxMTM5XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
+
+vless://8a346b7c-5b95-4845-affa-0e5d9929e9ae@38.60.168.98:2087/?type=ws&encryption=none&flow=&path=%2Fdb55c40bbc75&packetEncoding=xudp#[2296][MY][610][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+
+vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&type=tcp&allowInsecure=1&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=0a9bd9db19578964&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc#[3599][MY][638][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+
+vless://85dd8227-0f12-4826-a712-6313211774b5@43.217.16.8:21874/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.amd.com&fp=firefox&security=reality&pbk=75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs&sid=42e853a5559e1032&packetEncoding=xudp#[2186][MY][643][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 

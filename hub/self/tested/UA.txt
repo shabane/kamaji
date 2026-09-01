@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#[1037][UA][532][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@91.218.212.223:443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=/#[425][UA][662][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#[1249][UA][603][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 

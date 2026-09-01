@@ -1,14 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.159:62145#[2036][CO][402][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.179.13:62145?&type=tcp&headerType=none&path=/#[2322][CO][415][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.180.150:62145?&type=tcp&headerType=none&path=%2F#[2037][CO][468][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.237.11:62145?&type=tcp&headerType=none&path=%2F#[2324][CO][2595][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.214.227:62145?type=tcp&security=none#[2039][CO][490][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.179.13:62145?&security=false&fp=chrome&type=tcp&headerType=none&path=%2F#[2321][CO][413][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.218.132:62145?&type=tcp&headerType=none&path=%2F#[2040][CO][469][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
-
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.180.150:62145?&type=tcp&headerType=none&path=/#[2038][CO][402][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
-
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.171.82:62145?&type=tcp&headerType=none&path=/#[2035][CO][401][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-31][2026-08-31 02:00]
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.184.116:62145?&type=tcp&headerType=none&path=%2F#[2323][CO][412][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
 
