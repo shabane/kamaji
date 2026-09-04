@@ -1,6 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://a3e2af75-4827-472a-bb3e-676a847096ed@144.31.131.96:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#[28405][TJ][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://8e85752d-c04f-427d-9d70-b10d144c8492@144.31.129.99:4243?security=reality&type=grpc&mode=gun&serviceName=ns&sni=fi.convert-cloud.guru&fp=firefox&pbk=vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4#[21933][TJ][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://8e85752d-c04f-427d-9d70-b10d144c8492@144.31.129.99:4243?security=reality&type=grpc&mode=gun&serviceName=ns&sni=fi.convert-cloud.guru&fp=firefox&pbk=vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4#[23960][TJ][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://a3e2af75-4827-472a-bb3e-676a847096ed@144.31.131.96:26819?type=grpc&security=reality&fp=firefox&pbk=G5ssqwHdO3WY07IIqqJ3eszJbUm2NfshymcbQU5CEw4&sid=1a6b1f9d0e&sni=www.nvidia.com&serviceName=api/v1/sync/#[26007][TJ][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 

@@ -1,14 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@sl.alertyagency.com:9443?type=grpc&security=reality&fp=firefox&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&sid=e764f0ea&sni=api-maps.yandex.ru&serviceName=grpc&spx=/#[1360][SK][478][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
-
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@sl.alertyagency.com:443?security=reality&encryption=none&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=e764f0ea#[1358][SK][379][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
-
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@156.146.40.201:9443?type=grpc&security=reality&fp=firefox&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&sid=e764f0ea&sni=api-maps.yandex.ru&serviceName=grpc#[1330][SK][465][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
-
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@sl.alertyagency.com:443?security=reality&encryption=none&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=e764f0ea#[1357][SK][378][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
-
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@sl.alertyagency.com:443?security=reality&encryption=none&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=e764f0ea#[1359][SK][374][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
-
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@sl.alertyagency.com:443?security=reality&encryption=none&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=e764f0ea#[1356][SK][374][VLESS][GH Action][ext_raw.githubusercontent.com][2026-08-28][2026-08-28 07:23]
+vless://95b3eb4a-698f-44a5-a9df-b882148a4ca5@89.46.42.141:8443?path=/&security=tls&alpn=h3,+h2,+http/1.1&encryption=none&insecure=0&host=kingniderlands.tolkun-tv.ru&fp=chrome&type=ws&allowInsecure=0&sni=kingniderlands.tolkun-tv.ru#[2055][SK][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 

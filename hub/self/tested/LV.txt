@@ -1,56 +1,52 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://1e560bb6-4d52-4625-a629-54b1282f1b93@46.28.64.242:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=2FrYX1NTCe-fnm0kvNLYMPAuOZ8jbsYOSCKu3lY3CBQ&sid=64c147592a2f84d9&sni=www.cloudflare.com#[270][LV][464][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://441afe11-a180-4516-bb80-80a8a6b38705@193.163.203.253:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk&sid=5ee019e02e6ed99a&sni=yandex.ru#[1142][LV][795][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:8443?security=reality&type=xhttp&sni=laoye.in-gect.fun&fp=firefox&pbk=Z3adeet9wvavdQ8mY6BZYgoXe22BV5DFcsyFChWYNUM#[1934][LV][468][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&host=laoye.in-gect.fun&path=/&security=none&type=ws#[1648][LV][378][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1926][LV][514][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1650][LV][364][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1932][LV][462][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?path=/&security=none&encryption=none&type=ws#[1653][LV][365][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1927][LV][506][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1659][LV][494][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1959][LV][481][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&packetEncoding=xudp#[223][LV][734][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=laoye.in-gect.fun&fp=ios#[1956][LV][631][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?encryption=none&security=&type=ws#[1651][LV][364][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2053?flow=xtls-rprx-vision&fp=chrome&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sni=vk.ru&type=tcp#[1949][LV][535][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1665][LV][365][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?fp=ios&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1953][LV][660][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1658][LV][515][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1928][LV][505][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&security=reality&sid=33acba1b&sni=www.apple.com&type=tcp#[1379][LV][375][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1925][LV][514][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2053?flow=xtls-rprx-vision&fp=chrome&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sni=vk.ru&type=tcp#[1657][LV][406][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1958][LV][466][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=laoye.in-gect.fun&fp=ios#[1662][LV][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1951][LV][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1647][LV][519][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2053?&security=reality&flow=xtls-rprx-vision&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&sid=d26f4703cdd30f4e&fp=edge&sni=vk.ru&type=tcp&headerType=none&host=vk.ru&path=%2F#[1947][LV][523][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1664][LV][372][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@195.123.210.168:443?flow=xtls-rprx-vision&fp=qq&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&security=reality&sid=dd3ff38418d29d22&sni=eu-west.cendora.ru#[1230][LV][618][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?security=none&type=ws&path=/&host=laoye.in-gect.fun&encryption=none#[1666][LV][382][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1950][LV][655][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&host=laoye.in-gect.fun&path=/&security=none&type=ws#[1649][LV][376][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=laoye.in-gect.fun&fp=chrome&encryption=none#[1955][LV][625][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?path=/&security=none&encryption=none&type=ws#[1655][LV][375][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1948][LV][513][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2053?&security=reality&flow=xtls-rprx-vision&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&sid=d26f4703cdd30f4e&fp=edge&sni=vk.ru&type=tcp&headerType=none&host=vk.ru&path=%2F#[1656][LV][436][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1929][LV][512][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?path=/&security=none&encryption=none&type=ws#[1654][LV][368][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?security=none&type=ws&path=%2F&host=laoye.in-gect.fun&sni=laoye.in-gect.fun#[1961][LV][481][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?fp=ios&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1661][LV][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2083?encryption=none&security=tls&serviceName=grpc&sni=laoye.in-gect.fun&type=grpc#[1931][LV][647][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&packetEncoding=xudp#[222][LV][739][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?fp=chrome&security=tls&serviceName=grpc&type=grpc#[1952][LV][634][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?type=grpc&security=tls&fp=ios&mode=gun&serviceName=grpc#[1663][LV][512][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg&security=reality&sid=d26f4703cdd30f4e&sni=vk.ru&type=tcp#[1930][LV][537][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?path=/&security=none&encryption=none&type=ws#[1652][LV][373][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?encryption=none&host=laoye.in-gect.fun&path=%2F&security=none&type=ws#[1933][LV][480][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?fp=chrome&security=tls&serviceName=grpc&type=grpc#[1660][LV][492][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?security=none&type=ws&path=%2F&host=laoye.in-gect.fun&encryption=none#[1960][LV][458][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
-
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?type=grpc&security=tls&fp=ios&mode=gun&serviceName=grpc#[1957][LV][603][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
-
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?security=tls&type=grpc&mode=gun&serviceName=grpc&sni=laoye.in-gect.fun&fp=chrome#[1954][LV][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+trojan://humanity@84.21.172.81:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#[193][LV][638][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 

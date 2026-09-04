@@ -1,10 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://f4ae4cd4-7e7b-47a0-9817-e81ffa826b53@3.25.92.214:44717?security=reality&encryption=none&pbk=TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.sony.com&sid=e4a5aeecb8319d#[3714][AU][545][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://f4ae4cd4-7e7b-47a0-9817-e81ffa826b53@3.25.92.214:44717?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.sony.com&fp=chrome&pbk=TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk&sid=e4a5aeecb8319d&type=tcp&headerType=none&path=/#[3054][AU][633][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?security=reality&encryption=none&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=d15c17cef9b2e456#[2464][AU][554][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?security=reality&encryption=none&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=d15c17cef9b2e456#[2178][AU][593][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://17a8652c-6f1b-4371-9193-8ac4ddd54ba7@51.161.199.124:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=suetinklerartglass.co.uk&fp=firefox&flow=xtls-rprx-vision&sid=0f4d3210977f51a5&pbk=qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0#[224][AU][553][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE&sid=d15c17cef9b2e456&type=tcp&headerType=none#[2177][AU][634][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
-vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?security=reality&encryption=none&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=d15c17cef9b2e456#[2463][AU][547][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-01][2026-09-01 02:22]
+vless://17a8652c-6f1b-4371-9193-8ac4ddd54ba7@51.161.199.124:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0&sid=0f4d3210977f51a5&sni=suetinklerartglass.co.uk#[256][AU][617][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
 
