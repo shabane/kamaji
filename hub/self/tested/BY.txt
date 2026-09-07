@@ -1,6 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://91eb52ec-e3f5-4ab9-90da-43104995aef7@144.31.129.2:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=by1.un1.pro&fp=firefox&security=reality&pbk=y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI&sid=6ba85179e30d4fc2#[2034][BY][331][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
-
-trojan://8qCNZU2XdtefT7uB4uPxgRR839btqMG8@by01.botovod.space:500?type=grpc&security=tls&fp=chrome&sni=by01.botovod.space&mode=gun&alpn=h2,http/1.1#[11][BY][510][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
+vless://91eb52ec-e3f5-4ab9-90da-43104995aef7@144.31.129.2:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=by1.un1.pro&fp=firefox&security=reality&pbk=y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI&sid=6ba85179e30d4fc2#[1936][BY][347][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
 
