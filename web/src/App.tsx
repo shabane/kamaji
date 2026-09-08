@@ -9,6 +9,7 @@ import { NodeTable } from './components/NodeTable'
 import { QrModal } from './components/QrModal'
 import { ImportModal } from './components/ImportModal'
 import { LogsView } from './components/LogsView'
+import { WorldMap } from './components/WorldMap'
 import { BottomBanner } from './components/BottomBanner'
 import { MobileBottomNav } from './components/MobileBottomNav'
 import { parseSubscriptionText } from './lib/parser'
@@ -39,6 +40,7 @@ export function App() {
   const [statusFilter, setStatusFilter] = useState<FilterStatus>('all')
   const [sortOption, setSortOption] = useState<SortOption>('fastest')
   const [viewMode, setViewMode] = useState<ViewMode>('grid')
+  const [activeCountryFilter, setActiveCountryFilter] = useState<string>('')
 
   // Telemetry & Modals
   const [elapsedSeconds, setElapsedSeconds] = useState<number>(0)
@@ -329,6 +331,13 @@ export function App() {
       list = list.filter((n) => n.status === 'pending' || n.status === 'probing')
     }
 
+    // Country filter (e.g. from World Map hexagon click)
+    if (activeCountryFilter) {
+      list = list.filter(
+        (n) => n.countryCode?.toUpperCase() === activeCountryFilter.toUpperCase()
+      )
+    }
+
     // Search query
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim()
@@ -365,7 +374,7 @@ export function App() {
   // Reset pagination on search/filter changes
   useEffect(() => {
     setVisibleCount(36)
-  }, [searchQuery, statusFilter, protocolFilter, sortOption])
+  }, [searchQuery, statusFilter, protocolFilter, sortOption, activeCountryFilter])
 
   // IntersectionObserver to load more as user scrolls down
   useEffect(() => {
@@ -451,6 +460,52 @@ export function App() {
         {/* Content Tabs View */}
         {activeTab === 'logs' ? (
           <LogsView logs={logs} onClearLogs={() => setLogs([])} />
+        ) : activeTab === 'map' ? (
+          <div className="space-y-4">
+            <WorldMap
+              nodes={nodes}
+              onSelectCountry={(countryCode) => {
+                setActiveCountryFilter((prev) => (prev === countryCode ? '' : countryCode))
+              }}
+              activeCountryFilter={activeCountryFilter}
+            />
+
+            {activeCountryFilter && (
+              <div className="space-y-3 pt-2">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-xs font-mono text-slate-400">
+                    Filtered by country {activeCountryFilter} ({filteredNodes.length} nodes)
+                  </h3>
+                  <button
+                    onClick={() => setActiveTab('scanner')}
+                    className="text-xs font-mono text-cyan-400 hover:text-cyan-300 hover:underline cursor-pointer flex items-center gap-1"
+                  >
+                    <span>View in Scanner Grid</span>
+                    <span>&rarr;</span>
+                  </button>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {displayedNodes.map((node) => (
+                    <NodeCard
+                      key={node.id}
+                      node={node}
+                      onRetest={handleRetestSingle}
+                      onOpenQr={(n) => setQrNode(n)}
+                    />
+                  ))}
+                </div>
+                {visibleCount < filteredNodes.length && (
+                  <div
+                    ref={sentinelRef}
+                    className="py-6 text-center text-xs font-mono text-slate-500 flex items-center justify-center gap-2"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+                    <span>Loaded {displayedNodes.length} of {filteredNodes.length} endpoints • Scroll for more</span>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         ) : (
           <>
             {/* Nodes Grid / Table */}
@@ -531,6 +586,8 @@ export function App() {
         setActiveTab={(tab) => {
           if (tab === 'logs') {
             setActiveTab('logs')
+          } else if (tab === 'map') {
+            setActiveTab('map')
           } else if (tab === 'matrix') {
             setViewMode('table')
             setActiveTab('matrix')
