@@ -2,14 +2,9 @@ import { parseSubscriptionText } from './parser'
 import { probeWebSocketNode } from './prober'
 import { InterceptedNode } from './radarTypes'
 
-const DEFAULT_CORS_PROXIES = [
-  (url: string) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-  (url: string) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
-  (url: string) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
-]
-
 /**
  * Scrapes recent messages from a public Telegram channel and extracts proxy links.
+ * Uses open, free CORS readers (Jina Reader, CodeTabs, AllOrigins) without requiring any API key.
  */
 export async function scrapeTelegramChannel(
   channel: string,
@@ -20,57 +15,70 @@ export async function scrapeTelegramChannel(
     return { channel: cleanChannel, links: [], error: 'Invalid channel name' }
   }
 
-  const targetUrls = [
-    `https://telegram.dog/s/${cleanChannel}`,
-    `https://t.me/s/${cleanChannel}`,
-  ]
-
-  let htmlContent = ''
-  let lastError: string | undefined
-
-  // Build list of proxy fetchers to try in sequence
-  const proxyFetchers: ((targetUrl: string) => string)[] = []
+  // Build candidate proxy fetch URLs in priority order
+  const fetchUrls: string[] = []
 
   if (customCorsProxy && customCorsProxy.trim()) {
     const base = customCorsProxy.trim()
-    proxyFetchers.push((url) =>
-      base.includes('?') ? `${base}${encodeURIComponent(url)}` : `${base}?url=${encodeURIComponent(url)}`
+    const target = `https://t.me/s/${cleanChannel}`
+    fetchUrls.push(
+      base.includes('?') ? `${base}${encodeURIComponent(target)}` : `${base}?url=${encodeURIComponent(target)}`
     )
   }
 
-  proxyFetchers.push(...DEFAULT_CORS_PROXIES)
+  // Primary open, reliable, free CORS readers (NO API KEY required)
+  fetchUrls.push(
+    `https://r.jina.ai/https://t.me/s/${cleanChannel}`,
+    `https://r.jina.ai/https://telegram.dog/s/${cleanChannel}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(`https://t.me/s/${cleanChannel}`)}`,
+    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(`https://t.me/s/${cleanChannel}`)}`
+  )
+
+  let content = ''
+  let lastError: string | undefined
 
   // Try fetching page through proxies
-  for (const proxyGen of proxyFetchers) {
-    for (const targetUrl of targetUrls) {
-      try {
-        const proxyUrl = proxyGen(targetUrl)
-        const controller = new AbortController()
-        const timeoutId = setTimeout(() => controller.abort(), 6000)
+  for (const proxyUrl of fetchUrls) {
+    try {
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 6500)
 
-        const res = await fetch(proxyUrl, {
-          signal: controller.signal,
-          headers: {
-            Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          },
-        })
-        clearTimeout(timeoutId)
+      const res = await fetch(proxyUrl, {
+        signal: controller.signal,
+        headers: {
+          Accept: 'text/html,application/xhtml+xml,text/plain,text/markdown,*/*',
+        },
+      })
+      clearTimeout(timeoutId)
 
-        if (res.ok) {
-          const text = await res.text()
-          if (text && text.length > 200 && (text.includes('tgme_widget_message') || text.includes('vless://') || text.includes('vmess://') || text.includes('trojan://'))) {
-            htmlContent = text
-            break
-          }
+      if (res.ok) {
+        const text = await res.text()
+        // Filter out API key requirement responses (e.g. if an outdated proxy requires a key)
+        if (text.includes('API key is required') || text.includes('Invalid API key') || text.includes('rate limited')) {
+          continue
         }
-      } catch (err: any) {
-        lastError = err.message || 'Network error'
+
+        if (
+          text &&
+          text.length > 100 &&
+          (text.includes('vless://') ||
+           text.includes('vmess://') ||
+           text.includes('trojan://') ||
+           text.includes('tgme_widget_message') ||
+           text.includes('Markdown Content:') ||
+           text.includes('subscribers') ||
+           text.includes('members'))
+        ) {
+          content = text
+          break
+        }
       }
+    } catch (err: any) {
+      lastError = err.message || 'Network error'
     }
-    if (htmlContent) break
   }
 
-  if (!htmlContent) {
+  if (!content) {
     return { channel: cleanChannel, links: [], error: lastError || 'Could not fetch channel messages' }
   }
 
@@ -78,21 +86,20 @@ export async function scrapeTelegramChannel(
   const linkSet = new Set<string>()
 
   // Decode HTML entities if any (like &amp; into &)
-  const decodedHtml = htmlContent
+  const decodedContent = content
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
 
-  const vlessMatches = decodedHtml.match(/vless:\/\/[^\s<>"'`]+/gi) || []
-  const vmessMatches = decodedHtml.match(/vmess:\/\/[^\s<>"'`]+/gi) || []
-  const trojanMatches = decodedHtml.match(/trojan:\/\/[^\s<>"'`]+/gi) || []
+  const matches = decodedContent.match(/(?:vless|vmess|trojan):\/\/[^\s<>"'`]+/gi) || []
 
-  for (const l of [...vlessMatches, ...vmessMatches, ...trojanMatches]) {
-    const trimmed = l.trim()
-    if (trimmed.length > 20) {
-      linkSet.add(trimmed)
+  for (const raw of matches) {
+    // Clean any trailing markdown formatting characters: ), ], *, _, `, etc.
+    const clean = raw.trim().replace(/[\)\]\*\_\`]+$/, '')
+    if (clean.length > 20) {
+      linkSet.add(clean)
     }
   }
 

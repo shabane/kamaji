@@ -789,15 +789,23 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
               </div>
 
               {/* Custom CORS Proxy */}
-              <div className="pt-2 border-t border-white/[0.04] space-y-1">
-                <span className="text-[10px] text-slate-400 block">Custom CORS Proxy URL (Optional):</span>
+              <div className="pt-2 border-t border-white/[0.04] space-y-1.5">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] text-slate-400 block font-medium">Custom CORS Proxy URL (Optional):</span>
+                  <span className="text-[9px] text-emerald-400/80 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">
+                    Default: Open Readers (No Key Needed)
+                  </span>
+                </div>
                 <input
                   type="text"
                   value={customCorsProxy}
                   onChange={(e) => setCustomCorsProxy(e.target.value)}
-                  placeholder="e.g. https://my-worker.workers.dev/?url="
-                  className="w-full px-2.5 py-1.5 text-xs font-mono bg-[#03070d] border border-white/[0.08] rounded-lg text-slate-200 focus:outline-none focus:border-emerald-500/50"
+                  placeholder="Default uses Jina Reader & CodeTabs • Or enter your Cloudflare Worker"
+                  className="w-full px-2.5 py-1.5 text-xs font-mono bg-[#03070d] border border-white/[0.08] rounded-lg text-slate-200 focus:outline-none focus:border-emerald-500/50 placeholder:text-slate-600"
                 />
+                <p className="text-[10px] text-slate-500">
+                  Requests run through open CORS readers (Jina Reader & CodeTabs) with zero API key requirements.
+                </p>
               </div>
             </div>
 
