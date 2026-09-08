@@ -33,16 +33,6 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
       </button>
 
       <button
-        onClick={() => setActiveTab('radar')}
-        className={`flex flex-col items-center gap-1 text-[10px] font-mono transition-colors ${
-          activeTab === 'radar' ? 'text-emerald-400 font-bold' : 'text-emerald-500/70 hover:text-emerald-300'
-        }`}
-      >
-        <Radio className="w-4 h-4 animate-pulse" />
-        <span>RADAR</span>
-      </button>
-
-      <button
         onClick={() => setActiveTab('matrix')}
         className={`flex flex-col items-center gap-1 text-[10px] font-mono transition-colors ${
           activeTab === 'matrix' ? 'text-cyan-400 font-bold' : 'text-slate-500 hover:text-slate-300'

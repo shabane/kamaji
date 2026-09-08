@@ -61,20 +61,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span>Map</span>
           </button>
           <button
-            onClick={() => setActiveTab('radar')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all ${
-              activeTab === 'radar'
-                ? 'bg-emerald-500/20 text-emerald-400 font-semibold shadow-sm border border-emerald-500/30'
-                : 'text-emerald-400/80 hover:text-emerald-300'
-            }`}
-          >
-            <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
-            <span>Radar</span>
-            <span className="px-1.5 py-0.5 bg-emerald-500/20 text-emerald-300 text-[9px] font-bold rounded-full border border-emerald-500/30 uppercase tracking-wider">
-              LIVE
-            </span>
-          </button>
-          <button
             onClick={() => setActiveTab('matrix')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all ${
               activeTab === 'matrix'

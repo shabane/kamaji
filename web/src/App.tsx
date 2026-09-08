@@ -10,7 +10,6 @@ import { QrModal } from './components/QrModal'
 import { ImportModal } from './components/ImportModal'
 import { LogsView } from './components/LogsView'
 import { WorldMap } from './components/WorldMap'
-import { RadarView } from './components/RadarView'
 import { BottomBanner } from './components/BottomBanner'
 import { MobileBottomNav } from './components/MobileBottomNav'
 import { parseSubscriptionText } from './lib/parser'
@@ -424,12 +423,8 @@ export function App() {
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-4">
-        {activeTab === 'radar' ? (
-          <RadarView onOpenQr={(n) => setQrNode(n)} />
-        ) : (
-          <>
-            {/* Streamlined Control & Source Bar */}
-            <ControlBar
+        {/* Streamlined Control & Source Bar */}
+        <ControlBar
               isRunning={isRunning}
               onToggleTest={handleToggleTest}
               onReload={handleReload}
@@ -593,8 +588,6 @@ export function App() {
             )}
           </>
         )}
-      </>
-    )}
 
         {/* Single-line Minimal Footer */}
         <BottomBanner />
@@ -619,8 +612,6 @@ export function App() {
             setActiveTab('logs')
           } else if (tab === 'map') {
             setActiveTab('map')
-          } else if (tab === 'radar') {
-            setActiveTab('radar')
           } else if (tab === 'matrix') {
             setViewMode('table')
             setActiveTab('matrix')
