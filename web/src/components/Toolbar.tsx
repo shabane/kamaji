@@ -1,5 +1,5 @@
 import React from 'react'
-import { Search, Copy, Check, MoreHorizontal } from 'lucide-react'
+import { Search, Copy, Check, Download } from 'lucide-react'
 import { FilterStatus, ProxyNode } from '../lib/types'
 
 interface ToolbarProps {
@@ -130,13 +130,14 @@ export const Toolbar: React.FC<ToolbarProps> = ({
           <span>Copy Working</span>
         </button>
 
-        {/* More options (Download .txt / Base64) */}
+        {/* Download options (Download .txt / Base64) */}
         <div className="relative">
           <button
             onClick={() => setShowMore(!showMore)}
-            className="p-2 rounded-xl bg-[#070b13] border border-white/[0.05] text-slate-400 hover:text-white transition-colors"
+            title="Download Options (.txt / Base64)"
+            className="p-2 rounded-xl bg-[#070b13] hover:bg-white/[0.06] border border-white/[0.05] text-slate-400 hover:text-cyan-300 transition-colors flex items-center justify-center cursor-pointer"
           >
-            <MoreHorizontal className="w-4 h-4" />
+            <Download className="w-4 h-4" />
           </button>
 
           {showMore && (
