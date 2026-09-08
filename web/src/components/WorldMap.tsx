@@ -99,6 +99,15 @@ export const WorldMap: React.FC<WorldMapProps> = ({
     }
   }, [nodes])
 
+  // Check whether user has started or performed latency analysis
+  const testedCount = useMemo(() => {
+    return nodes.filter(
+      (n) => n.status === 'success' || n.status === 'warning' || n.status === 'failed'
+    ).length
+  }, [nodes])
+
+  const hasAnalyzed = testedCount > 0
+
   // Determine current active target country for arc and glowing highlight
   const targetCountryCode = useMemo(() => {
     if (hoveredCountry) return hoveredCountry.code
@@ -111,9 +120,10 @@ export const WorldMap: React.FC<WorldMapProps> = ({
       )
       if (match) return match.code
     }
-    // Default fallback target: highest node concentration or US
-    return topCountries.length > 0 ? topCountries[0].code : 'US'
-  }, [hoveredCountry, activeCountryFilter, searchQuery, topCountries])
+    // Don't auto-target any node before user has run analysis
+    if (!hasAnalyzed) return ''
+    return topCountries.length > 0 ? topCountries[0].code : ''
+  }, [hoveredCountry, activeCountryFilter, searchQuery, topCountries, hasAnalyzed])
 
   // Calculate coordinates for Ping Arc
   const arcPathData = useMemo(() => {
@@ -168,6 +178,18 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             <X className="w-3.5 h-3.5 text-amber-400" />
             <span>Clear Filter</span>
           </button>
+        </div>
+      )}
+
+      {/* Pre-Analysis Locked Notice */}
+      {!hasAnalyzed && (
+        <div className="flex items-center justify-between p-3 bg-indigo-500/10 border border-indigo-500/25 rounded-xl text-xs font-mono text-indigo-300 animate-in fade-in duration-200">
+          <div className="flex items-center gap-2">
+            <Radio className="w-4 h-4 text-amber-400 animate-pulse" />
+            <span>
+              Endpoints pending test: Click <strong>Run Latency Probe</strong> to analyze nodes and unlock interactive country filtering.
+            </span>
+          </div>
         </div>
       )}
 
@@ -380,11 +402,17 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                 textColor = '#fda4af'
               }
 
+              const isClickable = hasAnalyzed && hasNodes
+
               return (
                 <g
                   key={country.code}
-                  className="cursor-pointer transition-all duration-150 group"
-                  onClick={() => onSelectCountry(country.code)}
+                  className={`${isClickable ? 'cursor-pointer' : 'cursor-default'} transition-all duration-150 group`}
+                  onClick={() => {
+                    if (isClickable) {
+                      onSelectCountry(country.code)
+                    }
+                  }}
                   onMouseEnter={() => setHoveredCountry(country)}
                 >
                   {/* Outer Glowing Hexagon Ring for Selected / Target Node (matching photo) */}
@@ -552,7 +580,9 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                 </div>
 
                 <div className="pt-1 text-[9px] text-amber-300/80 italic text-center">
-                  {hoveredStats?.total
+                  {!hasAnalyzed
+                    ? 'Run probe to test & unlock filter'
+                    : hoveredStats?.total
                     ? 'Click to filter proxy table'
                     : 'No endpoints in scan'}
                 </div>
@@ -570,28 +600,34 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               <span>Top Concentrations</span>
             </span>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-              {topCountries.map((c) => (
-                <button
-                  key={c.code}
-                  onClick={() => onSelectCountry(c.code)}
-                  className={`flex items-center justify-between p-2 rounded-xl border text-xs font-mono transition-all text-left cursor-pointer ${
-                    activeCountryFilter === c.code
-                      ? 'bg-amber-500/15 border-amber-500/40 text-amber-300 shadow-[0_0_12px_rgba(245,158,11,0.2)]'
-                      : 'bg-[#080d16] border-white/[0.05] hover:border-white/[0.12] text-slate-300'
-                  }`}
-                >
-                  <div className="flex items-center gap-1.5 truncate">
-                    <span className="text-sm">{c.flag}</span>
-                    <span className="font-medium truncate">{c.name}</span>
-                  </div>
-                  <div className="text-right shrink-0 ml-1">
-                    <span className="font-bold text-white">{c.total}</span>
-                    {c.fastestLatency !== null && (
-                      <span className="text-[10px] text-cyan-400 block">{c.fastestLatency}ms</span>
-                    )}
-                  </div>
-                </button>
-              ))}
+              {topCountries.map((c) => {
+                const isClickable = hasAnalyzed && c.total > 0
+                return (
+                  <button
+                    key={c.code}
+                    disabled={!isClickable}
+                    onClick={() => isClickable && onSelectCountry(c.code)}
+                    className={`flex items-center justify-between p-2 rounded-xl border text-xs font-mono transition-all text-left ${
+                      !isClickable
+                        ? 'opacity-60 cursor-not-allowed bg-[#080d16] border-white/[0.03] text-slate-400'
+                        : activeCountryFilter === c.code
+                        ? 'bg-amber-500/15 border-amber-500/40 text-amber-300 shadow-[0_0_12px_rgba(245,158,11,0.2)] cursor-pointer'
+                        : 'bg-[#080d16] border-white/[0.05] hover:border-white/[0.12] text-slate-300 cursor-pointer'
+                    }`}
+                  >
+                    <div className="flex items-center gap-1.5 truncate">
+                      <span className="text-sm">{c.flag}</span>
+                      <span className="font-medium truncate">{c.name}</span>
+                    </div>
+                    <div className="text-right shrink-0 ml-1">
+                      <span className="font-bold text-white">{c.total}</span>
+                      {c.fastestLatency !== null && (
+                        <span className="text-[10px] text-cyan-400 block">{c.fastestLatency}ms</span>
+                      )}
+                    </div>
+                  </button>
+                )
+              })}
             </div>
           </div>
 
