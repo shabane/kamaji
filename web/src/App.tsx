@@ -10,6 +10,7 @@ import { QrModal } from './components/QrModal'
 import { ImportModal } from './components/ImportModal'
 import { LogsView } from './components/LogsView'
 import { WorldMap } from './components/WorldMap'
+import { RadarView } from './components/RadarView'
 import { BottomBanner } from './components/BottomBanner'
 import { MobileBottomNav } from './components/MobileBottomNav'
 import { parseSubscriptionText } from './lib/parser'
@@ -405,57 +406,85 @@ export function App() {
   return (
     <div className="min-h-screen bg-[#070b12] text-slate-100 flex flex-col pb-16 md:pb-6">
       {/* Minimalist Top Navigation */}
-      <Navbar onOpenImport={() => setIsImportOpen(true)} />
+      <Navbar
+        activeTab={activeTab}
+        setActiveTab={(tab) => {
+          if (tab === 'matrix') {
+            setViewMode('table')
+            setActiveTab('matrix')
+          } else if (tab === 'scanner') {
+            setViewMode('grid')
+            setActiveTab('scanner')
+          } else {
+            setActiveTab(tab)
+          }
+        }}
+        onOpenImport={() => setIsImportOpen(true)}
+      />
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-4">
-        {/* Streamlined Control & Source Bar */}
-        <ControlBar
-          isRunning={isRunning}
-          onToggleTest={handleToggleTest}
-          onReload={handleReload}
-          currentSource={currentSource}
-          onSelectSource={(source) => {
-            setCurrentSource(source)
-            if (source === 'auto') {
-              loadAutoFeed()
-            } else {
-              setIsImportOpen(true)
-            }
-          }}
-          totalCount={nodes.length}
-          lastSyncTime={lastSyncTime}
-          concurrency={concurrency}
-          setConcurrency={setConcurrency}
-          timeoutSec={timeoutSec}
-          setTimeoutSec={setTimeoutSec}
-        />
+        {activeTab === 'radar' ? (
+          <RadarView onOpenQr={(n) => setQrNode(n)} />
+        ) : (
+          <>
+            {/* Streamlined Control & Source Bar */}
+            <ControlBar
+              isRunning={isRunning}
+              onToggleTest={handleToggleTest}
+              onReload={handleReload}
+              currentSource={currentSource}
+              onSelectSource={(source) => {
+                setCurrentSource(source)
+                if (source === 'auto') {
+                  loadAutoFeed()
+                } else {
+                  setIsImportOpen(true)
+                }
+              }}
+              totalCount={nodes.length}
+              lastSyncTime={lastSyncTime}
+              concurrency={concurrency}
+              setConcurrency={setConcurrency}
+              timeoutSec={timeoutSec}
+              setTimeoutSec={setTimeoutSec}
+            />
 
-        {/* Minimal Progress Bar */}
-        <ProgressBar
-          isRunning={isRunning}
-          testedCount={testedCount}
-          totalCount={nodes.length}
-          elapsedSeconds={elapsedSeconds}
-        />
+            {/* Minimal Progress Bar */}
+            <ProgressBar
+              isRunning={isRunning}
+              testedCount={testedCount}
+              totalCount={nodes.length}
+              elapsedSeconds={elapsedSeconds}
+            />
 
-        {/* 4 Clean Metric Cards */}
-        <MetricCards nodes={nodes} />
+            {/* 4 Clean Metric Cards */}
+            <MetricCards nodes={nodes} />
 
-        {/* Minimal Filter & Search Toolbar (with [Scanner | Matrix | Logs] switcher next to search input) */}
-        <Toolbar
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          statusFilter={statusFilter}
-          setStatusFilter={setStatusFilter}
-          nodes={nodes}
-          onCopyWorking={handleCopyWorking}
-          onDownloadTxt={handleDownloadTxt}
-          onCopyBase64={handleCopyBase64}
-          isCopied={isCopiedBatch}
-        />
+            {/* Minimal Filter & Search Toolbar (with [Scanner | Map | Radar | Matrix | Logs] switcher next to search input) */}
+            <Toolbar
+              activeTab={activeTab}
+              setActiveTab={(tab) => {
+                if (tab === 'matrix') {
+                  setViewMode('table')
+                  setActiveTab('matrix')
+                } else if (tab === 'scanner') {
+                  setViewMode('grid')
+                  setActiveTab('scanner')
+                } else {
+                  setActiveTab(tab)
+                }
+              }}
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              statusFilter={statusFilter}
+              setStatusFilter={setStatusFilter}
+              nodes={nodes}
+              onCopyWorking={handleCopyWorking}
+              onDownloadTxt={handleDownloadTxt}
+              onCopyBase64={handleCopyBase64}
+              isCopied={isCopiedBatch}
+            />
 
         {/* Content Tabs View */}
         {activeTab === 'logs' ? (
@@ -564,6 +593,8 @@ export function App() {
             )}
           </>
         )}
+      </>
+    )}
 
         {/* Single-line Minimal Footer */}
         <BottomBanner />
@@ -588,6 +619,8 @@ export function App() {
             setActiveTab('logs')
           } else if (tab === 'map') {
             setActiveTab('map')
+          } else if (tab === 'radar') {
+            setActiveTab('radar')
           } else if (tab === 'matrix') {
             setViewMode('table')
             setActiveTab('matrix')

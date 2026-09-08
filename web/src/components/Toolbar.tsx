@@ -50,7 +50,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
           />
         </div>
 
-        {/* View Switcher: Scanner | Map | Matrix | Logs */}
+        {/* View Switcher: Scanner | Map | Radar | Matrix | Logs */}
         <div className="flex items-center bg-[#070b13] p-1 rounded-xl border border-white/[0.05] text-xs font-mono shrink-0">
           <button
             onClick={() => setActiveTab('scanner')}
@@ -71,6 +71,17 @@ export const Toolbar: React.FC<ToolbarProps> = ({
             }`}
           >
             Map
+          </button>
+          <button
+            onClick={() => setActiveTab('radar')}
+            className={`px-3 py-1.5 rounded-lg transition-all flex items-center gap-1.5 ${
+              activeTab === 'radar'
+                ? 'bg-emerald-500/20 text-emerald-400 font-semibold shadow-sm border border-emerald-500/30'
+                : 'text-emerald-400/80 hover:text-emerald-300'
+            }`}
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+            <span>Radar</span>
           </button>
           <button
             onClick={() => setActiveTab('matrix')}

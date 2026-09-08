@@ -1,5 +1,5 @@
 import React from 'react'
-import { Activity, Globe, Server, Terminal } from 'lucide-react'
+import { Activity, Globe, Radio, Server, Terminal } from 'lucide-react'
 
 interface MobileBottomNavProps {
   activeTab: string
@@ -11,7 +11,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
   setActiveTab,
 }) => {
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#070b12]/95 backdrop-blur-xl border-t border-white/[0.06] px-4 py-2 flex items-center justify-around">
+    <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#070b12]/95 backdrop-blur-xl border-t border-white/[0.06] px-3 py-2 flex items-center justify-around">
       <button
         onClick={() => setActiveTab('scanner')}
         className={`flex flex-col items-center gap-1 text-[10px] font-mono transition-colors ${
@@ -30,6 +30,16 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
       >
         <Globe className="w-4 h-4" />
         <span>MAP</span>
+      </button>
+
+      <button
+        onClick={() => setActiveTab('radar')}
+        className={`flex flex-col items-center gap-1 text-[10px] font-mono transition-colors ${
+          activeTab === 'radar' ? 'text-emerald-400 font-bold' : 'text-emerald-500/70 hover:text-emerald-300'
+        }`}
+      >
+        <Radio className="w-4 h-4 animate-pulse" />
+        <span>RADAR</span>
       </button>
 
       <button
