@@ -162,7 +162,10 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
       }
 
       // Pick next batch of channels using round-robin
-      const batchSize = cadenceRef.current.batchSize
+      const batchSize = Math.min(
+        Math.max(1, cadenceRef.current.batchSize),
+        activeChannels.length
+      )
       const selectedBatch: RadarChannel[] = []
       for (let i = 0; i < batchSize; i++) {
         const idx = channelIndexRef.current % activeChannels.length
@@ -199,8 +202,8 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
               if (testedWorking.length > 0) {
                 playSonarSound()
                 setInterceptedNodes((prev) => {
-                  const existingLinks = new Set(prev.map((n) => n.link))
-                  const novel = testedWorking.filter((n) => !existingLinks.has(n.link))
+                  const existingLinks = new Set(prev.map((n) => n.rawLink))
+                  const novel = testedWorking.filter((n) => !existingLinks.has(n.rawLink))
                   return [...novel, ...prev].slice(0, 150)
                 })
 
@@ -456,7 +459,7 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
         {/* Radar Circular Bezel */}
         <div
           className="relative w-full max-w-[500px] aspect-square rounded-full border-2 border-emerald-500/40 bg-radial from-[#041d16] via-[#020e0a] to-[#010604] shadow-[0_0_50px_rgba(16,185,129,0.15)] flex items-center justify-center select-none"
-          style={{ '--radar-interval': `${cadence.intervalSec}s` } as any}
+          style={{ '--radar-interval': `${Math.min(Math.max(cadence.intervalSec, 1.5), 8)}s` } as any}
         >
           {/* Degree Ticks Around Circumference */}
           <div className="absolute inset-2 rounded-full border border-emerald-500/20 pointer-events-none" />
@@ -689,40 +692,66 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
                 {/* Batch Size */}
                 <div className="space-y-1">
                   <div className="flex items-center justify-between text-slate-300">
-                    <span>Batch Size:</span>
-                    <strong className="text-emerald-400">{cadence.batchSize} channels</strong>
+                    <span>Batch Size (1 - 100):</span>
+                    <div className="flex items-center gap-1.5">
+                      <input
+                        type="number"
+                        min="1"
+                        max="100"
+                        value={cadence.batchSize}
+                        onChange={(e) => {
+                          const val = Math.min(100, Math.max(1, Number(e.target.value) || 1))
+                          setCadence((c) => ({ ...c, batchSize: val }))
+                        }}
+                        className="w-14 px-1.5 py-0.5 text-center bg-[#03070d] border border-white/10 rounded text-emerald-400 font-bold text-xs focus:outline-none focus:border-emerald-500"
+                      />
+                      <span className="text-[11px] text-slate-500 font-normal">ch</span>
+                    </div>
                   </div>
                   <input
                     type="range"
                     min="1"
-                    max="5"
+                    max="100"
                     value={cadence.batchSize}
                     onChange={(e) => setCadence((c) => ({ ...c, batchSize: Number(e.target.value) }))}
                     className="w-full accent-emerald-500 cursor-pointer"
                   />
-                  <span className="text-[10px] text-slate-500 block">Channels scraped per cycle</span>
+                  <span className="text-[10px] text-slate-500 block">Channels scraped per cycle (1 to 100)</span>
                 </div>
 
                 {/* Interval */}
                 <div className="space-y-1">
                   <div className="flex items-center justify-between text-slate-300">
-                    <span>Scan Interval:</span>
-                    <strong className="text-emerald-400">{cadence.intervalSec} seconds</strong>
+                    <span>Scan Interval (1 - 100s):</span>
+                    <div className="flex items-center gap-1.5">
+                      <input
+                        type="number"
+                        min="1"
+                        max="100"
+                        value={cadence.intervalSec}
+                        onChange={(e) => {
+                          const val = Math.min(100, Math.max(1, Number(e.target.value) || 1))
+                          setCadence((c) => ({ ...c, intervalSec: val }))
+                        }}
+                        className="w-14 px-1.5 py-0.5 text-center bg-[#03070d] border border-white/10 rounded text-emerald-400 font-bold text-xs focus:outline-none focus:border-emerald-500"
+                      />
+                      <span className="text-[11px] text-slate-500 font-normal">sec</span>
+                    </div>
                   </div>
                   <input
                     type="range"
-                    min="2"
-                    max="10"
+                    min="1"
+                    max="100"
                     value={cadence.intervalSec}
                     onChange={(e) => setCadence((c) => ({ ...c, intervalSec: Number(e.target.value) }))}
                     className="w-full accent-emerald-500 cursor-pointer"
                   />
-                  <span className="text-[10px] text-slate-500 block">Delay between cycles</span>
+                  <span className="text-[10px] text-slate-500 block">Delay between cycles (1 to 100 seconds)</span>
                 </div>
               </div>
 
               {/* Presets */}
-              <div className="flex items-center gap-2 pt-2 border-t border-white/[0.04]">
+              <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-white/[0.04]">
                 <span className="text-[10px] text-slate-500">Presets:</span>
                 <button
                   onClick={() => setCadence({ batchSize: 1, intervalSec: 5 })}
@@ -731,16 +760,28 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
                   Stealth (1ch/5s)
                 </button>
                 <button
-                  onClick={() => setCadence({ batchSize: 2, intervalSec: 3 })}
+                  onClick={() => setCadence({ batchSize: 5, intervalSec: 3 })}
                   className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-[10px] text-emerald-300"
                 >
-                  Balanced (2ch/3s)
+                  Balanced (5ch/3s)
                 </button>
                 <button
-                  onClick={() => setCadence({ batchSize: 4, intervalSec: 2 })}
+                  onClick={() => setCadence({ batchSize: 20, intervalSec: 2 })}
                   className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
                 >
-                  Turbo (4ch/2s)
+                  Turbo (20ch/2s)
+                </button>
+                <button
+                  onClick={() => setCadence({ batchSize: 50, intervalSec: 1 })}
+                  className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
+                >
+                  Hyper (50ch/1s)
+                </button>
+                <button
+                  onClick={() => setCadence({ batchSize: 100, intervalSec: 1 })}
+                  className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
+                >
+                  Max (100ch/1s)
                 </button>
               </div>
 
