@@ -181,3 +181,116 @@ export function detectCountryFromText(text: string): { code: string; name: strin
 
   return { code: 'UN', name: 'Global Relay', flag: '🌐' }
 }
+
+export const TIMEZONE_COUNTRY_MAP: Record<string, string> = {
+  // Iran
+  'Asia/Tehran': 'IR',
+  // North America
+  'America/New_York': 'US',
+  'America/Chicago': 'US',
+  'America/Denver': 'US',
+  'America/Los_Angeles': 'US',
+  'America/Phoenix': 'US',
+  'America/Anchorage': 'US',
+  'America/Honolulu': 'US',
+  'America/Toronto': 'CA',
+  'America/Vancouver': 'CA',
+  'America/Montreal': 'CA',
+  'America/Edmonton': 'CA',
+  'America/Mexico_City': 'MX',
+  // Europe
+  'Europe/London': 'GB',
+  'Europe/Dublin': 'IE',
+  'Europe/Berlin': 'DE',
+  'Europe/Frankfurt': 'DE',
+  'Europe/Paris': 'FR',
+  'Europe/Rome': 'IT',
+  'Europe/Madrid': 'ES',
+  'Europe/Lisbon': 'PT',
+  'Europe/Amsterdam': 'NL',
+  'Europe/Brussels': 'BE',
+  'Europe/Vienna': 'AT',
+  'Europe/Zurich': 'CH',
+  'Europe/Warsaw': 'PL',
+  'Europe/Prague': 'CZ',
+  'Europe/Stockholm': 'SE',
+  'Europe/Oslo': 'NO',
+  'Europe/Helsinki': 'FI',
+  'Europe/Copenhagen': 'DK',
+  'Europe/Athens': 'GR',
+  'Europe/Bucharest': 'RO',
+  'Europe/Budapest': 'HU',
+  'Europe/Kyiv': 'UA',
+  'Europe/Moscow': 'RU',
+  'Europe/Istanbul': 'TR',
+  // Middle East
+  'Asia/Dubai': 'AE',
+  'Asia/Riyadh': 'SA',
+  'Asia/Baghdad': 'IQ',
+  'Asia/Baku': 'AZ',
+  'Asia/Tbilisi': 'GE',
+  'Asia/Yerevan': 'AM',
+  'Asia/Jerusalem': 'IL',
+  'Asia/Tokyo': 'JP',
+  'Asia/Seoul': 'KR',
+  'Asia/Shanghai': 'CN',
+  'Asia/Hong_Kong': 'HK',
+  'Asia/Taipei': 'TW',
+  'Asia/Singapore': 'SG',
+  'Asia/Kuala_Lumpur': 'MY',
+  'Asia/Jakarta': 'ID',
+  'Asia/Bangkok': 'TH',
+  'Asia/Ho_Chi_Minh': 'VN',
+  'Asia/Manila': 'PH',
+  'Asia/Kolkata': 'IN',
+  'Asia/Karachi': 'PK',
+  'Asia/Dhaka': 'BD',
+  'Asia/Almaty': 'KZ',
+  'Asia/Tashkent': 'UZ',
+  // Oceania
+  'Australia/Sydney': 'AU',
+  'Australia/Melbourne': 'AU',
+  'Australia/Brisbane': 'AU',
+  'Australia/Perth': 'AU',
+  'Pacific/Auckland': 'NZ',
+  // Latin America
+  'America/Sao_Paulo': 'BR',
+  'America/Buenos_Aires': 'AR',
+  'America/Santiago': 'CL',
+  'America/Bogota': 'CO',
+  'America/Lima': 'PE',
+  // Africa
+  'Africa/Johannesburg': 'ZA',
+  'Africa/Cairo': 'EG',
+  'Africa/Lagos': 'NG',
+  'Africa/Nairobi': 'KE',
+  'Africa/Casablanca': 'MA',
+}
+
+/**
+ * Detects the client's country using the browser's native timezone.
+ * Instant, 100% offline, zero network requests, zero privacy leaks.
+ */
+export function detectClientCountryFromTimezone(): string {
+  try {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone
+    if (tz && TIMEZONE_COUNTRY_MAP[tz]) {
+      return TIMEZONE_COUNTRY_MAP[tz]
+    }
+  } catch {}
+  return 'IR'
+}
+
+/**
+ * Reads user's stored origin preference or defaults to detected timezone country.
+ */
+export function getInitialClientOriginCountry(): string {
+  try {
+    const saved = localStorage.getItem('kamaji_ping_origin')
+    if (saved && saved.length === 2) {
+      return saved.toUpperCase()
+    }
+  } catch {}
+  return detectClientCountryFromTimezone()
+}
+

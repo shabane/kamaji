@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react'
-import { Globe, MapPin, Zap, Radio, Search, X, Navigation, Compass } from 'lucide-react'
+import React, { useState, useEffect, useMemo } from 'react'
+import { Globe, MapPin, Zap, Radio, Search, X, Navigation, Compass, Sparkles } from 'lucide-react'
 import { ProxyNode } from '../lib/types'
 import {
   WORLD_HEX_COUNTRIES,
@@ -9,6 +9,7 @@ import {
   getHexagonPoints,
   calcArcControlPoint,
 } from '../lib/worldHexMap'
+import { getInitialClientOriginCountry, detectClientCountryFromTimezone } from '../lib/countries'
 
 interface WorldMapProps {
   nodes: ProxyNode[]
@@ -34,9 +35,27 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   activeCountryFilter,
 }) => {
   const [hoveredCountry, setHoveredCountry] = useState<WorldHexCountry | null>(null)
-  const [sourceCountryCode, setSourceCountryCode] = useState<string>('IR') // Default to Iran (client origin)
+  const [sourceCountryCode, setSourceCountryCode] = useState<string>(() => getInitialClientOriginCountry())
+  const [isAutoDetected, setIsAutoDetected] = useState<boolean>(() => !localStorage.getItem('kamaji_ping_origin'))
   const [searchQuery, setSearchQuery] = useState<string>('')
   const [isOriginDropdownOpen, setIsOriginDropdownOpen] = useState<boolean>(false)
+
+  // Background refinement via lightweight geoIP if user hasn't explicitly set an origin override
+  useEffect(() => {
+    if (!localStorage.getItem('kamaji_ping_origin')) {
+      const controller = new AbortController()
+      const timer = setTimeout(() => controller.abort(), 2500)
+      fetch('https://api.country.is/', { signal: controller.signal })
+        .then((res) => res.json())
+        .then((data) => {
+          clearTimeout(timer)
+          if (data?.country && typeof data.country === 'string' && data.country.length === 2) {
+            setSourceCountryCode(data.country.toUpperCase())
+          }
+        })
+        .catch(() => {})
+    }
+  }, [])
 
   // Aggregate proxy nodes by country code
   const { nodeStatsByCountry, continentStats, topCountries } = useMemo(() => {
@@ -245,15 +264,45 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                 title="Change ping origin station"
               >
                 <Navigation className="w-3 h-3 text-cyan-400" />
-                <span>Origin: {WORLD_HEX_MAP_BY_CODE[sourceCountryCode]?.flag} {sourceCountryCode}</span>
+                <span>
+                  Origin: {WORLD_HEX_MAP_BY_CODE[sourceCountryCode]?.flag} {sourceCountryCode}
+                  {isAutoDetected && <span className="ml-1 text-[9px] text-cyan-400/80 font-normal">(Auto)</span>}
+                </span>
               </button>
 
               {isOriginDropdownOpen && (
-                <div className="absolute right-0 mt-1 w-44 bg-[#0b1322] border border-white/[0.1] rounded-xl shadow-2xl p-1.5 z-40 text-xs font-mono max-h-48 overflow-y-auto">
+                <div className="absolute right-0 mt-1 w-48 bg-[#0b1322] border border-white/[0.1] rounded-xl shadow-2xl p-1.5 z-40 text-xs font-mono max-h-52 overflow-y-auto">
                   <div className="px-2 py-1 text-[10px] text-slate-400 border-b border-white/[0.05] mb-1">
                     Select Ping Station:
                   </div>
-                  {['IR', 'US', 'DE', 'GB', 'FR', 'SG', 'JP', 'TR', 'AE', 'AU', 'BR'].map((code) => {
+
+                  {/* Auto-detect button */}
+                  <button
+                    onClick={() => {
+                      const detected = detectClientCountryFromTimezone()
+                      setSourceCountryCode(detected)
+                      setIsAutoDetected(true)
+                      setIsOriginDropdownOpen(false)
+                      try {
+                        localStorage.removeItem('kamaji_ping_origin')
+                      } catch {}
+                    }}
+                    className={`w-full flex items-center justify-between px-2 py-1.5 mb-1.5 rounded-lg text-left transition-colors cursor-pointer ${
+                      isAutoDetected
+                        ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/30'
+                        : 'bg-white/[0.03] text-cyan-300/80 hover:bg-white/[0.06]'
+                    }`}
+                  >
+                    <span className="flex items-center gap-1.5">
+                      <Sparkles className="w-3 h-3 text-amber-400" />
+                      <span>Auto-Detect</span>
+                    </span>
+                    <span className="text-[10px]">
+                      {WORLD_HEX_MAP_BY_CODE[detectClientCountryFromTimezone()]?.flag} {detectClientCountryFromTimezone()}
+                    </span>
+                  </button>
+
+                  {['IR', 'US', 'DE', 'GB', 'FR', 'NL', 'SG', 'JP', 'TR', 'AE', 'AU', 'BR'].map((code) => {
                     const c = WORLD_HEX_MAP_BY_CODE[code]
                     if (!c) return null
                     return (
@@ -261,10 +310,14 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                         key={code}
                         onClick={() => {
                           setSourceCountryCode(code)
+                          setIsAutoDetected(false)
                           setIsOriginDropdownOpen(false)
+                          try {
+                            localStorage.setItem('kamaji_ping_origin', code)
+                          } catch {}
                         }}
-                        className={`w-full flex items-center justify-between px-2 py-1 rounded-lg text-left transition-colors ${
-                          sourceCountryCode === code
+                        className={`w-full flex items-center justify-between px-2 py-1 rounded-lg text-left transition-colors cursor-pointer ${
+                          sourceCountryCode === code && !isAutoDetected
                             ? 'bg-cyan-500/20 text-cyan-300 font-bold'
                             : 'text-slate-300 hover:bg-white/[0.06]'
                         }`}
