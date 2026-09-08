@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Check, Copy, QrCode, RotateCcw, AlertTriangle, XCircle, CheckCircle2, Radio } from 'lucide-react'
+import { Check, Copy, QrCode, RotateCcw, AlertTriangle, XCircle, ExternalLink } from 'lucide-react'
 import { ProxyNode } from '../lib/types'
 
 interface NodeTableProps {
@@ -42,7 +42,14 @@ export const NodeTable: React.FC<NodeTableProps> = ({ nodes, onRetest, onOpenQr 
                   <div className="flex items-center gap-2">
                     <span className="text-base">{node.flag}</span>
                     <div className="truncate max-w-[220px]">
-                      <div className="text-white font-medium truncate">{node.title}</div>
+                      <a
+                        href={node.rawLink}
+                        title="Open in VPN client"
+                        className="text-white hover:text-cyan-300 font-medium truncate flex items-center gap-1 group-hover:text-cyan-300 transition-colors"
+                      >
+                        <span className="truncate">{node.title}</span>
+                        <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-cyan-400 opacity-60 group-hover:opacity-100 shrink-0" />
+                      </a>
                       <div className="text-[10px] text-slate-400 truncate">{node.countryName}</div>
                     </div>
                   </div>
@@ -109,6 +116,13 @@ export const NodeTable: React.FC<NodeTableProps> = ({ nodes, onRetest, onOpenQr 
                 {/* Actions */}
                 <td className="py-3 px-4 text-right">
                   <div className="flex items-center justify-end gap-1.5">
+                    <a
+                      href={node.rawLink}
+                      title="Open in VPN app (v2rayNG, NekoBox...)"
+                      className="p-1.5 rounded-lg bg-white/[0.03] hover:bg-white/[0.08] text-slate-400 hover:text-cyan-300 transition-colors flex items-center justify-center"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
                     <button
                       onClick={() => onRetest(node)}
                       title="Retest"

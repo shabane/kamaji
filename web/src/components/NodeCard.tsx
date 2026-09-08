@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Check, Copy, AlertTriangle, QrCode } from 'lucide-react'
+import { Check, Copy, AlertTriangle, QrCode, ExternalLink } from 'lucide-react'
 import { ProxyNode } from '../lib/types'
 
 interface NodeCardProps {
@@ -56,9 +56,14 @@ export const NodeCard: React.FC<NodeCardProps> = ({ node, onRetest, onOpenQr }) 
         <div className="flex items-center gap-2.5 truncate">
           <span className="text-base shrink-0">{node.flag}</span>
           <div className="truncate">
-            <h3 className="font-heading font-bold text-sm text-white truncate group-hover:text-cyan-300 transition-colors">
-              {node.title}
-            </h3>
+            <a
+              href={node.rawLink}
+              title="Open directly in VPN app (v2rayNG, NekoBox...)"
+              className="font-heading font-bold text-sm text-white truncate hover:text-cyan-300 transition-colors flex items-center gap-1 group-hover:text-cyan-300"
+            >
+              <span className="truncate">{node.title}</span>
+              <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-cyan-400 opacity-70 group-hover:opacity-100 transition-all shrink-0" />
+            </a>
             <p className="text-[11px] text-slate-500 truncate">
               {node.countryName} • {node.sni || node.host}
             </p>
@@ -157,8 +162,16 @@ export const NodeCard: React.FC<NodeCardProps> = ({ node, onRetest, onOpenQr }) 
           )}
         </div>
 
-        {/* Right Actions: QR & Copy */}
+        {/* Right Actions: Open in App, QR & Copy */}
         <div className="flex items-center gap-1">
+          <a
+            href={node.rawLink}
+            title="Open in VPN app (v2rayNG, NekoBox...)"
+            className="p-1 rounded-lg text-slate-500 hover:text-cyan-300 hover:bg-white/[0.04] transition-colors flex items-center justify-center"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+
           <button
             onClick={() => onOpenQr(node)}
             title="QR Code"
