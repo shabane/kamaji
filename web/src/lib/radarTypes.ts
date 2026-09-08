@@ -11,7 +11,7 @@ export interface RadarChannel {
 
 export interface RadarCadence {
   batchSize: number // 1 to 100 channels
-  intervalSec: number // 1 to 100 seconds
+  intervalSec: number // 0 to 100 seconds
 }
 
 export interface RadarBlip {

@@ -418,7 +418,7 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
           <div className="bg-[#020b08] p-2.5 rounded-xl border border-emerald-500/15">
             <span className="text-[10px] font-mono uppercase text-slate-400 block">Cadence</span>
             <span className="text-base font-bold font-mono text-emerald-400">
-              {cadence.batchSize} <span className="text-xs font-normal text-slate-500">ch / {cadence.intervalSec}s</span>
+              {cadence.batchSize} <span className="text-xs font-normal text-slate-500">ch / {cadence.intervalSec === 0 ? '0s (no delay)' : `${cadence.intervalSec}s`}</span>
             </span>
           </div>
 
@@ -722,15 +722,16 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
                 {/* Interval */}
                 <div className="space-y-1">
                   <div className="flex items-center justify-between text-slate-300">
-                    <span>Scan Interval (1 - 100s):</span>
+                    <span>Scan Interval (0 - 100s):</span>
                     <div className="flex items-center gap-1.5">
                       <input
                         type="number"
-                        min="1"
+                        min="0"
                         max="100"
                         value={cadence.intervalSec}
                         onChange={(e) => {
-                          const val = Math.min(100, Math.max(1, Number(e.target.value) || 1))
+                          const parsed = Number(e.target.value)
+                          const val = isNaN(parsed) ? 0 : Math.min(100, Math.max(0, parsed))
                           setCadence((c) => ({ ...c, intervalSec: val }))
                         }}
                         className="w-14 px-1.5 py-0.5 text-center bg-[#03070d] border border-white/10 rounded text-emerald-400 font-bold text-xs focus:outline-none focus:border-emerald-500"
@@ -740,13 +741,15 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
                   </div>
                   <input
                     type="range"
-                    min="1"
+                    min="0"
                     max="100"
                     value={cadence.intervalSec}
                     onChange={(e) => setCadence((c) => ({ ...c, intervalSec: Number(e.target.value) }))}
                     className="w-full accent-emerald-500 cursor-pointer"
                   />
-                  <span className="text-[10px] text-slate-500 block">Delay between cycles (1 to 100 seconds)</span>
+                  <span className="text-[10px] text-slate-500 block">
+                    {cadence.intervalSec === 0 ? '⚡ 0s: Continuous instant cycle (no delay)' : 'Delay between cycles (0 to 100 seconds)'}
+                  </span>
                 </div>
               </div>
 
@@ -766,22 +769,22 @@ export const RadarView: React.FC<RadarViewProps> = ({ onOpenQr }) => {
                   Balanced (5ch/3s)
                 </button>
                 <button
-                  onClick={() => setCadence({ batchSize: 20, intervalSec: 2 })}
+                  onClick={() => setCadence({ batchSize: 20, intervalSec: 1 })}
                   className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
                 >
-                  Turbo (20ch/2s)
+                  Turbo (20ch/1s)
                 </button>
                 <button
-                  onClick={() => setCadence({ batchSize: 50, intervalSec: 1 })}
-                  className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
+                  onClick={() => setCadence({ batchSize: 50, intervalSec: 0 })}
+                  className="px-2 py-0.5 rounded bg-amber-500/15 border border-amber-500/30 text-[10px] text-amber-300 hover:bg-amber-500/25"
                 >
-                  Hyper (50ch/1s)
+                  ⚡ Instant (50ch/0s)
                 </button>
                 <button
-                  onClick={() => setCadence({ batchSize: 100, intervalSec: 1 })}
-                  className="px-2 py-0.5 rounded bg-white/[0.05] hover:bg-white/[0.1] text-[10px] text-slate-300"
+                  onClick={() => setCadence({ batchSize: 100, intervalSec: 0 })}
+                  className="px-2 py-0.5 rounded bg-rose-500/15 border border-rose-500/30 text-[10px] text-rose-300 hover:bg-rose-500/25 font-bold"
                 >
-                  Max (100ch/1s)
+                  🔥 Uncapped (100ch/0s)
                 </button>
               </div>
 
