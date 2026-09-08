@@ -365,7 +365,7 @@ export function App() {
     }
 
     return list
-  }, [nodes, protocolFilter, statusFilter, searchQuery, sortOption])
+  }, [nodes, protocolFilter, statusFilter, searchQuery, sortOption, activeCountryFilter])
 
   // Lazy Loading / Infinite Scroll (Render only visible portion to save DOM nodes)
   const [visibleCount, setVisibleCount] = useState<number>(36)
