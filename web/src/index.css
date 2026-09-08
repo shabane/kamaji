@@ -105,3 +105,48 @@
   background-size: 200% 100%;
   animation: shimmer 2.5s infinite linear;
 }
+
+/* Hex Cartogram Animations */
+@keyframes arc-dash-flow {
+  from {
+    stroke-dashoffset: 36;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-arc-flow {
+  animation: arc-dash-flow 1.5s linear infinite;
+}
+
+@keyframes hex-glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.85)) drop-shadow(0 0 16px rgba(245, 158, 11, 0.45));
+    opacity: 1;
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(245, 158, 11, 1)) drop-shadow(0 0 28px rgba(245, 158, 11, 0.75));
+    opacity: 0.85;
+  }
+}
+
+.animate-hex-target {
+  animation: hex-glow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes ping-radar {
+  0% {
+    r: 4px;
+    opacity: 0.9;
+  }
+  100% {
+    r: 18px;
+    opacity: 0;
+  }
+}
+
+.animate-ping-radar {
+  animation: ping-radar 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
