@@ -20,7 +20,16 @@ if __name__ == '__main__':
     cmd.add_argument("--only-web", help="scrape only external subscription web URLs", action="store_true")
     cmd.add_argument("--max-page", help="maximum pages to scrape per channel", type=int, default=5)
     cmd.add_argument("--max-thread", help="maximum concurrent threads to use", type=int, default=50)
+    cmd.add_argument("--best", help="filter and save the top N lowest delay (fastest) tested links to best.txt", type=int, nargs="?", const=100, default=None)
     flags = cmd.parse_args()
+
+    if flags.best is not None:
+        if flags.best <= 0:
+            print("Error: --best count must be a positive integer.")
+            sys.exit(1)
+        if not flags.self_check:
+            print("# --best flag provided: enabling self-check for delay testing.")
+            flags.self_check = True
 
     # Determine sources to scrape based on flags
     scrape_telegram = True
@@ -119,20 +128,29 @@ if __name__ == '__main__':
         tools.save(sch_network01, './hub/self/tested/') if flags.save else ...
         tools.save_b64(sch_network01, './hub/self/tested/b64') if flags.save else ...
 
+        best_links = []
+        if flags.best is not None:
+            best_links = tools.save_best(sch_network01, count=flags.best, save_path='./hub/self/tested/') if flags.save else tools.get_best_links(sch_network01, count=flags.best)
+
         if flags.print:
-            print("# tested Results:")
+            if flags.best is not None:
+                print(f"# Top {len(best_links)} Best Results (Lowest Delay):")
+                for b_link in best_links:
+                    print(b_link)
+            else:
+                print("# tested Results:")
 
-            for ss_link in sch_network01.ss:
-                print(ss_link)
+                for ss_link in sch_network01.ss:
+                    print(ss_link)
 
-            for vmess_link in sch_network01.vmess:
-                print(vmess_link)
+                for vmess_link in sch_network01.vmess:
+                    print(vmess_link)
 
-            for vless_link in sch_network01.vless:
-                print(vless_link)
+                for vless_link in sch_network01.vless:
+                    print(vless_link)
 
-            for trj_link in sch_network01.trojan:
-                print(trj_link)
+                for trj_link in sch_network01.trojan:
+                    print(trj_link)
 
         if flags.country:
             sch_country = tools.get_country(sch_network01, max_workers=flags.max_thread)

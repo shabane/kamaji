@@ -15,7 +15,7 @@ jobs:
         run: |
           pip install -r requarements.txt
           curl -L -s https://cdn.jsdelivr.net/npm/geolite2-country/GeoLite2-Country.mmdb.gz | gunzip > GeoLite2-Country.mmdb
-          python3 main.py --save --country --self-check
+          python3 main.py --save --country --self-check --best 100
       - name: commit-changes
         run: |
           git config --global user.name "shabane"

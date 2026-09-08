@@ -16,7 +16,7 @@
 
 **Kamaji** is an advanced tool designed to scrape, test, and aggregate VPN configurations (**Shadowsocks, Vmess, Vless, and Trojan**) from various public channels.
 
-Public configurations often expire quickly due to high user traffic. Kamaji addresses this by automatically collecting these links and performing real-world connectivity tests—specifically verifying connections via a server located in **Iran**—to ensure maximum reliability. The result is a set of clean, constantly updated subscription files ready for instant use in your VPN client.
+Public configurations often expire quickly due to high user traffic. Kamaji addresses this by automatically collecting these links and performing real-world connectivity and latency tests using an Xray prober to ensure maximum reliability. The result is a set of clean, constantly updated subscription files ready for instant use in your VPN client.
 
 > **⚖️ Legal Disclaimer**
 >
@@ -53,19 +53,20 @@ Simply import the subscription links provided below into your preferred client.
 
 Select the protocol that best suits your needs. These repositories are automatically updated every hour.
 
-### 🟢 High Reliability (Recommended)
-*These configurations have been definitively verified using an Iranian server node.*
+### ⚡ Verified Subscriptions (Tested & Filtered)
+*Configurations verified and tested using Xray for connectivity and delay, updated automatically via GitHub Actions.*
 
-| Protocol | Standard Subscription | Encrypted Subscription (Base64) | Status |
+| Protocol / Collection | Standard Subscription | Encrypted Subscription (Base64) | Status |
 | :--- | :---: | :---: | :--- |
-| **Shadowsocks** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/ss.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/ss.txt) | ✅ Verified |
-| **Vmess** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vmess.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/vmess.txt) | ✅ Verified |
-| **Vless** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/vless.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/vless.txt) | ✅ Verified |
-| **Trojan** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/trojan.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/trojan.txt) | ✅ Verified |
-| **🔥 Merged Pack**| [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/merged.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/merged.txt) | **All Verified** |
+| **⚡ Top 100 Best** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/best.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/best.txt) | 🚀 **Lowest Delay** |
+| **🔥 Merged Pack**| [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/merged.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/merged.txt) | **All Verified** |
+| **Shadowsocks** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/ss.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/ss.txt) | ✅ Verified |
+| **Vmess** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/vmess.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/vmess.txt) | ✅ Verified |
+| **Vless** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/vless.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/vless.txt) | ✅ Verified |
+| **Trojan** | [📋 Copy Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/trojan.txt) | [🔒 Copy Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/trojan.txt) | ✅ Verified |
 
 ### 🌐 Global Collection (Raw Feed)
-*A mass collection of links without specific regional connectivity filtering.*
+*A mass collection of links without specific connectivity filtering.*
 
 | Protocol | Standard Subscription | Base64 Subscription |
 | :--- | :---: | :---: |
@@ -74,17 +75,6 @@ Select the protocol that best suits your needs. These repositories are automatic
 | **Vless** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/vless.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/vless.txt) |
 | **Trojan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/trojan.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/trojan.txt) |
 | **Merged** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt) |
-
-### 🤖 GitHub Actions Verified
-*Tested automatically via GitHub's infrastructure.*
-
-| Protocol | Standard Subscription | Base64 Subscription |
-| :--- | :---: | :---: |
-| **Shadowsocks** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/ss.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/ss.txt) |
-| **Vmess** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/vmess.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/vmess.txt) |
-| **Vless** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/vless.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/vless.txt) |
-| **Trojan** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/trojan.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/trojan.txt) |
-| **Merged** | [Link](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/merged.txt) | [Base64](https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/b64/merged.txt) |
 
 ---
 
@@ -177,7 +167,7 @@ Each configuration remark is standardized with columns for metadata, allowing yo
    * **`COUNTRY`**: Geolocation country code (e.g. `DE`, `IR`, `UnResolvedDomains`).
    * **`REAL DELAY`**: Round-trip connection latency in milliseconds (or `0` if untested).
    * **`TYPE`**: Connection protocol (`SS`, `VMESS`, `VLESS`, `TROJAN`).
-   * **`TEST TYPE`**: `GH Action` (tested via xray runner), `API` (tested via external check host), or `None` (untested).
+   * **`TEST TYPE`**: `GH Action` (tested via xray runner) or `None` (untested).
    * **`CHANNEL`**: The Telegram channel from which the configuration was scraped.
    * **`POST DATE`**: The date when the configuration was published on Telegram.
    * **`SCRAPE DATE`**: The date and time when Kamaji aggregated the configuration.
@@ -217,12 +207,18 @@ Execute the aggregator using `python3 main.py` with custom flags:
 | `--max-page <int>` | Maximum pagination depth to crawl recursively backwards per Telegram channel. | `5` |
 | `--max-thread <int>` | Maximum concurrent threads to allocate for parallel scraping, Xray probing, and geolocation caches. | `50` |
 | `--print` | Output the gathered configuration list directly to stdout (console) instead of writing files. | `False` |
+| `--best [int]` | Filter and save the top N lowest delay (fastest) tested links to `best.txt` (defaults to 100). Automatically enables testing. | `None` |
 
 ### 💡 Example Commands
 
 * **Quick scrape from both Telegram & External Web Subscriptions (default)**:
   ```bash
   python3 main.py --save
+  ```
+
+* **Test configs and save top 100 fastest (lowest delay) links to `best.txt`**:
+  ```bash
+  python3 main.py --best 100
   ```
 
 * **Scrape ONLY Telegram channels**:
@@ -245,17 +241,10 @@ Execute the aggregator using `python3 main.py` with custom flags:
   python3 main.py --save --self-check --country
   ```
 
-* **Check using external Check-Host API**:
-  ```bash
-  python3 main.py --save --check
-  ```
-
 * **Print untested raw configurations to standard output**:
   ```bash
   python3 main.py --print
   ```
-
-For the external test API backend used in `--check`, the source code is available here: [Host Check API Repository](https://github.com/shabane/host-check-api).
 
 
 ---

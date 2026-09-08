@@ -8,6 +8,7 @@ import socket
 from urllib.parse import urlparse
 import re
 import urllib.parse
+import time
 
 
 class CheckHost(Protocols):
@@ -348,6 +349,124 @@ def save_b64(network: Protocols, save_path: str = None) -> bool:
     with open(path.join(save_path, 'merged.txt'), 'w') as fli:
         mrg = base64.b64encode(bytes(mrg, 'utf-8')).decode()
         fli.write(mrg)
+
+
+def update_link_id(link: str, new_id: int) -> str:
+    if link.startswith("vmess://"):
+        try:
+            payload = link[8:]
+            missing_padding = len(payload) % 4
+            if missing_padding:
+                payload += '=' * (4 - missing_padding)
+            decoded = base64.b64decode(payload).decode('utf-8')
+            data = json.loads(decoded)
+            ps = data.get('ps', '')
+            data['ps'] = re.sub(r'^\[\d+\]', f'[{new_id}]', ps)
+            new_payload = base64.b64encode(json.dumps(data).encode('utf-8')).decode('utf-8')
+            return f"vmess://{new_payload}"
+        except Exception:
+            return link
+    else:
+        if '#' in link:
+            base, remark = link.rsplit('#', 1)
+            new_remark = re.sub(r'^\[\d+\]', f'[{new_id}]', remark)
+            return f"{base}#{new_remark}"
+        return link
+
+
+def extract_delay_from_link(link: str, delays: dict = None) -> int:
+    if delays and link in delays:
+        return delays[link]
+    try:
+        remark = ""
+        if link.startswith("vmess://"):
+            payload = link[8:]
+            missing_padding = len(payload) % 4
+            if missing_padding:
+                payload += '=' * (4 - missing_padding)
+            decoded = base64.b64decode(payload).decode('utf-8', errors='ignore')
+            data = json.loads(decoded)
+            remark = data.get('ps', '')
+        else:
+            if '#' in link:
+                remark = link.rsplit('#', 1)[-1]
+        decoded_remark = urllib.parse.unquote(remark)
+        m = re.search(r'\[\d+\]\[[^\]]*\]\[(\d+)\]', decoded_remark)
+        if m:
+            return int(m.group(1))
+    except Exception:
+        pass
+    return 999999
+
+
+def get_best_links(network: Protocols, count: int = 100) -> list:
+    all_links = []
+    all_links.extend(network.ss)
+    all_links.extend(network.vmess)
+    all_links.extend(network.vless)
+    all_links.extend(network.trojan)
+
+    delays = getattr(network, 'delays', {})
+
+    valid_links = []
+    for link in all_links:
+        delay = extract_delay_from_link(link, delays)
+        if 0 < delay < 999999:
+            valid_links.append((delay, link))
+
+    valid_links.sort(key=lambda x: (x[0], x[1]))
+    selected = valid_links[:count]
+
+    reindexed_links = []
+    for i, (delay, link) in enumerate(selected, 1):
+        reindexed_links.append(update_link_id(link, i))
+
+    return reindexed_links
+
+
+def save_best(network: Protocols, count: int = 100, save_path: str = None) -> list:
+    best_links = get_best_links(network, count)
+    if not best_links:
+        print("# Warning: No working links with valid delay measurements found for best.txt")
+        return []
+
+    title = "[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]"
+    content = f"{get_vless_header(title)}\n"
+    for link in best_links:
+        content += f"{link}\n"
+
+    b64_content = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+
+    destinations = []
+    if save_path:
+        destinations.append(save_path)
+    destinations.extend(['./hub/self/tested/', './hub/'])
+
+    seen_paths = set()
+    for dest in destinations:
+        dest_norm = path.normpath(dest)
+        if dest_norm in seen_paths:
+            continue
+        seen_paths.add(dest_norm)
+
+        try:
+            os.makedirs(dest, exist_ok=True)
+            with open(path.join(dest, 'best.txt'), 'w', encoding='utf-8') as f:
+                f.write(content)
+        except Exception as e:
+            print(f"# Error saving best.txt to {dest}: {e}")
+
+        if 'hub' in dest_norm:
+            b64_dir = path.join(dest, 'b64')
+            try:
+                os.makedirs(b64_dir, exist_ok=True)
+                with open(path.join(b64_dir, 'best.txt'), 'w', encoding='utf-8') as f:
+                    f.write(b64_content)
+            except Exception as e:
+                print(f"# Error saving b64 best.txt to {b64_dir}: {e}")
+
+    print(f"# Saved top {len(best_links)} lowest delay links to hub/best.txt")
+    return best_links
 
 
 def resolve_domain_to_ip(domain: str):
@@ -896,18 +1015,27 @@ class CheckSelf(Protocols):
     def tcp_test(ip: str, port: str, timeout: int = 2.5):
         if not ip or not port:
             return False
+        sock = None
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(timeout)
             port = int(CheckHost.remove_combined_strings(port))
+            start_time = time.time()
             result = sock.connect_ex((ip, port))
             if result == 0:
-                return True
+                delay = (time.time() - start_time) * 1000
+                return delay
             else:
                 return False
         except Exception as err:
             print(f"# Error on TCP test [{ip}:{port}] -> {err}")
             return False
+        finally:
+            if sock:
+                try:
+                    sock.close()
+                except Exception:
+                    pass
 
     def _check_link(self, link_type: str, link: str, use_xray: bool):
         clean_link = link.split("|channel:")[0] if "|channel:" in link else link
@@ -938,16 +1066,24 @@ class CheckSelf(Protocols):
                 elif link_type == "trojan":
                     _ = CheckHost._trojan_get_host_port(clean_link)
                     
-                if _ and _[0] and self.tcp_test(_[0], _[1]):
-                    with self.lock:
-                        if link_type == "vless":
-                            self.vless = link
-                        elif link_type == "vmess":
-                            self.vmess = link
-                        elif link_type == "ss":
-                            self.ss = link
-                        elif link_type == "trojan":
-                            self.trojan = link
+                if _ and _[0]:
+                    tcp_res = self.tcp_test(_[0], _[1])
+                    if tcp_res is not False:
+                        delay = tcp_res
+                        print(f"{link_type.upper()} OK (TCP): {clean_link} > delay: {delay:.1f}ms")
+                        with self.lock:
+                            self.delays[link] = int(round(delay))
+                            if link_type == "vless":
+                                self.vless = link
+                            elif link_type == "vmess":
+                                self.vmess = link
+                            elif link_type == "ss":
+                                self.ss = link
+                            elif link_type == "trojan":
+                                self.trojan = link
+                    else:
+                        with self.lock:
+                            self.error_count += 1
                 else:
                     with self.lock:
                         self.error_count += 1
@@ -1175,6 +1311,7 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         return clean_link, channel_name, post_date, scrape_date
 
     delays = getattr(network, 'delays', {})
+    new_delays = {}
 
     new_ss = []
     for i, link in enumerate(sorted(network.ss), 1):
@@ -1182,7 +1319,10 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][SS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
-        new_ss.append(format_ss_vless_trojan(clean_link, title))
+        formatted_link = format_ss_vless_trojan(clean_link, title)
+        new_ss.append(formatted_link)
+        if delay_val > 0:
+            new_delays[formatted_link] = delay_val
     network._Protocols__ss = set(new_ss)
 
     new_vmess = []
@@ -1191,7 +1331,10 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][VMESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
-        new_vmess.append(format_vmess(clean_link, title))
+        formatted_link = format_vmess(clean_link, title)
+        new_vmess.append(formatted_link)
+        if delay_val > 0:
+            new_delays[formatted_link] = delay_val
     network._Protocols__vmess = set(new_vmess)
 
     new_vless = []
@@ -1200,7 +1343,10 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][VLESS][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
-        new_vless.append(format_ss_vless_trojan(clean_link, title))
+        formatted_link = format_ss_vless_trojan(clean_link, title)
+        new_vless.append(formatted_link)
+        if delay_val > 0:
+            new_delays[formatted_link] = delay_val
     network._Protocols__vless = set(new_vless)
 
     new_trojan = []
@@ -1209,6 +1355,14 @@ def standardize_network(network: Protocols, test_type: str, max_workers: int = 5
         country = link_countries.get(link, "UnResolvedDomains")
         delay_val = delays.get(link, 0)
         title = f"[{i}][{country}][{delay_val}][TROJAN][{test_type}][{channel_name}][{post_date}][{scrape_date}]"
-        new_trojan.append(format_ss_vless_trojan(clean_link, title))
+        formatted_link = format_ss_vless_trojan(clean_link, title)
+        new_trojan.append(formatted_link)
+        if delay_val > 0:
+            new_delays[formatted_link] = delay_val
     network._Protocols__trojan = set(new_trojan)
+
+    if hasattr(network, 'delays'):
+        network.delays.update(new_delays)
+    else:
+        network.delays = new_delays
 
