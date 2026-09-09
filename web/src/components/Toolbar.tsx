@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { Search, Copy, Check, Download, Zap, Server, Shield, FileCode } from 'lucide-react'
 import { FilterStatus, ProxyNode } from '../lib/types'
 
@@ -49,13 +49,30 @@ export const Toolbar: React.FC<ToolbarProps> = ({
   isCopied,
   isCopiedTop5,
 }) => {
-  const [showMore, setShowMore] = React.useState(false)
+  const [showMore, setShowMore] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setShowMore(false)
+      }
+    }
+
+    if (showMore) {
+      document.addEventListener('mousedown', handleClickOutside)
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [showMore])
+
   const total = nodes.length
   const workingCount = nodes.filter((n) => n.status === 'success' || n.status === 'warning').length
   const failedCount = nodes.filter((n) => n.status === 'failed').length
 
   return (
-    <div className="p-2.5 bg-[#0a0f19] rounded-2xl border border-white/[0.06] backdrop-blur-md space-y-2.5">
+    <div className={`p-2.5 bg-[#0a0f19] rounded-2xl border border-white/[0.06] backdrop-blur-md space-y-2.5 relative ${showMore ? 'z-40' : 'z-20'}`}>
       {/* Primary Row: Search + View Switcher + Filter Counts + Action Buttons */}
       <div className="flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-3">
         {/* Left: Search input + View Switcher */}
@@ -178,7 +195,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
           </button>
 
           {/* Enhanced Download / Export Dropdown */}
-          <div className="relative">
+          <div className="relative z-50" ref={dropdownRef}>
             <button
               onClick={() => setShowMore(!showMore)}
               title="Export Options (Clash, Sing-box, .txt, Base64)"
@@ -188,7 +205,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
             </button>
 
             {showMore && (
-              <div className="absolute right-0 mt-1.5 w-60 bg-[#0c121e] border border-white/10 rounded-xl p-1.5 shadow-2xl z-30 text-xs font-mono divide-y divide-white/[0.06] animate-in fade-in zoom-in-95 duration-150">
+              <div className="absolute right-0 mt-1.5 w-60 bg-[#0c121e] border border-white/10 rounded-xl p-1.5 shadow-2xl z-50 text-xs font-mono divide-y divide-white/[0.06] animate-in fade-in zoom-in-95 duration-150">
                 {/* Fast Selections */}
                 <div className="py-1">
                   <button
