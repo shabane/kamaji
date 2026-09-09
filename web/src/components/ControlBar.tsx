@@ -14,6 +14,8 @@ interface ControlBarProps {
   setConcurrency: (c: number) => void
   timeoutSec: number
   setTimeoutSec: (t: number) => void
+  probeCount: number
+  setProbeCount: (p: number) => void
 }
 
 export const ControlBar: React.FC<ControlBarProps> = ({
@@ -28,6 +30,8 @@ export const ControlBar: React.FC<ControlBarProps> = ({
   setConcurrency,
   timeoutSec,
   setTimeoutSec,
+  probeCount,
+  setProbeCount,
 }) => {
   const [showSettings, setShowSettings] = useState(false)
 
@@ -143,6 +147,34 @@ export const ControlBar: React.FC<ControlBarProps> = ({
                   {sec}s
                 </button>
               ))}
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-slate-400 text-[11px] font-semibold uppercase">Mode:</span>
+            <div className="flex items-center gap-1">
+              <button
+                onClick={() => setProbeCount(1)}
+                className={`px-2 py-0.5 rounded text-xs transition-colors ${
+                  probeCount === 1
+                    ? 'bg-cyan-500 text-slate-950 font-bold'
+                    : 'text-slate-400 hover:text-white bg-white/[0.03]'
+                }`}
+                title="Fast single WebSocket handshake"
+              >
+                ⚡ Fast (1x)
+              </button>
+              <button
+                onClick={() => setProbeCount(3)}
+                className={`px-2 py-0.5 rounded text-xs transition-colors ${
+                  probeCount === 3
+                    ? 'bg-emerald-400 text-slate-950 font-bold'
+                    : 'text-slate-400 hover:text-white bg-white/[0.03]'
+                }`}
+                title="3 sequential pings to measure true packet loss and jitter"
+              >
+                🎯 Deep Stability (3x)
+              </button>
             </div>
           </div>
         </div>

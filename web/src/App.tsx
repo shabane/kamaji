@@ -14,6 +14,7 @@ import { BottomBanner } from './components/BottomBanner'
 import { MobileBottomNav } from './components/MobileBottomNav'
 import { parseSubscriptionText } from './lib/parser'
 import { probeWebSocketNode } from './lib/prober'
+import { generateClashMetaYaml, generateSingboxJson, getTopFastestLinks } from './lib/exporters'
 import { ProxyNode, FilterStatus, SortOption, ViewMode, SourceTab } from './lib/types'
 
 interface LogEntry {
@@ -33,7 +34,9 @@ export function App() {
   const [isRunning, setIsRunning] = useState<boolean>(false)
   const [concurrency, setConcurrency] = useState<number>(10)
   const [timeoutSec, setTimeoutSec] = useState<number>(3.5)
+  const [probeCount, setProbeCount] = useState<number>(1)
   const [protocolFilter, setProtocolFilter] = useState<string>('all')
+  const [securityFilter, setSecurityFilter] = useState<string>('all')
 
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState<string>('')
@@ -48,6 +51,7 @@ export function App() {
   const [qrNode, setQrNode] = useState<ProxyNode | null>(null)
   const [isImportOpen, setIsImportOpen] = useState<boolean>(false)
   const [isCopiedBatch, setIsCopiedBatch] = useState<boolean>(false)
+  const [isCopiedTop5, setIsCopiedTop5] = useState<boolean>(false)
 
   // Runner references
   const isRunningRef = useRef<boolean>(false)
@@ -144,7 +148,7 @@ export function App() {
         )
 
         // Execute probe in background slot
-        probeWebSocketNode(targetNode, timeoutSec * 1000)
+        probeWebSocketNode(targetNode, timeoutSec * 1000, probeCount)
           .then((res) => {
             setNodes((prev) =>
               prev.map((n) =>
@@ -229,7 +233,7 @@ export function App() {
       prev.map((n) => (n.id === node.id ? { ...n, status: 'probing' } : n))
     )
 
-    const res = await probeWebSocketNode(node, timeoutSec * 1000)
+    const res = await probeWebSocketNode(node, timeoutSec * 1000, probeCount)
     setNodes((prev) =>
       prev.map((n) =>
         n.id === node.id
@@ -313,6 +317,59 @@ export function App() {
     addLog('info', `Copied Base64 subscription format to clipboard.`)
   }
 
+  const handleCopyTop5 = () => {
+    const text = getTopFastestLinks(workingNodes, 5)
+    if (!text) return
+    navigator.clipboard.writeText(text)
+    setIsCopiedTop5(true)
+    setTimeout(() => setIsCopiedTop5(false), 2000)
+    addLog('success', 'Copied top 5 fastest links to clipboard.')
+  }
+
+  const handleCopyTop10 = () => {
+    const text = getTopFastestLinks(workingNodes, 10)
+    if (!text) return
+    navigator.clipboard.writeText(text)
+    setIsCopiedBatch(true)
+    setTimeout(() => setIsCopiedBatch(false), 2000)
+    addLog('success', 'Copied top 10 fastest links to clipboard.')
+  }
+
+  const handleDownloadClashYaml = () => {
+    if (workingNodes.length === 0 && nodes.length === 0) return
+    const yaml = generateClashMetaYaml(workingNodes.length > 0 ? workingNodes : nodes)
+    const blob = new Blob([yaml], { type: 'text/yaml' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `kamaji_clash_meta_${Date.now()}.yaml`
+    a.click()
+    URL.revokeObjectURL(url)
+    addLog('success', 'Downloaded Clash Meta YAML configuration profile.')
+  }
+
+  const handleDownloadSingboxJson = () => {
+    if (workingNodes.length === 0 && nodes.length === 0) return
+    const json = generateSingboxJson(workingNodes.length > 0 ? workingNodes : nodes)
+    const blob = new Blob([json], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `kamaji_singbox_${Date.now()}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+    addLog('success', 'Downloaded Sing-box JSON configuration profile.')
+  }
+
+  const handleCopyClashYaml = () => {
+    if (workingNodes.length === 0 && nodes.length === 0) return
+    const yaml = generateClashMetaYaml(workingNodes.length > 0 ? workingNodes : nodes)
+    navigator.clipboard.writeText(yaml)
+    setIsCopiedBatch(true)
+    setTimeout(() => setIsCopiedBatch(false), 2000)
+    addLog('success', 'Copied Clash Meta YAML to clipboard.')
+  }
+
   // Filtered and Sorted Nodes
   const filteredNodes = useMemo(() => {
     let list = [...nodes]
@@ -320,6 +377,17 @@ export function App() {
     // Protocol filter
     if (protocolFilter !== 'all') {
       list = list.filter((n) => n.protocol === protocolFilter)
+    }
+
+    // Security filter
+    if (securityFilter !== 'all') {
+      if (securityFilter === 'none') {
+        list = list.filter((n) => n.security === 'none')
+      } else if (securityFilter === 'reality') {
+        list = list.filter((n) => n.security === 'reality')
+      } else if (securityFilter === 'tls') {
+        list = list.filter((n) => n.security === 'tls')
+      }
     }
 
     // Status filter
@@ -365,7 +433,7 @@ export function App() {
     }
 
     return list
-  }, [nodes, protocolFilter, statusFilter, searchQuery, sortOption, activeCountryFilter])
+  }, [nodes, protocolFilter, securityFilter, statusFilter, searchQuery, sortOption, activeCountryFilter])
 
   // Lazy Loading / Infinite Scroll (Render only visible portion to save DOM nodes)
   const [visibleCount, setVisibleCount] = useState<number>(36)
@@ -374,7 +442,7 @@ export function App() {
   // Reset pagination on search/filter changes
   useEffect(() => {
     setVisibleCount(36)
-  }, [searchQuery, statusFilter, protocolFilter, sortOption, activeCountryFilter])
+  }, [searchQuery, statusFilter, protocolFilter, securityFilter, sortOption, activeCountryFilter])
 
   // IntersectionObserver to load more as user scrolls down
   useEffect(() => {
@@ -411,61 +479,73 @@ export function App() {
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-4">
         {/* Streamlined Control & Source Bar */}
         <ControlBar
-              isRunning={isRunning}
-              onToggleTest={handleToggleTest}
-              onReload={handleReload}
-              currentSource={currentSource}
-              onSelectSource={(source) => {
-                setCurrentSource(source)
-                if (source === 'auto') {
-                  loadAutoFeed()
-                } else {
-                  setIsImportOpen(true)
-                }
-              }}
-              totalCount={nodes.length}
-              lastSyncTime={lastSyncTime}
-              concurrency={concurrency}
-              setConcurrency={setConcurrency}
-              timeoutSec={timeoutSec}
-              setTimeoutSec={setTimeoutSec}
-            />
+          isRunning={isRunning}
+          onToggleTest={handleToggleTest}
+          onReload={handleReload}
+          currentSource={currentSource}
+          onSelectSource={(source) => {
+            setCurrentSource(source)
+            if (source === 'auto') {
+              loadAutoFeed()
+            } else {
+              setIsImportOpen(true)
+            }
+          }}
+          totalCount={nodes.length}
+          lastSyncTime={lastSyncTime}
+          concurrency={concurrency}
+          setConcurrency={setConcurrency}
+          timeoutSec={timeoutSec}
+          setTimeoutSec={setTimeoutSec}
+          probeCount={probeCount}
+          setProbeCount={setProbeCount}
+        />
 
-            {/* Minimal Progress Bar */}
-            <ProgressBar
-              isRunning={isRunning}
-              testedCount={testedCount}
-              totalCount={nodes.length}
-              elapsedSeconds={elapsedSeconds}
-            />
+        {/* Minimal Progress Bar */}
+        <ProgressBar
+          isRunning={isRunning}
+          testedCount={testedCount}
+          totalCount={nodes.length}
+          elapsedSeconds={elapsedSeconds}
+        />
 
-            {/* 4 Clean Metric Cards */}
-            <MetricCards nodes={nodes} />
+        {/* 4 Clean Metric Cards */}
+        <MetricCards nodes={nodes} />
 
-            {/* Minimal Filter & Search Toolbar (with [Scanner | Map | Radar | Matrix | Logs] switcher next to search input) */}
-            <Toolbar
-              activeTab={activeTab}
-              setActiveTab={(tab) => {
-                if (tab === 'matrix') {
-                  setViewMode('table')
-                  setActiveTab('matrix')
-                } else if (tab === 'scanner') {
-                  setViewMode('grid')
-                  setActiveTab('scanner')
-                } else {
-                  setActiveTab(tab)
-                }
-              }}
-              searchQuery={searchQuery}
-              setSearchQuery={setSearchQuery}
-              statusFilter={statusFilter}
-              setStatusFilter={setStatusFilter}
-              nodes={nodes}
-              onCopyWorking={handleCopyWorking}
-              onDownloadTxt={handleDownloadTxt}
-              onCopyBase64={handleCopyBase64}
-              isCopied={isCopiedBatch}
-            />
+        {/* Minimal Filter & Search Toolbar */}
+        <Toolbar
+          activeTab={activeTab}
+          setActiveTab={(tab) => {
+            if (tab === 'matrix') {
+              setViewMode('table')
+              setActiveTab('matrix')
+            } else if (tab === 'scanner') {
+              setViewMode('grid')
+              setActiveTab('scanner')
+            } else {
+              setActiveTab(tab)
+            }
+          }}
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          statusFilter={statusFilter}
+          setStatusFilter={setStatusFilter}
+          protocolFilter={protocolFilter}
+          setProtocolFilter={setProtocolFilter}
+          securityFilter={securityFilter}
+          setSecurityFilter={setSecurityFilter}
+          nodes={nodes}
+          onCopyWorking={handleCopyWorking}
+          onCopyTop5={handleCopyTop5}
+          onCopyTop10={handleCopyTop10}
+          onDownloadTxt={handleDownloadTxt}
+          onCopyBase64={handleCopyBase64}
+          onDownloadClashYaml={handleDownloadClashYaml}
+          onDownloadSingboxJson={handleDownloadSingboxJson}
+          onCopyClashYaml={handleCopyClashYaml}
+          isCopied={isCopiedBatch}
+          isCopiedTop5={isCopiedTop5}
+        />
 
         {/* Content Tabs View */}
         {activeTab === 'logs' ? (
