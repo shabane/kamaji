@@ -405,21 +405,7 @@ export function App() {
   return (
     <div className="min-h-screen bg-[#070b12] text-slate-100 flex flex-col pb-16 md:pb-6">
       {/* Minimalist Top Navigation */}
-      <Navbar
-        activeTab={activeTab}
-        setActiveTab={(tab) => {
-          if (tab === 'matrix') {
-            setViewMode('table')
-            setActiveTab('matrix')
-          } else if (tab === 'scanner') {
-            setViewMode('grid')
-            setActiveTab('scanner')
-          } else {
-            setActiveTab(tab)
-          }
-        }}
-        onOpenImport={() => setIsImportOpen(true)}
-      />
+      <Navbar onOpenImport={() => setIsImportOpen(true)} />
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-4">
