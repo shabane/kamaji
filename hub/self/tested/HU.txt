@@ -1,12 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&sni=hu2.vpnjantit.com&fp=safari&type=tcp&headerType=none&path=/&allow_insecure=0#[10][HU][362][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
-
-trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hu2.vpnjantit.com&fp=android#[7][HU][355][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
-
-trojan://C0ldyfh-vpnjantit.com@46.29.142.57:4443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hu2.vpnjantit.com&fp=android#[6][HU][358][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
-
-trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&sni=hu2.vpnjantit.com&fp=safari&type=tcp&headerType=none&path=%2f&allow_insecure=0#[9][HU][358][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
-
-trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&sni=hu2.vpnjantit.com&fp=android&type=tcp&headerType=none&path=%2f&allow_insecure=0#[8][HU][359][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-07][2026-09-07 01:36]
+trojan://humanity@185.225.68.232:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#[182][HU][668][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
 
