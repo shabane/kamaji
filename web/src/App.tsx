@@ -74,9 +74,9 @@ export function App() {
   }, [])
 
   const loadAutoFeed = async () => {
-    addLog('info', 'Loading verified feed (hub/self/tested/merged.txt)...')
-    const localUrl = '../hub/self/tested/merged.txt'
-    const fallbackUrl = 'https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/merged.txt'
+    addLog('info', 'Loading verified feed (hub/self/tested/best.txt)...')
+    const localUrl = '../hub/self/tested/best.txt'
+    const fallbackUrl = 'https://raw.githubusercontent.com/shabane/kamaji/master/hub/self/tested/best.txt'
 
     let text = ''
     try {

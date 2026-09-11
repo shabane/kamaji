@@ -28,7 +28,7 @@ export const SourceSelector: React.FC<SourceSelectorProps> = ({
           }`}
         >
           <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-          <span>Kamaji Auto-Feed <span className="opacity-60 text-[11px]">(hub/self/tested/merged.txt)</span></span>
+          <span>Kamaji Auto-Feed <span className="opacity-60 text-[11px]">(hub/self/tested/best.txt)</span></span>
           <span className="px-2 py-0.5 rounded-full text-[10px] bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/20">
             {totalCount} nodes
           </span>
