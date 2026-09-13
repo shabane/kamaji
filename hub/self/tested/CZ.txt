@@ -1,18 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&sid=f93c9d5127e622e4&sni=nl.cloudtechone.org#[310][CZ][408][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?security=reality&encryption=none&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=nl.cloudtechone.org&sid=f93c9d5127e622e4#[309][CZ][403][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?encryption=none&type=tcp&security=reality&headerType=none&sni=nl.cloudtechone.org&insecure=1&allowInsecure=1&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&sid=f93c9d5127e622e4&flow=xtls-rprx-vision#[306][CZ][404][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&security=reality&sid=f93c9d5127e622e4&sni=nl.cloudtechone.org&type=tcp#[305][CZ][403][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&security=reality&sid=f93c9d5127e622e4&sni=nl.cloudtechone.org&type=tcp#[304][CZ][411][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?security=reality&encryption=none&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=nl.cloudtechone.org&sid=f93c9d5127e622e4#[308][CZ][418][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@95.182.90.226:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&sid=f93c9d5127e622e4&sni=nl.cloudtechone.org#[291][CZ][404][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
-
-vless://2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5@nl.cloudtechone.org:443?encryption=none&type=tcp&security=reality&headerType=none&sni=nl.cloudtechone.org&insecure=1&allowInsecure=1&pbk=_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo&sid=f93c9d5127e622e4&flow=xtls-rprx-vision#[307][CZ][382][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
+vmess://eyJhZGQiOiAiMTk1Ljg1LjIzLjIyNSIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCAiaWQiOiAiZGI1MGEyMGUtN2ZmNS00ZTcwLTk0OGYtMTdjYzljYTdjMTU0IiwgIm5ldCI6ICJ3cyIsICJwYWNrZXRFbmNvZGluZyI6ICJ4dWRwIiwgInBhdGgiOiAiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJbNzBdW0NaXVsxMDM2XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICJyZW5kZXJlci1zdHJlYW0tMi02Mi5taXJyYS5ub3ciLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
 

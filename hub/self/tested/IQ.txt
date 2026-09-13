@@ -1,8 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://d9d0f208-d582-41d5-bb7b-742671402810@eu-central-de-3.hanvpn.biz:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=evZScHEcyRLcHnrN8fzp3HtC5hQ_smUHdmCRpCqlwkY&security=reality&sid=0183b7681806bc97&sni=eu-central-de-3.hanvpn.biz&type=tcp#[2463][IQ][371][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
+vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?encryption=none&security=reality&sni=it.nvidia.com&fp=chrome&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&sid=d8f1&spx=/b518256ddade49d&type=grpc&mode=gun&authority=&serviceName=#[1464][IQ][670][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
 
-vless://d9d0f208-d582-41d5-bb7b-742671402810@81.90.25.158:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=evZScHEcyRLcHnrN8fzp3HtC5hQ_smUHdmCRpCqlwkY&sid=0183b7681806bc97&sni=eu-central-de-3.hanvpn.biz#[2461][IQ][369][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
+vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?security=reality&encryption=none&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&fp=chrome&spx=/b518256ddade49d&type=grpc&sni=it.nvidia.com&sid=d8f1#[1466][IQ][655][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
 
-vless://d9d0f208-d582-41d5-bb7b-742671402810@eu-central-de-3.hanvpn.biz:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=evZScHEcyRLcHnrN8fzp3HtC5hQ_smUHdmCRpCqlwkY&security=reality&sid=0183b7681806bc97&sni=eu-central-de-3.hanvpn.biz&type=tcp#[2462][IQ][366][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-10][2026-09-10 01:49]
+vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?mode=gun&security=reality&encryption=none&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&fp=chrome&spx=/b518256ddade49d&type=grpc&sni=it.nvidia.com&sid=d8f1#[1465][IQ][653][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
 
