@@ -1,28 +1,16 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://humanity@213.182.199.137:443?fp=chrome&host=www.pleadcourt.org&path=/assignment&sni=www.pleadcourt.org&type=ws#[275][HR][553][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[285][HR][401][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[283][HR][553][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[286][HR][448][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&host=www.pleadcourt.org&fp=chrome&type=ws&sni=www.pleadcourt.org#[277][HR][554][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[289][HR][475][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[282][HR][541][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?alpn=http/1.1&fp=chrome&host=www.pleadcourt.org&path=/assignment&sni=www.pleadcourt.org&type=ws#[284][HR][407][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&host=www.pleadcourt.org&fp=chrome&type=ws&sni=www.pleadcourt.org#[276][HR][552][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[287][HR][410][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws&allowInsecure=1&fp=chrome#[273][HR][561][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws&allowInsecure=1&fp=chrome#[283][HR][443][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[285][HR][583][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[281][HR][583][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[284][HR][540][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[280][HR][563][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[278][HR][543][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?alpn=http/1.1&fp=chrome&host=www.pleadcourt.org&path=/assignment&sni=www.pleadcourt.org&type=ws#[274][HR][585][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[279][HR][600][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[288][HR][409][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 

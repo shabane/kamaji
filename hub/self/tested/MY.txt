@@ -1,12 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYzc3ZjQ4ZjUtNGJlMy00NDYxLWI1MmItNDk5OThlN2I4OTdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6IDQzMDYzLCAicHMiOiAiWzg3XVtNWV1bOTQzXVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzEyXVtNWV1bNDE1XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJhZGQiOiAiNDcuMjUwLjEzNS4yNDQiLCAicG9ydCI6ICIxMDAwMCIsICJpZCI6ICJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpbnNlY3VyZSI6ICIwIiwgInZjbiI6ICIiLCAicGNzIjogIiJ9
 
-vless://8a346b7c-5b95-4845-affa-0e5d9929e9ae@38.60.168.98:2087?encryption=none&path=/db55c40bbc75&security=none&type=ws#[1459][MY][559][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzExXVtNWV1bNDE1XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJhZGQiOiAiNDcuMjUwLjEzNS4yNDQiLCAicG9ydCI6ICIxMDAwMCIsICJpZCI6ICJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpbnNlY3VyZSI6ICIwIn0=
 
-vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[2473][MY][706][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[2242][MY][966][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://8a346b7c-5b95-4845-affa-0e5d9929e9ae@38.60.168.98:2087?encryption=none&path=/db55c40bbc75&security=none&type=ws#[1458][MY][556][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[2474][MY][595][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[2241][MY][835][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 

@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://8d955d71-ed5d-4f4c-ae68-42d120f06861@213.176.112.136:5222?encryption=none&security=tls&sni=kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev&fp=chrome&alpn=h3&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev&path=%2F%40Marisa_kristi#[1523][IR][1644][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://32721515-985b-4773-9e70-5d2e1b88a060@212.16.92.111:443?&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=firefox&sni=jobinvest.ru&type=tcp&headerType=none&host=jobinvest.ru&path=%2F#[1011][IR][400][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+
+vless://32721515-985b-4773-9e70-5d2e1b88a060@212.16.92.112:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=jobinvest.ru&type=tcp#[1012][IR][378][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 

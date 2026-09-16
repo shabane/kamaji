@@ -1,50 +1,40 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1291][GR][623][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=94acb54627612d43&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&encryption=none#[1596][GR][524][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=&encryption=none&fm=https://t.me/ShadowFlux2&type=grpc&serviceName=security.debian.org#[1295][GR][649][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1481][GR][573][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2361][GR][757][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@edge.netraidly.ru:40443?&security=reality&flow=xtls-rprx-vision&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&sid=beb4&fp=qq&sni=deepl.com&type=tcp&headerType=none&host=deepl.com&path=%2F#[1574][GR][336][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&serviceName=security.debian.org&mode=gun#[1293][GR][573][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=none&encryption=none&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&type=grpc&serviceName=security.debian.org#[1488][GR][544][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2362][GR][559][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1479][GR][545][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&sid=94acb54627612d43&allowInsecure=1#[1524][GR][569][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=&encryption=none&fm=https://t.me/ShadowFlux2&type=grpc&serviceName=security.debian.org#[1487][GR][540][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@edge.netraidly.ru:40443?&security=reality&flow=xtls-rprx-vision&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&sid=beb4&fp=qq&sni=deepl.com&type=tcp&headerType=none&host=deepl.com&path=%2F#[1462][GR][405][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1482][GR][566][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&serviceName=security.debian.org&mode=gun#[1294][GR][611][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?security=none&encryption=none&type=grpc&serviceName=security.debian.org#[1489][GR][550][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&serviceName=security.debian.org&mode=gun#[1292][GR][630][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=&encryption=none&fm=https://t.me/ShadowFlux2&type=grpc&serviceName=security.debian.org#[1486][GR][541][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2363][GR][547][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&serviceName=security.debian.org&type=grpc#[1480][GR][525][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&encryption=none&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=beb4#[1461][GR][404][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=&encryption=none&fm=https://t.me/ShadowFlux2&authority=BIA_TELEGRAM?=@ShadowFlux2---@ShadowFlux2---@ShadowFlux2---@ShadowFlux2---@ShadowFlux2&type=grpc&serviceName=security.debian.org#[1485][GR][560][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=none&encryption=none&type=grpc&serviceName=security.debian.org#[1298][GR][616][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&encryption=none&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=beb4#[1573][GR][331][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1290][GR][602][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&encryption=none&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=beb4#[1572][GR][357][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=&encryption=none&fm=https://t.me/ShadowFlux2&type=grpc&serviceName=security.debian.org#[1296][GR][648][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1478][GR][530][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1289][GR][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@edge.netraidly.ru:40443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&security=reality&sid=beb4&sni=deepl.com&type=tcp#[1575][GR][332][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2365][GR][532][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&serviceName=security.debian.org&mode=gun#[1484][GR][527][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://1648bb70-bd3f-410a-aa3c-ae26b05cef2e@91.186.218.227:4443?path=/@Marisa_kristi&security=tls&encryption=none&host=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&fp=chrome&type=ws&sni=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&ech=cloudflare-ech.com#[178][GR][1443][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&type=grpc&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&serviceName=security.debian.org&mode=gun#[1483][GR][533][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&encryption=none&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=beb4#[1460][GR][407][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https%3A%2F%2Ft.me%2FShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1476][GR][546][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083/?type=grpc&encryption=none&flow=&serviceName=security.debian.org#[1286][GR][1684][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?mode=gun&security=none&encryption=none&authority=/TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1,TELEGRAM_AZARBAYJAB1&type=grpc&serviceName=security.debian.org#[1297][GR][601][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1287][GR][635][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2364][GR][547][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@85.90.197.120:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr1.hat.onl&sid=76132b3b39704c44#[2366][GR][533][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1288][GR][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?encryption=none&security=none&fm=https://t.me/ShadowFlux2&type=grpc&authority=&serviceName=security.debian.org&mode=gun#[1477][GR][557][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 

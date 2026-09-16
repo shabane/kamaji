@@ -1,28 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://12af43c3-84b4-4248-878b-b75f35835487@132.243.162.30:46280?security=reality&encryption=none&pbk=3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=e53690af52736850#[153][CH][459][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://568addfa-796a-40f8-820d-a071ee2ca50a@138.124.245.116:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&type=xhttp&path=/#[1287][CH][374][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://12af43c3-84b4-4248-878b-b75f35835487@132.243.162.30:46280?security=reality&encryption=none&pbk=3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=e53690af52736850#[154][CH][462][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://568addfa-796a-40f8-820d-a071ee2ca50a@138.124.245.116:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&type=xhttp&path=%2F#[1286][CH][365][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://3950b45e-740d-4dca-ac95-505ec8534592@45.90.59.15:443?&security=reality&flow=xtls-rprx-vision&pbk=P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY&sid=19253fae84102271&fp=firefox&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[741][CH][460][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://3950b45e-740d-4dca-ac95-505ec8534592@45.90.59.15:443?&security=reality&flow=xtls-rprx-vision&pbk=P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY&sid=19253fae84102271&fp=firefox&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[1028][CH][398][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://482aed33-c5ae-4e1d-bff4-8b0bdb72fb81@fi.srv.safes-infrastructure.com:443?security=reality&encryption=none&pbk=yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fi.srv.safes-infrastructure.com&sid=e7d8f0aa#[919][CH][513][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@185.18.250.252:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&allowInsecure=1#[202][CH][387][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
-vless://12af43c3-84b4-4248-878b-b75f35835487@132.243.162.30:46280?security=reality&encryption=none&pbk=3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=e53690af52736850#[152][CH][505][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://12af43c3-84b4-4248-878b-b75f35835487@132.243.162.30:46280?security=reality&encryption=none&pbk=3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=e53690af52736850#[151][CH][456][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://12af43c3-84b4-4248-878b-b75f35835487@132.243.162.30:46280?security=reality&encryption=none&pbk=3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=e53690af52736850#[155][CH][455][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://568addfa-796a-40f8-820d-a071ee2ca50a@138.124.245.116:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&type=xhttp&path=/#[1099][CH][473][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://568addfa-796a-40f8-820d-a071ee2ca50a@138.124.245.116:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&type=xhttp&path=%2F#[1098][CH][430][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@91.245.225.79:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[332][CH][627][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@185.18.250.252:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&allowInsecure=1#[186][CH][480][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@185.18.250.252:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[187][CH][489][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-trojan://humanity@91.245.225.79:2053?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[333][CH][668][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+trojan://humanity@91.245.225.79:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[347][CH][596][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
 
