@@ -1,12 +1,28 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[5285][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[11719][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10458][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[11720][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZTZwZUZHNTRGOW40dTN4Mw==@103.125.147.48:51348#[10459][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+ss://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:8443?security=reality&amp;encryption=none&amp;pbk=92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE&amp;fp=chrome&amp;type=grpc&amp;serviceName=TunService&amp;sni=download.autodesk.com#[17220][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&security=reality&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&sid=#[11960][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+ss://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&amp;fp=chrome&amp;type=xhttp&amp;sni=download.nvidia.com#[17219][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0#[3786][PK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+ss://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&amp;encryption=none&amp;pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=speed.cloudflare.com#[6057][PK][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:8443?mode=gun&security=reality&encryption=none&pbk=92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE&fp=chrome&type=grpc&serviceName=TunService&sni=download.autodesk.com#[25822][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&fp=chrome&type=xhttp&sni=download.nvidia.com#[25820][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@103.175.79.10:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&security=reality&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&sid=#[11950][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&fp=chrome&type=xhttp&sni=download.nvidia.com#[25819][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:8443?security=reality&encryption=none&pbk=92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE&fp=chrome&type=grpc&serviceName=TunService&sni=download.autodesk.com#[25824][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&fp=chrome&type=xhttp&sni=download.nvidia.com#[25821][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@103.175.79.4:8443?security=reality&encryption=none&pbk=92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE&fp=chrome&type=grpc&serviceName=TunService&sni=download.autodesk.com#[25823][PK][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+
+trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0#[3751][PK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 

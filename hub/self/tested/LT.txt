@@ -1,38 +1,16 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?security=reality&type=tcp&allowInsecure=1&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1891][LT][424][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?security=reality&encryption=none&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lt.aether-runet.top&sid=4fa44664f6a566d3#[1520][LT][383][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&host=/?TELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1593][LT][460][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://1e2c38d5-e0dc-472e-b31b-a1e15f083cc7@84.32.214.77:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=vu.nl&fp=firefox&pbk=BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18#[218][LT][442][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=chrome&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1889][LT][426][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?type=tcp&headerType=none&security=reality&encryption=none&sni=lt.aether-runet.top&fp=firefox&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3&spx=%2F&flow=xtls-rprx-vision#[1524][LT][355][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?type=tcp&headerType=none&security=reality&encryption=none&sni=lt.aether-runet.top&fp=firefox&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3&spx=%2F&flow=xtls-rprx-vision#[1894][LT][411][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=lt.aether-runet.top&fp=firefox&security=reality&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3&packetEncoding=xudp#[1521][LT][355][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=chrome&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1888][LT][411][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1523][LT][352][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&encryption=none#[1893][LT][419][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?security=reality&encryption=none&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lt.aether-runet.top&sid=4fa44664f6a566d3#[1519][LT][363][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1591][LT][475][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1589][LT][1005][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1892][LT][416][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@lith.2clash.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=lith.2clash.ru&fp=firefox&security=reality&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&sid=#[1595][LT][427][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&host=/?TELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1594][LT][465][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&host=/?TELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1592][LT][445][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://5934cc4f-c17b-41c0-9280-c75eb222f4b7@84.32.214.77:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18&security=reality&sni=vu.nl&type=tcp#[1311][LT][539][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=lt.aether-runet.top&sid=4fa44664f6a566d3#[1886][LT][410][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3&sni=lt.aether-runet.top#[1890][LT][429][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=chrome&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1887][LT][425][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-vless://8e403675-d020-4801-9520-9cba4bbfda0e@181.214.147.216:443?security=reality&encryption=none&pbk=66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lith.2clash.ru#[1590][LT][458][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
-
-trojan://humanity@195.181.244.216:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#[274][LT][759][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@lt.aether-runet.top:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#[1522][LT][354][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
 
