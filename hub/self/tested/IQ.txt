@@ -1,8 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?encryption=none&security=reality&sni=it.nvidia.com&fp=chrome&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&sid=d8f1&spx=/b518256ddade49d&type=grpc&mode=gun&authority=&serviceName=#[1464][IQ][670][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?security=reality&encryption=none&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&fp=chrome&spx=/b518256ddade49d&type=grpc&sni=it.nvidia.com&sid=d8f1#[1466][IQ][655][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
-
-vless://8b6aceff-1db9-4d5b-b4b2-d727d55b0f96@81.90.25.123:46908?mode=gun&security=reality&encryption=none&pbk=xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU&fp=chrome&spx=/b518256ddade49d&type=grpc&sni=it.nvidia.com&sid=d8f1#[1465][IQ][653][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-13][2026-09-13 01:45]
+vless://ff6d2dda-7b90-404e-9951-34b3124bfdfa@193.56.135.212:9543?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=storage.yandexcloud.net&sid=123abcde#[2000][IQ][2634][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
 

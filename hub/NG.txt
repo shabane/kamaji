@@ -1,8 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.255.123.90:989#[12870][NG][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.255.123.90:989#[10446][NG][0][SS][None][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.255.123.90:989#[12871][NG][0][SS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.255.123.90:989#[10445][NG][0][SS][None][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
 
-vless://497631c4-a1a4-006c-a86a-f42873473bb6@167.88.51.241:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=auto.quattro-tech.ru&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp&headerType=none#[11912][NG][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-19][2026-09-19 01:59]
+vless://497631c4-a1a4-006c-a86a-f42873473bb6@167.88.51.241:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=auto.quattro-tech.ru&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp&headerType=none#[10273][NG][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+
+trojan://600421cf-11d7-429f-a65b-c30397f1bc03@103.97.91.17:443?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0&amp;sni=la.freeguard.org#[912][NG][0][TROJAN][None][V2rayCollector][2026-09-21][2026-09-22 02:09]
+
+trojan://600421cf-11d7-429f-a65b-c30397f1bc03@103.97.91.17:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=la.freeguard.org#[914][NG][0][TROJAN][None][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+
+trojan://600421cf-11d7-429f-a65b-c30397f1bc03@103.97.91.17:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=la.freeguard.org#[913][NG][0][TROJAN][None][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
 
