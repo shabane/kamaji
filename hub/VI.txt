@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://1a9f25d4-3a3d-439a-94fe-50d4cfbba218@kinoveh6.komediyatorg.net:443?type=tcp&headerType=none&security=tls&encryption=none&sni=kinoveh6.komediyatorg.net&fp=chrome&insecure=0#[4408][VI][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-16][2026-09-16 02:03]
+vless://b3e950f6-b446-4fe1-808b-29e10a1c2479@2.27.26.31:443?path=/media/ws/&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=lanepromo.bezl-self.co.uk#[26061][VI][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+
+vless://b3e950f6-b446-4fe1-808b-29e10a1c2479@2.27.26.31:443?path=/media/ws/&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=lanepromo.bezl-self.co.uk#[26062][VI][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 

@@ -1,34 +1,18 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vmess://eyJhZGQiOiAiMTE4LjE5My41Ny4xNjciLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImQ0NmJmNDkyLTQ1ZjQtNGMzMy04MmQxLWVhMmExY2I1NGViNiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9kNDZiZjQ5MiIsICJwY3MiOiAiIiwgInBvcnQiOiAiNDk2NjciLCAicHMiOiAiWzI2XVtUSF1bODEzXVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICItLS0iLCAidiI6ICIyIiwgInZjbiI6ICIifQ==
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=none&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[408][TH][705][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vmess://eyJhZGQiOiAiMTE4LjE5My41Ny4xNjciLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImQ0NmJmNDkyLTQ1ZjQtNGMzMy04MmQxLWVhMmExY2I1NGViNiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9kNDZiZjQ5MiIsICJwb3J0IjogIjQ5NjY3IiwgInBzIjogIlsyOV1bVEhdWzgyMV1bVk1FU1NdW0dIIEFjdGlvbl1bdnBuX3RlaHJhbl1bMjAyNi0wOS0xOF1bMjAyNi0wOS0yMiAwMjowOV0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiJ9
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=%2Fws#[404][TH][713][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vmess://eyJhZGQiOiAiMTE4LjE5My41Ny4xNjciLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImQ0NmJmNDkyLTQ1ZjQtNGMzMy04MmQxLWVhMmExY2I1NGViNiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9kNDZiZjQ5MiIsICJwb3J0IjogIjQ5NjY3IiwgInBzIjogIlsyOF1bVEhdWzgxOF1bVk1FU1NdW0dIIEFjdGlvbl1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiJ9
+vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&type=ws&path=%2Fws&host=v2ray.simspeedup.com&packetEncoding=xudp#[412][TH][701][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vmess://eyJ2IjogIjIiLCAicHMiOiAiWzhdW1RIXVs3OTddW1ZNRVNTXVtHSCBBY3Rpb25dW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgImFkZCI6ICIxMTguMTkzLjU3LjE2NyIsICJwb3J0IjogIjQ5NjY3IiwgImlkIjogImQ0NmJmNDkyLTQ1ZjQtNGMzMy04MmQxLWVhMmExY2I1NGViNiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiL2Q0NmJmNDkyIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaW5zZWN1cmUiOiAiMCIsICJ2Y24iOiAiIiwgInBjcyI6ICIifQ==
+vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&path=%2Fws&host=aIs.SpEeDtEsT.nEt&sni=v2ray.simspeedup.com#[413][TH][702][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vmess://eyJhZGQiOiAiMTE4LjE5My41Ny4xNjciLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImQ0NmJmNDkyLTQ1ZjQtNGMzMy04MmQxLWVhMmExY2I1NGViNiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9kNDZiZjQ5MiIsICJwY3MiOiAiIiwgInBvcnQiOiAiNDk2NjciLCAicHMiOiAiWzI3XVtUSF1bODIyXVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[407][TH][702][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=%2Fws#[477][TH][747][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#[405][TH][700][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&security=none&path=/ws#[485][TH][743][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&security=none&path=/ws#[414][TH][700][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&type=ws&path=%2Fws&host=v2ray.simspeedup.com&packetEncoding=xudp#[483][TH][775][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw&sid=ca672c53fbbac555#[231][TH][881][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[480][TH][752][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3c52e091-6714-4915-949f-2149fe69951b@V2rAy.SiMsPeEdUp.CoM:80?path=%2Fws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[482][TH][755][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#[479][TH][740][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw&sid=ca672c53fbbac555&type=tcp&headerType=none#[233][TH][882][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#[478][TH][740][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw&sid=ca672c53fbbac555&type=tcp&headerType=none#[232][TH][876][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?type=ws&path=%2Fws&host=aIs.SpEeDtEsT.nEt&sni=v2ray.simspeedup.com#[484][TH][743][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#[406][TH][705][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
 
