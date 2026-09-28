@@ -1,38 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&type=tcp&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[658][AU][861][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+vless://d00d9d18-20cf-4191-be76-6f73d43a27ec@194.195.123.60:22368/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM&sid=b5a3#[1622][AU][464][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
 
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?&security=reality&flow=xtls-rprx-vision&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&fp=chrome&sni=www.yahoo.com&type=tcp&headerType=none&host=www.yahoo.com&path=%2F#[651][AU][845][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+vless://d00d9d18-20cf-4191-be76-6f73d43a27ec@143.42.46.37:25605/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=trh3vhKtu_iAKb6E2GuUvloJDZ8tN0jtzyj4kpV5IQA&sid=6df42a2c#[1599][AU][442][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
 
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[657][AU][847][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+vless://d00d9d18-20cf-4191-be76-6f73d43a27ec@143.42.46.37:25605/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=trh3vhKtu_iAKb6E2GuUvloJDZ8tN0jtzyj4kpV5IQA&sid=6df42a2c#[1600][AU][454][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
 
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&encryption=none&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e6a5a4a9115456de#[654][AU][843][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+vless://36e89875-9c53-482b-bc41-d3890e9da176@51.161.204.244:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk&security=reality&sid=0ad08b47f498efd2&sni=www.cloudflare.com&type=tcp#[404][AU][467][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
 
-vless://6eef3a79-22bc-4086-b5e6-95e07db73016@au1.gsafevpnapi.com:20270?&security=reality&flow=xtls-rprx-vision&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&fp=chrome&sni=www.yahoo.com&type=tcp&headerType=none&host=www.yahoo.com&path=%2F#[872][AU][845][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://6eef3a79-22bc-4086-b5e6-95e07db73016@au1.gsafevpnapi.com:20270?security=reality&type=tcp&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[876][AU][846][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&encryption=none&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e6a5a4a9115456de#[655][AU][852][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://38b8e2fb-b9a0-40a6-b42c-335def2765cf@au1.gsafevpnapi.com:20270?&security=reality&flow=xtls-rprx-vision&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&fp=chrome&sni=www.yahoo.com&type=tcp&headerType=none&host=www.yahoo.com&path=%2F#[389][AU][841][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://36e89875-9c53-482b-bc41-d3890e9da176@51.161.204.244:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk&security=reality&sid=0ad08b47f498efd2&sni=www.cloudflare.com&type=tcp#[388][AU][551][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://6eef3a79-22bc-4086-b5e6-95e07db73016@au1.gsafevpnapi.com:20270?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&type=tcp&headerType=none#[873][AU][841][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://38b8e2fb-b9a0-40a6-b42c-335def2765cf@au1.gsafevpnapi.com:20270?security=reality&type=tcp&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[392][AU][849][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://38b8e2fb-b9a0-40a6-b42c-335def2765cf@au1.gsafevpnapi.com:20270?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&type=tcp&headerType=none#[390][AU][852][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://6eef3a79-22bc-4086-b5e6-95e07db73016@au1.gsafevpnapi.com:20270?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[875][AU][853][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&sid=e6a5a4a9115456de&type=tcp&headerType=none#[652][AU][856][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://38b8e2fb-b9a0-40a6-b42c-335def2765cf@au1.gsafevpnapi.com:20270?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[391][AU][860][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&encryption=none&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e6a5a4a9115456de#[656][AU][843][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://52e89791-cc65-4cdb-9d3a-7c06df9f6ebd@au1.gsafevpnapi.com:20270?security=reality&encryption=none&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e6a5a4a9115456de#[653][AU][840][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
-
-vless://6eef3a79-22bc-4086-b5e6-95e07db73016@au1.gsafevpnapi.com:20270?security=reality&type=tcp&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=e6a5a4a9115456de&pbk=RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE#[874][AU][854][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-25][2026-09-25 02:13]
+vless://d00d9d18-20cf-4191-be76-6f73d43a27ec@194.195.123.60:22368/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM&sid=b5a3#[1621][AU][634][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
 
