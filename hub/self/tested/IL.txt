@@ -1,12 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://4cf9c712-11c4-47d8-aa31-a1693a1aa4e5@185.249.153.108:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nordivablog.ru&fp=chrome&pbk=xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw&sid=73c9e31ccafda20e&type=tcp&headerType=none#[726][IL][481][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&sid=a3a578ab&type=tcp&headerType=none&host=telegram-leviko_v2ray#[167][IL][58][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
-vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&sid=a3a578ab&type=tcp&headerType=none&host=telegram-leviko_v2ray#[153][IL][187][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://1ffa8e68-3378-4cf4-b8f6-44bf3d46d106@185.95.231.233:443?security=reality&encryption=none&pbk=r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=a1b2c3d4#[168][IL][61][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
-vless://1ffa8e68-3378-4cf4-b8f6-44bf3d46d106@185.95.231.233:443?security=reality&encryption=none&pbk=r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=a1b2c3d4#[154][IL][195][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@72.4.65.116:443?encryption=none&security=tls&sni=assets-de2.pleiades.codes&fp=chrome&type=grpc&authority=&serviceName=cdn.v1.AssetService&mode=gun#[94][IL][431][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
-vless://25284368-40d5-4abe-9f56-54a07e88a7af@193.202.10.137:2291?security=reality&flow=xtls-rprx-vision&sni=de2.dzvn.space&type=tcp&fp=firefox&pbk=tLWqTzKtCCMxxOzSskvSwDB2an1bxxZ706kcNDqGNWg&sid=50ace5ab34f6df9b#[198][IL][452][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://1ffa8e68-3378-4cf4-b8f6-44bf3d46d106@185.95.231.233:443?security=reality&encryption=none&pbk=r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=a1b2c3d4#[169][IL][62][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
-vless://25284368-40d5-4abe-9f56-54a07e88a7af@de2.dzvn.space:2291?fp=firefox&encryption=none&security=reality&sid=50ace5ab34f6df9b&headerType=none&sni=de2.dzvn.space&type=tcp&flow=xtls-rprx-vision&spx=%2FAhmadV2ray&pbk=tLWqTzKtCCMxxOzSskvSwDB2an1bxxZ706kcNDqGNWg&fm=AhmadV2ray#[199][IL][457][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@72.4.65.116:443?mode=gun&security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=cdn.v1.AssetService&allowInsecure=0&sni=assets-de2.pleiades.codes#[95][IL][438][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 

@@ -1,12 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://9aab8f39-ccb3-44ea-acdc-a8aefe211287@45.164.20.85:10226?encryption=none&security=none&type=tcp&headerType=none#[1139][MX][281][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+ss://YWVzLTI1Ni1nY206Qld5UFBUdXNGS2hHZ3pLaA==@64.177.90.30:8388#[561][MX][3224][SS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
-vless://9aab8f39-ccb3-44ea-acdc-a8aefe211287@45.164.20.114:10226/?type=tcp&encryption=none&flow=#[1135][MX][181][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
-
-vless://9aab8f39-ccb3-44ea-acdc-a8aefe211287@45.164.20.114:10226?security=none&encryption=none&headerType=none&type=tcp#[1136][MX][202][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
-
-vless://9aab8f39-ccb3-44ea-acdc-a8aefe211287@45.164.20.85:10226?encryption=none&security=none&type=tcp#[1138][MX][274][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
-
-vless://9aab8f39-ccb3-44ea-acdc-a8aefe211287@45.164.20.114:10226?security=none&encryption=none&headerType=none&type=tcp#[1137][MX][245][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-28][2026-09-28 02:18]
+vless://79bc7b01-6e4e-4365-a120-fefac8182bd9@34.51.119.243:443?&security=reality&pbk=vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI&sid=65f01b4b99e52015&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[1079][MX][194][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
 
