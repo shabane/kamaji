@@ -1,20 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=udemy.com&fp=ios&pbk=23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE&sid=e90360ec7cc61b20&type=tcp&path=/#[1567][CZ][346][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng&security=reality&sid=b415b8d7a6106ace&sni=nlll.gaz-service.shop&type=tcp#[633][CZ][293][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://39d5e728-c358-409a-8367-d5253a9ed825@95.182.88.129:40913?mode=auto&path=/&security=reality&encryption=none&extra={"mode":"auto","xPaddingBytes":"100-1000","xmux":{"cMaxReuseTimes":0,"hKeepAlivePeriod":15,"hMaxRequestTimes":"100-300","hMaxReusableSecs":"600-1200","maxConcurrency":"","maxConnections":"4"}}&pbk=0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw&fp=chrome&spx=/0a9b0a29b958e17&type=xhttp&sni=yt.be&sid=3675#[421][CZ][280][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&fp=&pbk=Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc&security=reality&serviceName=grpc&sni=nlll.gaz-service.shop&type=grpc#[632][CZ][368][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://39d5e728-c358-409a-8367-d5253a9ed825@95.182.88.129:40913?encryption=none&fp=chrome&host=&mode=auto&path=/&pbk=0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw&security=reality&sid=3675&sni=yt.be&spx=/0a9b0a29b958e17&type=xhttp#[420][CZ][287][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://39d5e728-c358-409a-8367-d5253a9ed825@95.182.88.129:40913?encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A15%2C%22hMaxRequestTimes%22%3A%22100-300%22%2C%22hMaxReusableSecs%22%3A%22600-1200%22%2C%22maxConcurrency%22%3A%22%22%2C%22maxConnections%22%3A%224%22%7D%7D&fp=chrome&host=&mode=auto&path=%2F&pbk=0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw&security=reality&sid=3675&sni=yt.be&spx=%2F0a9b0a29b958e17&type=xhttp&x_padding_bytes=100-1000#[419][CZ][305][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:8443?type=tcp&security=reality&sni=nlll.gaz-service.shop&flow=xtls-rprx-vision&pbk=j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng&sid=b415b8d7a6106ace#[635][CZ][264][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@195.133.66.229:8443?type=tcp&security=reality&sni=nlll.gaz-service.shop&flow=xtls-rprx-vision&pbk=j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng&sid=b415b8d7a6106ace#[634][CZ][263][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@nlll.gaz-service.shop:443?encryption=none&fp=&pbk=Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc&security=reality&serviceName=grpc&sni=nlll.gaz-service.shop&type=grpc#[648][CZ][346][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
+vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=udemy.com&fp=ios&pbk=23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE&sid=e90360ec7cc61b20&type=tcp&path=/#[1304][CZ][407][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
 
