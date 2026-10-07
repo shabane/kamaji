@@ -1,8 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254@35.233.43.229:443?&security=reality&pbk=i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs&sid=68e97022627fa882&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[2266][BE][292][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://d4d1b597-2769-465b-b7fa-c2b84393d3ee@35.233.94.80:443?&security=reality&pbk=OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4&sid=b4f2c0e3d8668c2f&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[1957][BE][599][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
-
-vless://6d341f6e-7b9d-4ae3-999b-00333de7bdfb@35.240.62.249:443?&security=reality&pbk=v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws&sid=31f187650d9530bb&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[983][BE][286][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-01][2026-10-01 02:49]
+vless://2b781b4a-5942-48e0-a7f3-5a07b7b488c1@113.30.152.2:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=cceRo0o9bFMlCNVahZCrQWRzMAsR5M6abWXADIapY0w&sid=15bcc0a77c3cacdf&sni=be-root.sworkingvpn.com#[174][BE][275][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 

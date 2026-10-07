@@ -1,18 +1,16 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1nY206MjgwMzM2MWQ2YzE5NmFmOA==@166.1.228.172:30888#[10318][EG][0][SS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+ss://YWVzLTI1Ni1nY206MjgwMzM2MWQ2YzE5NmFmOA==@166.1.228.172:30888#[9002][EG][0][SS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.59.99:989#[10181][EG][0][SS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-nd01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-nd01.rkitman.ru&sid=88d9dc52ef39c8bd#[4838][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=/d1000b16fe76&security=none&encryption=none&host=Telegram-Leviko_v2ray&type=ws#[25988][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-nd01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-nd01.rkitman.ru&sid=88d9dc52ef39c8bd#[4839][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-nd01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-nd01.rkitman.ru&sid=88d9dc52ef39c8bd#[6257][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@166.1.228.218:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#[17991][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=/d1000b16fe76&security=none&encryption=none&host=Telegram-Leviko_v2ray&type=ws#[25989][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=/d1000b16fe76&security=none&encryption=none&host=Telegram-Leviko_v2ray&type=ws#[18993][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@166.1.228.218:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#[24545][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=/d1000b16fe76&security=none&encryption=none&host=Telegram-Leviko_v2ray&type=ws#[18992][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
-vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-nd01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-nd01.rkitman.ru&sid=88d9dc52ef39c8bd#[6256][EG][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
-
-trojan://u.0c3S2V328E6hb8DVhZTNaIzFZX1+aY1J@38.60.226.48:443/?type=tcp&security=tls#[6564][EG][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+trojan://u.0c3S2V328E6hb8DVhZTNaIzFZX1+aY1J@38.60.226.48:443/?type=tcp&security=tls#[3969][EG][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 

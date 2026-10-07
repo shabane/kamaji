@@ -1,8 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@170.80.111.5:989#[10151][GT][0][SS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.254.87:990#[8248][GT][0][SS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
-
-vless://878fb7f7-fc65-465e-a352-17c7216c6f3d@185.47.254.251:443?security=reality&encryption=none&pbk=6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gateway.icloud.com&sid=6c059ecfddf9b179#[16531][GT][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-04][2026-10-04 03:10]
+vless://878fb7f7-fc65-465e-a352-17c7216c6f3d@185.47.254.251:443?security=reality&flow=xtls-rprx-vision&sni=gateway.icloud.com&type=tcp&fp=chrome&pbk=6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q&sid=6c059ecfddf9b179#[11992][GT][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
 
