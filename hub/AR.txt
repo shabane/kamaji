@@ -1,10 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.216.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#[5448][AR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@131.255.6.88:443?&security=tls&fp=chrome&sni=free.cndyw.ggff.net&type=ws&headerType=none&host=free.cndyw.ggff.net&path=pyip=bpb.yousef.isegaro.com#[531][AR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-10][2026-10-10 03:04]
 
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@131.255.6.88:443?&security=tls&fp=chrome&sni=free.cndyw.ggff.net&type=ws&headerType=none&host=free.cndyw.ggff.net&path=pyip=bpb.yousef.isegaro.com#[599][AR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
-
-vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@149.33.19.136:2053?fp=chrome&host=vpn47.cc.cd&path=%2F&security=tls&sni=vpn47.cc.cd&type=ws#[1073][AR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
-
-trojan://OWB0%3DfZqvn38gjhRteQKU@149.104.92.121:16478?security=tls&amp;host=t.me%2Fv2Line&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=temporaltortellini.click#[1654][AR][0][TROJAN][None][free4allVPN][2025-11-23][2026-10-07 03:02]
+trojan://OWB0%3DfZqvn38gjhRteQKU@149.104.92.121:16478?security=tls&amp;host=t.me%2Fv2Line&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=temporaltortellini.click#[1552][AR][0][TROJAN][None][free4allVPN][2025-11-23][2026-10-10 03:04]
 

@@ -1,8 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://542997aa-ce04-4474-aaec-03daed5aea3c@S500.shahankhan.ir:80?security=reality&encryption=none&pbk=bcycek1vZZ5_sS0H7vLZp4TWuTsQNMkWgRBTnswHuRQ&headerType=none&fp=chrome&spx=%2F4157ae6f8f9e03d&type=tcp&sni=adn-stg.yourservice.samsung.com&sid=d3ec16bc#[690][IL][382][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
-
-vless://542997aa-ce04-4474-aaec-03daed5aea3c@s500.shahankhan.ir:80?encryption=none&security=reality&sni=adn-stg.yourservice.samsung.com&fp=chrome&pbk=bcycek1vZZ5_sS0H7vLZp4TWuTsQNMkWgRBTnswHuRQ&sid=d3ec16bc&spx=%2F4157ae6f8f9e03d&type=tcp&headerType=none#[691][IL][445][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
-
-vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.apple.com&fp=chrome&security=reality&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&sid=a3a578ab#[111][IL][41][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-07][2026-10-07 03:02]
+vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&sid=a3a578ab&type=tcp&headerType=none&host=telegram-leviko_v2ray#[125][IL][68][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-10][2026-10-10 03:04]
 

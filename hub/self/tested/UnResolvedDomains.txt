@@ -1,12 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw&security=reality&sid=5029592ae5516948&sni=ciccuc.mervi.icu&type=tcp#[1075][UnResolvedDomains][470][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://3cad733b-3526-476b-adf5-b7cbdd33dc6c@beloved-failure.seotoolsforyou.co.uk:80?path=/&security=&encryption=none&type=ws#[488][UnResolvedDomains][422][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw&security=reality&sid=5029592ae5516948&sni=ciccuc.mervi.icu&type=tcp#[1073][UnResolvedDomains][381][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?security=reality&type=tcp&allowInsecure=1&sni=ciccuc.mervi.icu&fp=random&flow=xtls-rprx-vision&sid=5029592ae5516948&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw#[1077][UnResolvedDomains][382][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
-
-vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw&security=reality&sid=5029592ae5516948&sni=ciccuc.mervi.icu&type=tcp#[1074][UnResolvedDomains][382][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-22][2026-09-22 02:09]
+vless://a95c18d0-1b39-4bc7-8521-b62b5ab3f3f7@marz.zovip2.ir:443?encryption=none&type=ws&host=marz.zovip2.ir&path=%2Fgropcdn&security=tls&alpn=http%2F1.1&fp=chrome&sni=marz.zovip2.ir#[1481][UnResolvedDomains][2212][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-10][2026-10-10 03:04]
 
