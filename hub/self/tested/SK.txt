@@ -1,4 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://95b3eb4a-698f-44a5-a9df-b882148a4ca5@89.46.42.141:8443?path=/&security=tls&alpn=h3,+h2,+http/1.1&encryption=none&insecure=0&host=kingniderlands.tolkun-tv.ru&fp=chrome&type=ws&allowInsecure=0&sni=kingniderlands.tolkun-tv.ru#[2055][SK][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-09-04][2026-09-04 01:43]
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@5.252.33.175:9882?type=grpc&security=reality&fp=random&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabbccdd&sni=dl.google.com&serviceName=grpc-tunnel#[949][SK][1896][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
 

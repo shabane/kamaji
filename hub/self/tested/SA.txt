@@ -1,26 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&type=tcp&path=/#[673][SA][793][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[957][SA][297][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
 
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls&sni=149.104.104.58#[663][SA][795][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[956][SA][291][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
 
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls#[665][SA][842][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls#[666][SA][787][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls#[662][SA][832][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=149.104.104.58#[668][SA][766][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&path=/#[669][SA][791][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443/?type=tcp&security=tls&sni=149.104.104.58&fp=chrome#[664][SA][815][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&type=tcp&path=%2f#[672][SA][802][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58&fp=chrome&type=tcp&path=/#[671][SA][801][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#[670][SA][810][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
-
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=149.104.104.58#[667][SA][786][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-08-10][2026-08-10 00:49]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[955][SA][293][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
 
