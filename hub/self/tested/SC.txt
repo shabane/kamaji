@@ -1,22 +1,22 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@156.226.168.221:35193?security=reality&flow=xtls-rprx-vision&sni=www.apple.com&type=tcp&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&sid=e8daed2d#[479][SC][1677][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?alpn=http%2F1.1&encryption=none&host=fancy-mouse-6aff.wixit71180.workers.dev&path=%2Fws&security=tls&sni=fancy-mouse-6aff.wixit71180.workers.dev&type=ws#[2261][SC][971][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://31aa0950-eb19-45ff-94a2-af416deb3b90@45.130.125.207:8443?security=tls&type=ws&path=/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&host=square-salad-ebde.zdfgvccfguuyggg.workers.dev&packetEncoding=xudp&alpn=http/1.1&sni=SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV&fp=chrome&encryption=none#[474][SC][293][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?flow=xtls-rprx-vision&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&security=reality&sid=e8daed2d&sni=www.apple.com#[514][SC][590][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?flow=xtls-rprx-vision&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&security=reality&sid=e8daed2d&sni=www.apple.com#[481][SC][991][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?alpn=http/1.1&encryption=none&host=fancy-mouse-6aff.wixit71180.workers.dev&path=/ws&security=tls&sni=fancy-mouse-6aff.wixit71180.workers.dev&type=ws#[2262][SC][989][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&sid=e8daed2d&type=tcp&headerType=none#[480][SC][923][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&sid=e8daed2d&type=tcp&headerType=none#[513][SC][4219][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.76:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&alpn=http%2F1.1#[674][SC][307][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.190:443?allowInsecure=1&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=/assignment#[453][SC][530][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[671][SC][324][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.126:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[451][SC][529][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.126:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[670][SC][449][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[452][SC][508][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.75:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com#[673][SC][303][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.75:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com#[454][SC][517][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.112:443/?type=ws&path=%2Fassignment&security=tls&sni=www.calmlunch.com&fp=chrome#[669][SC][308][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.112:443/?type=ws&path=%2Fassignment&security=tls&sni=www.calmlunch.com&fp=chrome#[450][SC][550][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[672][SC][315][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@45.130.125.76:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&alpn=http%2F1.1#[455][SC][527][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 

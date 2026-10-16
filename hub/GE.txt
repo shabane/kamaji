@@ -1,6 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://441a29b2-d9aa-47d5-9209-0a9191479f9f@185.143.179.179:25026?security=reality&encryption=none&pbk=RVh0D446O5pKnOqlNkJNxSGGbmzl8swn4YBXYce1HSw&headerType=&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=34c465417d7ebca0#[5201][GE][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@2.27.26.197:443/?type=grpc&encryption=none&flow=&serviceName=nexusGrpc&sni=kotiki-katakbasio-rossiiiii.ru&alpn=http%2F1.1&fp=chrome&security=reality&pbk=WRCMuTlpVmthJnyP3LK0sL-u5WlN15GVJpD8F37ZjD0&sid=5e3ab3ab228625#[11354][GE][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@2.27.26.197:443/?type=grpc&encryption=none&flow=&serviceName=nexusGrpc&sni=kotiki-katakbasio-rossiiiii.ru&alpn=http%2F1.1&fp=chrome&security=reality&pbk=WRCMuTlpVmthJnyP3LK0sL-u5WlN15GVJpD8F37ZjD0&sid=5e3ab3ab228625#[11423][GE][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://441a29b2-d9aa-47d5-9209-0a9191479f9f@185.143.179.179:25026?security=reality&encryption=none&pbk=RVh0D446O5pKnOqlNkJNxSGGbmzl8swn4YBXYce1HSw&headerType=&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=34c465417d7ebca0#[5365][GE][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 

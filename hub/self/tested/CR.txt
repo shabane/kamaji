@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://humanity@190.93.245.148:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[655][CR][3343][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+trojan://humanity@190.93.245.148:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[410][CR][555][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+
+trojan://humanity@190.93.245.148:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[411][CR][561][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 

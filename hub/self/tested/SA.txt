@@ -1,8 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[957][SA][297][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=freede.aiage.work&fp=firefox&security=reality&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&sid=57e7977c9011061c#[1005][SA][432][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[956][SA][291][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&security=reality&sid=5f5e74dfd296b28d&sni=freede.aiage.work&type=tcp#[1006][SA][434][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[955][SA][293][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=freede.aiage.work&fp=random&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&sid=57e7977c9011061c&type=tcp#[999][SA][424][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&security=reality&sid=5f5e74dfd296b28d&sni=freede.aiage.work&type=tcp#[1007][SA][427][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&sid=57e7977c9011061c&sni=freede.aiage.work#[1008][SA][425][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
 
