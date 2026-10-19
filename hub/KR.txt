@@ -1,744 +1,206 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@125.141.26.5:2003#[7851][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#[6736][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@218.237.185.230:4652#[7859][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@52.78.216.116:8443#[4605][KR][0][SS][None][proxy_mtm][2026-10-09][2026-10-19 02:08]
 
-ss://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuS4jeWumuacn+aKveWllmh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogInY0LmNmbm9kZS5ldS5vcmciLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICI0OTI5ZjBjYS0yNzkzLTRhYTMtYjJkMC03NDQ1NDQ3MDk3ZjYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm9paWN0dy55eWRzaWkuY29tIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuWFjei0ueair+WtkGh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogIm1tanAxMS5taWNsb3VkLmJ1enoiLA0KICAicG9ydCI6ICI0NjAxMSIsDQogICJpZCI6ICJmOWIwMmQ4Yy1iNjliLTQzNWYtYWEyNS02ODM5M2U1ZmIxMjEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi96aC1jbiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[13816][KR][0][SS][None][mftizi][2024-08-02][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.200.245.35:443#[6221][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@222.113.18.214:11310#[11186][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[3364][KR][0][SS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@222.113.253.35:14147#[11188][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE4My4yNDAuMjM1LjE2MiIsICJwb3J0IjogIjU0ODgyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==<br/><br/>vmess://eyJhZGQiOiAiMTA0LjIxLjk0LjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogImxpbmphMDUuaHdjYXIuc2JzIiwgImlkIjogIjM5Y2VjMThmLWE0MzktNDI3Yy05YTRlLWFlYjZmY2RmNmY1MyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvbGlua3dzIiwgInBvcnQiOiAiNDQzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJsaW5qYTA1Lmh3Y2FyLnNicyIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiIiwgInYiOiAiMiIsICJwcyI6ICJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSJ9<br/><br/>trojan://moist@116.47.10.236:27335?allowInsecure=1&amp;sni=trojan.freenods.sbs&amp;ws=1&amp;wspath=%2F#[11189][KR][0][SS][None][Hope_Net][2026-09-17][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.48.212:443#[7618][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuS4jeWumuacn+aKveWllmh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogInY0LmNmbm9kZS5ldS5vcmciLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICI0OTI5ZjBjYS0yNzkzLTRhYTMtYjJkMC03NDQ1NDQ3MDk3ZjYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm9paWN0dy55eWRzaWkuY29tIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuWFjei0ueair+WtkGh0dHBzOi8vdC5tZS9tZnRpemkiLA0KICAiYWRkIjogIm1tanAxMS5taWNsb3VkLmJ1enoiLA0KICAicG9ydCI6ICI0NjAxMSIsDQogICJpZCI6ICJmOWIwMmQ4Yy1iNjliLTQzNWYtYWEyNS02ODM5M2U1ZmIxMjEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi96aC1jbiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9<br/><br/>trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[11136][KR][0][SS][None][mftizi][2024-08-02][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6697#[8627][KR][0][SS][None][V2rayCollector][2026-10-13][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[6811][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.39.146:6697#[8621][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[6809][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#[8509][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@13.125.94.114:8443#[4604][KR][0][SS][None][v2rayNG_Matsuri][2026-10-17][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@141.164.45.187:8008#[8844][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@158.247.213.230:989#[6295][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6ZG91Yi5pbw==@43.202.49.222:2333#[7721][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.47.102:443#[6223][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206M1VlYlltOEhXOERVN2lNczFPMHBldz09@47.80.24.245:8127#[4888][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.39.146:6697#[6807][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@116.44.147.152:22085#[11178][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VXNJdjVhS0phYmlxbll0WThJZldkNkZmZ2p6ckpsZlo@43.155.223.71:8388#[6876][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.39.146:6697#[8620][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[6808][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY=@141.164.45.187:5498#[9997][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.108.109:443#[6222][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@193.123.232.91:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=1&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=1&amp;sni=t1s1.rittbo.kdns.fr#[13744][KR][0][SS][None][hopev2ray][2026-07-05][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.48.212:443#[6224][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@15.164.245.92:8443#[5271][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@3.36.118.190:443#[6215][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@211.178.105.134:6123#[7852][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#[7171][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[8623][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@158.247.205.87:443#[7703][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206YWM5YzBhN2I=@ce1fc2d8.krkt.hkssip.com:49642#[9363][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#[6737][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@158.247.205.87:443#[10035][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@141.164.45.187:8119#[7205][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@3.38.168.170:8443#[5274][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206YWM5YzBhN2I@211.174.113.172:49642#[7278][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.86.30:443#[7624][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@141.164.45.187:8008#[6944][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@158.247.213.230:989#[7750][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7002#[6738][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@141.164.45.187:9090#[8863][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:8888#[7169][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#[8510][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[6810][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.57.66:443#[7620][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3363][KR][0][SS][None][nofiltering2][2026-07-16][2026-10-19 02:08]
 
-ss://YWVzLTEyOC1nY206M2EzMDhkNWYtNzJhMy00MmMwLTg4YTgtNTQ5ZjhlYmI1NzEz@129.154.222.205:32702#[7185][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p141.panda001.net:4652#[6341][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@141.164.45.187:8008#[8737][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.57.66:443#[6225][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#[9188][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@125.141.26.5:2003#[6338][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@58.151.107.230:14000#[11190][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#[7170][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206YWM5YzBhN2I=@211.174.113.172:49642#[9362][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@141.164.45.187:5498#[7683][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@211.48.77.114:24095#[11181][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIumVv+acn+abtOaWsOiKgueCuUBtZnRpemkiLA0KICAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsDQogICJwb3J0IjogIjgwIiwNCiAgImlkIjogImM3MTJjNzI1LTE0OWYtNDE0YS1hNjg0LTFlMTdkMTM3ZmU0ZiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWd6YmpzenVqcDQueW9mbmhrZmMueHl6IiwNCiAgInBhdGgiOiAiL3ZpZGVvL2liQ1Q2ejU1IiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiINCn0=<br/><br/>ss://YWVzLTI1Ni1nY206YW1hem9uc2tyMDU=@43.201.6.50:80#[11180][KR][0][SS][None][mftizi][2024-07-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@158.247.213.230:989#[7751][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@158.247.205.87:5601#[6972][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[3810][KR][0][SS][None][nofiltering2][2026-07-16][2026-10-16 01:58]
+ss://YWVzLTEyOC1nY206M2EzMDhkNWYtNzJhMy00MmMwLTg4YTgtNTQ5ZjhlYmI1NzEz@129.154.222.205:32702#[5962][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@222.113.18.214:37215#[11187][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.59.8:443#[6226][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://eeb6823c-b926-4ea2-866a-5542edd26e59@47.80.60.254:443?path=%2F&security=tls&encryption=none&insecure=1&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=1&sni=t1s1.rittbo.kdns.fr#[13751][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@211.178.105.134:6123#[6339][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@141.164.45.187:8119#[9251][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.125.124.161:443#[6186][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@141.164.45.187:8119#[9252][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:5001#[7168][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM=@3.38.168.170:8443#[5275][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206VXNJdjVhS0phYmlxbll0WThJZldkNkZmZ2p6ckpsZlo@43.155.223.71:8388#[6875][KR][0][SS][None][v2rayNG_Matsuri][2026-10-10][2026-10-19 02:08]
 
-ss://eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE4My4yNDAuMjM1LjE2MiIsICJwb3J0IjogIjU0ODgyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==<br/><br/>vmess://eyJhZGQiOiAiMTA0LjIxLjk0LjY0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogImxpbmphMDUuaHdjYXIuc2JzIiwgImlkIjogIjM5Y2VjMThmLWE0MzktNDI3Yy05YTRlLWFlYjZmY2RmNmY1MyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvbGlua3dzIiwgInBvcnQiOiAiNDQzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJsaW5qYTA1Lmh3Y2FyLnNicyIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiIiwgInYiOiAiMiIsICJwcyI6ICJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSJ9<br/><br/>trojan://moist@116.47.10.236:27335?allowInsecure=1&amp;sni=trojan.freenods.sbs&amp;ws=1&amp;wspath=%2F#[13871][KR][0][SS][None][Hope_Net][2026-09-17][2026-10-16 01:58]
+ss://eeb6823c-b926-4ea2-866a-5542edd26e59@193.123.232.91:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=1&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=1&amp;sni=t1s1.rittbo.kdns.fr#[11076][KR][0][SS][None][hopev2ray][2026-07-05][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.108.109:443#[7615][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206YWM5YzBhN2I@ce1fc2d8.krkt.hkssip.com:49642#[7279][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIumVv+acn+abtOaWsOiKgueCuUBtZnRpemkiLA0KICAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsDQogICJwb3J0IjogIjgwIiwNCiAgImlkIjogImM3MTJjNzI1LTE0OWYtNDE0YS1hNjg0LTFlMTdkMTM3ZmU0ZiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiYWd6YmpzenVqcDQueW9mbmhrZmMueHl6IiwNCiAgInBhdGgiOiAiL3ZpZGVvL2liQ1Q2ejU1IiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiINCn0=<br/><br/>ss://YWVzLTI1Ni1nY206YW1hem9uc2tyMDU=@43.201.6.50:80#[13860][KR][0][SS][None][mftizi][2024-07-11][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6ZG91Yi5pbw==@43.202.49.222:2333#[6281][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@3.35.54.161:8443#[5284][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@141.164.45.187:8000#[6610][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@141.164.45.187:5498#[9999][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.86.30:443#[6227][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:5001#[9185][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiYWlkIjogMCwgImhvc3QiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiaWQiOiAiMjc0ZjExYzYtZjY5Yi00MGI5LTg5NjYtZjM5ZTA2ZTk3YmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi93cyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzE2MTVdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQifQ==
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#[8508][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTMxLjE4Ni4yNC4xMDMiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjYwOTNlZWZiLTdhYjYtNDFkZi1hYmEwLWQ1ZmE1ODE0N2UxMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcmVmZnM3eTI2ZzB1YSIsICJwb3J0IjogNDQzLCAicHMiOiAiWzY0MF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[8626][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiNTQuMTgwLjk2LjY3IiwgImFpZCI6IDEsICJob3N0IjogIjU0LjE4MC45Ni42NyIsICJpZCI6ICJhZTc0ODZmOS1kN2I3LTRmMjYtOTdhMC1kYzViMDkzZGZhODkiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODg4OCwgInBzIjogIlsyMzldW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@141.164.45.187:8000#[8143][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTMwLjE2Mi4xNDEuMTA0IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI2MDkzZWVmYi03YWI2LTQxZGYtYWJhMC1kNWZhNTgxNDdlMTAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3JlZmZzN3kyNmcwdWEiLCAicG9ydCI6IDQ0MywgInBzIjogIls2MzZdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@43.202.53.247:8443#[5285][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTQ2LjU2LjQwLjExNyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiMDUzY2EwZjQtMDU3ZS00OTNkLWFkMzAtNWJhNTFmMDBmNTljIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDI3Njc1LCAicHMiOiAiWzc4MV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.47.102:443#[7616][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTUwLjIzMC4yNDkuMTUiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjQ1MzBiNWVlLWNlZDQtNGU2NC05Mjg1LTE4NjdmYzVkZjdmOCIsICJuZXQiOiAiaHR0cCIsICJwYXRoIjogIiIsICJwb3J0IjogNDY4NDIsICJwcyI6ICJbODA5XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7002#[8512][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiNTIuNzguMjEzLjIyNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNmY0NDI4MjMtNmI3My00YjMxLWYxZjUtYWExZTkwN2IwNTFlIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiWzIzNF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.47.102:443#[7617][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzE3NjFdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAiYWRkIjogIjEzMi4xNDUuODAuMjMwIiwgInBvcnQiOiAiODAiLCAiaWQiOiAiNTE1NTg2MGUtZDA3ZC00NmMzLTkxMjgtM2FmYmQ4NDYyNmM3IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvY2N0djEzLm0zdTgiLCAidGxzIjogIiIsICJzbmkiOiAia3IwMi5hMGEueHl6IiwgInRlc3RfbmFtZSI6ICIxMDAiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
 
-ss://YWVzLTI1Ni1jZmI6ZG91Yi5pbw==@43.202.49.222:2333#[7720][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzE3NjJdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAiYWRkIjogIjE0Ni41Ni4xMTIuMTEwIiwgInBvcnQiOiAiODg4OCIsICJpZCI6ICJlN2MzMDJmMy05MGQ2LTQyZGQtOWQ3ZC05NGEzNjgzYTM3MDciLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgInRlc3RfbmFtZSI6ICIxMzYiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@52.78.59.52:8443#[5287][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTQ2LjU2LjE2Mi4yNSIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzMwLmNmY2RuMy54eXoiLCAiaWQiOiAiOTE2NDZmOWEtYjRlOS00YWNhLWJmZTMtODg5MmIzZTU4ZmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9yYXkiLCAicG9ydCI6IDQ0MywgInBzIjogIls3ODBdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.86.30:443#[7623][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiOTIuMjIzLjYxLjI1IiwgImFpZCI6IDAsICJob3N0IjogIm1pemJhbjg4OC5zZXJ2ZWNvdW50ZXJzdHJpa2UuY29tIiwgImlkIjogIjIyYWE3MmIxLTYwNWItNDgwNy04YTgxLWZiNDE0Y2JiNDA5YyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIlszMjldW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@183.99.58.243:10909#[11180][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiNDMuMjAxLjEwMy4xMiIsICJhaWQiOiAwLCAiaG9zdCI6ICI0My4yMDEuMTAzLjEyIiwgImlkIjogImY0NmIyZTJhLWUwMmMtNDM3YS04MzNjLTAyMzQxMDg0MGE4MCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvZjQ2YjJlMmEtZTAyYy00MzdhLTgzM2MtMDIzNDEwODQwYTgwIiwgInBvcnQiOiAyOTkzMCwgInBzIjogIlsxMDFdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://YWVzLTEyOC1nY206M2EzMDhkNWYtNzJhMy00MmMwLTg4YTgtNTQ5ZjhlYmI1NzEz@129.154.222.205:32702#[7186][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTUyLjY3LjIxOC4zOCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjVlOTQ4MGEtYjdhYS00MGE0LWY5YTctNTI5OWI1ZTM2M2I0IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIls4MTJdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.139.79.57:13979#[7860][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiOG5UenlSNUtOaXZmYWJhVC52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIjhuVHp5UjVLTml2ZmFiYVQudi4zZG5zLnZpcCIsICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMzIzXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IGZhbHNlLCAic25pIjogIjhuVHp5UjVLTml2ZmFiYVQudi4zZG5zLnZpcCJ9
 
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@141.164.45.187:8000#[8307][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTE3LCAicHMiOiAiWzYzNF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7002#[8511][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiNTQuMTgwLjExNC43NyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTE3LCAicHMiOiAiWzIzOF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@218.155.125.99:10001#[11183][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMS4yMzguMTAyLjIxNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiZmZmZmZmZmYtZmZmZi1mZmZmLWZmZmYtZmZmZmZmZmZmZmZmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJwb3J0IjogMzAwMDEsICJwcyI6ICJbMzU5XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IGZhbHNlLCAic25pIjogInAzLmNoaWd1YS50ayJ9
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[8622][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ5NTE3LCAicHMiOiAiWzYzNV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@52.78.216.116:8443#[5286][KR][0][SS][None][proxy_mtm][2026-10-09][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiNDMuMjAxLjI1My4yMjIiLCAiYWlkIjogMCwgImhvc3QiOiAiNDMuMjAxLjI1My4yMjIiLCAiaWQiOiAiYzg0MWM5MDMtNzY1Ny00MWY3LWJmNTUtYjQxZGQ5NDU2MTc5IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jODQxYzkwMy03NjU3LTQxZjctYmY1NS1iNDFkZDk0NTYxNzkiLCAicG9ydCI6IDI2NTQwLCAicHMiOiAiWzEwMl1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://YWVzLTI1Ni1nY206VXNJdjVhS0phYmlxbll0WThJZldkNkZmZ2p6ckpsZlo@43.155.223.71:8388#[8726][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMy4zNi42Ni4xMTMiLCAiYWlkIjogMCwgImhvc3QiOiAiMy4zNi42Ni4xMTMiLCAiaWQiOiAiNzQ4YWRiZTctZGRmZC00MGE0LWEzZTMtNzM2NzNkOGUwMTgyIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMvaGQubTN1OCIsICJwb3J0IjogMTUyMzYsICJwcyI6ICJbMTQ2NV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@218.150.34.228:10912#[11182][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vmess://eyJhZGQiOiAiMTQwLjIzOC4yLjI1MCIsICJhaWQiOiAiMCIsICJpZCI6ICI0MWE3MDg5YS0wNDBiLTQ1MzgtOGI4ZC0wMTA5MDI0MDViZGUiLCAibmV0IjogInRjcCIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJbMTk3OF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@211.178.105.134:6123#[7853][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vless://eeb6823c-b926-4ea2-866a-5542edd26e59@193.123.232.91:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=1&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=1&amp;sni=t1s1.rittbo.kdns.fr#[13171][KR][0][VLESS][None][hopev2ray][2026-07-05][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#[9187][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vless://319d5ffb-57e8-4bbd-ac0c-5d55d0c253de@47.80.19.173:2053?security=reality&encryption=none&pbk=DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gateway.icloud.com&sid=3c4041d3#[2321][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://e6d8d743-a9bc-48c9-be99-8f3cc94d16e1@ako.pagate.top:443?allowInsecure=0&sni=ako.pagate.top&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#[13153][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;security=reality&amp;sid=48050fab&amp;sni=www.apple.com&amp;type=tcp#[5829][KR][0][VLESS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@141.164.45.187:8008#[8738][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vless://7e68e32f-8015-4f37-9082-70e8b0b58043@3.36.52.183:443?security=reality&encryption=none&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aicall-dev.batonserver.com&sid=e04a526b0b09c765#[5749][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.125.124.161:443#[7562][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[5828][KR][0][VLESS][None][nofiltering2][2026-07-16][2026-10-19 02:08]
 
-ss://495c7195-85b8-498a-bf20-2ea9ce9175b5@27.102.132.165:443?path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=snip.edgeoneai.cc.cd&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=snip.edgeoneai.cc.cd#[2293][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcitygovernment.com.ua:8443?security=tls#[318][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.200.245.35:443#[7614][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#[896][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p141.panda001.net:4652#[7856][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://UX82473651@pure-kodiak.rooster465.autos:443?security=tls&sni=pure-kodiak.rooster465.autos#[711][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@220.79.9.247:26027#[11185][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://cc05b267-2e17-4e73-92f0-2cf603aa5997@146.56.179.67:40005?security=tls#[823][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@220.124.181.77:18081#[11184][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://ND91608427@pet-ghost.rooster465.autos:443?security=tls#[607][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@13.125.180.150:8443#[5280][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://ZDAAFTxBNu5j9pl3Re834a3xSXwOZYeIlE30Dp86qc7yYgKaDCaROCSSnz2FCy@121.78.213.3:443?security=tls&sni=csharp.protocolbuffer.com#[734][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[8625][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?security=tls#[346][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[8624][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[164][KR][0][TROJAN][None][mftizi][2024-08-02][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@158.247.205.87:5601#[8894][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://UX82473651@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos#[703][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.48.212:443#[7619][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&sni=central-jawfish.rooster465.autos#[683][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@3.36.118.190:443#[7604][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://CF68213490@next-turkey.rooster465.autos:443?security=tls#[369][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@141.164.45.187:9101#[9397][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://UX82473651@3.39.225.215:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=kind-stork.rooster465.autos#[668][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6MTIzNCFAIyQ=@49.254.204.134:1774#[7375][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?security=tls#[188][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.59.8:443#[7621][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://UX82473651@pretty-rat.rooster465.autos:443?security=tls&sni=pretty-rat.rooster465.autos#[708][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.59.8:443#[7622][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://cd27884b-c5af-34ec-b75f-8248077818fe@144.24.76.54:8443?security=tls&sni=2.hg.kr.cat77.cloud#[826][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p141.panda001.net:4652#[7855][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://ND91608427@informed-alpaca.rooster465.autos:443?security=tls#[606][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:8888#[9186][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+trojan://UX82473651@optimum-snapper.rooster465.autos:443?security=tls&sni=optimum-snapper.rooster465.autos#[706][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@114.207.99.233:11434#[11177][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://b5fc9fa9-796d-4185-a316-395ecac04a85@150.230.249.20:443?security=tls&sni=www.gomacau.gq#[762][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206YWM5YzBhN2I@ce1fc2d8.krkt.hkssip.com:49642#[9365][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:8443?security=tls#[320][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206YWM5YzBhN2I@211.174.113.172:49642#[9364][KR][0][SS][None][v2rayNG_Matsuri][2026-09-27][2026-10-16 01:58]
+trojan://moist@116.47.10.236:27335?allowInsecure=1&sni=trojan.freenods.sbs&ws=1&wspath=/#[1890][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p141.panda001.net:4652#[7861][KR][0][SS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://KLF0qOU0ZZGw5Tnu@121.78.213.3:443?security=tls&sni=swift.protocolbuffer.com#[386][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VXNJdjVhS0phYmlxbll0WThJZldkNkZmZ2p6ckpsZlo@43.155.223.71:8388#[8727][KR][0][SS][None][v2rayNG_Matsuri][2026-10-10][2026-10-16 01:58]
+trojan://NQ26071394@devoted-heron.rooster465.autos:443?security=tls#[609][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-ss://YWVzLTI1Ni1nY206VXNJdjVhS0phYmlxbll0WThJZldkNkZmZ2p6ckpsZlo@43.155.223.71:8388#[8728][KR][0][SS][None][v2rayNG_Matsuri][2026-10-11][2026-10-16 01:58]
+trojan://UX82473651@main-fawn.rooster465.autos:443?security=tls&sni=main-fawn.rooster465.autos#[698][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ5NTE3LCAicHMiOiAiWzY1Nl1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+trojan://UX82473651@3.34.131.153:443?security=tls&sni=pretty-rat.rooster465.autos#[667][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImlkIjogIjFkODRlNDgwLThmZDItNGZhZS05NmRlLWU0NmZlMzZmZmU4NiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzUyMTldW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#[895][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIkpCUTRkUERQdUpGemo0S1Yudi4zZG5zLnZpcCIsICJpZCI6ICIxZDg0ZTQ4MC04ZmQyLTRmYWUtOTZkZS1lNDZmZTM2ZmZlODYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNTIyNV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?security=tls#[760][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiMTMwLjE2Mi4xNDEuMTA0IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI2MDkzZWVmYi03YWI2LTQxZGYtYWJhMC1kNWZhNTgxNDdlMTAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3JlZmZzN3kyNmcwdWEiLCAicG9ydCI6IDQ0MywgInBzIjogIlszMDk1XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@138.2.115.240:443?security=tls#[97][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiaWQiOiAiYWVjOGU1ZTMtYmI4MS00YjIyLTg4MDItMGI4OGM1NDk5N2IzIiwgImluc2VjdXJlIjogIjAiLCAibmFtZSI6ICJLUiBcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjcgfCBAUmF5ZGlrYWx4IHwgQTI3MDI1IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBjcyI6ICIiLCAicG9ydCI6IDMxNDEsICJwcyI6ICJbNzg3MV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
+trojan://ND91608427@social-mutt.rooster465.autos:443?security=tls#[608][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiNTIuNzguMjEzLjIyNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNmY0NDI4MjMtNmI3My00YjMxLWYxZjUtYWExZTkwN2IwNTFlIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiWzI1OF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:2053?security=tls#[319][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIjRLblBSdzVINzR3NEFWTnMudi4zZG5zLnZpcCIsICJpZCI6ICIxMGQ2NjY1Zi0xMGM5LTRmMDMtOWI4My1iYTQ1OTY4Zjc0OGQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzIxMl1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiBmYWxzZSwgInNuaSI6ICI0S25QUnc1SDc0dzRBVk5zLnYuM2Rucy52aXAifQ==
+trojan://moist@116.47.10.236:27335?allowInsecure=1&amp;sni=trojan.freenods.sbs&amp;ws=1&amp;wspath=%2F#[1889][KR][0][TROJAN][None][Hope_Net][2026-09-17][2026-10-19 02:08]
 
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJzaC5hdXN0cmFsaWFjYXJlZ3JvdXAuc2l0ZSIsICJpZCI6ICJhZWM4ZTVlMy1iYjgxLTRiMjItODgwMi0wYjg4YzU0OTk3YjMiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6ICIzMTQxIiwgInBzIjogIls3ODcyXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-
-vmess://eyJhZGQiOiAiMS4yMzguMTAyLjIxNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiZmZmZmZmZmYtZmZmZi1mZmZmLWZmZmYtZmZmZmZmZmZmZmZmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJwb3J0IjogMzAwMDEsICJwcyI6ICJbMjU5OF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiBmYWxzZSwgInNuaSI6ICJwMy5jaGlndWEudGsiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiMTQ2LjU2LjE2Mi4yNSIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzMwLmNmY2RuMy54eXoiLCAiaWQiOiAiOTE2NDZmOWEtYjRlOS00YWNhLWJmZTMtODg5MmIzZTU4ZmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9yYXkiLCAicG9ydCI6IDQ0MywgInBzIjogIlszMjQ5XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImlkIjogIjEwZDY2NjVmLTEwYzktNGYwMy05YjgzLWJhNDU5NjhmNzQ4ZCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzIwMjFdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-
-vmess://eyJhZGQiOiAiNDMuMjAxLjI1My4yMjIiLCAiYWlkIjogMCwgImhvc3QiOiAiNDMuMjAxLjI1My4yMjIiLCAiaWQiOiAiYzg0MWM5MDMtNzY1Ny00MWY3LWJmNTUtYjQxZGQ5NDU2MTc5IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jODQxYzkwMy03NjU3LTQxZjctYmY1NS1iNDFkZDk0NTYxNzkiLCAicG9ydCI6IDI2NTQwLCAicHMiOiAiWzE5MDRdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiNDMuMjAxLjEwMy4xMiIsICJhaWQiOiAwLCAiaG9zdCI6ICI0My4yMDEuMTAzLjEyIiwgImlkIjogImY0NmIyZTJhLWUwMmMtNDM3YS04MzNjLTAyMzQxMDg0MGE4MCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvZjQ2YjJlMmEtZTAyYy00MzdhLTgzM2MtMDIzNDEwODQwYTgwIiwgInBvcnQiOiAyOTkzMCwgInBzIjogIlsxOTAzXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiMTQ2LjU2LjExMi4xMTAiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImU3YzMwMmYzLTkwZDYtNDJkZC05ZDdkLTk0YTM2ODNhMzcwNyIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicGNzIjogIiIsICJwb3J0IjogIjg4ODgiLCAicHMiOiAiWzMyNDhdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
-
-vmess://eyJhZGQiOiAiMTUyLjY3LjIxOC4zOCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjVlOTQ4MGEtYjdhYS00MGE0LWY5YTctNTI5OWI1ZTM2M2I0IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIls4MzNdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vmess://eyJhZGQiOiAiMjExLjE3Ny40MC4yMzUiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogImZmZmZmZmZmLWZmZmYtZmZmZi1mZmZmLWZmZmZmZmZmZmZmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdm1lc3MiLCAicG9ydCI6IDMwMDAxLCAicHMiOiAiWzQxMjRdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAicDMuY2hpZ3VhLnRrIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiV0lEa3phdnh3d2ppWHNOay52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiV0lEa3phdnh3d2ppWHNOay52LjNkbnMudmlwIiwgImlkIjogImVmZTgyZWJjLTQ2YjMtNDI0Mi1iNjEyLWI2NTJiOGZiYzg3MCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzUzMDZdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIldJRGt6YXZ4d3dqaVhzTmsudi4zZG5zLnZpcCIsICJ0ZXN0X25hbWUiOiAiOTUiLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
-
-vmess://eyJhZGQiOiAiOTIuMjIzLjYxLjI1IiwgImFpZCI6IDAsICJob3N0IjogIm1pemJhbjg4OC5zZXJ2ZWNvdW50ZXJzdHJpa2UuY29tIiwgImlkIjogIjIyYWE3MmIxLTYwNWItNDgwNy04YTgxLWZiNDE0Y2JiNDA5YyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIlsyNTE4XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTE3LCAicHMiOiAiWzY1NV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vmess://eyJhZGQiOiAiV0lEa3phdnh3d2ppWHNOay52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiV0lEa3phdnh3d2ppWHNOay52LjNkbnMudmlwIiwgImlkIjogImVmZTgyZWJjLTQ2YjMtNDI0Mi1iNjEyLWI2NTJiOGZiYzg3MCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzUzMDNdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIldJRGt6YXZ4d3dqaVhzTmsudi4zZG5zLnZpcCIsICJ0ZXN0X25hbWUiOiAiOTUiLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
-
-vmess://eyJhZGQiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIjRLblBSdzVINzR3NEFWTnMudi4zZG5zLnZpcCIsICJpZCI6ICIxMGQ2NjY1Zi0xMGM5LTRmMDMtOWI4My1iYTQ1OTY4Zjc0OGQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzIwMjddW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiMTMxLjE4Ni4yNC4xMDMiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjYwOTNlZWZiLTdhYjYtNDFkZi1hYmEwLWQ1ZmE1ODE0N2UxMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcmVmZnM3eTI2ZzB1YSIsICJwb3J0IjogNDQzLCAicHMiOiAiWzY2MV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJzaC5hdXN0cmFsaWFjYXJlZ3JvdXAuc2l0ZSIsICJpZCI6ICJhZWM4ZTVlMy1iYjgxLTRiMjItODgwMi0wYjg4YzU0OTk3YjMiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6ICIzMTQxIiwgInBzIjogIls3ODczXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-
-vmess://eyJhZGQiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIkpCUTRkUERQdUpGemo0S1Yudi4zZG5zLnZpcCIsICJpZCI6ICIxZDg0ZTQ4MC04ZmQyLTRmYWUtOTZkZS1lNDZmZTM2ZmZlODYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNTIyNF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICJKQlE0ZFBEUHVKRnpqNEtWLnYuM2Rucy52aXAiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-
-vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ5NTE3LCAicHMiOiAiWzMwOTJdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiaWQiOiAiYWVjOGU1ZTMtYmI4MS00YjIyLTg4MDItMGI4OGM1NDk5N2IzIiwgImluc2VjdXJlIjogIjAiLCAibmFtZSI6ICJLUiBcdWQ4M2NcdWRkZjBcdWQ4M2NcdWRkZjcgfCBAUmF5ZGlrYWx4IHwgQTI3MDI1IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBjcyI6ICIiLCAicG9ydCI6IDMxNDEsICJwcyI6ICJbNzg3MF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
-
-vmess://eyJhZGQiOiAiMTUwLjIzMC4yNDkuMTUiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjQ1MzBiNWVlLWNlZDQtNGU2NC05Mjg1LTE4NjdmYzVkZjdmOCIsICJuZXQiOiAiaHR0cCIsICJwYXRoIjogIiIsICJwb3J0IjogNDY4NDIsICJwcyI6ICJbODMwXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
-
-vmess://eyJhZGQiOiAiOG5UenlSNUtOaXZmYWJhVC52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIjhuVHp5UjVLTml2ZmFiYVQudi4zZG5zLnZpcCIsICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMzQ5XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IGZhbHNlLCAic25pIjogIjhuVHp5UjVLTml2ZmFiYVQudi4zZG5zLnZpcCJ9
-
-vmess://eyJhZGQiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIkpCUTRkUERQdUpGemo0S1Yudi4zZG5zLnZpcCIsICJpZCI6ICIxZDg0ZTQ4MC04ZmQyLTRmYWUtOTZkZS1lNDZmZTM2ZmZlODYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzE1NzddW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIn0=
-
-vmess://eyJhZGQiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIkpCUTRkUERQdUpGemo0S1Yudi4zZG5zLnZpcCIsICJpZCI6ICIxZDg0ZTQ4MC04ZmQyLTRmYWUtOTZkZS1lNDZmZTM2ZmZlODYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzUyMjNdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiSkJRNGRQRFB1SkZ6ajRLVi52LjNkbnMudmlwIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiNDMuMjAxLjEwMy4xMiIsICJhaWQiOiAwLCAiaG9zdCI6ICI0My4yMDEuMTAzLjEyIiwgImlkIjogImY0NmIyZTJhLWUwMmMtNDM3YS04MzNjLTAyMzQxMDg0MGE4MCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvZjQ2YjJlMmEtZTAyYy00MzdhLTgzM2MtMDIzNDEwODQwYTgwIiwgInBvcnQiOiAyOTkzMCwgInBzIjogIlsxMjVdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImFlYzhlNWUzLWJiODEtNGIyMi04ODAyLTBiODhjNTQ5OTdiMyIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicGNzIjogIiIsICJwb3J0IjogIjMxNDEiLCAicHMiOiAiWzc4NjhdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
-
-vmess://eyJhZGQiOiAiYmFCZkdHbGhqczg2YVR4Wi52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiYmFCZkdHbGhqczg2YVR4Wi52LjNkbnMudmlwIiwgImlkIjogImI4OWI3MDJiLTMxZWYtNGY2YS04NWRmLWMyNjQ3OTVhOTg3YiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzU1MTVdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-
-vmess://eyJhZGQiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiNEtuUFJ3NUg3NHc0QVZOcy52LjNkbnMudmlwIiwgImlkIjogIjEwZDY2NjVmLTEwYzktNGYwMy05YjgzLWJhNDU5NjhmNzQ4ZCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiWzIwMjJdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-
-vmess://eyJhZGQiOiAiMTMwLjE2Mi4xNDEuMTA0IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI2MDkzZWVmYi03YWI2LTQxZGYtYWJhMC1kNWZhNTgxNDdlMTAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3JlZmZzN3kyNmcwdWEiLCAicG9ydCI6IDQ0MywgInBzIjogIls2NTddW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vmess://eyJhZGQiOiAiOG5UenlSNUtOaXZmYWJhVC52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIjhuVHp5UjVLTml2ZmFiYVQudi4zZG5zLnZpcCIsICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMjQ2OF1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiBmYWxzZSwgInNuaSI6ICI4blR6eVI1S05pdmZhYmFULnYuM2Rucy52aXAiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiNDMuMjAxLjI1My4yMjIiLCAiYWlkIjogMCwgImhvc3QiOiAiNDMuMjAxLjI1My4yMjIiLCAiaWQiOiAiYzg0MWM5MDMtNzY1Ny00MWY3LWJmNTUtYjQxZGQ5NDU2MTc5IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jODQxYzkwMy03NjU3LTQxZjctYmY1NS1iNDFkZDk0NTYxNzkiLCAicG9ydCI6IDI2NTQwLCAicHMiOiAiWzEyNl1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vmess://eyJhZGQiOiAiMTQ2LjU2LjE2Mi4yNSIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzMwLmNmY2RuMy54eXoiLCAiaWQiOiAiOTE2NDZmOWEtYjRlOS00YWNhLWJmZTMtODg5MmIzZTU4ZmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9yYXkiLCAicG9ydCI6IDQ0MywgInBzIjogIls4MDFdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vmess://eyJhZGQiOiAiNTQuMTgwLjExNC43NyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTE3LCAicHMiOiAiWzI2MV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vmess://eyJhZGQiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiYWlkIjogMCwgImhvc3QiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiaWQiOiAiMjc0ZjExYzYtZjY5Yi00MGI5LTg5NjYtZjM5ZTA2ZTk3YmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi93cyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzY1MjBdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiNTQuMTgwLjk2LjY3IiwgImFpZCI6IDEsICJob3N0IjogIjU0LjE4MC45Ni42NyIsICJpZCI6ICJhZTc0ODZmOS1kN2I3LTRmMjYtOTdhMC1kYzViMDkzZGZhODkiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODg4OCwgInBzIjogIlsyMTA1XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiYWlkIjogMCwgImhvc3QiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQiLCAiaWQiOiAiMjc0ZjExYzYtZjY5Yi00MGI5LTg5NjYtZjM5ZTA2ZTk3YmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi93cyIsICJwb3J0IjogNDQzLCAicHMiOiAiWzE2NThdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAiZnVsbGFjY2Vzc3Rva29yZWFubmV0c3Vibm9kZTEuYXp1cmV3ZWJzaXRlcy5uZXQifQ==
-
-vmess://eyJhZGQiOiAiMTUyLjY3LjIxOC4zOCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjVlOTQ4MGEtYjdhYS00MGE0LWY5YTctNTI5OWI1ZTM2M2I0IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIlszMjg2XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-
-vmess://eyJhZGQiOiAiSVNyb0lzdUFHRlNUUGtQSi52LjNkbnMudmlwIiwgImFpZCI6ICIwIiwgImFscG4iOiBudWxsLCAiZnAiOiBudWxsLCAiaG9zdCI6ICJJU3JvSXN1QUdGU1RQa1BKLnYuM2Rucy52aXAiLCAiaWQiOiAiYTI2M2JkNjYtODI4Zi00NWVlLTkxOTctZmZjODAxYWIwMTljIiwgIm5hbWUiOiAiS1IgXHVkODNjXHVkZGYwXHVkODNjXHVkZGY3IHwgQFJheWRpa2FseCB8IDg2RTVGQyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAicG9ydCI6IDQ0MywgInBzIjogIls1MjA2XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJJU3JvSXN1QUdGU1RQa1BKLnYuM2Rucy52aXAiLCAidGxzIjogInRscyIsICJ0eXBlIjogbnVsbCwgInYiOiBudWxsfQ==
-
-vmess://eyJhZGQiOiAiNDMuMTA4LjEwMy4xNjciLCAiYWlkIjogMCwgImFsbG93SW5zZWN1cmUiOiAiMSIsICJpZCI6ICIzNWFhMGZkYS0xNzVhLTRhZWMtYzQ2OC0wMjMxZGVlMWExMjEiLCAibmV0IjogImh0dHAiLCAicG9ydCI6IDEyMywgInBzIjogIlsxODk5XVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInNlY3VyaXR5IjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiMTMuMTI1LjI0LjExMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjViNTIwOWYtYmNiZC00YmFjLWIwNDQtMGQxNzk2OThjNjJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTE3LCAicHMiOiAiWzMwOTFdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
-
-vmess://eyJhZGQiOiAiMS4yMzguMTAyLjIxNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiZmZmZmZmZmYtZmZmZi1mZmZmLWZmZmYtZmZmZmZmZmZmZmZmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJwb3J0IjogMzAwMDEsICJwcyI6ICJbMzgyXVtLUl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IGZhbHNlLCAic25pIjogInAzLmNoaWd1YS50ayJ9
-
-vmess://eyJhZGQiOiAiMTQwLjIzOC4yLjI1MCIsICJpZCI6ICI0MWE3MDg5YS0wNDBiLTQ1MzgtOGI4ZC0wMTA5MDI0MDViZGUiLCAibmV0IjogInJhdyIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJbMzEzOV1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-
-vmess://eyJhZGQiOiAic2guYXVzdHJhbGlhY2FyZWdyb3VwLnNpdGUiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImFlYzhlNWUzLWJiODEtNGIyMi04ODAyLTBiODhjNTQ5OTdiMyIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicGNzIjogIiIsICJwb3J0IjogIjMxNDEiLCAicHMiOiAiWzc4NjldW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
-
-vmess://eyJhZGQiOiAiMTQ2LjU2LjQwLjExNyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiMDUzY2EwZjQtMDU3ZS00OTNkLWFkMzAtNWJhNTFmMDBmNTljIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDI3Njc1LCAicHMiOiAiWzgwMl1bS1JdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vmess://eyJhZGQiOiAiNTQuMTgwLjk2LjY3IiwgImFpZCI6IDEsICJob3N0IjogIjU0LjE4MC45Ni42NyIsICJpZCI6ICJhZTc0ODZmOS1kN2I3LTRmMjYtOTdhMC1kYzViMDkzZGZhODkiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODg4OCwgInBzIjogIlsyNjJdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vmess://eyJhZGQiOiAiMjE3LjE0Mi4xMzguNjEiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiaWQiOiAiYWMxYjkzM2QtYWZmZi00NDg3LTkzZWYtZjU3MTMwYTU1ZGZmIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiODAiLCAicHMiOiAiWzQxNTddW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAic2N5IjogImF1dG8iLCAidGxzIjogIiIsICJ0eXBlIjogImh0dHAiLCAidiI6ICIyIn0=
-
-vmess://eyJhZGQiOiAiOTIuMjIzLjYxLjI1IiwgImFpZCI6IDAsICJob3N0IjogIm1pemJhbjg4OC5zZXJ2ZWNvdW50ZXJzdHJpa2UuY29tIiwgImlkIjogIjIyYWE3MmIxLTYwNWItNDgwNy04YTgxLWZiNDE0Y2JiNDA5YyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIlszNTVdW0tSXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-
-vless://319d5ffb-57e8-4bbd-ac0c-5d55d0c253de@47.80.19.173:2053?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms&sni=gateway.icloud.com&sid=3c4041d3#[4097][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@161.118.158.9:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20989][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://bfa5cd1f-1465-4850-b7c9-08e1a63dac2c@220.71.172.2:16034?&security=tls&fp=chrome&sni=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&type=ws&headerType=&host=jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev&path=%2F%40Marisa_kristi#[15634][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7e68e32f-8015-4f37-9082-70e8b0b58043@3.35.135.174:443?encryption=none&type=tcp&security=reality&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&sid=e04a526b0b09c765&flow=xtls-rprx-vision&sni=admin.playbeautyshop.com&fp=chrome#[10026][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&type=tcp&headerType=none#[10236][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://cdb7d825-9892-4d6f-80b8-7add83159dac@43.108.48.169:40701/?type=tcp&encryption=none&sni=amazon.com&security=reality&pbk=TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA&sid=7ef3a8ab2886#[16897][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@141.164.35.94:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20973][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://81c4547b-e5d8-4af8-baf0-91c5c0c05a9b@icn-a-02.auuas.com:1891?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.npmjs.com&fp=edge&pbk=2olNWILpuviXx_Nr30JZc5tpt3MgtWda7jLGwAOxPxY&sid=8378f267&type=tcp&headerType=none#[10275][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@193.123.232.91:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=1&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=1&amp;sni=t1s1.rittbo.kdns.fr#[21074][KR][0][VLESS][None][hopev2ray][2026-07-05][2026-10-16 01:58]
-
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=48050fab#[10234][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@158.247.211.170:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20988][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@141.164.51.88:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20974][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@64.110.70.64:443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[21085][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?security=reality&amp;encryption=none&amp;pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.apple.com&amp;sid=48050fab#[10235][KR][0][VLESS][None][nofiltering2][2026-07-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@15.164.84.61:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20977][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7cfd34ae-edad-4cc5-9d6f-066f7add7829@kr2.oh-node.com:443?security=reality&type=tcp&sni=www.coway.com&fp=chrome&flow=xtls-rprx-vision&sid=c8af1462debbc1&pbk=6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc&encryption=none#[9884][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@64.176.226.26:8443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome#[21086][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053?type=tcp&security=reality&fp=firefox&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo&sid=429499c03d4cc8a0&sni=www.cloudflare.com#[13427][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@144.24.73.232:443/?type=ws&encryption=none&flow=&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr&allowInsecure=1#[20975][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://583cc910-b57c-4dd0-a4a7-cea51a30b032@141.164.43.178:443?security=reality&encryption=none&pbk=GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=ca193e889d958f81#[7250][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7cfd34ae-edad-4cc5-9d6f-066f7add7829@kr2.oh-node.com:443?security=reality&encryption=none&pbk=6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.coway.com&sid=c8af1462debbc1#[9882][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@158.247.198.196:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20985][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7cfd34ae-edad-4cc5-9d6f-066f7add7829@kr2.oh-node.com:443?security=reality&encryption=none&type=tcp&flow=xtls-rprx-vision&pbk=6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc&sid=c8af1462debbc1&sni=www.coway.com&servername=www.coway.com&spx=%2F&fp=chrome#[9883][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://cb2abff3-5fe6-4b5a-aa19-5739deb285b6@34.22.111.30:443?&security=reality&pbk=M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA&sid=8685f8b4d9f4f51e&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#[16698][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@158.247.199.106:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20986][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://e6d8d743-a9bc-48c9-be99-8f3cc94d16e1@ako.pagate.top:443?allowInsecure=0&sni=ako.pagate.top&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#[19720][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://583cc910-b57c-4dd0-a4a7-cea51a30b032@64.176.231.183:443?&security=reality&flow=xtls-rprx-vision&pbk=GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE&sid=ca193e889d958f81&fp=chrome&sni=www.apple.com&type=tcp&headerType=none&host=www.apple.com&path=%2F#[7251][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7e68e32f-8015-4f37-9082-70e8b0b58043@54.180.251.134:443?encryption=none&type=tcp&security=reality&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&sid=e04a526b0b09c765&flow=xtls-rprx-vision&sni=anjen.net&fp=chrome#[10031][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@158.247.209.57:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20987][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@158.180.71.69:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20984][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@146.56.187.1:8443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20976][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7cfd34ae-edad-4cc5-9d6f-066f7add7829@kr2.oh-node.com:443?security=reality&encryption=none&pbk=6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.coway.com&sid=c8af1462debbc1#[9881][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@152.67.210.234:443/?type=ws&encryption=none&host=t1s1.rittbo.kdns.fr&path=%2F&security=tls&sni=t1s1.rittbo.kdns.fr#[20979][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://cd91af31-0c74-4bce-aac3-bdae367c84fa@43.203.252.196:21796/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=www.sony.com&fp=firefox&security=reality&pbk=dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw&sid=804d6574da9180#[16890][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://583cc910-b57c-4dd0-a4a7-cea51a30b032@141.164.43.178:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&pbk=GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE&sni=www.apple.com&sid=ca193e889d958f81#[7248][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://7e68e32f-8015-4f37-9082-70e8b0b58043@43.201.24.167:443?&security=reality&flow=xtls-rprx-vision&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&sid=e04a526b0b09c765&fp=chrome&sni=anjen.net&type=tcp&headerType=none&host=anjen.net&path=%2F#[10027][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-vless://583cc910-b57c-4dd0-a4a7-cea51a30b032@141.164.43.178:443?security=reality&encryption=none&pbk=GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=ca193e889d958f81#[7249][KR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@inviting-rabbit.rooster465.autos:443?allowInsecure=0&sni=inviting-rabbit.rooster465.autos#[1812][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@138.2.115.240:443?security=tls#[222][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:8443?security=tls#[873][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://eeb6823c-b926-4ea2-866a-5542edd26e59@132.226.23.185:443/?type=tcp&security=tls&sni=hhcm.hhxaf.cc.cd#[2510][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@52.79.210.229:443/?type=tcp&security=tls&sni=chief-bluegill.rooster465.autos#[1331][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?sni=fancy-skink.rooster465.autos&type=tcp&fp=chrome#[1746][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.35.207.188:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-fawn.rooster465.autos#[1531][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?type=tcp&security=tls&sni=cunning-grub.rooster465.autos&fp=chrome#[1693][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?security=tls#[924][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@3.36.59.34:443/?type=tcp&security=tls&sni=select-ferret.rooster465.autos&fp=chrome#[1314][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@52.78.203.191:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=delicate-buck.rooster465.autos#[1563][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?type=tcp&security=tls&sni=fancy-skink.rooster465.autos&fp=chrome#[1747][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?security=tls&sni=optimum-snapper.rooster465.autos#[1955][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?sni=delicate-buck.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1698][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos&fp=chrome&allowInsecure=1&type=tcp&headerType=none#[1928][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?sni=main-fawn.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1857][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.201.56.44:443/?type=tcp&security=tls&sni=distinct-llama.rooster465.autos&fp=chrome#[1320][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?sni=delicate-buck.rooster465.autos&type=tcp&fp=chrome#[1699][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://b5fc9fa9-796d-4185-a316-395ecac04a85@150.230.249.20:443?security=tls&sni=www.gomacau.gq#[2212][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos&fp=chrome&allowInsecure=0&type=tcp&headerType=none#[1927][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.87.99:28443?security=tls&sni=glc.hruqoaw.cn#[436][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?sni=optimum-snapper.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[1957][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?sni=pretty-rat.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1984][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://cc05b267-2e17-4e73-92f0-2cf603aa5997@146.56.179.67:40005?security=tls#[2388][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=central-jawfish.rooster465.autos#[1662][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://FH72359861@balanced-heron.rooster465.autos:443?security=tls&amp;headerType=&amp;type=tcp&amp;sni=balanced-heron.rooster465.autos#[991][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.87.99:28443?security=tls&sni=glc.hruqoaw.cn#[435][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@inviting-rabbit.rooster465.autos:443?sni=inviting-rabbit.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1814][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://moist@116.47.10.236:27335?allowInsecure=1&sni=trojan.freenods.sbs&ws=1&wspath=/#[3852][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?type=tcp&security=tls&sni=working-tomcat.rooster465.autos&fp=chrome#[2086][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?sni=cunning-grub.rooster465.autos&type=tcp&fp=chrome#[1692][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?allowInsecure=0&sni=main-fawn.rooster465.autos#[1851][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?allowInsecure=1&sni=central-jawfish.rooster465.autos#[1660][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcitygovernment.com.ua:8443?security=tls#[870][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?allowInsecure=1&sni=main-fawn.rooster465.autos#[1853][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?sni=optimum-snapper.rooster465.autos&type=raw&fp=chrome#[1959][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?security=tls&sni=fancy-skink.rooster465.autos#[1743][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ZDAAFTxBNu5j9pl3Re834a3xSXwOZYeIlE30Dp86qc7yYgKaDCaROCSSnz2FCy@121.78.213.3:443?security=tls&sni=csharp.protocolbuffer.com#[2129][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.34.192.47:443?sni=central-jawfish.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1529][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://GKHWMe2R4qwNcNxu6l3KMkdd@221.158.4.230:18853/?type=tcp&security=tls&sni=vpn1.rnmcnm.com&allowInsecure=1#[997][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://moist@116.47.10.236:27335?allowInsecure=1&amp;sni=trojan.freenods.sbs&amp;ws=1&amp;wspath=%2F#[3850][KR][0][TROJAN][None][Hope_Net][2026-09-17][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?allowInsecure=0&sni=glorious-lark.rooster465.autos#[1769][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?sni=central-jawfish.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[1668][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@engaging-toucan.rooster465.autos:443?allowInsecure=0#[1704][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=glorious-lark.rooster465.autos#[1773][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?sni=working-tomcat.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[2084][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@kind-stork.rooster465.autos:443?sni=kind-stork.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1822][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?allowInsecure=1&sni=noted-cougar.rooster465.autos#[1923][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@engaging-toucan.rooster465.autos:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&sni=#[1703][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.90.94:28443?security=tls&sni=glc.hruqoaw.cn#[437][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@kind-stork.rooster465.autos:443?sni=kind-stork.rooster465.autos&type=tcp&fp=chrome#[1823][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@138.2.114.255:443/?type=tcp&security=tls&allowInsecure=1#[614][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?security=tls#[2208][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?allowInsecure=1&sni=noted-cougar.rooster465.autos#[1924][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://moist@116.47.10.236:27335?allowInsecure=1&sni=trojan.freenods.sbs&ws=1&wspath=/#[3851][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?sni=central-jawfish.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1667][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.201.46.108:443/?type=tcp&security=tls&sni=exotic-chow.rooster465.autos&fp=chrome#[1319][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://cd27884b-c5af-34ec-b75f-8248077818fe@144.24.76.54:8443?security=tls&sni=2.hg.kr.cat77.cloud#[2392][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@3.35.140.99:443/?type=tcp&security=tls&sni=moved-meerkat.rooster465.autos#[1313][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@3.38.106.2:443/?type=tcp&security=tls&sni=communal-sunbird.rooster465.autos&fp=chrome#[1315][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@13.125.239.182:443/?type=tcp&security=tls&sni=saving-octopus.rooster465.autos#[1300][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.34.131.153:443?security=tls&sni=pretty-rat.rooster465.autos#[1528][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.203.244.203:443/?type=tcp&security=tls&sni=grateful-owl.rooster465.autos#[1322][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@kind-stork.rooster465.autos:443?security=tls&sni=kind-stork.rooster465.autos#[1821][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?security=tls&sni=cunning-grub.rooster465.autos#[1691][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?type=raw&security=tls&sni=main-fawn.rooster465.autos&fp=chrome#[1861][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?security=tls&sni=delicate-buck.rooster465.autos&fp=chrome&type=tcp&headerType=none#[1696][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://xxoo@3.34.6.217:443?security=tls#[4083][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=pure-kodiak.rooster465.autos#[2010][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?allowInsecure=1&sni=optimum-snapper.rooster465.autos#[1953][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?sni=fancy-skink.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[1745][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?security=tls&sni=cunning-grub.rooster465.autos#[1690][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?sni=pretty-rat.rooster465.autos&type=tcp&fp=chrome#[1986][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?security=tls#[412][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@engaging-toucan.rooster465.autos:443?sni=engaging-toucan.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1706][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:8443?security=tls#[874][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@engaging-toucan.rooster465.autos:443?security=tls&sni=engaging-toucan.rooster465.autos#[1705][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=working-tomcat.rooster465.autos#[2080][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://rYuChHcwQZskq9E0zdoR@119.195.0.158:35342/?type=tcp&security=tls&sni=vpn5.rnmcnm.com#[3919][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos#[1925][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?allowInsecure=1&sni=glorious-lark.rooster465.autos#[1771][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@138.2.115.240:443?security=tls#[221][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?sni=noted-cougar.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1929][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@43.200.164.211:28443?security=tls&sni=glc.hruqoaw.cn#[448][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?sni=noted-cougar.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1930][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?sni=optimum-snapper.rooster465.autos&type=tcp&fp=chrome#[1960][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?security=tls&path=%2f#[1694][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.201.103.8:443/?type=tcp&security=tls&sni=intimate-moray.rooster465.autos&fp=chrome#[1318][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@inviting-rabbit.rooster465.autos:443?allowInsecure=1&sni=inviting-rabbit.rooster465.autos#[1813][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.203.247.197:443/?type=tcp&security=tls&sni=definite-malamute.rooster465.autos#[1323][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://GKHWMe2R4qwNcNxu6l3KMkdd@121.178.83.161:26214/?type=tcp&security=tls&sni=vpn1.rnmcnm.com#[995][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.39.225.215:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=kind-stork.rooster465.autos#[1536][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?sni=optimum-snapper.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1958][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?allowInsecure=1&sni=pure-kodiak.rooster465.autos#[2008][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&sni=central-jawfish.rooster465.autos#[1666][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?sni=glorious-lark.rooster465.autos&type=tcp#[1775][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=central-jawfish.rooster465.autos#[1661][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?security=tls&sni=pretty-rat.rooster465.autos#[1983][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=pure-kodiak.rooster465.autos#[2011][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?sni=working-tomcat.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[2083][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?sni=central-jawfish.rooster465.autos&peer=central-jawfish.rooster465.autos&security=tls#[1669][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?allowInsecure=1&sni=fancy-skink.rooster465.autos#[1741][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?allowInsecure=0&sni=fancy-skink.rooster465.autos#[1740][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#[2522][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?allowInsecure=0&sni=working-tomcat.rooster465.autos#[2078][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=central-jawfish.rooster465.autos#[1664][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?security=tls&sni=pure-kodiak.rooster465.autos#[2013][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.90.94:28443?security=tls&sni=glc.hruqoaw.cn#[438][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@52.78.13.238:443/?type=tcp&security=tls&sni=upward-puma.rooster465.autos#[1330][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?sni=optimum-snapper.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1956][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?allowInsecure=1&sni=cunning-grub.rooster465.autos#[1689][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.35.214.220:443?sni=glorious-lark.rooster465.autos&allowInsecure=0#[1532][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?security=tls&sni=optimum-snapper.rooster465.autos#[1954][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@52.78.42.192:443?sni=working-tomcat.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1564][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?allowInsecure=1&sni=pure-kodiak.rooster465.autos#[2009][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.34.131.153:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=pretty-rat.rooster465.autos#[1527][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?security=tls&sni=pure-kodiak.rooster465.autos#[2012][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?allowInsecure=0&sni=optimum-snapper.rooster465.autos#[1952][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?sni=pure-kodiak.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[2015][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?security=tls&sni=pretty-rat.rooster465.autos#[1982][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?security=tls&sni=delicate-buck.rooster465.autos#[1695][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-fawn.rooster465.autos#[1854][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?allowInsecure=0&sni=pure-kodiak.rooster465.autos#[2007][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?sni=glorious-lark.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[1774][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://xxoo@3.34.6.217:443?security=tls#[4084][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?sni=noted-cougar.rooster465.autos&type=raw&fp=chrome#[1931][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@13.125.29.37:443?security=tls&sni=fancy-skink.rooster465.autos#[1498][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=noted-cougar.rooster465.autos#[1933][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?allowInsecure=0&insecure=0&type=tcp&security=tls&sni=glorious-lark.rooster465.autos#[1768][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@43.203.120.240:443?security=tls&sni=cunning-grub.rooster465.autos#[1545][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.69.60:28443?security=tls&sni=glc.hruqoaw.cn#[432][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@13.125.69.162:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=engaging-toucan.rooster465.autos#[1499][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#[2523][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?allowInsecure=1&sni=main-fawn.rooster465.autos#[1852][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://FH72359861@balanced-heron.rooster465.autos:443?security=tls&headerType=&type=tcp&sni=balanced-heron.rooster465.autos#[992][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?type=tcp&security=tls&sni=pure-kodiak.rooster465.autos&fp=chrome#[2016][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?sni=main-fawn.rooster465.autos&type=raw&fp=chrome#[1859][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@delicate-buck.rooster465.autos:443?sni=delicate-buck.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[1697][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@54.180.228.238:443/?type=tcp&security=tls&sni=pure-ram.rooster465.autos&fp=chrome#[1332][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@engaging-toucan.rooster465.autos:443?sni=engaging-toucan.rooster465.autos&type=tcp&fp=chrome#[1707][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos#[1926][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?security=tls&sni=fancy-skink.rooster465.autos#[1742][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=optimum-snapper.rooster465.autos#[1961][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://cd27884b-c5af-34ec-b75f-8248077818fe@144.24.76.54:8443?security=tls&sni=2.hg.kr.cat77.cloud#[2391][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.69.60:28443?security=tls&sni=glc.hruqoaw.cn#[433][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://5f27eb67-a1ea-43a3-9a33-8d85d61b9574@52.231.36.138:443?security=tls&amp;sni=krnode01.oportal.cc&amp;type=tcp&amp;headerType=none#[346][KR][0][TROJAN][None][mftizi][2024-08-02][2026-10-16 01:58]
-
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@144.24.77.154:28443?security=tls&sni=glc.hruqoaw.cn#[434][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=glorious-lark.rooster465.autos#[1770][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?type=raw&security=tls&sni=noted-cougar.rooster465.autos&fp=chrome#[1934][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?security=tls#[413][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@43.201.100.203:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=optimum-snapper.rooster465.autos#[1544][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://ND91608427@43.203.203.244:443/?type=tcp&security=tls&sni=main-whippet.rooster465.autos&fp=chrome#[1321][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?sni=main-fawn.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1858][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@inviting-rabbit.rooster465.autos:443?type=tcp&security=tls&sni=inviting-rabbit.rooster465.autos&fp=chrome#[1816][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?security=tls&sni=main-fawn.rooster465.autos#[1855][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.39.225.215:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=kind-stork.rooster465.autos#[1535][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.35.168.225:443?allowInsecure=1&sni=noted-cougar.rooster465.autos#[1530][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.36.50.213:443?allowInsecure=0&sni=pure-kodiak.rooster465.autos#[1533][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?security=tls&sni=main-fawn.rooster465.autos#[1856][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@fancy-skink.rooster465.autos:443?sni=fancy-skink.rooster465.autos&allowInsecure=1&type=tcp#[1744][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?security=tls&sni=working-tomcat.rooster465.autos#[2082][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#[2524][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak@38.60.220.65:443/?type=tcp&security=tls#[3934][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@3.36.52.203:443?sni=inviting-rabbit.rooster465.autos&allowInsecure=0#[1534][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?sni=working-tomcat.rooster465.autos&peer=working-tomcat.rooster465.autos&security=tls#[2085][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=central-jawfish.rooster465.autos#[1663][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcitygovernment.com.ua:8443?security=tls#[869][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?allowInsecure=1&sni=working-tomcat.rooster465.autos#[2079][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?sni=pretty-rat.rooster465.autos&fp=chrome&type=tcp&path=%2f#[1985][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@inviting-rabbit.rooster465.autos:443?sni=inviting-rabbit.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#[1815][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?allowInsecure=0&sni=central-jawfish.rooster465.autos#[1659][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?type=tcp&security=tls&sni=glorious-lark.rooster465.autos&fp=chrome#[1776][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:2053?security=tls#[872][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@noted-cougar.rooster465.autos:443?sni=noted-cougar.rooster465.autos&type=tcp&fp=chrome#[1932][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:2053?security=tls#[871][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pretty-rat.rooster465.autos:443?allowInsecure=1&sni=pretty-rat.rooster465.autos#[1981][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@optimum-snapper.rooster465.autos:443?type=raw&security=tls&sni=optimum-snapper.rooster465.autos&fp=chrome#[1962][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?security=tls#[925][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://KLF0qOU0ZZGw5Tnu@121.78.213.3:443?security=tls&sni=swift.protocolbuffer.com#[1019][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?type=tcp&security=tls&sni=central-jawfish.rooster465.autos&fp=chrome#[1670][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@central-jawfish.rooster465.autos:443?security=tls&sni=central-jawfish.rooster465.autos#[1665][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@working-tomcat.rooster465.autos:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=working-tomcat.rooster465.autos#[2081][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@pure-kodiak.rooster465.autos:443?sni=pure-kodiak.rooster465.autos&allowInsecure=0&type=tcp&fp=chrome#[2014][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@cunning-grub.rooster465.autos:443?allowInsecure=0&sni=cunning-grub.rooster465.autos#[1688][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://GKHWMe2R4qwNcNxu6l3KMkdd@125.141.32.222:11371/?type=tcp&security=tls&sni=vpn1.rnmcnm.com&allowInsecure=1#[996][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@main-fawn.rooster465.autos:443?type=raw&headerType=none&security=tls&sni=main-fawn.rooster465.autos#[1860][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
-
-trojan://UX82473651@glorious-lark.rooster465.autos:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=glorious-lark.rooster465.autos#[1772][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://xxoo@3.34.6.217:443?security=tls#[2037][KR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
 
