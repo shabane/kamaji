@@ -1,42 +1,46 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://c065e1bb-cb56-41e5-b043-9dfd15b67565@152.233.41.30:16923?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&amp;type=grpc&amp;serviceName=neurex&amp;sni=api-maps.yandex.ru&amp;sid=10ffb85da1c2d986#[8681][HU][0][SS][None][prrofile_purple][2026-07-12][2026-10-19 02:08]
+ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&amp;encryption=none&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hu1.aiage.work&amp;sid=f8379ce795f2e5ed#[2711][HU][0][SS][None][shh_proxy][2026-10-18][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@185.163.204.94:990#[4936][HU][0][SS][None][free4allVPN][2025-10-19][2026-10-19 02:08]
+ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[2710][HU][0][SS][None][oneclickvpnkeys][2026-10-16][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[2732][HU][0][SS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
+ss://c065e1bb-cb56-41e5-b043-9dfd15b67565@152.233.41.30:16923?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&amp;type=grpc&amp;serviceName=neurex&amp;sni=api-maps.yandex.ru&amp;sid=10ffb85da1c2d986#[8641][HU][0][SS][None][prrofile_purple][2026-07-12][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[2734][HU][0][SS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@185.163.204.94:990#[4754][HU][0][SS][None][free4allVPN][2025-10-19][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@hu1.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[2739][HU][0][SS][None][oneclickvpnkeys][2026-10-18][2026-10-19 02:08]
+ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[2712][HU][0][SS][None][oneclickvpnkeys][2026-10-16][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&amp;encryption=none&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hu1.aiage.work&amp;sid=f8379ce795f2e5ed#[2733][HU][0][SS][None][shh_proxy][2026-10-18][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4842][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://c065e1bb-cb56-41e5-b043-9dfd15b67565@152.233.41.30:16923?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&amp;type=grpc&amp;serviceName=neurex&amp;sni=api-maps.yandex.ru&amp;sid=10ffb85da1c2d986#[9125][HU][0][VLESS][None][prrofile_purple][2026-07-12][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[4843][HU][0][VLESS][None][oneclickvpnkeys][2026-10-16][2026-10-22 02:12]
 
-vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.157:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUK%2F0&amp;packetEncoding=xudp#[8873][HU][0][VLESS][None][CUSTOMVPNSERVER][2026-01-24][2026-10-19 02:08]
+vless://c065e1bb-cb56-41e5-b043-9dfd15b67565@152.233.41.30:16923?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&amp;type=grpc&amp;serviceName=neurex&amp;sni=api-maps.yandex.ru&amp;sid=10ffb85da1c2d986#[9147][HU][0][VLESS][None][prrofile_purple][2026-07-12][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[4742][HU][0][VLESS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[4837][HU][0][VLESS][None][oneclickvpnkeys][2026-10-16][2026-10-22 02:12]
 
-vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.158:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUS%2F0&amp;packetEncoding=xudp#[8875][HU][0][VLESS][None][CUSTOMVPNSERVER][2026-01-24][2026-10-19 02:08]
+vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.158:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUS%2F0&amp;packetEncoding=xudp#[8872][HU][0][VLESS][None][kiava][2026-01-24][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4741][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.157:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUK%2F0&amp;packetEncoding=xudp#[8869][HU][0][VLESS][None][CUSTOMVPNSERVER][2026-01-24][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[4738][HU][0][VLESS][None][oneclickvpnkeys][2026-10-16][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4841][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&amp;encryption=none&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hu1.aiage.work&amp;sid=f8379ce795f2e5ed#[4739][HU][0][VLESS][None][shh_proxy][2026-10-18][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4840][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@hu1.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;security=reality&amp;sid=f8379ce795f2e5ed&amp;sni=hu1.aiage.work&amp;type=tcp#[4752][HU][0][VLESS][None][oneclickvpnkeys][2026-10-18][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4839][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.157:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUK%2F0&amp;packetEncoding=xudp#[8874][HU][0][VLESS][None][kiava][2026-01-24][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4844][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4743][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.157:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUK%2F0&amp;packetEncoding=xudp#[8870][HU][0][VLESS][None][kiava][2026-01-24][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@hu1.aiage.work:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&security=reality&sid=f8379ce795f2e5ed&sni=hu1.aiage.work&type=tcp#[4753][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4845][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4740][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.37:443?security=reality&amp;encryption=none&amp;pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hu1.aiage.work&amp;sid=f8379ce795f2e5ed#[4838][HU][0][VLESS][None][shh_proxy][2026-10-18][2026-10-22 02:12]
 
-vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.158:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUS%2F0&amp;packetEncoding=xudp#[8876][HU][0][VLESS][None][kiava][2026-01-24][2026-10-19 02:08]
+vless://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.158:80/?type=ws&amp;encryption=none&amp;flow=&amp;path=%2FIVApi%2FUS%2F0&amp;packetEncoding=xudp#[8871][HU][0][VLESS][None][CUSTOMVPNSERVER][2026-01-24][2026-10-22 02:12]
 
-trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[1047][HU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.155.242.38:443?security=reality&encryption=none&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=hu1.aiage.work&sid=f8379ce795f2e5ed#[4846][HU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+
+trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[1081][HU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+
+trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[1082][HU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 

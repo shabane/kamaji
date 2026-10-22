@@ -1,12 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?encryption=none&fp=&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&security=reality&sid=29e8dcd2b37aaa7f&sni=www.apple.com&type=tcp#[995][ES][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#[937][ES][443][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#[996][ES][509][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+trojan://humanity@185.114.72.31:2053?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[149][ES][585][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-trojan://humanity@212.227.144.37:8443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[184][ES][746][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-trojan://humanity@185.114.72.31:2053?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[57][ES][684][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-trojan://humanity@185.114.72.31:2053?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[58][ES][694][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+trojan://humanity@212.227.144.37:8443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[235][ES][687][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 

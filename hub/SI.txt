@@ -1,12 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.191.238:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#[2704][SI][0][SS][None][FalconPolV2rayNG][2026-02-15][2026-10-19 02:08]
+ss://6897c181-24b1-4880-8660-e6c5c7ee13c7@92.60.78.221:443?security=reality&amp;encryption=none&amp;pbk=pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tradingview.com&amp;sid=9917d2350096#[2808][SI][0][SS][None][free4allVPN][2025-10-30][2026-10-22 02:12]
 
-ss://6897c181-24b1-4880-8660-e6c5c7ee13c7@92.60.78.221:443?security=reality&amp;encryption=none&amp;pbk=pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tradingview.com&amp;sid=9917d2350096#[2827][SI][0][SS][None][free4allVPN][2025-10-30][2026-10-19 02:08]
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.191.238:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#[2682][SI][0][SS][None][FalconPolV2rayNG][2026-02-15][2026-10-22 02:12]
 
-vless://6897c181-24b1-4880-8660-e6c5c7ee13c7@92.60.78.221:443?security=reality&amp;encryption=none&amp;pbk=pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tradingview.com&amp;sid=9917d2350096#[4902][SI][0][VLESS][None][free4allVPN][2025-10-30][2026-10-19 02:08]
+vless://6897c181-24b1-4880-8660-e6c5c7ee13c7@92.60.78.221:443?security=reality&amp;encryption=none&amp;pbk=pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tradingview.com&amp;sid=9917d2350096#[5028][SI][0][VLESS][None][free4allVPN][2025-10-30][2026-10-22 02:12]
 
-vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-slo01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-slo01.rkitman.ru&sid=88d9dc52ef39c8bd#[2360][SI][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.191.238:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#[4795][SI][0][VLESS][None][FalconPolV2rayNG][2026-02-15][2026-10-22 02:12]
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.191.238:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#[4696][SI][0][VLESS][None][FalconPolV2rayNG][2026-02-15][2026-10-19 02:08]
+vless://322710c4-eef9-45ea-ad10-1efa1c6767d0@node-slo01.rkitman.ru:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=node-slo01.rkitman.ru&sid=88d9dc52ef39c8bd#[2348][SI][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 

@@ -1,16 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://9cb8d71c-fe06-4402-a591-eaa1f173b890@edge-lab-b.10media.top:443?mode=gun&security=tls&encryption=none&insecure=0&type=grpc&serviceName=swedenfeed&allowInsecure=0&sni=edge-lab-b.10media.top#[500][SC][913][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[248][SC][508][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?mode=multi&security=reality&encryption=none&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&fp=chrome&type=grpc&serviceName=grpc&sni=max.ru&sid=35debf0dc757d053#[622][SC][948][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?mode=multi&security=reality&encryption=none&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&fp=chrome&type=grpc&serviceName=grpc&sni=max.ru&sid=35debf0dc757d053#[621][SC][921][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?mode=multi&security=reality&encryption=none&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&fp=chrome&type=grpc&serviceName=grpc&sni=max.ru&sid=35debf0dc757d053#[620][SC][915][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?mode=multi&security=reality&encryption=none&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&fp=chrome&type=grpc&serviceName=grpc&sni=max.ru&sid=35debf0dc757d053#[623][SC][888][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://9cb8d71c-fe06-4402-a591-eaa1f173b890@edge-lab-b.10media.top:443?mode=gun&security=tls&encryption=none&insecure=0&type=grpc&serviceName=swedenfeed&allowInsecure=0&sni=edge-lab-b.10media.top#[499][SC][914][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[198][SC][515][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[249][SC][515][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 

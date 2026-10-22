@@ -1,64 +1,80 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://eyJpZCI6IjIzODUwOTlmLTMwMWItNDMzZi04MzBkLWEyZmQwYWM1NWY1NyIsImFscG4iOiIiLCJob3N0Ijoibm9kZS1pZC0xLnYyc3YudG9wIiwic25pIjoid3d3LmZhY2Vib29rLmNvbSIsInBzIjoiVm1lc3MlMjAtJTIwSUQlMjAxJTIwLSUyMHRlbGVncmFtJTIwJTNBJTIwJTQwa2lhdmEiLCJwb3J0IjoiODQ0MyIsImFkZCI6Im5vZGUtaWQtMS52MnN2LnRvcCIsInBhdGgiOiJcL3dzIiwibmV0Ijoid3MiLCJzY3kiOiJhdXRvIiwidGxzIjoidGxzIn0=</pre><br/><br/><br/><pre>trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[11386][ID][0][SS][None][kiava][2026-01-23][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4483][ID][0][SS][None][vpn_tehran][2026-09-20][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpub2Rlcy1iMjExZjI4YUBub2RlLWlkLTEudjJzdi50b3A6OTkw#[5728][ID][0][SS][None][kiava][2026-01-23][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4479][ID][0][SS][None][vpn_tehran][2026-09-24][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4615][ID][0][SS][None][vpn_tehran][2026-09-19][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#[4514][ID][0][SS][None][rxv2ray][2025-12-08][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4612][ID][0][SS][None][vpn_tehran][2026-09-24][2026-10-19 02:08]
+ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30833?encryption=auto&amp;security=none&amp;type=tcp#[8966][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-10-22 02:12]
 
-ss://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&amp;sni=id-full.privateip.net&amp;type=ws&amp;path=%2fVLESS&amp;allowInsecure=1#[8169][ID][0][SS][None][Hope_Net][2026-09-17][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4477][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4621][ID][0][SS][None][vpn_tehran][2026-09-20][2026-10-19 02:08]
+ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30806?encryption=auto&amp;security=none&amp;type=tcp#[8965][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-10-22 02:12]
 
-ss://eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[11293][ID][0][SS][None][vpn_tehran][2026-09-28][2026-10-19 02:08]
+ss://eyJhZGQiOiI0Ny4yNTAuMTM1LjI0NCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwMDAwIiwicHMiOiJAVnBuX1RlaHJhbiDwn5KaINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[11253][ID][0][SS][None][vpn_tehran][2026-09-22][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4619][ID][0][SS][None][vpn_tehran][2026-09-18][2026-10-19 02:08]
+ss://f8c9d2a1-da40-4f90-b671-11772a0b13d6@103.172.197.3:16006?security=reality&amp;encryption=none&amp;pbk=ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU&amp;host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#[11624][ID][0][SS][None][Outline_Vpn][2026-10-05][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4614][ID][0][SS][None][vpn_tehran][2026-09-22][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4478][ID][0][SS][None][vpn_tehran][2026-09-11][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4620][ID][0][SS][None][vpn_tehran][2026-09-19][2026-10-19 02:08]
+ss://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&amp;sni=id-full.privateip.net&amp;type=ws&amp;path=%2fVLESS&amp;allowInsecure=1#[8141][ID][0][SS][None][Hope_Net][2026-09-17][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4611][ID][0][SS][None][vpn_tehran][2026-09-11][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpub2Rlcy1iMjExZjI4YUBub2RlLWlkLTEudjJzdi50b3A6OTkw#[5551][ID][0][SS][None][kiava][2026-01-23][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4613][ID][0][SS][None][vpn_tehran][2026-09-18][2026-10-19 02:08]
+ss://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[1373][ID][0][SS][None][daredevill_404][2026-01-28][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4617][ID][0][SS][None][vpn_tehran][2026-09-30][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4485][ID][0][SS][None][vpn_tehran][2026-10-01][2026-10-22 02:12]
 
-ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30833?encryption=auto&amp;security=none&amp;type=tcp#[9030][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4486][ID][0][SS][None][vpn_tehran][2026-09-18][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4618][ID][0][SS][None][vpn_tehran][2026-10-01][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4480][ID][0][SS][None][vpn_tehran][2026-09-18][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4616][ID][0][SS][None][vpn_tehran][2026-09-20][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#[4516][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-ss://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[1427][ID][0][SS][None][daredevill_404][2026-01-28][2026-10-19 02:08]
+ss://eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[11331][ID][0][SS][None][vpn_tehran][2026-09-28][2026-10-22 02:12]
 
-ss://f8c9d2a1-da40-4f90-b671-11772a0b13d6@103.172.197.3:16006?security=reality&amp;encryption=none&amp;pbk=ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU&amp;host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#[11618][ID][0][SS][None][Outline_Vpn][2026-10-05][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4481][ID][0][SS][None][vpn_tehran][2026-09-22][2026-10-22 02:12]
 
-ss://cbb3f877-d1fb-344c-87a9-d153bffd5484@48.193.46.7:30806?encryption=auto&amp;security=none&amp;type=tcp#[9029][ID][0][SS][None][OpenSSTPVpn][2026-06-03][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#[4512][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4610][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#[4613][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-ss://eyJhZGQiOiI0Ny4yNTAuMTM1LjI0NCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwMDAwIiwicHMiOiJAVnBuX1RlaHJhbiDwn5KaINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[11214][ID][0][SS][None][vpn_tehran][2026-09-22][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#[4515][ID][0][SS][None][rxv2ray][2025-12-10][2026-10-22 02:12]
 
-vmess://eyJpZCI6ICIyMzg1MDk5Zi0zMDFiLTQzM2YtODMwZC1hMmZkMGFjNTVmNTciLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICJub2RlLWlkLTEudjJzdi50b3AiLCAic25pIjogInd3dy5mYWNlYm9vay5jb20iLCAicHMiOiAiWzIyMTBdW0lEXVswXVtWTUVTU11bTm9uZV1ba2lhdmFdWzIwMjYtMDEtMjNdWzIwMjYtMTAtMTkgMDI6MDhdIiwgInBvcnQiOiAiODQ0MyIsICJhZGQiOiAibm9kZS1pZC0xLnYyc3YudG9wIiwgInBhdGgiOiAiL3dzIiwgIm5ldCI6ICJ3cyIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAidGxzIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4484][ID][0][SS][None][vpn_tehran][2026-09-30][2026-10-22 02:12]
 
-vmess://eyJhZGQiOiAiMjAyLjQ3Ljg5LjEzMyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiM2EwMzYxM2ItYmJhYy00YTIyLWJlZTYtMmM5YTc1MWEyNzYxIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2RrZmpoMjIyIiwgInBjcyI6ICIiLCAicG9ydCI6ICI1MzU0OCIsICJwcyI6ICJbMjA5NF1bSURdWzBdW1ZNRVNTXVtOb25lXVtub2ZpbHRlcmluZzJdWzIwMjYtMDgtMTVdWzIwMjYtMTAtMTkgMDI6MDhdIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIi0tLSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#[4513][ID][0][SS][None][rxv2ray][2025-12-07][2026-10-22 02:12]
 
-vless://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&sni=id-full.privateip.net&type=ws&path=/VLESS&allowInsecure=1#[8218][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4482][ID][0][SS][None][vpn_tehran][2026-09-19][2026-10-22 02:12]
 
-vless://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&amp;sni=id-full.privateip.net&amp;type=ws&amp;path=%2fVLESS&amp;allowInsecure=1#[8217][ID][0][VLESS][None][Hope_Net][2026-09-17][2026-10-19 02:08]
+ss://eyJpZCI6IjIzODUwOTlmLTMwMWItNDMzZi04MzBkLWEyZmQwYWM1NWY1NyIsImFscG4iOiIiLCJob3N0Ijoibm9kZS1pZC0xLnYyc3YudG9wIiwic25pIjoid3d3LmZhY2Vib29rLmNvbSIsInBzIjoiVm1lc3MlMjAtJTIwSUQlMjAxJTIwLSUyMHRlbGVncmFtJTIwJTNBJTIwJTQwa2lhdmEiLCJwb3J0IjoiODQ0MyIsImFkZCI6Im5vZGUtaWQtMS52MnN2LnRvcCIsInBhdGgiOiJcL3dzIiwibmV0Ijoid3MiLCJzY3kiOiJhdXRvIiwidGxzIjoidGxzIn0=</pre><br/><br/><br/><pre>trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[11403][ID][0][SS][None][kiava][2026-01-23][2026-10-22 02:12]
 
-vless://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[2367][ID][0][VLESS][None][daredevill_404][2026-01-28][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@92.112.126.90:443#[4611][ID][0][SS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 
-vless://f8c9d2a1-da40-4f90-b671-11772a0b13d6@103.172.197.3:16006?security=reality&amp;encryption=none&amp;pbk=ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU&amp;host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#[13627][ID][0][VLESS][None][Outline_Vpn][2026-10-05][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4488][ID][0][SS][None][vpn_tehran][2026-09-20][2026-10-22 02:12]
 
-trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[1900][ID][0][TROJAN][None][kiava][2026-01-23][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@92.112.126.90:443#[4612][ID][0][SS][None][prrofile_purple][2026-08-05][2026-10-22 02:12]
 
-trojan://idc117okt@103.226.139.201:443?security=tls#[1654][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#[4487][ID][0][SS][None][vpn_tehran][2026-09-19][2026-10-22 02:12]
 
-trojan://idc117okt@103.176.78.153:443?security=tls#[1653][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vmess://eyJhZGQiOiAiMjAyLjQ3Ljg5LjEzMyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiM2EwMzYxM2ItYmJhYy00YTIyLWJlZTYtMmM5YTc1MWEyNzYxIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2RrZmpoMjIyIiwgInBjcyI6ICIiLCAicG9ydCI6ICI1MzU0OCIsICJwcyI6ICJbMjExNF1bSURdWzBdW1ZNRVNTXVtOb25lXVtub2ZpbHRlcmluZzJdWzIwMjYtMDgtMTVdWzIwMjYtMTAtMjIgMDI6MTJdIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIi0tLSIsICJ2IjogIjIiLCAidmNuIjogIiJ9
 
-trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[81][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vmess://eyJpZCI6ICIyMzg1MDk5Zi0zMDFiLTQzM2YtODMwZC1hMmZkMGFjNTVmNTciLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICJub2RlLWlkLTEudjJzdi50b3AiLCAic25pIjogInd3dy5mYWNlYm9vay5jb20iLCAicHMiOiAiWzIyMDhdW0lEXVswXVtWTUVTU11bTm9uZV1ba2lhdmFdWzIwMjYtMDEtMjNdWzIwMjYtMTAtMjIgMDI6MTJdIiwgInBvcnQiOiAiODQ0MyIsICJhZGQiOiAibm9kZS1pZC0xLnYyc3YudG9wIiwgInBhdGgiOiAiL3dzIiwgIm5ldCI6ICJ3cyIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAidGxzIn0=
+
+vless://f8c9d2a1-da40-4f90-b671-11772a0b13d6@103.172.197.3:16006?security=reality&amp;encryption=none&amp;pbk=ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU&amp;host=%2F%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#[13569][ID][0][VLESS][None][Outline_Vpn][2026-10-05][2026-10-22 02:12]
+
+vless://32663838-6132-4561-b532-653431613036@ok.1eta.site:80?security=none&amp;encryption=none&amp;host=tgju.org&amp;headerType=http&amp;type=tcp#[2358][ID][0][VLESS][None][daredevill_404][2026-01-28][2026-10-22 02:12]
+
+vless://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&amp;sni=id-full.privateip.net&amp;type=ws&amp;path=%2fVLESS&amp;allowInsecure=1#[8231][ID][0][VLESS][None][Hope_Net][2026-09-17][2026-10-22 02:12]
+
+vless://ad4492d1-6858-4841-bd50-1dff56dedcb7@172.232.250.227:443?security=tls&sni=id-full.privateip.net&type=ws&path=/VLESS&allowInsecure=1#[8232][ID][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+
+trojan://idc117okt@103.176.78.153:443?security=tls#[1646][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+
+trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&amp;headerType=none&amp;security=tls&amp;sni=node-id-1.v2sv.top#[1853][ID][0][TROJAN][None][kiava][2026-01-23][2026-10-22 02:12]
+
+trojan://idc117okt@103.226.139.201:443?security=tls#[1647][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+
+trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#[82][ID][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
 

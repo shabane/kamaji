@@ -1,40 +1,26 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=57e7977c9011061c&amp;sni=freede.aiage.work&amp;type=tcp#[2729][SA][0][SS][None][oneclickvpnkeys][2026-10-14][2026-10-19 02:08]
+ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8243][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.119:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8272][SA][0][SS][None][shh_proxy][2026-09-18][2026-10-19 02:08]
+ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.229:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8242][SA][0][SS][None][shh_proxy][2026-09-18][2026-10-22 02:12]
 
-ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.229:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8273][SA][0][SS][None][shh_proxy][2026-09-18][2026-10-19 02:08]
+ss://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=5f5e74dfd296b28d&amp;sni=freede.aiage.work&amp;type=tcp#[2715][SA][0][SS][None][oneclickvpnkeys][2026-10-15][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=5f5e74dfd296b28d&amp;sni=freede.aiage.work&amp;type=tcp#[2738][SA][0][SS][None][oneclickvpnkeys][2026-10-15][2026-10-19 02:08]
+ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.119:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8241][SA][0][SS][None][shh_proxy][2026-09-18][2026-10-22 02:12]
 
-ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8275][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
+ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8245][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8274][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
+ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8244][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-ss://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8276][SA][0][SS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=5f5e74dfd296b28d&amp;sni=freede.aiage.work&amp;type=tcp#[4850][SA][0][VLESS][None][oneclickvpnkeys][2026-10-15][2026-10-22 02:12]
 
-ss://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=57e7977c9011061c&amp;sni=freede.aiage.work&amp;type=tcp#[2728][SA][0][SS][None][oneclickvpnkeys][2026-10-13][2026-10-19 02:08]
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.229:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8415][SA][0][VLESS][None][shh_proxy][2026-09-18][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[4735][SA][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8418][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=57e7977c9011061c&amp;sni=freede.aiage.work&amp;type=tcp#[4734][SA][0][VLESS][None][oneclickvpnkeys][2026-10-14][2026-10-19 02:08]
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8417][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8444][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8416][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-22 02:12]
 
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8442][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
-
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.229:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8441][SA][0][VLESS][None][shh_proxy][2026-09-18][2026-10-19 02:08]
-
-vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500?encryption=none&security=reality&sni=www.ebay.com&fp=chrome&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e&type=grpc&mode=gun#[11302][SA][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.119:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8440][SA][0][VLESS][None][shh_proxy][2026-09-18][2026-10-19 02:08]
-
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8443][SA][0][VLESS][None][VmessProtocol][2026-09-21][2026-10-19 02:08]
-
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[4750][SA][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=57e7977c9011061c&amp;sni=freede.aiage.work&amp;type=tcp#[4733][SA][0][VLESS][None][oneclickvpnkeys][2026-10-13][2026-10-19 02:08]
-
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&amp;security=reality&amp;sid=5f5e74dfd296b28d&amp;sni=freede.aiage.work&amp;type=tcp#[4749][SA][0][VLESS][None][oneclickvpnkeys][2026-10-15][2026-10-19 02:08]
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.119:443?path=%2Fproxyip%3Dus.xiabibi.cf&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=nb.lovecf.ggff.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=nb.lovecf.ggff.net#[8414][SA][0][VLESS][None][shh_proxy][2026-09-18][2026-10-22 02:12]
 
