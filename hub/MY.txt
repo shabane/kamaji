@@ -1,30 +1,16 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[9283][MY][0][SS][None][v2ray1_ng][2026-10-08][2026-10-22 02:12]
+ss://a13df940-020c-465f-bc89-ee5279b5cd6a@210.186.12.244:443?path=%2F%3Fproxyip&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=kkd.ylks.link#[8125][MY][0][SS][None][Hope_Net][2026-09-16][2026-10-25 02:02]
 
-ss://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[9280][MY][0][SS][None][marambashi][2026-10-08][2026-10-22 02:12]
+vmess://eyJhZGQiOiAiNDcuMjUwLjEzNS4yNDQiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImFlZGM2NmI4LTk5ZDctNGEyMS04MzEwLTYxODcwZTdmODcwZCIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6ICIxMDAwMCIsICJwcyI6ICJbMTgxN11bTVldWzBdW1ZNRVNTXVtOb25lXVt2cG5fdGVocmFuXVsyMDI2LTA5LTIyXVsyMDI2LTEwLTI1IDAyOjAyXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
 
-ss://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[9281][MY][0][SS][None][V2rayng_Fast][2026-10-08][2026-10-22 02:12]
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@210.186.12.244:443?path=%2F%3Fproxyip&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=kkd.ylks.link#[8191][MY][0][VLESS][None][Hope_Net][2026-09-16][2026-10-25 02:02]
 
-ss://a13df940-020c-465f-bc89-ee5279b5cd6a@210.186.12.244:443?path=%2F%3Fproxyip&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=kkd.ylks.link#[7860][MY][0][SS][None][Hope_Net][2026-09-16][2026-10-22 02:12]
+vless://SoonTeam@sexi.carderrr.com:443?path=@SylphNet&security=none&encryption=none&host=anten.ir&type=ws#[7828][MY][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-ss://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[9282][MY][0][SS][None][free1_vpn][2026-10-08][2026-10-22 02:12]
+vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[12509][MY][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-vmess://eyJhZGQiOiAiNDcuMjUwLjEzNS4yNDQiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImFlZGM2NmI4LTk5ZDctNGEyMS04MzEwLTYxODcwZTdmODcwZCIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6ICIxMDAwMCIsICJwcyI6ICJbMTg4M11bTVldWzBdW1ZNRVNTXVtOb25lXVt2cG5fdGVocmFuXVsyMDI2LTA5LTIyXVsyMDI2LTEwLTIyIDAyOjEyXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls&sni=moltbot.doctoroyy.net#[266][MY][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@210.186.12.244:443?path=%2F%3Fproxyip&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=kkd.ylks.link#[7767][MY][0][VLESS][None][Hope_Net][2026-09-16][2026-10-22 02:12]
-
-vless://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[10092][MY][0][VLESS][None][free1_vpn][2026-10-08][2026-10-22 02:12]
-
-vless://SoonTeam@sexi.carderrr.com:443?path=@SylphNet&security=none&encryption=none&host=anten.ir&type=ws#[7427][MY][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-vless://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[10093][MY][0][VLESS][None][v2ray1_ng][2026-10-08][2026-10-22 02:12]
-
-vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?security=reality&encryption=none&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=0a9bd9db19578964#[12615][MY][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-vless://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[10090][MY][0][VLESS][None][marambashi][2026-10-08][2026-10-22 02:12]
-
-vless://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=ccc.010304.xyz&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ccc.010304.xyz#[10091][MY][0][VLESS][None][V2rayng_Fast][2026-10-08][2026-10-22 02:12]
-
-trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls&sni=moltbot.doctoroyy.net#[247][MY][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls#[265][MY][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 

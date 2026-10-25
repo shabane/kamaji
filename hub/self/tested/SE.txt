@@ -1,10 +1,32 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://e7a4decb-631e-422b-9749-7e8f54618308@se1.hys.braidx.tech:443?security=reality&encryption=none&pbk=9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn.jsdelivr.net#[935][SE][474][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://d1641bc6-3757-43db-815a-9b3f4d9b0d7e@se13-node.rumedia-cdn.com:2096?path=/cdn/v3/live&security=tls&encryption=none&insecure=0&host=st5ff8a.rumedia-cdn.com&type=ws&allowInsecure=0&sni=st5ff8a.rumedia-cdn.com#[661][SE][612][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-vless://e7a4decb-631e-422b-9749-7e8f54618308@se1.hys.braidx.tech:443?security=reality&encryption=none&pbk=9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn.jsdelivr.net#[934][SE][477][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[531][SE][581][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-vless://4f51ca84-43ea-4087-b8a2-938e0ccbe27a@31.77.18.220:443?security=reality&encryption=none&pbk=mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4&host=/@Net2ray&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com#[322][SE][470][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[536][SE][574][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-vless://80de563a-cac8-40ea-8cb0-4cb082dd92f9@5.178.109.174:14430?encryption=none&path=/vless&security=none&type=ws#[548][SE][457][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&sid=8a31&spx=/e30c438f7ceb9c7&type=grpc#[529][SE][563][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://42a64b9a-ab79-4094-8656-30366a7c2ea3@se.peregrine-sub.net:1443?security=reality&encryption=none&pbk=PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=se.peregrine-sub.net&sid=7b6803a79bba5c52#[225][SE][478][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://605dea9b-b485-45c9-af9b-cc2b0195023c@se1.mycloud1.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se1.mycloud1.org&fp=chrome&pbk=Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E&sid=afee962d&type=tcp&headerType=none#[406][SE][399][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://605dea9b-b485-45c9-af9b-cc2b0195023c@se1.mycloud1.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se1.mycloud1.org&fp=chrome&pbk=Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E&sid=afee962d&type=tcp&headerType=none#[407][SE][415][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[532][SE][578][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&sid=8a31&spx=/e30c438f7ceb9c7&type=grpc#[530][SE][563][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[534][SE][570][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[537][SE][574][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[533][SE][574][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://4f51ca84-43ea-4087-b8a2-938e0ccbe27a@31.77.18.220:443?security=reality&encryption=none&pbk=mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4&host=/@Net2ray&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com#[313][SE][460][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://a52fcd33-b235-4b30-a4e8-165287302c66@aws.root.sync-bridge.ir:443?mode=gun&security=reality&encryption=none&pbk=cSku9Lo_wLXixUZuWW2JZxcSUK-fGprJLKrCGUfoAgI&fp=chrome&spx=/e30c438f7ceb9c7&type=grpc&sni=www.cloudflare.com&sid=8a31#[535][SE][561][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://50a87e21-f0e2-4b53-a787-91adfe748f63@swedenafteraventura.space:443?security=reality&encryption=none&pbk=TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=swedenafteraventura.space#[314][SE][470][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 

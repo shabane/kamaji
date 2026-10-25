@@ -1,6 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[248][SC][508][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://32daf25d-9ffa-4f43-b6a3-2ebc21014681@45.12.63.81:443?security=reality&encryption=none&pbk=MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru#[187][SC][668][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[249][SC][515][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://32daf25d-9ffa-4f43-b6a3-2ebc21014681@45.12.63.81:443?security=reality&encryption=none&pbk=MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru#[186][SC][4408][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://32daf25d-9ffa-4f43-b6a3-2ebc21014681@45.12.63.81:443?security=reality&encryption=none&pbk=MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru#[185][SC][1862][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+vless://32daf25d-9ffa-4f43-b6a3-2ebc21014681@45.12.63.81:443?security=reality&encryption=none&pbk=MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru#[184][SC][706][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+trojan://humanity@154.81.141.42:443?path=/assignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[38][SC][483][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[120][SC][452][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 

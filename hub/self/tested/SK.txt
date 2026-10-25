@@ -1,4 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://5d16ac22-6eea-426f-b778-6f4c2961faef@5.252.33.175:9882?type=grpc&security=reality&fp=random&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabbccdd&sni=dl.google.com&serviceName=grpc-tunnel#[949][SK][1896][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-13][2026-10-13 04:14]
+vless://689a62e4-37e7-41de-9e6a-f2a56368c9e2@45.129.141.154:443?security=reality&encryption=none&pbk=breG0HwhH88ppAzFb4ZiWvhJjDAQCXJvIG6Ef95MXis&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.websupport.sk&sid=ef#[417][SK][460][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 

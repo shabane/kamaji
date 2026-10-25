@@ -1,6 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://3b1fa839-2cb9-4511-9711-08800450aea3@84.32.215.96:443?security=reality&encryption=none&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app26.betust.net&sid=d44d6d46#[182][LT][460][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-vless://3b1fa839-2cb9-4511-9711-08800450aea3@84.32.215.96:443?security=reality&encryption=none&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app26.betust.net&sid=d44d6d46#[181][LT][458][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[154][LT][440][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
 
