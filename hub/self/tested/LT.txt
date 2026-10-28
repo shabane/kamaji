@@ -1,4 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[154][LT][440][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-25][2026-10-25 02:02]
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[274][LT][335][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[273][LT][316][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+
+trojan://humanity@195.181.244.216:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#[216][LT][609][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[275][LT][339][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[276][LT][325][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
 

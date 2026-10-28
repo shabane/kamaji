@@ -1,20 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?allowInsecure=1#[85][LV][467][TROJAN][GH Action][oneclickvpnkeys][2026-10-21][2026-10-22 02:12]
-
-trojan://humanity@94.158.219.126:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[276][LV][823][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?allowInsecure=1&sni=lv1.dedushka.top&alpn=http/1.1#[87][LV][453][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?security=tls&sni=lv1.dedushka.top#[91][LV][454][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?alpn=http%2F1.1&amp;fp=firefox#[89][LV][449][TROJAN][GH Action][oneclickvpnkeys][2026-10-21][2026-10-22 02:12]
-
-trojan://humanity@94.158.219.126:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[275][LV][745][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?allowInsecure=1#[86][LV][459][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?allowInsecure=1&sni=lv1.dedushka.top&alpn=http/1.1#[88][LV][457][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
-
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@lv1.dedushka.top:443?alpn=http/1.1&fp=chrome#[90][LV][456][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-22][2026-10-22 02:12]
+vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none#[73][LV][918][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
 
