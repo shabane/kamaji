@@ -1,8 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=d15c17cef9b2e456&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE#[617][AU][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#[141][AU][447][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://36e89875-9c53-482b-bc41-d3890e9da176@51.161.204.244:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=0ad08b47f498efd2&pbk=gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk#[235][AU][670][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#[22][AU][628][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#[142][AU][445][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 

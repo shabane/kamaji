@@ -1,36 +1,74 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://897d47f8-4dd5-42a1-bcd0-bef19caff55a@193.238.154.78:443?security=reality&type=tcp&packetEncoding=xudp&sni=gateway.icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=e93d46ee3735069e&pbk=4eE3K8Eac-ELze-LwRyJolqmhPqgCVqwQM1DKu6i0Ts#[560][ES][918][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&sid=29e8dcd2b37aaa7f&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk#[1212][ES][462][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#[48][ES][298][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&encryption=none&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=29e8dcd2b37aaa7f#[1207][ES][451][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[129][ES][340][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&encryption=none&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=29e8dcd2b37aaa7f#[1209][ES][456][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@185.114.72.31:2053?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[163][ES][432][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://9f61cdf4-810d-4052-bbc7-2da0c8e20104@83.147.18.3:443?security=reality&encryption=none&pbk=3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=fd8cf7e1173f0edb#[788][ES][524][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[54][ES][300][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&encryption=none&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=29e8dcd2b37aaa7f#[1210][ES][455][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@185.114.72.31:2053?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[162][ES][440][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&encryption=none&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=29e8dcd2b37aaa7f#[1211][ES][451][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?insecure=0&type=tcp&headerType=none&security=tls&sni=courses.discovergreatjobsandadvanceyourcareer.com&allowInsecure=0#[53][ES][318][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?security=reality&encryption=none&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=29e8dcd2b37aaa7f#[1208][ES][458][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[128][ES][325][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[293][ES][491][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[55][ES][306][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@185.114.72.31:2053?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[335][ES][651][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[130][ES][314][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@212.227.90.142:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[400][ES][707][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[51][ES][318][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#[183][ES][492][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[127][ES][344][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[291][ES][522][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[50][ES][315][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#[182][ES][479][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&headerType=none&type=tcp&sni=api.discovergreatjobsandadvanceyourcareer.com#[47][ES][302][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[195][ES][494][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[49][ES][298][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[294][ES][536][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.discovergreatjobsandadvanceyourcareer.com#[46][ES][296][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.251:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.discovergreatjobsandadvanceyourcareer.com#[190][ES][488][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com&host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET#[52][ES][301][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@212.227.90.142:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[399][ES][700][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@185.114.72.31:2053?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[337][ES][647][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@185.114.72.31:2053?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.calmlunch.com#[336][ES][649][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[192][ES][486][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@212.227.90.142:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[398][ES][708][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[196][ES][485][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[184][ES][476][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[191][ES][485][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[188][ES][488][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[186][ES][493][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[194][ES][486][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[289][ES][505][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[292][ES][540][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[290][ES][474][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[187][ES][496][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&sni=api.discovergreatjobsandadvanceyourcareer.com#[189][ES][488][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&sni=learn.discovergreatjobsandadvanceyourcareer.com#[180][ES][486][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discovergreatjobsandadvanceyourcareer.com#[193][ES][481][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&sni=learn.discovergreatjobsandadvanceyourcareer.com&type=tcp#[181][ES][491][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discovergreatjobsandadvanceyourcareer.com#[185][ES][490][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 

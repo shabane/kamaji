@@ -1,40 +1,34 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://7b175aaa-550a-4048-9437-c59919643cbf@31.22.116.216:2083?security=tls&amp;encryption=none&amp;headerType=none&amp;type=tcp&amp;sni=iylgylvgnvcmhfhmv.mic-mokhaderat-shatel-irancel-digikala.shop#[3440][GR][0][SS][None][v2ray_outlineir][2023-11-30][2026-10-28 02:49]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.71.166.102:989#[6629][GR][0][SS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-ss://ac64aec6-85ee-4fc7-b34b-60a7bcf236ec@91.186.216.100:7005?security=reality&amp;encryption=none&amp;pbk=7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4&amp;headerType=none&amp;fp=ios&amp;type=tcp&amp;sni=play.googleapis.com#[8711][GR][0][SS][None][shh_proxy][2026-09-16][2026-10-28 02:49]
+ss://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@85.90.197.91:443?security=reality&amp;encryption=none&amp;pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=gr.freeinternat.com&amp;sid=ff776ff77be48b88#[10249][GR][0][SS][None][shh_proxy][2026-08-31][2026-10-31 02:59]
 
-ss://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.198:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1159][GR][0][SS][None][Hope_Net][2026-09-16][2026-10-28 02:49]
+ss://7b175aaa-550a-4048-9437-c59919643cbf@31.22.116.216:2083?security=tls&amp;encryption=none&amp;headerType=none&amp;type=tcp&amp;sni=iylgylvgnvcmhfhmv.mic-mokhaderat-shatel-irancel-digikala.shop#[3475][GR][0][SS][None][v2ray_outlineir][2023-11-30][2026-10-31 02:59]
 
-ss://86a8c2dd-1d47-4006-a397-72b76f2d67c8@yandexcdn1.ookcdn.ru:8443?mode=auto&amp;security=reality&amp;encryption=none&amp;extra=%7B%22mode%22%3A%22stream-up%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22maxConcurrency%22%3A%228-16%22%2C%22maxConnections%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22400-600%22%2C%22hMaxReusableSecs%22%3A%221800-3600%22%7D%2C%22noSSEHeader%22%3Afalse%2C%22noGRPCHeader%22%3Afalse%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22scMaxBufferedPosts%22%3A30%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22scMinPostsIntervalMs%22%3A%2210-50%22%2C%22scStreamUpServerSecs%22%3A%2230-90%22%7D&amp;pbk=4ltYIatUJFFjrW8ZBDGLJaun0BnYIgxn-jmpmTEDGyc&amp;host=yandexcdn1.ookcdn.ru&amp;fp=firefox&amp;type=xhttp&amp;sni=yandexcdn1.ookcdn.ru#[3738][GR][0][SS][None][proxy_kafee][2026-10-27][2026-10-28 02:49]
+ss://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.225:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1132][GR][0][SS][None][Hope_Net][2026-09-17][2026-10-31 02:59]
 
-ss://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.225:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1160][GR][0][SS][None][Hope_Net][2026-09-17][2026-10-28 02:49]
+ss://ac64aec6-85ee-4fc7-b34b-60a7bcf236ec@91.186.216.100:7005?security=reality&amp;encryption=none&amp;pbk=7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4&amp;headerType=none&amp;fp=ios&amp;type=tcp&amp;sni=play.googleapis.com#[8742][GR][0][SS][None][shh_proxy][2026-09-16][2026-10-31 02:59]
 
-ss://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@85.90.197.91:443?security=reality&amp;encryption=none&amp;pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=gr.freeinternat.com&amp;sid=ff776ff77be48b88#[10173][GR][0][SS][None][shh_proxy][2026-08-31][2026-10-28 02:49]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4MkE2QXN5Wi1yQWxsejB3YktIeldB@ams1.rvpn.app:8388#[4927][GR][0][SS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.71.166.102:989#[6560][GR][0][SS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4MkE2QXN5Wi1yQWxsejB3YktIeldB@ams1.rvpn.app:8388#[4926][GR][0][SS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://86a8c2dd-1d47-4006-a397-72b76f2d67c8@yandexcdn1.ookcdn.ru:8443?mode=auto&amp;security=reality&amp;encryption=none&amp;extra=%7B%22mode%22%3A%22stream-up%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22maxConcurrency%22%3A%228-16%22%2C%22maxConnections%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22400-600%22%2C%22hMaxReusableSecs%22%3A%221800-3600%22%7D%2C%22noSSEHeader%22%3Afalse%2C%22noGRPCHeader%22%3Afalse%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22scMaxBufferedPosts%22%3A30%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22scMinPostsIntervalMs%22%3A%2210-50%22%2C%22scStreamUpServerSecs%22%3A%2230-90%22%7D&amp;pbk=4ltYIatUJFFjrW8ZBDGLJaun0BnYIgxn-jmpmTEDGyc&amp;host=yandexcdn1.ookcdn.ru&amp;fp=firefox&amp;type=xhttp&amp;sni=yandexcdn1.ookcdn.ru#[6618][GR][0][VLESS][None][proxy_kafee][2026-10-27][2026-10-28 02:49]
+ss://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.198:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1131][GR][0][SS][None][Hope_Net][2026-09-16][2026-10-31 02:59]
 
-vless://ac64aec6-85ee-4fc7-b34b-60a7bcf236ec@91.186.216.100:7005?security=reality&amp;encryption=none&amp;pbk=7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4&amp;headerType=none&amp;fp=ios&amp;type=tcp&amp;sni=play.googleapis.com#[8528][GR][0][VLESS][None][shh_proxy][2026-09-16][2026-10-28 02:49]
+vless://86a8c2dd-1d47-4006-a397-72b76f2d67c8@yandexcdn1.ookcdn.ru:8443?mode=auto&security=reality&encryption=none&extra={"mode":"stream-up","xmux":{"cMaxReuseTimes":"64-128","maxConcurrency":"8-16","maxConnections":0,"hKeepAlivePeriod":0,"hMaxRequestTimes":"400-600","hMaxReusableSecs":"1800-3600"},"noSSEHeader":false,"noGRPCHeader":false,"xPaddingBytes":"100-1000","scMaxBufferedPosts":30,"scMaxEachPostBytes":"500000-1000000","scMinPostsIntervalMs":"10-50","scStreamUpServerSecs":"30-90"}&pbk=4ltYIatUJFFjrW8ZBDGLJaun0BnYIgxn-jmpmTEDGyc&host=yandexcdn1.ookcdn.ru&fp=chrome&type=xhttp&sni=yandexcdn1.ookcdn.ru#[6817][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.198:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1995][GR][0][VLESS][None][Hope_Net][2026-09-16][2026-10-28 02:49]
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.198:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1968][GR][0][VLESS][None][Hope_Net][2026-09-16][2026-10-31 02:59]
 
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@85.90.197.156:443?&security=tls&fp=chrome&sni=free.cndyw.ggff.net&type=ws&headerType=none&host=free.cndyw.ggff.net&path=pyip=bpb.yousef.isegaro.com#[349][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://ac64aec6-85ee-4fc7-b34b-60a7bcf236ec@91.186.216.100:7005?security=reality&amp;encryption=none&amp;pbk=7aICTN0hv6bhd8bYOjNZniDYSXgD20LunZ3BW6_Zyk4&amp;headerType=none&amp;fp=ios&amp;type=tcp&amp;sni=play.googleapis.com#[8741][GR][0][VLESS][None][shh_proxy][2026-09-16][2026-10-31 02:59]
 
-vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.225:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1996][GR][0][VLESS][None][Hope_Net][2026-09-17][2026-10-28 02:49]
+vless://55ad002b-6cdf-4d76-81bb-91f3f605afc5@83.147.232.69:10459?mode=gun&security=reality&encryption=none&pbk=DrVzuibwnFFd6HX9duNcyG65JPMCiUqoJFgxkktishg&fp=chrome&type=grpc&serviceName=openway_ndrl&sni=ya.ru&sid=af86f23452bf025a#[4494][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://028b87c5-f8cc-477e-95e9-33db5498501f@31.22.116.26:2053/?type=grpc&amp;encryption=none&amp;flow=&amp;security=tls&amp;sni=vhjgkmjjvyyhtfghj.mic-mokhaderat-irancell-shatel-irancel.shop#[254][GR][0][VLESS][None][freeconfigv2][2023-09-22][2026-10-28 02:49]
+vless://028b87c5-f8cc-477e-95e9-33db5498501f@31.22.116.26:2053/?type=grpc&amp;encryption=none&amp;flow=&amp;security=tls&amp;sni=vhjgkmjjvyyhtfghj.mic-mokhaderat-irancell-shatel-irancel.shop#[271][GR][0][VLESS][None][freeconfigv2][2023-09-22][2026-10-31 02:59]
 
-vless://86a8c2dd-1d47-4006-a397-72b76f2d67c8@yandexcdn1.ookcdn.ru:8443?mode=auto&security=reality&encryption=none&extra={#[6620][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://7b175aaa-550a-4048-9437-c59919643cbf@31.22.116.216:2083?security=tls&amp;encryption=none&amp;headerType=none&amp;type=tcp&amp;sni=iylgylvgnvcmhfhmv.mic-mokhaderat-shatel-irancel-digikala.shop#[6306][GR][0][VLESS][None][v2ray_outlineir][2023-11-30][2026-10-31 02:59]
 
-vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&sid=94acb54627612d43&allowInsecure=1#[7020][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@85.90.197.91:443?security=reality&amp;encryption=none&amp;pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=gr.freeinternat.com&amp;sid=ff776ff77be48b88#[11469][GR][0][VLESS][None][shh_proxy][2026-08-31][2026-10-31 02:59]
 
-vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@85.90.197.91:443?security=reality&amp;encryption=none&amp;pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=gr.freeinternat.com&amp;sid=ff776ff77be48b88#[11093][GR][0][VLESS][None][shh_proxy][2026-08-31][2026-10-28 02:49]
-
-vless://86a8c2dd-1d47-4006-a397-72b76f2d67c8@yandexcdn1.ookcdn.ru:8443?mode=auto&security=reality&encryption=none&extra={"mode":"stream-up","xmux":{"cMaxReuseTimes":"64-128","maxConcurrency":"8-16","maxConnections":0,"hKeepAlivePeriod":0,"hMaxRequestTimes":"400-600","hMaxReusableSecs":"1800-3600"},"noSSEHeader":false,"noGRPCHeader":false,"xPaddingBytes":"100-1000","scMaxBufferedPosts":30,"scMaxEachPostBytes":"500000-1000000","scMinPostsIntervalMs":"10-50","scStreamUpServerSecs":"30-90"}&pbk=4ltYIatUJFFjrW8ZBDGLJaun0BnYIgxn-jmpmTEDGyc&host=yandexcdn1.ookcdn.ru&fp=chrome&type=xhttp&sni=yandexcdn1.ookcdn.ru#[6619][GR][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
-
-vless://7b175aaa-550a-4048-9437-c59919643cbf@31.22.116.216:2083?security=tls&amp;encryption=none&amp;headerType=none&amp;type=tcp&amp;sni=iylgylvgnvcmhfhmv.mic-mokhaderat-shatel-irancel-digikala.shop#[6099][GR][0][VLESS][None][v2ray_outlineir][2023-11-30][2026-10-28 02:49]
-
-trojan://UexGnX2+RhN8PB6GMyUL-8fNYvR1=JBzxm@185.126.238.84:443?security=tls&sni=185.126.238.84#[810][GR][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@31.22.116.225:443?path=tg%40zdyz2&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=cfed.tgzdyz2.top#[1969][GR][0][VLESS][None][Hope_Net][2026-09-17][2026-10-31 02:59]
 

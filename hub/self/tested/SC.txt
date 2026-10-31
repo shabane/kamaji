@@ -1,48 +1,70 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@ru16.oshost.network:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[666][SC][506][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+ss://YWVzLTI1Ni1nY206Z2oxK1hLdWxLVjBubXc2SVRoY2tPa2tKaDVEU003K0M@45.207.207.25:443#[1136][SC][151][SS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[245][SC][404][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+ss://YWVzLTI1Ni1nY206Z2oxK1hLdWxLVjBubXc2SVRoY2tPa2tKaDVEU003K0M@45.207.207.25:443#[1137][SC][91][SS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[248][SC][404][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.136:8443?encryption=none&fp=&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&sid=974f7f8f&sni=play.googleapis.com&type=tcp#[247][SC][591][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@193.5.250.131:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[660][SC][483][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://f27b6f65-6e59-4f89-b929-afa397ca587f@155.212.240.10:443?path=/019bcbad-3813-7cce-8786-3ac0e418f128?ed&security=tls&encryption=none&insecure=0&host=n.bitpulse.me&fp=chrome&type=ws&allowInsecure=0&sni=n.bitpulse.me#[1259][SC][880][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@193.5.250.131:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[662][SC][485][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[245][SC][591][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[244][SC][406][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.136:8443?encryption=none&fp=&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&sid=974f7f8f&sni=play.googleapis.com&type=tcp#[246][SC][589][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@ru16.oshost.network:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[664][SC][498][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&spx=/&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[243][SC][585][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@ru16.oshost.network:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[668][SC][487][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://f27b6f65-6e59-4f89-b929-afa397ca587f@155.212.240.10:443?path=/019bcbad-3813-7cce-8786-3ac0e418f128?ed&security=tls&encryption=none&insecure=0&host=n.bitpulse.me&fp=chrome&type=ws&allowInsecure=0&sni=n.bitpulse.me#[1258][SC][847][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@ru16.oshost.network:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[667][SC][497][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.136:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[248][SC][581][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[246][SC][402][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.30:8443?encryption=none&fp=&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&sid=974f7f8f&sni=play.googleapis.com&type=tcp#[249][SC][569][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&spx=/&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[243][SC][405][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.30:8443?encryption=none&fp=&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&sid=974f7f8f&sni=play.googleapis.com&type=tcp#[250][SC][585][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@193.5.250.131:443?encryption=none&flow=xtls-rprx-vision&security=reality&fp=chrome&sni=ru16.oshost.network&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&sid=2181f7d4104207e4#[659][SC][505][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.apple.com&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&sid=e8daed2d&headertype=none#[233][SC][603][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@ru16.oshost.network:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[665][SC][495][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[244][SC][583][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://afbd410e-1663-4f40-9d3b-df5117aa23ca@193.5.250.131:443?security=reality&encryption=none&pbk=X9ghpQ7c1lgpEQjAcgx4K9eYs83PC9t9Uy6WHZvSsQY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru16.oshost.network&sid=2181f7d4104207e4#[661][SC][505][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://35cbae61-ee10-4cb9-abb8-4950b35e9851@hk3n.wxgqlfx.vip:35193?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.apple.com&fp=chrome&pbk=d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE&sid=e8daed2d&headertype=none#[234][SC][2139][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[249][SC][403][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[418][SC][487][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#[247][SC][418][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[407][SC][3689][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.130.125.75:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[234][SC][291][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[408][SC][1636][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=%2Fassignment&Host=www.calmlunch.com#[232][SC][318][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?security=tls&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#[416][SC][2431][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[229][SC][336][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.130.125.160:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[419][SC][567][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.130.125.190:443?sni=www.calmlunch.com&allowInsecure=1&type=ws&path=/assignment&host=www.calmlunch.com#[233][SC][301][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?path=/assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[414][SC][3985][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&host=www.trusteeforward.com&type=ws&sni=www.trusteeforward.com#[228][SC][322][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[410][SC][1599][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[230][SC][328][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@154.81.141.42:443?path=/assignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#[298][SC][515][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[231][SC][313][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+trojan://humanity@45.128.76.242:443?security=tls&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#[415][SC][732][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[413][SC][2026][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[411][SC][899][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?security=tls&sni=www.trusteeforward.com&alpn=http/1.1&type=ws&host=www.trusteeforward.com&path=/assignment#[417][SC][1678][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[401][SC][4847][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[404][SC][750][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[402][SC][943][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[403][SC][1504][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[405][SC][838][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[409][SC][983][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[412][SC][956][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+
+trojan://humanity@45.128.76.242:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.trusteeforward.com&type=ws&allowInsecure=0&sni=www.trusteeforward.com#[406][SC][826][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 

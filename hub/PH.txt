@@ -1,32 +1,32 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&amp;security=tls&amp;sni=ph001.zestapp778.com&amp;type=tcp&amp;headerType=none#[11152][PH][0][SS][None][proxy_kafee][2026-10-27][2026-10-28 02:49]
+ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[4390][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-10-31 02:59]
 
-ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[4349][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTUyLjkiLCAiYWlkIjogMCwgImhvc3QiOiAibGczMC5jZmNkbjMueHl6IiwgImlkIjogIjkxNjQ2ZjlhLWI0ZTktNGFjYS1iZmUzLTg4OTJiM2U1OGZlNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcmF5IiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNDExXVtQSF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12490][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTMyLjExNyIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzMwLmNmY2RuMy54eXoiLCAiaWQiOiAiOTE2NDZmOWEtYjRlOS00YWNhLWJmZTMtODg5MmIzZTU4ZmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9yYXkiLCAicG9ydCI6IDQ0MywgInBzIjogIls0MDhdW1BIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12481][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTgyLjIiLCAiYWlkIjogMCwgImhvc3QiOiAibGczMC5jZmNkbjMueHl6IiwgImlkIjogIjkxNjQ2ZjlhLWI0ZTktNGFjYS1iZmUzLTg4OTJiM2U1OGZlNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcmF5IiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNDEzXVtQSF1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[7641][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTgzLjU4IiwgImFpZCI6IDAsICJob3N0IjogImNjLjE4MDguY2YiLCAiaWQiOiAiYWNjOTRiZjQtOTRjMS00YTA4LThiNzktOWJlMmI3NjQ5OWI2IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8yeWV2d3MiLCAicG9ydCI6IDQ0MywgInBzIjogIls0MTVdW1BIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&amp;security=tls&amp;sni=ph001.zestapp778.com&amp;type=tcp&amp;headerType=none#[12475][PH][0][VLESS][None][proxy_kafee][2026-10-27][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTUyLjIyMyIsICJhaWQiOiAwLCAiaG9zdCI6ICJnb29kZmFtaWx5MTkuc2l0ZSIsICJpZCI6ICI1NzIxMjZmOC01MzAxLTgzYzItMGEyNi1jMzBjZWQzZGI3YzQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dtem12d3MiLCAicG9ydCI6IDQ0MywgInBzIjogIls0MTBdW1BIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12480][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTUzLjExOCIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzMwLmNmY2RuMy54eXoiLCAiaWQiOiAiOTE2NDZmOWEtYjRlOS00YWNhLWJmZTMtODg5MmIzZTU4ZmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9yYXkiLCAicG9ydCI6IDQ0MywgInBzIjogIls0MTJdW1BIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12476][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vmess://eyJhZGQiOiAiOC4yMTIuMTgzLjU4IiwgImFpZCI6IDAsICJob3N0IjogImNjLjE4MDguY2YiLCAiaWQiOiAiYWNjOTRiZjQtOTRjMS00YTA4LThiNzktOWJlMmI3NjQ5OWI2IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIls0MTRdW1BIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12482][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12803][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12478][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12788][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12483][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12801][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12488][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12802][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12477][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12789][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12479][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[7903][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-10-31 02:59]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[12489][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.53.51:15656?encryption=none&security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[12787][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
 
