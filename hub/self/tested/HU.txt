@@ -1,8 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[350][HU][806][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+trojan://humanity@185.225.68.232:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[437][HU][737][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
 
-trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[349][HU][801][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
-
-trojan://humanity@185.225.68.232:443?security=tls&sni=www.calmlunch.com&type=ws&path=/assignment&Host=www.calmlunch.com#[351][HU][850][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-10-31][2026-10-31 02:59]
+trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#[436][HU][763][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
 

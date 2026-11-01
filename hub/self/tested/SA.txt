@@ -1,6 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freede.aiage.work:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[376][SA][470][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
-
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?security=reality&encryption=none&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=freede.aiage.work&sid=57e7977c9011061c#[372][SA][466][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-19][2026-10-19 02:08]
+vless://d4001352-dc64-48b8-b786-5860b284ad3d@de.poncheki.xyz:2083?encryption=none&type=grpc&serviceName=tjwvrf1q9d0n&mode=gun&security=reality&sni=vk.com&fp=chrome&pbk=NWNI1krUm5rhcIRnP3KVvatf9hNKu_H-93bPUdw4cxw&sid=0ad9fd399087e404#[1044][SA][683][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
 

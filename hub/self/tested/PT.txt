@@ -1,4 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://5d7e07ba-f460-4638-af79-bbcde67fcb6b@185.236.228.183:2053?mode=gun&security=reality&encryption=none&pbk=xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY&fp=random&type=grpc&serviceName=grpc&sni=www.intel.com#[991][PT][557][VLESS][GH Action][ext_raw.githubusercontent.com][2026-10-16][2026-10-16 01:58]
+trojan://humanity@195.133.92.71:443?security=tls&sni=www.cordweave.com&insecure=1&allowInsecure=1&type=ws&path=/assignment#[472][PT][802][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
 
