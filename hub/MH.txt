@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://174622e3-2d1d-47ab-bf74-aef54996ec46@185.207.198.186:2087?path=/&security=tls&encryption=mlkem768x25519plus.native.0rtt.xj-lv6l2bLps6EWhf85986XQ1mmBqnr8Ikh_hNB_vGA&insecure=0&host=film.dearhossein-taktaz.ir&fp=chrome&type=ws&allowInsecure=0&sni=film.dearhossein-taktaz.ir#[1355][MH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+vless://174622e3-2d1d-47ab-bf74-aef54996ec46@185.207.198.186:2087?path=/&security=tls&encryption=mlkem768x25519plus.native.0rtt.xj-lv6l2bLps6EWhf85986XQ1mmBqnr8Ikh_hNB_vGA&insecure=0&host=film.dearhossein-taktaz.ir&fp=chrome&type=ws&allowInsecure=0&sni=film.dearhossein-taktaz.ir#[1050][MH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+
+vless://080fad7c-ff4b-499f-ab5d-52d69ea5745a@185.207.197.12:80?path=/pyip&security=&encryption=none&host=calm-tree-22b0.215-d2a.workers.dev&type=ws#[519][MH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 

@@ -1,10 +1,18 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[935][KR][913][SS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@141.164.45.187:8000#[1085][KR][334][SS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#[941][KR][517][SS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+vmess://eyJ2IjogIjIiLCAicHMiOiAiWzExXVtLUl1bMzAxXVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJhZGQiOiAiMTI5LjE1NC42MS4xOTYiLCAicG9ydCI6ICI4MDAiLCAiaWQiOiAiYTkxNWIxZDYtY2YyOC00ZGM4LWU0YjQtZTA5YzQ4YzM3ZWMwIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICIiLCAidGxzIjogIiIsICJhbHBuIjogIiIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZX0=
 
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#[936][KR][274][SS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#[847][KR][511][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 
-vmess://eyJ2IjogIjIiLCAicHMiOiAiWzVdW0tSXVsyODVdW1ZNRVNTXVtHSCBBY3Rpb25dW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgImFkZCI6ICIxMjkuMTU0LjYxLjE5NiIsICJwb3J0IjogIjgwMCIsICJpZCI6ICJhOTE1YjFkNi1jZjI4LTRkYzgtZTRiNC1lMDljNDhjMzdlYzAiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJ0bHMiOiAiIiwgImFscG4iOiAiIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#[846][KR][430][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#[843][KR][473][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#[844][KR][439][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#[845][KR][462][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+
+vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=429499c03d4cc8a0&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo#[1028][KR][616][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 

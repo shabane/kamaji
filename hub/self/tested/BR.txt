@@ -1,6 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://c6b1b2d0-ed5e-48ce-99e6-112ff330030d@177.7.51.29:8443?security=reality&encryption=none&pbk=laG5BxoSbdRozpauATNFBPPTwhuDuu0JFl_SCP2ZQlU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=14fbf992#[1000][BR][233][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#[173][BR][488][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#[205][BR][482][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 

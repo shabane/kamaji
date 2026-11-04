@@ -1,8 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://f0b144bd-4c44-440d-b630-d79ec82cad3a@77.91.69.169:19226?security=reality&encryption=none&pbk=PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=7c#[1230][IL][797][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-01][2026-11-01 02:55]
+vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?security=reality&encryption=none&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=a3a578ab#[108][IL][219][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#[178][IL][526][TROJAN][GH Action][oneclickvpnkeys][2026-10-27][2026-11-01 02:54]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#[211][IL][530][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#[179][IL][528][TROJAN][GH Action][oneclickvpnkeys][2026-10-27][2026-11-01 02:55]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#[212][IL][529][TROJAN][GH Action][oneclickvpnkeys][2026-10-27][2026-11-04 03:39]
 
