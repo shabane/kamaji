@@ -1,4 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880?security=none&type=ws&path=/&host=vms.lifetime40.workers.dev&packetEncoding=xudp&encryption=none#[5109][JO][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][2026-10-28 02:49]
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880?security=none&type=ws&path=/&host=vms.lifetime40.workers.dev&packetEncoding=xudp&sni=vms.lifetime40.workers.dev#[5928][JO][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880?security=none&type=ws&path=/&host=vms.lifetime40.workers.dev&packetEncoding=xudp&sni=vms.lifetime40.workers.dev#[5931][JO][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880?security=none&type=ws&path=/&host=vms.lifetime40.workers.dev&packetEncoding=xudp&sni=vms.lifetime40.workers.dev#[5930][JO][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880?security=none&type=ws&path=/&host=vms.lifetime40.workers.dev&packetEncoding=xudp&sni=vms.lifetime40.workers.dev#[5929][JO][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
 

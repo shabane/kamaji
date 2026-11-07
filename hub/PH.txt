@@ -1,14 +1,12 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@149.104.109.252:8882#[9040][PH][0][SS][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[5051][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-11-07 03:30]
 
-ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[4632][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-11-04 03:39]
+vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[8949][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-11-07 03:30]
 
-vless://26524cce-d514-4014-a426-365fb266a14d@8.220.180.112:80?path=/danfeng?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=xy1ej.stream-node-us.danfeng.qzz.io&fp=chrome&type=ws&allowInsecure=0&sni=xy1ej.stream-node-us.danfeng.qzz.io#[1772][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com#[864][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
 
-vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[8310][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-11-04 03:39]
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?sni=ph001.zestapp778.com#[866][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
 
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@ph001.zestapp778.com:15656?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#[13274][PH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
-
-trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#[706][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-04][2026-11-04 03:39]
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[865][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
 

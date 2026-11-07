@@ -1,12 +1,4 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://495c7195-85b8-498a-bf20-2ea9ce9175b5@193.36.95.34:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=snip.edgeoneai.cc.cd&amp;type=ws&amp;allowInsecure=0&amp;sni=snip.edgeoneai.cc.cd#[2379][KG][0][SS][None][marambashi][2026-10-22][2026-11-04 03:39]
-
-ss://495c7195-85b8-498a-bf20-2ea9ce9175b5@193.36.95.34:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=snip.edgeoneai.cc.cd&amp;type=ws&amp;allowInsecure=0&amp;sni=snip.edgeoneai.cc.cd#[2380][KG][0][SS][None][V2rayng_Fast][2026-10-22][2026-11-04 03:39]
-
-vmess://eyJhZGQiOiAiMTg1LjQ4LjEzNi4xNTAiLCAiYWlkIjogMCwgImhvc3QiOiAic2F6Z2FyMjIuemFwdG8ub3JnIiwgImlkIjogIjE0YmI5MjdmLWE0ZWMtNGRlNy05MGZiLTM4OGMxZjY5ZGJjMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMTQzOF1bS0ddWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@193.36.95.34:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=snip.edgeoneai.cc.cd&amp;type=ws&amp;allowInsecure=0&amp;sni=snip.edgeoneai.cc.cd#[4236][KG][0][VLESS][None][V2rayng_Fast][2026-10-22][2026-11-04 03:39]
-
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@193.36.95.34:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=snip.edgeoneai.cc.cd&amp;type=ws&amp;allowInsecure=0&amp;sni=snip.edgeoneai.cc.cd#[4235][KG][0][VLESS][None][marambashi][2026-10-22][2026-11-04 03:39]
+vmess://eyJhZGQiOiAiMTg1LjQ4LjEzNi4xNTAiLCAiYWlkIjogMCwgImhvc3QiOiAic2F6Z2FyMjIuemFwdG8ub3JnIiwgImlkIjogIjE0YmI5MjdmLWE0ZWMtNGRlNy05MGZiLTM4OGMxZjY5ZGJjMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMTM1NV1bS0ddWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
