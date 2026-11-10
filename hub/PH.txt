@@ -1,12 +1,10 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[5051][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-11-07 03:30]
+ss://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[4668][PH][0][SS][None][Outline_Vpn][2026-09-14][2026-11-10 04:58]
 
-vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[8949][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-11-07 03:30]
+vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&amp;encryption=none&amp;host=play-apps-features.googleusercontent.com&amp;headerType=http&amp;type=tcp#[8754][PH][0][VLESS][None][Outline_Vpn][2026-09-14][2026-11-10 04:58]
 
-trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com#[864][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[778][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-10][2026-11-10 04:58]
 
-trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?sni=ph001.zestapp778.com#[866][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
-
-trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com&type=tcp&headerType=none#[865][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com#[777][PH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-10][2026-11-10 04:58]
 

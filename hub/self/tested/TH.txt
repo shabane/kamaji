@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#[426][TH][805][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-07][2026-11-07 03:31]
+trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?security=tls&sni=th001.zestapp778.com#[292][TH][765][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-10][2026-11-10 04:58]
+
+trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?type=tcp&security=tls&fp=chrome&sni=th001.zestapp778.com#[293][TH][771][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-10][2026-11-10 04:58]
 
