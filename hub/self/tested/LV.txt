@@ -1,4 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none#[77][LV][713][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-10][2026-11-10 04:58]
+vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none#[82][LV][717][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
+
+vless://cebc5f19-18d9-48e6-9029-fb4b04caf393@45.38.143.210:30584?security=reality&type=tcp&packetEncoding=xudp&sni=m.vk.com&fp=chrome&sid=67ece882d65d0f1a&pbk=2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y#[1230][LV][778][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
 
