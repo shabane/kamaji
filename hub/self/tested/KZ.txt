@@ -1,20 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vmess://eyJwYXRoIjogIi92bWVzcy8iLCAiYWRkIjogIjM4LjEwNy4yMzQuNTciLCAicG9ydCI6ICI4MCIsICJuZXQiOiAid3MiLCAicHMiOiAiWzIzOV1bS1pdWzExNzldW1ZNRVNTXVtHSCBBY3Rpb25dW2tpYXZhXVsyMDI2LTAxLTI0XVsyMDI2LTExLTEzIDAzOjUyXSIsICJpZCI6ICI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCAiaG9zdCI6ICIiLCAic2N5IjogImF1dG8ifQ==
+vmess://eyJhZGQiOiAiMzguMTA3LjIzNC41NyIsICJhaWQiOiA2NCwgImhvc3QiOiAiM2gta2F6YWtoc3RhbjEuMDl2cG4uY29tIiwgImlkIjogIjU2N2Y0YmU1LTEyYWItNDJlMS1iOGQ5LWRiNmZkMWZkZDMxYyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdm1lc3MvIiwgInBvcnQiOiA4MCwgInBzIjogIlsxMDJdW0taXVs3MDZdW1ZNRVNTXVtHSCBBY3Rpb25dW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-vless://2424febb-43cb-488d-bdd1-401e923c8e48@3h-kazakhstan1.09vpn.com:8443?path=/vless/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0#[140][KZ][1711][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#[1136][KZ][1212][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?security=reality&encryption=none&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c4d4cf50489d51#[939][KZ][1239][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?security=reality&encryption=none&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c4d4cf50489d51#[935][KZ][1146][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?security=reality&encryption=none&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c4d4cf50489d51#[937][KZ][1061][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#[1137][KZ][1265][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?security=reality&encryption=none&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c4d4cf50489d51#[938][KZ][1107][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
-
-vless://83cc8226-1087-49ae-aac3-1f157ddc57b4@176.120.21.23:443?security=reality&encryption=none&pbk=OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c4d4cf50489d51#[936][KZ][1100][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
+vmess://eyJwYXRoIjogIi92bWVzcy8iLCAiYWRkIjogIjM4LjEwNy4yMzQuNTciLCAicG9ydCI6ICI4MCIsICJuZXQiOiAid3MiLCAicHMiOiAiWzI1M11bS1pdWzEyMDJdW1ZNRVNTXVtHSCBBY3Rpb25dW2tpYXZhXVsyMDI2LTAxLTI0XVsyMDI2LTExLTE2IDAzOjMxXSIsICJpZCI6ICI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCAiaG9zdCI6ICIiLCAic2N5IjogImF1dG8ifQ==
 

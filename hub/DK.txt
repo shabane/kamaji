@@ -1,18 +1,18 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.116:989#[7427][DK][0][SS][None][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.116:989#[7794][DK][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
 
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.94:989#[7428][DK][0][SS][None][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.94:989#[7795][DK][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
 
-ss://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#[11968][DK][0][SS][None][GozargahVPN][2026-01-28][2026-11-13 03:52]
+ss://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#[12250][DK][0][SS][None][GozargahVPN][2026-01-28][2026-11-16 03:31]
 
-vmess://eyJhZGQiOiAiMTkzLjI5LjEwNy4yMzciLCAiYWlkIjogNjQsICJob3N0IjogInd3dy42NzE3MDIyNy54eXoiLCAiaWQiOiAiMmU5NjdkZDUtOGQyNC00MDk5LWE5MDEtNDEyZGNiNDAyNGZkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9wYXRoLzE5MTAxOTA3MjkyNyIsICJwb3J0IjogMzAwMDAsICJwcyI6ICJbMTUxNl1bREtdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiMTkzLjI5LjEwNy4yMzciLCAiYWlkIjogNjQsICJob3N0IjogInd3dy42NzE3MDIyNy54eXoiLCAiaWQiOiAiMmU5NjdkZDUtOGQyNC00MDk5LWE5MDEtNDEyZGNiNDAyNGZkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9wYXRoLzE5MTAxOTA3MjkyNyIsICJwb3J0IjogMzAwMDAsICJwcyI6ICJbMTQ3Ml1bREtdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#[13499][DK][0][VLESS][None][GozargahVPN][2026-01-28][2026-11-13 03:52]
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#[13323][DK][0][VLESS][None][GozargahVPN][2026-01-28][2026-11-16 03:31]
 
-vless://72c6050f-fd80-432b-9dd5-2c231ca16c7a@38.180.20.150:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=www.speedtest.net&amp;fp=safari&amp;security=reality&amp;pbk=Q_TPJ9ttl_QOONnqGKRvzLvG-aAdqXkPtyhMPZ7Hqw0&amp;sid=34e921e9#[6503][DK][0][VLESS][None][Capital_NET][2023-08-14][2026-11-13 03:52]
+vless://Amin@46.29.235.115:443/?type=grpc&amp;encryption=none&amp;flow=&amp;sni=Zula.ir&amp;fp=firefox&amp;security=reality&amp;pbk=Lud90F60cLEg-COLubV5RnrS6wXQ3hqdnlwk622fCUw&amp;sid=cf051322#[9046][DK][0][VLESS][None][freeconfigv2][2023-10-19][2026-11-16 03:31]
 
-vless://Amin@46.29.235.115:443/?type=grpc&amp;encryption=none&amp;flow=&amp;sni=Zula.ir&amp;fp=firefox&amp;security=reality&amp;pbk=Lud90F60cLEg-COLubV5RnrS6wXQ3hqdnlwk622fCUw&amp;sid=cf051322#[9235][DK][0][VLESS][None][freeconfigv2][2023-10-19][2026-11-13 03:52]
+vless://72c6050f-fd80-432b-9dd5-2c231ca16c7a@38.180.20.150:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=www.speedtest.net&amp;fp=safari&amp;security=reality&amp;pbk=Q_TPJ9ttl_QOONnqGKRvzLvG-aAdqXkPtyhMPZ7Hqw0&amp;sid=34e921e9#[6442][DK][0][VLESS][None][Capital_NET][2023-08-14][2026-11-16 03:31]
 
-trojan://auto@iranserver.com:8443?path=/@Azarakhsh_Proxy?ed=2560&security=tls&alpn=http/1.1&host=tg.cmliussss.us.kg&fp=chrome&type=ws&sni=tg.cmliussss.us.kg#[1413][DK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-13][2026-11-13 03:52]
+trojan://auto@iranserver.com:8443?path=/@Azarakhsh_Proxy?ed=2560&security=tls&alpn=http/1.1&host=tg.cmliussss.us.kg&fp=chrome&type=ws&sni=tg.cmliussss.us.kg#[1464][DK][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
 
