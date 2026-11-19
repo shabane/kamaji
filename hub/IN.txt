@@ -1,72 +1,58 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFQkRSbzlUSHg0Q3FpRlU3aDVnZm92NzZvTnd6WlVSQWgwWndiV2pCS2RkdFVodno@103.120.178.193:31348#[5910][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#[8302][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-ss://YWVzLTI1Ni1nY206MTIzNDU2@1.6.4.1:2#[7867][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@43.204.29.0:805#[6041][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-ss://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:443?security=tls&amp;flow=xtls-rprx-vision&amp;sni=in-full.privateip.net&amp;type=tcp&amp;path=%2f&amp;allowInsecure=1#[4815][IN][0][SS][None][Hope_Net][2026-09-18][2026-11-16 03:31]
+ss://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&amp;encryption=none&amp;pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com&amp;sid=221873918e0bb74d#[3491][IN][0][SS][None][hopev2ray][2026-09-13][2026-11-19 04:49]
 
-ss://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?security=reality&amp;encryption=none&amp;pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=6bdc8320#[3460][IN][0][SS][None][vpn_tehran][2026-11-03][2026-11-16 03:31]
+ss://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&amp;sni=in-full.privateip.net&amp;type=grpc&amp;serviceName=GRPC&amp;path=/&amp;allowInsecure=1#[4705][IN][0][SS][None][Hope_Net][2026-09-18][2026-11-19 04:49]
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#[8300][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+ss://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?security=reality&amp;encryption=none&amp;pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=6bdc8320#[3362][IN][0][SS][None][vpn_tehran][2026-11-03][2026-11-19 04:49]
 
-ss://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&amp;encryption=none&amp;pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com&amp;sid=221873918e0bb74d#[3600][IN][0][SS][None][hopev2ray][2026-09-13][2026-11-16 03:31]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.92:57456#[5693][IN][0][SS][None][free4allVPN][2025-10-28][2026-11-19 04:49]
 
-ss://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&amp;sni=in-full.privateip.net&amp;type=grpc&amp;serviceName=GRPC&amp;path=/&amp;allowInsecure=1#[4814][IN][0][SS][None][Hope_Net][2026-09-18][2026-11-16 03:31]
+ss://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:443?security=tls&amp;flow=xtls-rprx-vision&amp;sni=in-full.privateip.net&amp;type=tcp&amp;path=%2f&amp;allowInsecure=1#[4706][IN][0][SS][None][Hope_Net][2026-09-18][2026-11-19 04:49]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.92:57456#[5701][IN][0][SS][None][free4allVPN][2025-10-28][2026-11-16 03:31]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFQkRSbzlUSHg0Q3FpRlU3aDVnZm92NzZvTnd6WlVSQWgwWndiV2pCS2RkdFVodno@103.120.178.193:31348#[5915][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#[8299][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#[8301][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@43.204.29.0:805#[6036][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+ss://YWVzLTI1Ni1nY206MTIzNDU2@1.6.4.1:2#[7872][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4TWZlbjJiU3BVWXlQM0dqWEhQX2txTEExOUw5cjFjag@160.236.238.232:543#[5767][IN][0][SS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+vmess://eyJhZGQiOiAiODcuMjU0LjMxLjIzIiwgImFpZCI6IDY0LCAiaG9zdCI6ICIiLCAiaWQiOiAiYWFlMDJmY2MtMTc5Yi00ZWRjLWFhNjktNjg3OGZmMjlkMDFjIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi91ay9nZXREYXRhIiwgInBvcnQiOiA0MTY0NywgInBzIjogIlszOTJdW0lOXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAidWsubGlua2VkZW4uY28ifQ==
 
-vmess://eyJhZGQiOiAiMTUyLjY3LjguMjA1IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI5ZGI0YzcwOC1hZWY4LTQzNTktODIxYi0zOGU0Nzk5MGJlMGQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICJbMjQwMF1bSU5dWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIjE1Mi42Ny44LjIwNSJ9
+vmess://eyJhZGQiOiAiMTU1LjI0OC4yNDEuNTIiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjgxZDkzZjYyLTE1YTItNDk5NC1hZGI5LTBiNWQ5MDZhYWM3ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMTAyMV1bSU5dWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-vmess://eyJhZGQiOiAiMTI5LjIyNy4yMDEuMjM0IiwgImFpZCI6IDQsICJob3N0IjogImFpY29vNmR1LmNvbSIsICJpZCI6ICJhYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDUiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbNzgxXVtJTl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vmess://eyJhZGQiOiAiNDUuNzkuMTIwLjI0MyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiZDM4MDEwN2MtNTRmMy00ZGE2LWQwMzQtMThlZDY2MTUyZjA3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDIwLCAicHMiOiAiWzE2OF1bSU5dWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 
-vmess://eyJhZGQiOiAiNDUuNzkuMTIwLjI0MyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiZDM4MDEwN2MtNTRmMy00ZGE2LWQwMzQtMThlZDY2MTUyZjA3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDIwLCAicHMiOiAiWzE3MV1bSU5dWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiNjguMTgzLjgzLjk0IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICJiOGY2YTcxYy02OTI1LTRlODQtZmI5My02ZTU0ZjhkOThiMjUiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNTk0NzcsICJwcyI6ICJbMzQzXVtJTl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
 
-vmess://eyJhZGQiOiAiMTU1LjI0OC4yNDEuNTIiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjgxZDkzZjYyLTE1YTItNDk5NC1hZGI5LTBiNWQ5MDZhYWM3ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICJbMTA1MV1bSU5dWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiMTM5LjU5Ljg1LjIzMSIsICJhaWQiOiA0LCAiaG9zdCI6ICIiLCAiaWQiOiAiNzAwMjMzMGQtZmUyNy00YjU2LWIyMmYtZDdlM2ViODI1ZmRiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMvaGQubTN1OCIsICJwb3J0IjogODA4MCwgInBzIjogIls4MDBdW0lOXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 
-vmess://eyJhZGQiOiAiNjguMTgzLjgzLjk0IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICJiOGY2YTcxYy02OTI1LTRlODQtZmI5My02ZTU0ZjhkOThiMjUiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNTk0NzcsICJwcyI6ICJbMzQ4XVtJTl1bMF1bVk1FU1NdW05vbmVdW05vbmVdW1Vua25vd25dW1Vua25vd25dIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&amp;sni=in-full.privateip.net&amp;type=grpc&amp;serviceName=GRPC&amp;path=/&amp;allowInsecure=1#[8333][IN][0][VLESS][None][Hope_Net][2026-09-18][2026-11-19 04:49]
 
-vmess://eyJhZGQiOiAiMTM5LjU5Ljg1LjIzMSIsICJhaWQiOiA0LCAiaG9zdCI6ICIiLCAiaWQiOiAiNzAwMjMzMGQtZmUyNy00YjU2LWIyMmYtZDdlM2ViODI1ZmRiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9jY3R2MTMvaGQubTN1OCIsICJwb3J0IjogODA4MCwgInBzIjogIls4MjNdW0lOXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vless://06a5afa1-2bbc-a5d1-1770-becd1089c636@xray-dmr3b3hy-calm-maple-7.cloady.io:443?path=/0175469f14317d82&security=tls&encryption=none&insecure=0&host=xray-dmr3b3hy-calm-maple-7.cloady.io&fp=chrome&type=ws&allowInsecure=0&sni=xray-dmr3b3hy-calm-maple-7.cloady.io#[471][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vmess://eyJhZGQiOiAiODcuMjU0LjMxLjIzIiwgImFpZCI6IDY0LCAiaG9zdCI6ICIiLCAiaWQiOiAiYWFlMDJmY2MtMTc5Yi00ZWRjLWFhNjktNjg3OGZmMjlkMDFjIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi91ay9nZXREYXRhIiwgInBvcnQiOiA0MTY0NywgInBzIjogIls0MTFdW0lOXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsICJzbmkiOiAidWsubGlua2VkZW4uY28ifQ==
+vless://6847f901-3938-4083-9fd9-2de96bcb6b9f@104.22.60.15:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=hdfy2cdn1.cpionline.co&amp;path=%2Fvncf0bfUuZ6QgIre2fcLjqskl&amp;security=tls&amp;sni=hdfy2cdn1.cpionline.co#[5601][IN][0][VLESS][None][freeconfigv2][2023-09-28][2026-11-19 04:49]
 
-vless://dadf78d3-5cc9-453f-a3e6-2f0826a59c68@217.60.148.152:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=in.static-s3.org&amp;fp=firefox&amp;security=reality&amp;pbk=drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk&amp;sid=159246753f750720#[12438][IN][0][VLESS][None][oneclickvpnkeys][2026-11-14][2026-11-16 03:31]
+vless://dadf78d3-5cc9-453f-a3e6-2f0826a59c68@217.60.148.152:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=in.static-s3.org&amp;fp=firefox&amp;security=reality&amp;pbk=drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk&amp;sid=159246753f750720#[11835][IN][0][VLESS][None][oneclickvpnkeys][2026-11-14][2026-11-19 04:49]
 
-vless://dadf78d3-5cc9-453f-a3e6-2f0826a59c68@217.60.148.152:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=in.static-s3.org&fp=chrome&security=reality&pbk=drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk&sid=159246753f750720#[12439][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+vless://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&amp;encryption=none&amp;pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com&amp;sid=221873918e0bb74d#[5962][IN][0][VLESS][None][hopev2ray][2026-09-13][2026-11-19 04:49]
 
-vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:443?security=tls&amp;flow=xtls-rprx-vision&amp;sni=in-full.privateip.net&amp;type=tcp&amp;path=%2f&amp;allowInsecure=1#[8806][IN][0][VLESS][None][Hope_Net][2026-09-18][2026-11-16 03:31]
+vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&sni=in-full.privateip.net&type=grpc&serviceName=GRPC&path=/&allowInsecure=1#[8334][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?&sni=13.140.56.100&type=ws&headerType=none&host=13.140.56.100&path=/vless#[6071][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?security=reality&amp;encryption=none&amp;pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=6bdc8320#[5749][IN][0][VLESS][None][vpn_tehran][2026-11-03][2026-11-19 04:49]
 
-vless://6847f901-3938-4083-9fd9-2de96bcb6b9f@104.22.60.15:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=hdfy2cdn1.cpionline.co&amp;path=%2Fvncf0bfUuZ6QgIre2fcLjqskl&amp;security=tls&amp;sni=hdfy2cdn1.cpionline.co#[6070][IN][0][VLESS][None][freeconfigv2][2023-09-28][2026-11-16 03:31]
+vless://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&encryption=none&pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=221873918e0bb74d#[5963][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&amp;sni=in-full.privateip.net&amp;type=grpc&amp;serviceName=GRPC&amp;path=/&amp;allowInsecure=1#[8804][IN][0][VLESS][None][Hope_Net][2026-09-18][2026-11-16 03:31]
+vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:443?security=tls&amp;flow=xtls-rprx-vision&amp;sni=in-full.privateip.net&amp;type=tcp&amp;path=%2f&amp;allowInsecure=1#[8335][IN][0][VLESS][None][Hope_Net][2026-09-18][2026-11-19 04:49]
 
-vless://99de7aac-d2a5-48fd-92cb-d1e6c3c719a4@172.105.252.35:2003?security=tls&sni=in-full.privateip.net&type=grpc&serviceName=GRPC&path=/&allowInsecure=1#[8805][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@159.65.147.91:443?security=tls#[672][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?security=reality&amp;encryption=none&amp;pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=6bdc8320#[6194][IN][0][VLESS][None][vpn_tehran][2026-11-03][2026-11-16 03:31]
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#[1619][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vless://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&amp;encryption=none&amp;pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com&amp;sid=221873918e0bb74d#[6445][IN][0][VLESS][None][hopev2ray][2026-09-13][2026-11-16 03:31]
+trojan://5t6i121em5lkmsmk@in002.zestapp778.com:42733?security=tls&insecure=0&headerType=&type=tcp&allowInsecure=0&sni=in002.zestapp778.com#[810][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vless://555b35c4-30f9-40c6-a61a-7f53ab1bea45@103.111.114.136:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=videos.porsche.com&pbk=kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk&sid=1a2b3c4d&fp=chrome#[4925][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-vless://1d4e18bd-1f26-4915-b35a-7ace4826e76a@194.61.31.126:2053?security=reality&encryption=none&pbk=PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU&headerType=&fp=chrome&type=tcp&sni=www.apple.com&sid=9980e0609b0d3891#[1451][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-vless://dadf78d3-5cc9-453f-a3e6-2f0826a59c68@217.60.148.152:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=in.static-s3.org&fp=chrome&security=reality&pbk=drhDo_VnUaM05YqwqE03ISx_8ZG8FlNGpSMCnAeqvFk&sid=159246753f750720#[12440][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-vless://72ea5a91-ffcc-43d2-9297-5993c3abf186@148.113.5.44:443?security=reality&encryption=none&pbk=QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=221873918e0bb74d#[6446][IN][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?security=tls#[820][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@159.65.147.91:443?security=tls#[709][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://5t6i121em5lkmsmk@in002.zestapp778.com:42733?security=tls&insecure=0&headerType=&type=tcp&allowInsecure=0&sni=in002.zestapp778.com#[864][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#[1626][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?security=tls#[779][IN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 

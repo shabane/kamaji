@@ -1,20 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vmess://eyJhZGQiOiAiMTMyLjE0NS44MC4yMzAiLCAiYWlkIjogMCwgImhvc3QiOiAia3IwMi5hMGEueHl6IiwgImlkIjogIjUxNTU4NjBlLWQwN2QtNDZjMy05MTI4LTNhZmJkODQ2MjZjNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvY2N0djEzLm0zdTgiLCAicG9ydCI6IDgwLCAicHMiOiAiWzY2XVtLUl1bNTE5XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@158.247.253.243:443?sni=connectgraduateswithjobopeningsandgrowprofessionally.com&allowInsecure=1#[15][KR][395][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vmess://eyJhZGQiOiAiMTI5LjE1NC42MS4xOTYiLCAiYWlkIjogIjAiLCAiaWQiOiAiYTkxNWIxZDYtY2YyOC00ZGM4LWU0YjQtZTA5YzQ4YzM3ZWMwIiwgIm5ldCI6ICJ0Y3AiLCAicG9ydCI6ICI4MDAiLCAicHMiOiAiWzMzXVtLUl1bNDExXVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@158.247.253.243:443?allowInsecure=1&sni=connectgraduateswithjobopeningsandgrowprofessionally.com#[13][KR][402][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
-vmess://eyJ2IjogIjIiLCAicHMiOiAiWzIyXVtLUl1bMTQ1Nl1bVk1FU1NdW0dIIEFjdGlvbl1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAiYWRkIjogIjEyOS4xNTQuNjEuMTk2IiwgInBvcnQiOiAiODAwIiwgImlkIjogImE5MTViMWQ2LWNmMjgtNGRjOC1lNGI0LWUwOWM0OGMzN2VjMCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgInRscyI6ICIiLCAiYWxwbiI6ICIiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
-
-vmess://eyJ2IjogIjIiLCAicHMiOiAiWzIzXVtLUl1bNTA4XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJhZGQiOiAiMTMyLjE0NS44MC4yMzAiLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1MTU1ODYwZS1kMDdkLTQ2YzMtOTEyOC0zYWZiZDg0NjI2YzciLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi9jY3R2MTMubTN1OCIsICJ0bHMiOiAiIiwgInNuaSI6ICJrcjAyLmEwYS54eXoiLCAidGVzdF9uYW1lIjogIjEwMCIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZX0=
-
-vless://319d5ffb-57e8-4bbd-ac0c-5d55d0c253de@47.80.19.173:2053?security=reality&encryption=none&pbk=DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gateway.icloud.com&sid=3c4041d3#[207][KR][702][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-vless://27c5483f-17f4-48ae-9a04-def53d88440d@152.69.226.63:25555?&type=ws&headerType=none&path=/#[183][KR][588][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053/?type=tcp&encryption=none&flow=&sni=www.cloudflare.com&security=reality&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo&sid=429499c03d4cc8a0#[945][KR][707][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@158.247.253.243:443?sni=connectgraduateswithjobopeningsandgrowprofessionally.com&allowInsecure=1#[9][KR][527][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@158.247.253.243:443?security=tls&sni=connectgraduateswithjobopeningsandgrowprofessionally.com#[8][KR][530][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-16][2026-11-16 03:31]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@158.247.253.243:443?security=tls&sni=connectgraduateswithjobopeningsandgrowprofessionally.com#[14][KR][402][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
 
