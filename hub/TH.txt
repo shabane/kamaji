@@ -1,28 +1,30 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@119.59.127.129:990#[5835][TH][0][SS][None][free4allVPN][2025-10-26][2026-11-19 04:49]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@119.59.127.129:990#[5794][TH][0][SS][None][free4allVPN][2025-10-26][2026-11-22 03:49]
 
-ss://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;host=cJ-sPeEdTeSt.EbB.mY&amp;type=xhttp#[3914][TH][0][SS][None][hopev2ray][2026-06-14][2026-11-19 04:49]
+ss://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[1771][TH][0][SS][None][hopev2ray][2026-06-27][2026-11-22 03:49]
 
-ss://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[1750][TH][0][SS][None][hopev2ray][2026-06-29][2026-11-19 04:49]
+ss://cb756bd5-8cc5-4ace-b69d-c1e004c8de47@165.154.184.71:47081?encryption=auto&amp;headerType=http&amp;path=%2Fx&amp;security=none&amp;type=tcp#[11193][TH][0][SS][None][oneclickvpnkeys][2026-11-20][2026-11-22 03:49]
 
-ss://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[1749][TH][0][SS][None][hopev2ray][2026-06-27][2026-11-19 04:49]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.33.47:990#[5808][TH][0][SS][None][free4allVPN][2025-10-20][2026-11-22 03:49]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.33.47:990#[5849][TH][0][SS][None][free4allVPN][2025-10-20][2026-11-19 04:49]
+ss://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;host=cJ-sPeEdTeSt.EbB.mY&amp;type=xhttp#[3986][TH][0][SS][None][hopev2ray][2026-06-14][2026-11-22 03:49]
 
-vmess://eyJhZGQiOiAiMTE5LjU5Ljk4LjM5IiwgImFpZCI6IDY0LCAiaG9zdCI6ICJ3d3cuOTg2NjY1OTgueHl6IiwgImlkIjogIjRkMjRmYmRlLWNiMGUtNDAyNS05OGVjLTIyMjkzMzg0N2QzZCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAzMDAwMSwgInBzIjogIls3NDJdW1RIXVswXVtWTUVTU11bTm9uZV1bTm9uZV1bVW5rbm93bl1bVW5rbm93bl0iLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+ss://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[1772][TH][0][SS][None][hopev2ray][2026-06-29][2026-11-22 03:49]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[2895][TH][0][VLESS][None][hopev2ray][2026-06-29][2026-11-19 04:49]
+vmess://eyJhZGQiOiAiMTY1LjE1NC4xODQuNzEiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImNiNzU2YmQ1LThjYzUtNGFjZS1iNjlkLWMxZTAwNGM4ZGU0NyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiL3giLCAicG9ydCI6ICI0NzA4MSIsICJwcyI6ICJbMjMyN11bVEhdWzBdW1ZNRVNTXVtOb25lXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[2891][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=none&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[2933][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=none&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[2892][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[2936][TH][0][VLESS][None][hopev2ray][2026-06-29][2026-11-22 03:49]
 
-vless://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;host=cJ-sPeEdTeSt.EbB.mY&amp;type=xhttp#[6793][TH][0][VLESS][None][hopev2ray][2026-06-14][2026-11-19 04:49]
+vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?encryption=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws&security=none#[2934][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?encryption=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws&security=none#[2893][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#[2932][TH][0][VLESS][None][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[2894][TH][0][VLESS][None][hopev2ray][2026-06-27][2026-11-19 04:49]
+vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=aIs.SpEeDtEsT.nEt&amp;type=ws#[2935][TH][0][VLESS][None][hopev2ray][2026-06-27][2026-11-22 03:49]
 
-trojan://5t6i121em5lkmsmk@38.60.233.126:33079?security=tls&sni=th001.zestapp778.com&type=tcp&fp=chrome#[808][TH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;host=cJ-sPeEdTeSt.EbB.mY&amp;type=xhttp#[7016][TH][0][VLESS][None][hopev2ray][2026-06-14][2026-11-22 03:49]
+
+trojan://5t6i121em5lkmsmk@38.60.233.126:33079?security=tls&sni=th001.zestapp778.com&type=tcp&fp=chrome#[871][TH][0][TROJAN][None][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 

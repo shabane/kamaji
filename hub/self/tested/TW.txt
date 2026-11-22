@@ -1,10 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://b59bcb5b-5150-4c6b-9227-681886197014@85.237.207.221:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=dl.google.com&fp=chrome&pbk=lJz7AGWUC-ZTEIJaU5y1GRrROWJ9J_VzQRyrYPmOygs&sid=fd2fa5e06670120b#[796][TW][408][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://ead3595f-4020-4e76-a3ec-c248e1a2f2f7@free.fugui.lol:19482?security=reality&type=tcp&sni=swdist.apple.com&host=swdist.apple.com&flow=xtls-rprx-vision&pbk=IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ&sid=fa514b83&allowInsecure=1&fp=chrome#[1077][TW][1408][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-vless://ead3595f-4020-4e76-a3ec-c248e1a2f2f7@free.fugui.lol:47396?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ&security=reality&sid=fa514b83&sni=swdist.apple.com&type=tcp#[1019][TW][594][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+trojan://123456@34.80.15.95:443/?type=tcp&security=tls&sni=tw.ctt25.uk&fp=chrome#[393][TW][920][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-trojan://123456@34.80.15.95:443?type=tcp&security=tls&fp=chrome&sni=tw.ctt25.uk#[372][TW][704][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-trojan://123456@34.80.15.95:443?type=tcp&security=tls&fp=chrome&sni=tw.ctt25.uk#[373][TW][605][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+trojan://123456@34.80.15.95:443?type=tcp&security=tls&fp=chrome&sni=tw.ctt25.uk#[394][TW][3912][TROJAN][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 

@@ -1,22 +1,6 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVODN1OU9HcHZTYXRJVVc3THNXZmZy@194.68.44.42:64546#[292][RO][3261][SS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&security=reality&sid=d06d78e974491b6e&sni=www.cloudflare.com&type=tcp#[955][RO][347][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#[162][RO][646][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?flow=xtls-rprx-vision&security=tls&sni=cdn4.velmoradigital.store&fp=chrome&alpn=h2,http/1.1#[159][RO][639][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#[165][RO][666][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?flow=xtls-rprx-vision&security=tls&sni=cdn4.velmoradigital.store&fp=chrome&alpn=h2,http/1.1#[160][RO][618][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#[164][RO][627][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&sid=d06d78e974491b6e&type=tcp&headerType=none#[919][RO][3179][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?flow=xtls-rprx-vision&security=tls&sni=cdn4.velmoradigital.store&fp=chrome&alpn=h2,http/1.1#[161][RO][719][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#[163][RO][631][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=/?Telegram---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#[166][RO][623][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&sid=d06d78e974491b6e&type=tcp&headerType=none#[956][RO][983][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
 
