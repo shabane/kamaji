@@ -1,10 +1,8 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?encryption=none&host=178.172.227.124&path=/vless&security=none&type=ws#[104][BY][387][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
+vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?path=/vless&security=none&encryption=none&host=178.172.227.124&type=ws#[105][BY][481][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-25][2026-11-25 05:53]
 
-vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430/?type=ws&encryption=none&flow=&host=178.172.227.124&path=/vless#[103][BY][376][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?type=ws&host=178.172.227.228&path=/vless#[1038][BY][892][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-25][2026-11-25 05:53]
 
-vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?security=none&type=ws&path=/vless&host=178.172.227.228&packetEncoding=xudp#[836][BY][377][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
-
-vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?path=/vless&security=none&encryption=none&host=178.172.227.124&type=ws#[105][BY][619][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-22][2026-11-22 03:49]
+vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:10443?#[104][BY][566][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-25][2026-11-25 05:53]
 
