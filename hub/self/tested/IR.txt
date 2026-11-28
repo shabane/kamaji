@@ -1,30 +1,14 @@
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1080?encryption=none&security=none&type=tcp#[ID][COUNTRY][REAL DELAY][TYPE][TEST TYPE][CHANNEL][POST DATE][SCRAPE DATE]
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?encryption=none&security=tls&sni=base.hosamobenl.co.uk&fp=firefox&type=tcp&headerType=none#[515][IR][502][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vmess://eyJhZGQiOiAiSXIud2J6by5pciIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjdlM2U4YWYtZDFjYS00NWRhLWE5NWYtOGI5YWQ3NzM5OGIxIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwY3MiOiAiIiwgInBvcnQiOiAiMjA3MCIsICJwcyI6ICJbMzU1XVtJUl1bNTg2XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[517][IR][488][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vmess://eyJhZGQiOiAiSXIud2J6by5pciIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjdlM2U4YWYtZDFjYS00NWRhLWE5NWYtOGI5YWQ3NzM5OGIxIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwY3MiOiAiIiwgInBvcnQiOiAiMjA3MCIsICJwcyI6ICJbMzU2XVtJUl1bNjA3XVtWTUVTU11bR0ggQWN0aW9uXVtOb25lXVtVbmtub3duXVtVbmtub3duXSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@194.60.228.97:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[510][IR][699][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://ff1906a5-a446-44e4-8e72-4e2d61775fa0@ns2.irts.lol:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ns2.irts.lol#[1143][IR][979][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-28][2026-11-28 05:17]
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=base.hosamobenl.co.uk#[516][IR][483][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://ff1906a5-a446-44e4-8e72-4e2d61775fa0@ns2.irts.lol:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ns2.irts.lol#[1144][IR][1069][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-28][2026-11-28 05:17]
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@194.60.228.97:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[511][IR][1540][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://ff1906a5-a446-44e4-8e72-4e2d61775fa0@ns2.irts.lol:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ns2.irts.lol#[1141][IR][923][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-28][2026-11-28 05:17]
 
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[518][IR][1067][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[520][IR][494][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[522][IR][1595][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[523][IR][690][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@194.60.228.97:443?security=tls&encryption=none&insecure=0&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[514][IR][1392][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@194.60.228.97:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[513][IR][2435][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[521][IR][484][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@194.60.228.97:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[512][IR][486][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
-
-vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#[519][IR][481][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-19][2026-11-19 04:49]
+vless://ff1906a5-a446-44e4-8e72-4e2d61775fa0@ns2.irts.lol:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=ns2.irts.lol#[1142][IR][1035][VLESS][GH Action][ext_raw.githubusercontent.com][2026-11-28][2026-11-28 05:17]
 
